@@ -1,0 +1,16 @@
+---
+layout: none
+---
+[
+{% assign idx = 0 %}{% for ld in site.jsonld %}{
+"i":{{ idx }},
+"type":"jsonld",
+"n":{{ ld.name | jsonify }},
+"d":{{ ld.description | strip_html | strip_newlines | truncate: 300 | jsonify }},
+"t":{{ ld.tags | jsonify }},
+"p":{{ ld.provider_name | default: ld.provider_slug | jsonify }},
+"ps":{{ ld.provider_slug | jsonify }},
+"u":"{{ ld.url | absolute_url }}"
+}{% assign idx = idx | plus: 1 %}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
