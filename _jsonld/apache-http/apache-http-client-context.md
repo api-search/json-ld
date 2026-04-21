@@ -1,0 +1,43 @@
+---
+class_count: 17
+classes:
+- method
+- uri
+- headers
+- body
+- contentType
+- statusCode
+- reasonPhrase
+- connectTimeout
+- socketTimeout
+- maxConnections
+- maxConnectionsPerRoute
+- keepAliveTimeout
+- host
+- port
+- scheme
+- username
+- password
+context_file: json-ld/apache-http-client-context.jsonld
+context_url: https://raw.githubusercontent.com/api-evangelist/apache-http/refs/heads/main/json-ld/apache-http-client-context.jsonld
+description: JSON-LD context defining the semantic vocabulary for Apache Http Client from Apache HttpComponents.
+layout: jsonld
+name: Apache Http Client Context
+namespaces:
+- prefix: httpclient
+  uri: https://hc.apache.org/vocab#
+properties: []
+property_count: 0
+provider_name: Apache HttpComponents
+provider_slug: apache-http
+slug: apache-http-client-context
+tags:
+- Apache
+- HTTP Client
+- Java
+- Open Source
+- SDK
+- JSON-LD
+- Linked Data
+- Semantic Web
+---
