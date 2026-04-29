@@ -55,6 +55,9 @@ property_count: 13
 provider_name: Amazon API Gateway
 provider_slug: amazon-api-gateway
 slug: amazon-api-gateway-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"id\": {\n      \"@id\": \"@id\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\"\n    },\n    \"description\": {\n      \"@id\": \"schema:description\"\n    },\n    \"createdDate\": {\n      \"@id\": \"schema:createdDate\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"version\": {\n      \"@id\": \"schema:version\",\n      \"@type\": \"xsd:string\"\n    },\n    \"warnings\": {\n      \"@id\": \"schema:warnings\"\n    },\n    \"binaryMediaTypes\": {\n      \"@id\": \"schema:binaryMediaTypes\"\n    },\n    \"minimumCompressionSize\": {\n      \"@id\": \"schema:minimumCompressionSize\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"apiKeySource\": {\n      \"@id\": \"schema:apiKeySource\",\n      \"@type\": \"xsd:string\"\n    },\n    \"endpointConfiguration\": {\n      \"@id\": \"schema:endpointConfiguration\",\n  \
+  \    \"@type\": \"xsd:string\"\n    },\n    \"policy\": {\n      \"@id\": \"schema:policy\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tags\": {\n      \"@id\": \"schema:tags\"\n    },\n    \"disableExecuteApiEndpoint\": {\n      \"@id\": \"schema:disableExecuteApiEndpoint\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-ld/amazon-api-gateway-context.jsonld
 tags:
 - AWS
 - Gateway

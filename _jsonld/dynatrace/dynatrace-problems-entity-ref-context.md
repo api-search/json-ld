@@ -28,6 +28,8 @@ property_count: 3
 provider_name: Dynatrace
 provider_slug: dynatrace
 slug: dynatrace-problems-entity-ref-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"dt\": \"https://dt.dynatrace.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"EntityRef\": \"dt:EntityRef\",\n    \"entityId\": {\n      \"@id\": \"dt:entityId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"dt:type\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-entity-ref-context.jsonld
 tags:
 - AI Operations
 - Analytics

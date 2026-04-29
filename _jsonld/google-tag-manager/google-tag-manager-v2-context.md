@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Google Tag Manager
 provider_slug: google-tag-manager
 slug: google-tag-manager-v2-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/json-ld/google-tag-manager-v2-context.jsonld
 tags:
 - Analytics
 - Conversion Tracking

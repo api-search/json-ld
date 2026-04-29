@@ -37,6 +37,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-menu-entry-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"MenuEntry\": \"adyen:MenuEntry\",\n    \"MenuEntryTag\": \"adyen:MenuEntryTag\",\n    \"DefaultSelectedFlag\": {\n      \"@id\": \"adyen:DefaultSelectedFlag\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"OutputFormat\": {\n      \"@id\": \"adyen:OutputFormat\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PredefinedContent\": {\n      \"@id\": \"adyen:PredefinedContent\",\n      \"@type\": \"xsd:string\"\n    },\n    \"OutputText\": {\n      \"@id\": \"adyen:OutputText\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"OutputXHTML\": {\n      \"@id\": \"adyen:OutputXHTML\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-menu-entry-context.jsonld
 tags:
 - Payments
 - Financial Services

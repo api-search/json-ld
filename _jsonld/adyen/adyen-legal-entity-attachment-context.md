@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-legal-entity-attachment-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Attachment\": \"adyen:Attachment\",\n    \"content\": {\n      \"@id\": \"adyen:content\",\n      \"@type\": \"xsd:string\"\n    },\n    \"contentType\": {\n      \"@id\": \"adyen:contentType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"filename\": {\n      \"@id\": \"adyen:filename\",\n      \"@type\": \"xsd:string\"\n    },\n    \"pageName\": {\n      \"@id\": \"adyen:pageName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"pageType\": {\n      \"@id\": \"adyen:pageType\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-legal-entity-attachment-context.jsonld
 tags:
 - Payments
 - Financial Services

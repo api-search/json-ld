@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Microsoft Outlook
 provider_slug: microsoft-outlook
 slug: microsoft-graph-mail-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/json-ld/microsoft-graph-mail-context.jsonld
 tags:
 - Calendar
 - Contacts

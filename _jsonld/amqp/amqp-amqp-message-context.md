@@ -42,6 +42,8 @@ property_count: 7
 provider_name: AMQP
 provider_slug: amqp
 slug: amqp-amqp-message-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amqp\": \"https://www.amqp.org/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AMQP Message\": \"amqp:AMQP Message\",\n    \"properties\": {\n      \"@id\": \"amqp:properties\",\n      \"@type\": \"xsd:string\"\n    },\n    \"headers\": {\n      \"@id\": \"amqp:headers\",\n      \"@type\": \"@id\"\n    },\n    \"body\": {\n      \"@id\": \"amqp:body\",\n      \"@type\": \"xsd:string\"\n    },\n    \"exchange\": {\n      \"@id\": \"amqp:exchange\",\n      \"@type\": \"xsd:string\"\n    },\n    \"routingKey\": {\n      \"@id\": \"amqp:routingKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"mandatory\": {\n      \"@id\": \"amqp:mandatory\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"immediate\": {\n      \"@id\": \"amqp:immediate\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/json-ld/amqp-amqp-message-context.jsonld
 tags:
 - AMQP
 - Asynchronous

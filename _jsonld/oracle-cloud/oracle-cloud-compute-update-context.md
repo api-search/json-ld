@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Oracle Cloud Infrastructure
 provider_slug: oracle-cloud
 slug: oracle-cloud-compute-update-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"oci\": \"https://docs.oracle.com/en-us/iaas/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"UpdateInstanceDetails\": \"oci:UpdateInstanceDetails\",\n    \"displayName\": {\n      \"@id\": \"oci:displayName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"freeformTags\": {\n      \"@id\": \"oci:freeformTags\"\n    },\n    \"shape\": {\n      \"@id\": \"oci:shape\",\n      \"@type\": \"xsd:string\"\n    },\n    \"shapeConfig\": {\n      \"@id\": \"oci:shapeConfig\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-compute-update-context.jsonld
 tags:
 - Cloud Computing
 - Enterprise Cloud

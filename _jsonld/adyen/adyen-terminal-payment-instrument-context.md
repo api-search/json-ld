@@ -37,6 +37,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-payment-instrument-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PaymentInstrumentData\": \"adyen:PaymentInstrumentData\",\n    \"PaymentInstrumentType\": \"adyen:PaymentInstrumentType\",\n    \"ProtectedCardData\": {\n      \"@id\": \"adyen:ProtectedCardData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CardData\": {\n      \"@id\": \"adyen:CardData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CheckData\": {\n      \"@id\": \"adyen:CheckData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"MobileData\": {\n      \"@id\": \"adyen:MobileData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"StoredValueAccountID\": {\n      \"@id\": \"adyen:StoredValueAccountID\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-payment-instrument-context.jsonld
 tags:
 - Payments
 - Financial Services

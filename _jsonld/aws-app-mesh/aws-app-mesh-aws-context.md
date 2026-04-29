@@ -40,6 +40,8 @@ property_count: 6
 provider_name: AWS App Mesh
 provider_slug: aws-app-mesh
 slug: aws-app-mesh-aws-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AwsCloudMapInstanceAttribute\": \"aws:AwsCloudMapInstanceAttribute\",\n    \"AwsCloudMapServiceDiscovery\": \"aws:AwsCloudMapServiceDiscovery\",\n    \"attributes\": {\n      \"@id\": \"aws:attributes\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ipPreference\": {\n      \"@id\": \"aws:ipPreference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"namespaceName\": {\n      \"@id\": \"aws:namespaceName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"serviceName\": {\n      \"@id\": \"aws:serviceName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"key\": {\n      \"@id\": \"aws:key\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"aws:value\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-aws-context.jsonld
 tags:
 - AWS
 - Deprecated

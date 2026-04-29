@@ -68,6 +68,9 @@ property_count: 14
 provider_name: Facebook
 provider_slug: facebook
 slug: facebook-marketing-api-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"fb\": \"https://developers.facebook.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AdAccount\": \"fb:AdAccount\",\n    \"Campaign\": \"fb:Campaign\",\n    \"AdSet\": \"fb:AdSet\",\n    \"Ad\": \"fb:Ad\",\n    \"Insight\": \"fb:Insight\",\n    \"CustomAudience\": \"fb:CustomAudience\",\n    \"name\": { \"@id\": \"schema:name\", \"@type\": \"xsd:string\" },\n    \"description\": { \"@id\": \"schema:description\", \"@type\": \"xsd:string\" },\n    \"currency\": { \"@id\": \"fb:currency\", \"@type\": \"xsd:string\" },\n    \"balance\": { \"@id\": \"fb:balance\", \"@type\": \"xsd:string\" },\n    \"objective\": { \"@id\": \"fb:objective\", \"@type\": \"xsd:string\" },\n    \"status\": { \"@id\": \"fb:status\", \"@type\": \"xsd:string\" },\n    \"dailyBudget\": { \"@id\": \"fb:daily_budget\", \"@type\": \"xsd:string\"\
+  \ },\n    \"impressions\": { \"@id\": \"fb:impressions\", \"@type\": \"xsd:string\" },\n    \"clicks\": { \"@id\": \"fb:clicks\", \"@type\": \"xsd:string\" },\n    \"spend\": { \"@id\": \"fb:spend\", \"@type\": \"xsd:string\" },\n    \"cpc\": { \"@id\": \"fb:cpc\", \"@type\": \"xsd:string\" },\n    \"ctr\": { \"@id\": \"fb:ctr\", \"@type\": \"xsd:string\" },\n    \"reach\": { \"@id\": \"fb:reach\", \"@type\": \"xsd:string\" },\n    \"approximateCount\": { \"@id\": \"fb:approximate_count\", \"@type\": \"xsd:integer\" }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/json-ld/facebook-marketing-api-context.jsonld
 tags:
 - Advertising
 - Content Publishing

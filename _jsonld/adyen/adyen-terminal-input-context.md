@@ -42,6 +42,9 @@ property_count: 7
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-input-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Input\": \"adyen:Input\",\n    \"InputCommand\": {\n      \"@id\": \"adyen:InputCommand\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ConfirmedFlag\": {\n      \"@id\": \"adyen:ConfirmedFlag\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"FunctionKey\": {\n      \"@id\": \"adyen:FunctionKey\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"TextInput\": {\n      \"@id\": \"adyen:TextInput\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DigitInput\": {\n      \"@id\": \"adyen:DigitInput\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"Password\": {\n      \"@id\": \"adyen:Password\",\n      \"@type\": \"xsd:string\"\n    },\n    \"MenuEntryNumber\": {\n      \"@id\": \"adyen:MenuEntryNumber\",\n      \"@container\"\
+  : \"@set\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-input-context.jsonld
 tags:
 - Payments
 - Financial Services

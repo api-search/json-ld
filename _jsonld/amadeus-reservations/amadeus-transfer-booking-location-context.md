@@ -37,6 +37,8 @@ property_count: 5
 provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 slug: amadeus-transfer-booking-location-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Location\": \"amadeus:Location\",\n    \"dateTime\": {\n      \"@id\": \"amadeus:dateTime\",\n      \"@type\": \"xsd:string\"\n    },\n    \"locationCode\": {\n      \"@id\": \"amadeus:locationCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"address\": {\n      \"@id\": \"amadeus:address\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": \"schema:name\",\n    \"googlePlaceId\": {\n      \"@id\": \"amadeus:googlePlaceId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"uicCode\": {\n      \"@id\": \"amadeus:uicCode\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-ld/amadeus-transfer-booking-location-context.jsonld
 tags:
 - Booking
 - Flights

@@ -24,6 +24,8 @@ property_count: 1
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-referenced-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Referenced\": \"adyen:Referenced\",\n    \"enableStandaloneRefunds\": {\n      \"@id\": \"adyen:enableStandaloneRefunds\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-referenced-context.jsonld
 tags:
 - Payments
 - Financial Services

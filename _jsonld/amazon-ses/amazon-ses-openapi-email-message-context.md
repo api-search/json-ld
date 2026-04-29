@@ -57,6 +57,9 @@ property_count: 12
 provider_name: Amazon SES
 provider_slug: amazon-ses
 slug: amazon-ses-openapi-email-message-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"EmailMessage\": \"aws:EmailMessage\",\n    \"Simple\": {\n      \"@id\": \"aws:Simple\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Subject\": {\n      \"@id\": \"aws:Subject\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Data\": {\n      \"@id\": \"aws:Data\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Charset\": {\n      \"@id\": \"aws:Charset\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Body\": {\n      \"@id\": \"aws:Body\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Text\": {\n      \"@id\": \"aws:Text\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Html\": {\n      \"@id\": \"aws:Html\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Raw\": {\n      \"@id\": \"aws:Raw\",\n      \"@type\": \"xsd:string\"\
+  \n    },\n    \"Template\": {\n      \"@id\": \"aws:Template\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TemplateName\": {\n      \"@id\": \"aws:TemplateName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TemplateArn\": {\n      \"@id\": \"aws:TemplateArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TemplateData\": {\n      \"@id\": \"aws:TemplateData\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-ld/amazon-ses-openapi-email-message-context.jsonld
 tags:
 - AWS
 - Email

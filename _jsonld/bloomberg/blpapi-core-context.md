@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Bloomberg
 provider_slug: bloomberg
 slug: blpapi-core-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/json-ld/blpapi-core-context.jsonld
 tags:
 - Analytics
 - Business Intelligence

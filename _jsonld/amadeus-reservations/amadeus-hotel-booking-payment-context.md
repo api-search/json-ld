@@ -37,6 +37,8 @@ property_count: 5
 provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 slug: amadeus-hotel-booking-payment-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PaymentInput\": \"amadeus:PaymentInput\",\n    \"PaymentOutput\": \"amadeus:PaymentOutput\",\n    \"iataTravelAgency\": {\n      \"@id\": \"amadeus:iataTravelAgency\",\n      \"@type\": \"@id\"\n    },\n    \"method\": {\n      \"@id\": \"amadeus:method\",\n      \"@type\": \"xsd:string\"\n    },\n    \"paymentCard\": {\n      \"@id\": \"amadeus:paymentCard\",\n      \"@type\": \"@id\"\n    },\n    \"billBack\": {\n      \"@id\": \"amadeus:billBack\",\n      \"@type\": \"@id\"\n    },\n    \"b2bWallet\": {\n      \"@id\": \"amadeus:b2bWallet\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-ld/amadeus-hotel-booking-payment-context.jsonld
 tags:
 - Booking
 - Flights

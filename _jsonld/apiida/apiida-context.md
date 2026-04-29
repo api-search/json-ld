@@ -54,6 +54,9 @@ property_count: 5
 provider_name: APIIDA
 provider_slug: apiida
 slug: apiida-context
+source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"apiida\": \"https://apiida.com/ns/\",\n    \"id\": \"@id\",\n    \"type\": \"@type\",\n    \"Api\": \"apiida:Api\",\n    \"Gateway\": \"apiida:Gateway\",\n    \"Deployment\": \"apiida:Deployment\",\n    \"Alarm\": \"apiida:Alarm\",\n    \"Metrics\": \"apiida:Metrics\",\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"version\": \"schema:version\",\n    \"status\": \"apiida:status\",\n    \"host\": \"apiida:host\",\n    \"port\": \"apiida:port\",\n    \"gatewayType\": \"apiida:gatewayType\",\n    \"apiCount\": \"apiida:apiCount\",\n    \"apiId\": \"apiida:apiId\",\n    \"targetGateways\": {\n      \"@id\": \"apiida:targetGateways\",\n      \"@type\": \"@id\",\n      \"@container\": \"@set\"\n    },\n    \"currentVersion\": \"apiida:currentVersion\",\n    \"threshold\": \"apiida:threshold\",\n    \"condition\": \"apiida:condition\",\n    \"metric\": \"apiida:metric\",\n \
+  \   \"enabled\": \"apiida:enabled\",\n    \"requestCount\": \"apiida:requestCount\",\n    \"errorCount\": \"apiida:errorCount\",\n    \"averageLatency\": \"apiida:averageLatency\",\n    \"throughput\": \"apiida:throughput\",\n    \"createdAt\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"schema:DateTime\"\n    },\n    \"updatedAt\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"schema:DateTime\"\n    },\n    \"completedAt\": {\n      \"@id\": \"apiida:completedAt\",\n      \"@type\": \"schema:DateTime\"\n    },\n    \"tags\": {\n      \"@id\": \"schema:keywords\",\n      \"@container\": \"@set\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/json-ld/apiida-context.jsonld
 tags:
 - API Gateway
 - API Management

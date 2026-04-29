@@ -28,6 +28,8 @@ property_count: 4
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-flight-delay-prediction-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"data\": {\n      \"@id\": \"schema:data\"\n    },\n    \"meta\": {\n      \"@id\": \"schema:meta\",\n      \"@type\": \"xsd:string\"\n    },\n    \"count\": {\n      \"@id\": \"schema:count\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"links\": {\n      \"@id\": \"schema:links\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-flight-delay-prediction-context.jsonld
 tags:
 - Airlines
 - Aviation

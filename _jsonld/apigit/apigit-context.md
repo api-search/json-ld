@@ -31,6 +31,8 @@ property_count: 3
 provider_name: APIGit
 provider_slug: apigit
 slug: apigit-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"apigit\": \"https://apigit.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Repository\": \"apigit:Repository\",\n    \"MockServer\": \"apigit:MockServer\",\n    \"id\": {\n      \"@id\": \"apigit:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"visibility\": {\n      \"@id\": \"apigit:visibility\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"apigit:status\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/json-ld/apigit-context.jsonld
 tags:
 - API Design
 - API Lifecycle

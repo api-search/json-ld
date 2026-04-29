@@ -27,6 +27,8 @@ property_count: 2
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-release-update-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ReleaseUpdateDetails\": \"adyen:ReleaseUpdateDetails\",\n    \"type\": {\n      \"@id\": \"adyen:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"updateAtFirstMaintenanceCall\": {\n      \"@id\": \"adyen:updateAtFirstMaintenanceCall\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-release-update-context.jsonld
 tags:
 - Payments
 - Financial Services

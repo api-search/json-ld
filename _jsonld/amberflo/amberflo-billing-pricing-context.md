@@ -30,6 +30,8 @@ property_count: 3
 provider_name: Amberflo
 provider_slug: amberflo
 slug: amberflo-billing-pricing-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amberflo\": \"https://amberflo.io/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PricingPlanAssignment\": \"amberflo:PricingPlanAssignment\",\n    \"customerId\": {\n      \"@id\": \"amberflo:customerId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"productId\": {\n      \"@id\": \"amberflo:productId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"startTime\": {\n      \"@id\": \"amberflo:startTime\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/json-ld/amberflo-billing-pricing-context.jsonld
 tags:
 - Usage-Based Billing
 - Metering

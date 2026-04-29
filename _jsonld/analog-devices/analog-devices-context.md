@@ -41,6 +41,8 @@ property_count: 6
 provider_name: Analog Devices
 provider_slug: analog-devices
 slug: analog-devices-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adi\": \"https://www.analog.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"IIODevice\": \"adi:IIODevice\",\n    \"IIOChannel\": \"adi:IIOChannel\",\n    \"IIOContext\": \"adi:IIOContext\",\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"id\": {\n      \"@id\": \"adi:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"label\": {\n      \"@id\": \"adi:label\",\n      \"@type\": \"xsd:string\"\n    },\n    \"channels\": {\n      \"@id\": \"adi:channels\",\n      \"@container\": \"@set\"\n    },\n    \"attrs\": {\n      \"@id\": \"adi:attrs\",\n      \"@type\": \"@id\"\n    },\n    \"scanElement\": {\n      \"@id\": \"adi:scan_element\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"devices\": {\n      \"@id\": \"adi:devices\",\n      \"@container\": \"@set\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/json-ld/analog-devices-context.jsonld
 tags:
 - Embedded Systems
 - Hardware

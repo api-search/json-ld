@@ -29,6 +29,8 @@ property_count: 0
 provider_name: Cisco Systems
 provider_slug: cisco-systems
 slug: cisco-systems-context
+source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://apievangelist.com/vocab/cisco-systems/\",\n    \"schema\": \"https://schema.org/\",\n    \"cisco\": \"https://developer.cisco.com/vocab/\",\n    \"Organization\": \"schema:Organization\",\n    \"Product\": \"schema:SoftwareApplication\",\n    \"API\": \"schema:WebAPI\",\n    \"Domain\": \"cisco:ProductDomain\",\n    \"Region\": \"schema:Place\",\n    \"Customer\": \"schema:Organization\",\n    \"Partner\": \"schema:Organization\",\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"category\": \"schema:category\",\n    \"version\": \"schema:softwareVersion\",\n    \"createdAt\": \"schema:dateCreated\",\n    \"updatedAt\": \"schema:dateModified\"\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/json-ld/cisco-systems-context.jsonld
 tags:
 - Collaboration
 - Infrastructure

@@ -50,6 +50,9 @@ property_count: 8
 provider_name: Amplitude
 provider_slug: amplitude
 slug: amplitude-chart-annotations-api-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amplitude\": \"https://amplitude.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"UpdateAnnotationRequest\": \"amplitude:UpdateAnnotationRequest\",\n    \"CreateAnnotationRequest\": \"amplitude:CreateAnnotationRequest\",\n    \"AnnotationListResponse\": \"amplitude:AnnotationListResponse\",\n    \"Annotation\": \"amplitude:Annotation\",\n    \"label\": {\n      \"@id\": \"amplitude:label\",\n      \"@type\": \"xsd:string\"\n    },\n    \"date\": {\n      \"@id\": \"amplitude:date\",\n      \"@type\": \"xsd:date\"\n    },\n    \"endDate\": {\n      \"@id\": \"amplitude:end_date\",\n      \"@type\": \"xsd:date\"\n    },\n    \"details\": {\n      \"@id\": \"amplitude:details\",\n      \"@type\": \"xsd:string\"\n    },\n    \"category\": {\n      \"@id\": \"amplitude:category\",\n      \"@type\": \"xsd:string\"\
+  \n    },\n    \"chartId\": {\n      \"@id\": \"amplitude:chart_id\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"data\": {\n      \"@id\": \"amplitude:data\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    },\n    \"id\": {\n      \"@id\": \"amplitude:id\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"createdAt\": \"schema:dateCreated\",\n    \"updatedAt\": \"schema:dateModified\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-ld/amplitude-chart-annotations-api-context.jsonld
 tags:
 - A/B Testing
 - Analytics

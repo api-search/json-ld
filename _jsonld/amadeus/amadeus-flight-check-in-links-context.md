@@ -40,6 +40,8 @@ property_count: 8
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-flight-check-in-links-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"type\": {\n      \"@id\": \"schema:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"id\": {\n      \"@id\": \"@id\"\n    },\n    \"href\": {\n      \"@id\": \"schema:href\",\n      \"@type\": \"@id\"\n    },\n    \"channel\": {\n      \"@id\": \"schema:channel\",\n      \"@type\": \"xsd:string\"\n    },\n    \"parameters\": {\n      \"@id\": \"schema:parameters\",\n      \"@type\": \"xsd:string\"\n    },\n    \"description\": {\n      \"@id\": \"schema:description\"\n    },\n    \"format\": {\n      \"@id\": \"schema:format\",\n      \"@type\": \"xsd:string\"\n    },\n    \"errors\": {\n      \"@id\": \"schema:errors\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-flight-check-in-links-context.jsonld
 tags:
 - Airlines
 - Aviation

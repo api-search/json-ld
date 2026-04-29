@@ -36,6 +36,8 @@ property_count: 5
 provider_name: AMQP
 provider_slug: amqp
 slug: amqp-amqp-queue-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amqp\": \"https://www.amqp.org/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AMQP Queue\": \"amqp:AMQP Queue\",\n    \"name\": {\n      \"@id\": \"amqp:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"durable\": {\n      \"@id\": \"amqp:durable\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"exclusive\": {\n      \"@id\": \"amqp:exclusive\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"autoDelete\": {\n      \"@id\": \"amqp:autoDelete\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"arguments\": {\n      \"@id\": \"amqp:arguments\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/json-ld/amqp-amqp-queue-context.jsonld
 tags:
 - AMQP
 - Asynchronous

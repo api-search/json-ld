@@ -52,6 +52,9 @@ property_count: 10
 provider_name: Palo Alto Networks
 provider_slug: palo-alto-networks
 slug: palo-alto-cortex-xdr-webhooks-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https://pan.dev/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AlertPayload\": \"pan:AlertPayload\",\n    \"IncidentPayload\": \"pan:IncidentPayload\",\n    \"alertCount\": {\n      \"@id\": \"pan:alert_count\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"alertSources\": {\n      \"@id\": \"pan:alert_sources\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"assignedUserMail\": {\n      \"@id\": \"pan:assigned_user_mail\",\n      \"@type\": \"xsd:string\"\n    },\n    \"creationTime\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"description\": {\n      \"@id\": \"schema:description\",\n      \"@type\": \"xsd:string\"\n    },\n    \"incidentId\": {\n      \"@id\": \"pan:incident_id\",\n      \"@type\": \"xsd:string\"\n\
+  \    },\n    \"modificationTime\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"severity\": {\n      \"@id\": \"pan:severity\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"pan:status\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/json-ld/palo-alto-cortex-xdr-webhooks-context.jsonld
 tags:
 - Cloud Security
 - Cybersecurity

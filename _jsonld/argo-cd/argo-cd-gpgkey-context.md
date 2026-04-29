@@ -28,6 +28,8 @@ property_count: 2
 provider_name: Argo CD
 provider_slug: argo-cd
 slug: argo-cd-gpgkey-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"argocd\": \"https://argoproj.github.io/schema/argo-cd/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"gpgkeyGnuPGPublicKeyResponse\": \"argocd:gpgkeyGnuPGPublicKeyResponse\",\n    \"gpgkeyGnuPGPublicKeyCreateResponse\": \"argocd:gpgkeyGnuPGPublicKeyCreateResponse\",\n    \"created\": {\n      \"@id\": \"argocd:created\",\n      \"@type\": \"xsd:string\"\n    },\n    \"skipped\": {\n      \"@id\": \"argocd:skipped\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-ld/argo-cd-gpgkey-context.jsonld
 tags:
 - Continuous Delivery
 - Containers

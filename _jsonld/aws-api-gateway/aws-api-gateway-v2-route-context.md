@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Amazon API Gateway
 provider_slug: aws-api-gateway
 slug: aws-api-gateway-v2-route-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Route\": \"aws:Route\",\n    \"RouteId\": {\n      \"@id\": \"aws:RouteId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"RouteKey\": {\n      \"@id\": \"aws:RouteKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Target\": {\n      \"@id\": \"aws:Target\",\n      \"@type\": \"xsd:string\"\n    },\n    \"AuthorizationType\": {\n      \"@id\": \"aws:AuthorizationType\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-ld/aws-api-gateway-v2-route-context.jsonld
 tags:
 - API Gateway
 - AWS

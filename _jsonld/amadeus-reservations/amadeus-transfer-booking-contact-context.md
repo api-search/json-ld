@@ -25,6 +25,8 @@ property_count: 1
 provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 slug: amadeus-transfer-booking-contact-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Contact\": \"amadeus:Contact\",\n    \"phoneNumber\": {\n      \"@id\": \"amadeus:phoneNumber\",\n      \"@type\": \"xsd:string\"\n    },\n    \"email\": \"schema:email\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-ld/amadeus-transfer-booking-contact-context.jsonld
 tags:
 - Booking
 - Flights

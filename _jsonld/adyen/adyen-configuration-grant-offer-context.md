@@ -45,6 +45,9 @@ property_count: 8
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-configuration-grant-offer-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"GrantOffer\": \"adyen:GrantOffer\",\n    \"accountHolderId\": {\n      \"@id\": \"adyen:accountHolderId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"amount\": {\n      \"@id\": \"adyen:amount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"contractType\": {\n      \"@id\": \"adyen:contractType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"expiresAt\": {\n      \"@id\": \"adyen:expiresAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"fee\": {\n      \"@id\": \"adyen:fee\",\n      \"@type\": \"xsd:string\"\n    },\n    \"id\": {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"repayment\": {\n      \"@id\": \"adyen:repayment\",\n      \"@type\": \"xsd:string\"\n    },\n    \"startsAt\"\
+  : {\n      \"@id\": \"adyen:startsAt\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-configuration-grant-offer-context.jsonld
 tags:
 - Payments
 - Financial Services

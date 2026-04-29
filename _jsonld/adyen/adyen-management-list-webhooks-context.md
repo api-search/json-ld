@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-list-webhooks-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ListWebhooksResponse\": \"adyen:ListWebhooksResponse\",\n    \"Links\": {\n      \"@id\": \"adyen:_links\",\n      \"@type\": \"xsd:string\"\n    },\n    \"accountReference\": {\n      \"@id\": \"adyen:accountReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"data\": {\n      \"@id\": \"adyen:data\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"itemsTotal\": {\n      \"@id\": \"adyen:itemsTotal\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"pagesTotal\": {\n      \"@id\": \"adyen:pagesTotal\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-list-webhooks-context.jsonld
 tags:
 - Payments
 - Financial Services

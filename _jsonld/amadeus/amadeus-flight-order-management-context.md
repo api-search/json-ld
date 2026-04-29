@@ -19,6 +19,8 @@ property_count: 1
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-flight-order-management-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"errors\": {\n      \"@id\": \"schema:errors\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-flight-order-management-context.jsonld
 tags:
 - Airlines
 - Aviation

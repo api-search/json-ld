@@ -39,6 +39,8 @@ property_count: 6
 provider_name: Amberflo
 provider_slug: amberflo
 slug: amberflo-billing-address-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amberflo\": \"https://amberflo.io/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Address\": \"amberflo:Address\",\n    \"verified\": {\n      \"@id\": \"amberflo:verified\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"line1\": {\n      \"@id\": \"amberflo:line1\",\n      \"@type\": \"xsd:string\"\n    },\n    \"state\": {\n      \"@id\": \"amberflo:state\",\n      \"@type\": \"xsd:string\"\n    },\n    \"city\": {\n      \"@id\": \"amberflo:city\",\n      \"@type\": \"xsd:string\"\n    },\n    \"postalCode\": {\n      \"@id\": \"amberflo:postalCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"country\": {\n      \"@id\": \"amberflo:country\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/json-ld/amberflo-billing-address-context.jsonld
 tags:
 - Usage-Based Billing
 - Metering

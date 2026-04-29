@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Amazon Transfer Family
 provider_slug: amazon-transfer-family
 slug: amazon-transfer-family-context
+source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"amazon_transfer_family\": \"https://aws.amazon.com/amazon-transfer-family/vocab#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/json-ld/amazon-transfer-family-context.jsonld
 tags:
 - AWS
 - File Transfer

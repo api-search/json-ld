@@ -45,6 +45,9 @@ property_count: 6
 provider_name: API-Fiddle
 provider_slug: api-fiddle
 slug: api-fiddle-context
+source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"apifiddle\": \"https://api-fiddle.com/schemas/\",\n    \"Project\": \"apifiddle:Project\",\n    \"Specification\": \"apifiddle:Specification\",\n    \"Workspace\": \"apifiddle:Workspace\",\n    \"projectId\": {\n      \"@id\": \"apifiddle:projectId\",\n      \"@type\": \"@id\"\n    },\n    \"workspaceId\": {\n      \"@id\": \"apifiddle:workspaceId\",\n      \"@type\": \"@id\"\n    },\n    \"specificationId\": {\n      \"@id\": \"apifiddle:specificationId\",\n      \"@type\": \"@id\"\n    },\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"visibility\": \"apifiddle:visibility\",\n    \"format\": \"schema:encodingFormat\",\n    \"content\": \"schema:text\",\n    \"version\": \"schema:version\",\n    \"status\": \"apifiddle:status\",\n    \"ownerId\": {\n      \"@id\": \"apifiddle:ownerId\",\n      \"@type\": \"@id\"\n    },\n    \"members\": \"apifiddle:members\",\n    \"\
+  role\": \"apifiddle:role\",\n    \"tags\": \"schema:keywords\",\n    \"createdAt\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"schema:DateTime\"\n    },\n    \"updatedAt\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"schema:DateTime\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/json-ld/api-fiddle-context.jsonld
 tags:
 - API Design
 - OpenAPI

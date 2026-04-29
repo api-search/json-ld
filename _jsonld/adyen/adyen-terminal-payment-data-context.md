@@ -42,6 +42,9 @@ property_count: 7
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-payment-data-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PaymentData\": \"adyen:PaymentData\",\n    \"PaymentType\": {\n      \"@id\": \"adyen:PaymentType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SplitPaymentFlag\": {\n      \"@id\": \"adyen:SplitPaymentFlag\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"RequestedValidityDate\": {\n      \"@id\": \"adyen:RequestedValidityDate\",\n      \"@type\": \"xsd:date\"\n    },\n    \"CardAcquisitionReference\": {\n      \"@id\": \"adyen:CardAcquisitionReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Instalment\": {\n      \"@id\": \"adyen:Instalment\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CustomerOrder\": {\n      \"@id\": \"adyen:CustomerOrder\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PaymentInstrumentData\"\
+  : {\n      \"@id\": \"adyen:PaymentInstrumentData\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-payment-data-context.jsonld
 tags:
 - Payments
 - Financial Services

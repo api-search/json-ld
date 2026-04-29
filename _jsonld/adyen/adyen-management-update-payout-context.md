@@ -24,6 +24,8 @@ property_count: 1
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-update-payout-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"UpdatePayoutSettingsRequest\": \"adyen:UpdatePayoutSettingsRequest\",\n    \"enabled\": {\n      \"@id\": \"adyen:enabled\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-update-payout-context.jsonld
 tags:
 - Payments
 - Financial Services

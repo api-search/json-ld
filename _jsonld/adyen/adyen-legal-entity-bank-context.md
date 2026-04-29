@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-legal-entity-bank-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"BankAccountInfo\": \"adyen:BankAccountInfo\",\n    \"accountIdentification\": {\n      \"@id\": \"adyen:accountIdentification\",\n      \"@type\": \"xsd:string\"\n    },\n    \"accountType\": {\n      \"@id\": \"adyen:accountType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"bankName\": {\n      \"@id\": \"adyen:bankName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"countryCode\": {\n      \"@id\": \"adyen:countryCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"trustedSource\": {\n      \"@id\": \"adyen:trustedSource\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-legal-entity-bank-context.jsonld
 tags:
 - Payments
 - Financial Services

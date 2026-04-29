@@ -39,6 +39,9 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-hosted-onboarding-collect-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CollectInformation\": \"adyen:CollectInformation\",\n    \"bankDetails\": {\n      \"@id\": \"adyen:bankDetails\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"businessDetails\": {\n      \"@id\": \"adyen:businessDetails\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"individualDetails\": {\n      \"@id\": \"adyen:individualDetails\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"legalArrangementDetails\": {\n      \"@id\": \"adyen:legalArrangementDetails\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"pciQuestionnaire\": {\n      \"@id\": \"adyen:pciQuestionnaire\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"shareholderDetails\": {\n      \"@id\": \"adyen:shareholderDetails\",\n      \"@type\": \"xsd:boolean\"\
+  \n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-hosted-onboarding-collect-context.jsonld
 tags:
 - Payments
 - Financial Services

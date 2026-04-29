@@ -42,6 +42,9 @@ property_count: 6
 provider_name: 1Password
 provider_slug: 1password
 slug: 1password-partnership-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"onepassword\": \"https://1password.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Account\": \"onepassword:Account\",\n    \"CreateAccountRequest\": \"onepassword:CreateAccountRequest\",\n    \"UpdateAccountRequest\": \"onepassword:UpdateAccountRequest\",\n    \"accountType\": {\n      \"@id\": \"onepassword:account_type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"accountUid\": {\n      \"@id\": \"onepassword:account_uid\",\n      \"@type\": \"xsd:string\"\n    },\n    \"activationToken\": {\n      \"@id\": \"onepassword:activation_token\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdAt\": \"schema:dateCreated\",\n    \"domain\": {\n      \"@id\": \"onepassword:domain\",\n      \"@type\": \"xsd:string\"\n    },\n    \"endsAt\": {\n      \"@id\": \"onepassword:ends_at\",\n      \"@type\":\
+  \ \"xsd:dateTime\"\n    },\n    \"status\": {\n      \"@id\": \"onepassword:status\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/json-ld/1password-partnership-context.jsonld
 tags:
 - Password Manager
 - Passwords

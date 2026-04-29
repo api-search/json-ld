@@ -14,6 +14,8 @@ property_count: 0
 provider_name: MuleSoft
 provider_slug: mulesoft
 slug: mulesoft-anypoint-platform-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/json-ld/mulesoft-anypoint-platform-context.jsonld
 tags:
 - API Gateway
 - API Management

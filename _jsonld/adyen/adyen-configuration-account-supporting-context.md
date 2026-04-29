@@ -42,6 +42,9 @@ property_count: 7
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-configuration-account-supporting-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AccountSupportingEntityCapability\": \"adyen:AccountSupportingEntityCapability\",\n    \"allowed\": {\n      \"@id\": \"adyen:allowed\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"allowedLevel\": {\n      \"@id\": \"adyen:allowedLevel\",\n      \"@type\": \"xsd:string\"\n    },\n    \"enabled\": {\n      \"@id\": \"adyen:enabled\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"id\": {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"requested\": {\n      \"@id\": \"adyen:requested\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"requestedLevel\": {\n      \"@id\": \"adyen:requestedLevel\",\n      \"@type\": \"xsd:string\"\n    },\n    \"verificationStatus\": {\n      \"@id\": \"adyen:verificationStatus\"\
+  ,\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-configuration-account-supporting-context.jsonld
 tags:
 - Payments
 - Financial Services

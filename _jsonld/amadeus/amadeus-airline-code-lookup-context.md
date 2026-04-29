@@ -46,6 +46,9 @@ property_count: 10
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-airline-code-lookup-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"meta\": {\n      \"@id\": \"schema:meta\",\n      \"@type\": \"xsd:string\"\n    },\n    \"data\": {\n      \"@id\": \"schema:data\"\n    },\n    \"warnings\": {\n      \"@id\": \"schema:warnings\"\n    },\n    \"type\": {\n      \"@id\": \"schema:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"iataCode\": {\n      \"@id\": \"schema:iataCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"icaoCode\": {\n      \"@id\": \"schema:icaoCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"businessName\": {\n      \"@id\": \"schema:businessName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"commonName\": {\n      \"@id\": \"schema:commonName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"count\": {\n      \"@id\": \"schema:count\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"links\": {\n      \"@id\": \"schema:links\"\
+  \n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-airline-code-lookup-context.jsonld
 tags:
 - Airlines
 - Aviation

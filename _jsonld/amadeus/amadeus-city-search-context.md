@@ -31,6 +31,8 @@ property_count: 5
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-city-search-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"errors\": {\n      \"@id\": \"schema:errors\"\n    },\n    \"warnings\": {\n      \"@id\": \"schema:warnings\"\n    },\n    \"meta\": {\n      \"@id\": \"schema:meta\",\n      \"@type\": \"xsd:string\"\n    },\n    \"data\": {\n      \"@id\": \"schema:data\"\n    },\n    \"included\": {\n      \"@id\": \"schema:included\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-city-search-context.jsonld
 tags:
 - Airlines
 - Aviation

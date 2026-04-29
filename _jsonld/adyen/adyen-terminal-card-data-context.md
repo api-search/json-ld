@@ -54,6 +54,9 @@ property_count: 11
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-card-data-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CardData\": \"adyen:CardData\",\n    \"PaymentBrand\": {\n      \"@id\": \"adyen:PaymentBrand\",\n      \"@type\": \"xsd:string\"\n    },\n    \"MaskedPan\": {\n      \"@id\": \"adyen:MaskedPan\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PaymentAccountRef\": {\n      \"@id\": \"adyen:PaymentAccountRef\",\n      \"@type\": \"xsd:string\"\n    },\n    \"EntryMode\": {\n      \"@id\": \"adyen:EntryMode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CardCountryCode\": {\n      \"@id\": \"adyen:CardCountryCode\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"ProtectedCardData\": {\n      \"@id\": \"adyen:ProtectedCardData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SensitiveCardData\": {\n      \"@id\": \"adyen:SensitiveCardData\"\
+  ,\n      \"@type\": \"xsd:string\"\n    },\n    \"AllowedProductCode\": {\n      \"@id\": \"adyen:AllowedProductCode\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"AllowedProduct\": {\n      \"@id\": \"adyen:AllowedProduct\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PaymentToken\": {\n      \"@id\": \"adyen:PaymentToken\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CustomerOrder\": {\n      \"@id\": \"adyen:CustomerOrder\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-card-data-context.jsonld
 tags:
 - Payments
 - Financial Services

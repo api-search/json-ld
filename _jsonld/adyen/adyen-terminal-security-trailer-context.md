@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-security-trailer-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"SecurityTrailer\": \"adyen:SecurityTrailer\",\n    \"AdyenCryptoVersion\": {\n      \"@id\": \"adyen:AdyenCryptoVersion\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"KeyIdentifier\": {\n      \"@id\": \"adyen:KeyIdentifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"KeyVersion\": {\n      \"@id\": \"adyen:KeyVersion\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"Nonce\": {\n      \"@id\": \"adyen:Nonce\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Hmac\": {\n      \"@id\": \"adyen:Hmac\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-security-trailer-context.jsonld
 tags:
 - Payments
 - Financial Services

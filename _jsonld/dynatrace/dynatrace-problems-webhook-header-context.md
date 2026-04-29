@@ -25,6 +25,8 @@ property_count: 2
 provider_name: Dynatrace
 provider_slug: dynatrace
 slug: dynatrace-problems-webhook-header-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"dt\": \"https://dt.dynatrace.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"WebhookHeader\": \"dt:WebhookHeader\",\n    \"name\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"dt:value\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-webhook-header-context.jsonld
 tags:
 - AI Operations
 - Analytics

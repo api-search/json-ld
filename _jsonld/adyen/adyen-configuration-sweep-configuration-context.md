@@ -58,6 +58,9 @@ property_count: 12
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-configuration-sweep-configuration-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"SweepConfigurationV2\": \"adyen:SweepConfigurationV2\",\n    \"category\": {\n      \"@id\": \"adyen:category\",\n      \"@type\": \"xsd:string\"\n    },\n    \"counterparty\": {\n      \"@id\": \"adyen:counterparty\",\n      \"@type\": \"xsd:string\"\n    },\n    \"currency\": {\n      \"@id\": \"adyen:currency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"description\": \"schema:description\",\n    \"id\": {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"priorities\": {\n      \"@id\": \"adyen:priorities\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"reason\": {\n      \"@id\": \"adyen:reason\",\n      \"@type\": \"xsd:string\"\n    },\n    \"schedule\": {\n\
+  \      \"@id\": \"adyen:schedule\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"adyen:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"sweepAmount\": {\n      \"@id\": \"adyen:sweepAmount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"targetAmount\": {\n      \"@id\": \"adyen:targetAmount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"triggerAmount\": {\n      \"@id\": \"adyen:triggerAmount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"adyen:type\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-configuration-sweep-configuration-context.jsonld
 tags:
 - Payments
 - Financial Services

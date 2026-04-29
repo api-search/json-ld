@@ -46,6 +46,9 @@ property_count: 8
 provider_name: Amadeus Traveler Media
 provider_slug: amadeus-traveler-media
 slug: amadeus-hotel-ratings-collection-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CollectionMeta\": \"amadeus:CollectionMeta\",\n    \"CollectionLinks\": \"amadeus:CollectionLinks\",\n    \"count\": {\n      \"@id\": \"amadeus:count\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"links\": {\n      \"@id\": \"amadeus:links\",\n      \"@type\": \"xsd:string\"\n    },\n    \"self\": {\n      \"@id\": \"amadeus:self\",\n      \"@type\": \"@id\"\n    },\n    \"next\": {\n      \"@id\": \"amadeus:next\",\n      \"@type\": \"@id\"\n    },\n    \"previous\": {\n      \"@id\": \"amadeus:previous\",\n      \"@type\": \"@id\"\n    },\n    \"last\": {\n      \"@id\": \"amadeus:last\",\n      \"@type\": \"@id\"\n    },\n    \"first\": {\n      \"@id\": \"amadeus:first\",\n      \"@type\": \"@id\"\n    },\n    \"up\": {\n\
+  \      \"@id\": \"amadeus:up\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/json-ld/amadeus-hotel-ratings-collection-context.jsonld
 tags:
 - Content
 - Destination

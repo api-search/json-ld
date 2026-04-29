@@ -21,6 +21,8 @@ property_count: 0
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-generic-profile-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"GenericProfile\": \"adyen:GenericProfile\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-generic-profile-context.jsonld
 tags:
 - Payments
 - Financial Services

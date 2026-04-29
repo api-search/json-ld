@@ -40,6 +40,9 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-configuration-verification-error-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"VerificationError-recursive\": \"adyen:VerificationError-recursive\",\n    \"VerificationError\": \"adyen:VerificationError\",\n    \"capabilities\": {\n      \"@id\": \"adyen:capabilities\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"code\": {\n      \"@id\": \"adyen:code\",\n      \"@type\": \"xsd:string\"\n    },\n    \"message\": {\n      \"@id\": \"adyen:message\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"adyen:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"remediatingActions\": {\n      \"@id\": \"adyen:remediatingActions\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"subErrors\": {\n      \"@id\": \"adyen:subErrors\"\
+  ,\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-configuration-verification-error-context.jsonld
 tags:
 - Payments
 - Financial Services

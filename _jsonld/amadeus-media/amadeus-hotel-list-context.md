@@ -60,6 +60,9 @@ property_count: 12
 provider_name: Amadeus Media
 provider_slug: amadeus-media
 slug: amadeus-hotel-list-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Error_404\": \"amadeus:Error_404\",\n    \"Error_500\": \"amadeus:Error_500\",\n    \"Error_400\": \"amadeus:Error_400\",\n    \"HotelSearchResponse\": \"amadeus:HotelSearchResponse\",\n    \"errors\": {\n      \"@id\": \"amadeus:errors\",\n      \"@container\": \"@set\"\n    },\n    \"status\": {\n      \"@id\": \"amadeus:status\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"code\": {\n      \"@id\": \"amadeus:code\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"title\": {\n      \"@id\": \"amadeus:title\",\n      \"@type\": \"xsd:string\"\n    },\n    \"detail\": {\n      \"@id\": \"amadeus:detail\",\n      \"@type\": \"xsd:string\"\n    },\n    \"source\": {\n      \"@id\": \"amadeus:source\",\n      \"@type\": \"@id\"\n\
+  \    },\n    \"parameter\": {\n      \"@id\": \"amadeus:parameter\",\n      \"@type\": \"xsd:string\"\n    },\n    \"pointer\": {\n      \"@id\": \"amadeus:pointer\",\n      \"@type\": \"xsd:string\"\n    },\n    \"example\": {\n      \"@id\": \"amadeus:example\",\n      \"@type\": \"xsd:string\"\n    },\n    \"documentation\": {\n      \"@id\": \"amadeus:documentation\",\n      \"@type\": \"xsd:string\"\n    },\n    \"data\": {\n      \"@id\": \"amadeus:data\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"meta\": {\n      \"@id\": \"amadeus:meta\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/json-ld/amadeus-hotel-list-context.jsonld
 tags:
 - Content
 - Hotels

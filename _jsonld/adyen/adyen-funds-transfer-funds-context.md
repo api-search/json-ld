@@ -46,6 +46,9 @@ property_count: 8
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-funds-transfer-funds-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"TransferFundsRequest\": \"adyen:TransferFundsRequest\",\n    \"TransferFundsResponse\": \"adyen:TransferFundsResponse\",\n    \"amount\": {\n      \"@id\": \"adyen:amount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"destinationAccountCode\": {\n      \"@id\": \"adyen:destinationAccountCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"merchantReference\": {\n      \"@id\": \"adyen:merchantReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"sourceAccountCode\": {\n      \"@id\": \"adyen:sourceAccountCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"transferCode\": {\n      \"@id\": \"adyen:transferCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"invalidFields\": {\n      \"@id\": \"adyen:invalidFields\"\
+  ,\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"pspReference\": {\n      \"@id\": \"adyen:pspReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"resultCode\": {\n      \"@id\": \"adyen:resultCode\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-funds-transfer-funds-context.jsonld
 tags:
 - Payments
 - Financial Services

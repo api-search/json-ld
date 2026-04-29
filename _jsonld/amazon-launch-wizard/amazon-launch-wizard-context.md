@@ -42,6 +42,9 @@ property_count: 7
 provider_name: Amazon Launch Wizard
 provider_slug: amazon-launch-wizard
 slug: amazon-launch-wizard-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"launchwizard\": \"https://launchwizard.amazonaws.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Deployment\": \"launchwizard:Deployment\",\n    \"id\": {\n      \"@id\": \"schema:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"description\": {\n      \"@id\": \"schema:description\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"launchwizard:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"arn\": {\n      \"@id\": \"launchwizard:arn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdAt\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"updatedAt\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\
+  \n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/json-ld/amazon-launch-wizard-context.jsonld
 tags:
 - AWS
 - Deployment

@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Cisco Nexus Dashboard
 provider_slug: cisco-nexus
 slug: cisco-nexus-nxapi-rest-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/json-ld/cisco-nexus-nxapi-rest-context.jsonld
 tags:
 - Data Center
 - Infrastructure

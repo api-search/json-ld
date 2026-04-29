@@ -47,6 +47,9 @@ property_count: 8
 provider_name: Abstract API
 provider_slug: abstract-api
 slug: abstract-api-exchange-rates-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"abstract\": \"https://abstractapi.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ConvertResponse\": \"abstract:ConvertResponse\",\n    \"HistoricalRatesResponse\": \"abstract:HistoricalRatesResponse\",\n    \"LiveRatesResponse\": \"abstract:LiveRatesResponse\",\n    \"baseCurrency\": {\n      \"@id\": \"abstract:base_currency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"targetCurrency\": {\n      \"@id\": \"abstract:target_currency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"baseAmount\": {\n      \"@id\": \"abstract:base_amount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"convertedAmount\": {\n      \"@id\": \"abstract:converted_amount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"base\": {\n      \"@id\": \"abstract:base\",\n      \"@type\": \"xsd:string\"\n    },\n    \"date\"\
+  : {\n      \"@id\": \"abstract:date\",\n      \"@type\": \"xsd:date\"\n    },\n    \"exchangeRates\": {\n      \"@id\": \"abstract:exchange_rates\",\n      \"@type\": \"@id\"\n    },\n    \"lastUpdated\": {\n      \"@id\": \"abstract:last_updated\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-ld/abstract-api-exchange-rates-context.jsonld
 tags:
 - Avatars
 - Company Enrichment

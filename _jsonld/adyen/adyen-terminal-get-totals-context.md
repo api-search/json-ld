@@ -37,6 +37,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-get-totals-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"GetTotalsRequest\": \"adyen:GetTotalsRequest\",\n    \"GetTotalsResponse\": \"adyen:GetTotalsResponse\",\n    \"TotalDetails\": {\n      \"@id\": \"adyen:TotalDetails\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TotalFilter\": {\n      \"@id\": \"adyen:TotalFilter\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Response\": {\n      \"@id\": \"adyen:Response\",\n      \"@type\": \"xsd:string\"\n    },\n    \"POIReconciliationID\": {\n      \"@id\": \"adyen:POIReconciliationID\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"TransactionTotals\": {\n      \"@id\": \"adyen:TransactionTotals\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-get-totals-context.jsonld
 tags:
 - Payments
 - Financial Services

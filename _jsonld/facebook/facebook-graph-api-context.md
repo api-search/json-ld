@@ -67,6 +67,9 @@ property_count: 14
 provider_name: Facebook
 provider_slug: facebook
 slug: facebook-graph-api-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"fb\": \"https://developers.facebook.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"User\": \"fb:User\",\n    \"Post\": \"fb:Post\",\n    \"Page\": \"fb:Page\",\n    \"Photo\": \"fb:Photo\",\n    \"Comment\": \"fb:Comment\",\n    \"name\": { \"@id\": \"schema:name\", \"@type\": \"xsd:string\" },\n    \"email\": { \"@id\": \"schema:email\", \"@type\": \"xsd:string\" },\n    \"description\": { \"@id\": \"schema:description\", \"@type\": \"xsd:string\" },\n    \"message\": { \"@id\": \"fb:message\", \"@type\": \"xsd:string\" },\n    \"createdTime\": { \"@id\": \"schema:dateCreated\", \"@type\": \"xsd:dateTime\" },\n    \"updatedTime\": { \"@id\": \"schema:dateModified\", \"@type\": \"xsd:dateTime\" },\n    \"link\": { \"@id\": \"fb:link\", \"@type\": \"@id\" },\n    \"permalinkUrl\": { \"@id\": \"fb:permalink_url\"\
+  , \"@type\": \"@id\" },\n    \"category\": { \"@id\": \"fb:category\", \"@type\": \"xsd:string\" },\n    \"fanCount\": { \"@id\": \"fb:fan_count\", \"@type\": \"xsd:integer\" },\n    \"website\": { \"@id\": \"schema:url\", \"@type\": \"@id\" },\n    \"likeCount\": { \"@id\": \"fb:like_count\", \"@type\": \"xsd:integer\" },\n    \"width\": { \"@id\": \"fb:width\", \"@type\": \"xsd:integer\" },\n    \"height\": { \"@id\": \"fb:height\", \"@type\": \"xsd:integer\" }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/json-ld/facebook-graph-api-context.jsonld
 tags:
 - Advertising
 - Content Publishing

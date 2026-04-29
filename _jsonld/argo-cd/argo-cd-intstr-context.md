@@ -30,6 +30,8 @@ property_count: 3
 provider_name: Argo CD
 provider_slug: argo-cd
 slug: argo-cd-intstr-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"argocd\": \"https://argoproj.github.io/schema/argo-cd/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"intstrIntOrString\": \"argocd:intstrIntOrString\",\n    \"intVal\": {\n      \"@id\": \"argocd:intVal\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"strVal\": {\n      \"@id\": \"argocd:strVal\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"argocd:type\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-ld/argo-cd-intstr-context.jsonld
 tags:
 - Continuous Delivery
 - Containers

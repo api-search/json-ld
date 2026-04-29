@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-payment-transaction-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PaymentTransaction\": \"adyen:PaymentTransaction\",\n    \"AmountsReq\": {\n      \"@id\": \"adyen:AmountsReq\",\n      \"@type\": \"xsd:string\"\n    },\n    \"OriginalPOITransaction\": {\n      \"@id\": \"adyen:OriginalPOITransaction\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TransactionConditions\": {\n      \"@id\": \"adyen:TransactionConditions\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SaleItem\": {\n      \"@id\": \"adyen:SaleItem\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-payment-transaction-context.jsonld
 tags:
 - Payments
 - Financial Services

@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Microsoft Windows Server
 provider_slug: microsoft-windows-server
 slug: iis-administration-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/json-ld/iis-administration-context.jsonld
 tags:
 - Datacenter
 - Enterprise

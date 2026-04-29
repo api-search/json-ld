@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Amazon Resource Explorer
 provider_slug: amazon-resource-explorer
 slug: amazon-resource-explorer-openapi-search-response-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"SearchResponse\": \"aws:SearchResponse\",\n    \"Count\": {\n      \"@id\": \"aws:Count\",\n      \"@type\": \"xsd:string\"\n    },\n    \"NextToken\": {\n      \"@id\": \"aws:NextToken\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Resources\": {\n      \"@id\": \"aws:Resources\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ViewArn\": {\n      \"@id\": \"aws:ViewArn\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-ld/amazon-resource-explorer-openapi-search-response-context.jsonld
 tags:
 - AWS
 - Discovery

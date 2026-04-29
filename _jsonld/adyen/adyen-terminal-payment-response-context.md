@@ -42,6 +42,9 @@ property_count: 7
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-payment-response-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PaymentResponse\": \"adyen:PaymentResponse\",\n    \"Response\": {\n      \"@id\": \"adyen:Response\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SaleData\": {\n      \"@id\": \"adyen:SaleData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"POIData\": {\n      \"@id\": \"adyen:POIData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PaymentResult\": {\n      \"@id\": \"adyen:PaymentResult\",\n      \"@type\": \"xsd:string\"\n    },\n    \"LoyaltyResult\": {\n      \"@id\": \"adyen:LoyaltyResult\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PaymentReceipt\": {\n      \"@id\": \"adyen:PaymentReceipt\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CustomerOrder\"\
+  : {\n      \"@id\": \"adyen:CustomerOrder\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-payment-response-context.jsonld
 tags:
 - Payments
 - Financial Services

@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Amazon API Gateway
 provider_slug: aws-api-gateway
 slug: aws-api-gateway-v2-integration-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Integration\": \"aws:Integration\",\n    \"IntegrationId\": {\n      \"@id\": \"aws:IntegrationId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"IntegrationType\": {\n      \"@id\": \"aws:IntegrationType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"IntegrationUri\": {\n      \"@id\": \"aws:IntegrationUri\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PayloadFormatVersion\": {\n      \"@id\": \"aws:PayloadFormatVersion\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-ld/aws-api-gateway-v2-integration-context.jsonld
 tags:
 - API Gateway
 - AWS

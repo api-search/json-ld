@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Informatica
 provider_slug: informatica
 slug: informatica-platform-rest-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/json-ld/informatica-platform-rest-context.jsonld
 tags:
 - Address Verification
 - B2B Gateway

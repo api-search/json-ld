@@ -14,6 +14,8 @@ property_count: 0
 provider_name: IBM WebSphere
 provider_slug: websphere
 slug: open-libertys-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/json-ld/open-libertys-context.jsonld
 tags:
 - Application Server
 - Cloud Native

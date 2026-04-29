@@ -30,6 +30,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-funds-detail-balance-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"DetailBalance\": \"adyen:DetailBalance\",\n    \"balance\": {\n      \"@id\": \"adyen:balance\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"onHoldBalance\": {\n      \"@id\": \"adyen:onHoldBalance\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"pendingBalance\": {\n      \"@id\": \"adyen:pendingBalance\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-funds-detail-balance-context.jsonld
 tags:
 - Payments
 - Financial Services

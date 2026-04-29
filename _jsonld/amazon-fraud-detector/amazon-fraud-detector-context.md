@@ -59,6 +59,9 @@ property_count: 12
 provider_name: Amazon Fraud Detector
 provider_slug: amazon-fraud-detector
 slug: amazon-fraud-detector-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"fd\": \"https://aws.amazon.com/fraud-detector/vocabulary/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Detector\": \"fd:Detector\",\n    \"Model\": \"fd:Model\",\n    \"Rule\": \"fd:Rule\",\n    \"EventType\": \"fd:EventType\",\n    \"Tag\": \"schema:PropertyValue\",\n    \"detectorId\": {\n      \"@id\": \"schema:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"modelId\": {\n      \"@id\": \"schema:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"modelType\": {\n      \"@id\": \"fd:modelType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ruleId\": {\n      \"@id\": \"schema:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"expression\": {\n      \"@id\": \"fd:expression\",\n      \"@type\": \"xsd:string\"\n    },\n    \"outcomes\": {\n      \"@id\": \"fd:outcomes\"\n    },\n    \"eventTypeName\": {\n      \"@id\": \"fd:eventTypeName\"\
+  ,\n      \"@type\": \"xsd:string\"\n    },\n    \"eventVariables\": {\n      \"@id\": \"fd:eventVariables\"\n    },\n    \"labels\": {\n      \"@id\": \"fd:labels\"\n    },\n    \"arn\": {\n      \"@id\": \"fd:arn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdTime\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"lastUpdatedTime\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/json-ld/amazon-fraud-detector-context.jsonld
 tags:
 - AWS
 - Financial Services

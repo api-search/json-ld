@@ -30,6 +30,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-sensitive-mobile-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"SensitiveMobileData\": \"adyen:SensitiveMobileData\",\n    \"MSISDN\": {\n      \"@id\": \"adyen:MSISDN\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"ISMI\": {\n      \"@id\": \"adyen:ISMI\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"IMEI\": {\n      \"@id\": \"adyen:IMEI\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-sensitive-mobile-context.jsonld
 tags:
 - Payments
 - Financial Services

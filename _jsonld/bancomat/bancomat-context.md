@@ -63,6 +63,9 @@ property_count: 15
 provider_name: Bancomat
 provider_slug: bancomat
 slug: bancomat-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"bancomat\": \"https://bancomat.it/vocab/\",\n\n    \"Payment\": {\n      \"@id\": \"bancomat:Payment\",\n      \"@type\": \"@id\"\n    },\n    \"paymentId\": {\n      \"@id\": \"bancomat:paymentId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"amount\": {\n      \"@id\": \"bancomat:amount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"currency\": {\n      \"@id\": \"bancomat:currency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"bancomat:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdAt\": {\n      \"@id\": \"bancomat:createdAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n\n    \"Merchant\": {\n      \"@id\": \"bancomat:Merchant\",\n      \"@type\": \"@id\"\n    },\n    \"merchantId\": {\n      \"@id\": \"bancomat:merchantId\",\n      \"@type\": \"xsd:string\"\n    },\n\
+  \    \"merchantName\": {\n      \"@id\": \"bancomat:merchantName\",\n      \"@type\": \"xsd:string\"\n    },\n\n    \"QRCode\": {\n      \"@id\": \"bancomat:QRCode\",\n      \"@type\": \"@id\"\n    },\n    \"qrContent\": {\n      \"@id\": \"bancomat:qrContent\",\n      \"@type\": \"xsd:string\"\n    },\n    \"expiresAt\": {\n      \"@id\": \"bancomat:expiresAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n\n    \"BankAccount\": {\n      \"@id\": \"bancomat:BankAccount\",\n      \"@type\": \"@id\"\n    },\n    \"iban\": {\n      \"@id\": \"bancomat:iban\",\n      \"@type\": \"xsd:string\"\n    },\n    \"phoneNumber\": {\n      \"@id\": \"bancomat:phoneNumber\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/json-ld/bancomat-context.jsonld
 tags:
 - ATM
 - Banking

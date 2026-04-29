@@ -42,6 +42,9 @@ property_count: 7
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-accounts-kyc-verification-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"KYCVerificationResult\": \"adyen:KYCVerificationResult\",\n    \"accountHolder\": {\n      \"@id\": \"adyen:accountHolder\",\n      \"@type\": \"xsd:string\"\n    },\n    \"legalArrangements\": {\n      \"@id\": \"adyen:legalArrangements\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"legalArrangementsEntities\": {\n      \"@id\": \"adyen:legalArrangementsEntities\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"payoutMethods\": {\n      \"@id\": \"adyen:payoutMethods\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"shareholders\": {\n      \"@id\": \"adyen:shareholders\",\n      \"@container\": \"@set\",\n      \"@type\": \"\
+  xsd:string\"\n    },\n    \"signatories\": {\n      \"@id\": \"adyen:signatories\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ultimateParentCompany\": {\n      \"@id\": \"adyen:ultimateParentCompany\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-accounts-kyc-verification-context.jsonld
 tags:
 - Payments
 - Financial Services

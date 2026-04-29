@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Microsoft Copilot
 provider_slug: microsoft-copilot
 slug: microsoft-copilot-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/json-ld/microsoft-copilot-context.jsonld
 tags:
 - Agents
 - AI Assistant

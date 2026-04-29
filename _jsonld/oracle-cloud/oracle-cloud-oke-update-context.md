@@ -27,6 +27,8 @@ property_count: 2
 provider_name: Oracle Cloud Infrastructure
 provider_slug: oracle-cloud
 slug: oracle-cloud-oke-update-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"oci\": \"https://docs.oracle.com/en-us/iaas/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"UpdateClusterDetails\": \"oci:UpdateClusterDetails\",\n    \"kubernetesVersion\": {\n      \"@id\": \"oci:kubernetesVersion\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-oke-update-context.jsonld
 tags:
 - Cloud Computing
 - Enterprise Cloud

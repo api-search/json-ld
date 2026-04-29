@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-poi-software-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"POISoftware\": \"adyen:POISoftware\",\n    \"ManufacturerID\": {\n      \"@id\": \"adyen:ManufacturerID\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ApplicationName\": {\n      \"@id\": \"adyen:ApplicationName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SoftwareVersion\": {\n      \"@id\": \"adyen:SoftwareVersion\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CertificationCode\": {\n      \"@id\": \"adyen:CertificationCode\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-poi-software-context.jsonld
 tags:
 - Payments
 - Financial Services

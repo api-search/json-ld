@@ -26,6 +26,8 @@ property_count: 0
 provider_name: AptarGroup
 provider_slug: aptargroup
 slug: aptargroup-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"aptar\": \"https://www.aptargroup.com/vocab#\",\n    \"productId\": \"schema:identifier\",\n    \"name\": \"schema:name\",\n    \"category\": \"schema:category\",\n    \"market\": \"schema:audience\",\n    \"description\": \"schema:description\",\n    \"material\": \"schema:material\",\n    \"sustainable\": \"aptar:sustainable\",\n    \"sku\": \"schema:sku\",\n    \"orderId\": \"schema:identifier\",\n    \"status\": \"aptar:status\"\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aptargroup/refs/heads/main/json-ld/aptargroup-context.jsonld
 tags:
 - Packaging
 - Dispensing

@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Cloudflare
 provider_slug: cloudflare
 slug: cloudflare-stream-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-ld/cloudflare-stream-context.jsonld
 tags:
 - AI Gateway
 - API Gateway

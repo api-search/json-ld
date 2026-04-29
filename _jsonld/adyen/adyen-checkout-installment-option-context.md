@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-checkout-installment-option-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"InstallmentOption\": \"adyen:InstallmentOption\",\n    \"maxValue\": {\n      \"@id\": \"adyen:maxValue\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"plans\": {\n      \"@id\": \"adyen:plans\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"preselectedValue\": {\n      \"@id\": \"adyen:preselectedValue\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"values\": {\n      \"@id\": \"adyen:values\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-checkout-installment-option-context.jsonld
 tags:
 - Payments
 - Financial Services

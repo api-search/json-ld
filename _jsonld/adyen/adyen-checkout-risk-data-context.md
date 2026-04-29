@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-checkout-risk-data-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"RiskData\": \"adyen:RiskData\",\n    \"clientData\": {\n      \"@id\": \"adyen:clientData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"customFields\": {\n      \"@id\": \"adyen:customFields\",\n      \"@type\": \"@id\"\n    },\n    \"fraudOffset\": {\n      \"@id\": \"adyen:fraudOffset\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"profileReference\": {\n      \"@id\": \"adyen:profileReference\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-checkout-risk-data-context.jsonld
 tags:
 - Payments
 - Financial Services

@@ -39,6 +39,8 @@ property_count: 6
 provider_name: Amazon API Gateway
 provider_slug: aws-api-gateway
 slug: aws-api-gateway-v2-api-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Api\": \"aws:Api\",\n    \"ApiId\": {\n      \"@id\": \"aws:ApiId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Name\": {\n      \"@id\": \"aws:Name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ProtocolType\": {\n      \"@id\": \"aws:ProtocolType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ApiEndpoint\": {\n      \"@id\": \"aws:ApiEndpoint\",\n      \"@type\": \"xsd:string\"\n    },\n    \"RouteSelectionExpression\": {\n      \"@id\": \"aws:RouteSelectionExpression\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CreatedDate\": {\n      \"@id\": \"aws:CreatedDate\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-ld/aws-api-gateway-v2-api-context.jsonld
 tags:
 - API Gateway
 - AWS

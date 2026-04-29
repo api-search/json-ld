@@ -25,6 +25,8 @@ property_count: 3
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-transfer-management-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"confirmNbr\": {\n      \"@id\": \"schema:confirmNbr\",\n      \"@type\": \"xsd:string\"\n    },\n    \"reservationStatus\": {\n      \"@id\": \"schema:reservationStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"errors\": {\n      \"@id\": \"schema:errors\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-transfer-management-context.jsonld
 tags:
 - Airlines
 - Aviation

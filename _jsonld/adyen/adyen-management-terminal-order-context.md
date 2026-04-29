@@ -58,6 +58,9 @@ property_count: 12
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-terminal-order-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"TerminalOrderRequest\": \"adyen:TerminalOrderRequest\",\n    \"TerminalOrder\": \"adyen:TerminalOrder\",\n    \"billingEntityId\": {\n      \"@id\": \"adyen:billingEntityId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"customerOrderReference\": {\n      \"@id\": \"adyen:customerOrderReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"items\": {\n      \"@id\": \"adyen:items\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"orderType\": {\n      \"@id\": \"adyen:orderType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"shippingLocationId\": {\n      \"@id\": \"adyen:shippingLocationId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"taxId\": {\n      \"@id\": \"adyen:taxId\",\n \
+  \     \"@type\": \"xsd:string\"\n    },\n    \"billingEntity\": {\n      \"@id\": \"adyen:billingEntity\",\n      \"@type\": \"xsd:string\"\n    },\n    \"id\": {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"orderDate\": {\n      \"@id\": \"adyen:orderDate\",\n      \"@type\": \"xsd:string\"\n    },\n    \"shippingLocation\": {\n      \"@id\": \"adyen:shippingLocation\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"adyen:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"trackingUrl\": {\n      \"@id\": \"adyen:trackingUrl\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-terminal-order-context.jsonld
 tags:
 - Payments
 - Financial Services

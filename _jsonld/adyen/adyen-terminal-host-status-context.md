@@ -27,6 +27,8 @@ property_count: 2
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-host-status-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"HostStatus\": \"adyen:HostStatus\",\n    \"AcquirerID\": {\n      \"@id\": \"adyen:AcquirerID\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"IsReachableFlag\": {\n      \"@id\": \"adyen:IsReachableFlag\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-host-status-context.jsonld
 tags:
 - Payments
 - Financial Services

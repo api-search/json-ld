@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-kubernetes-service-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/json-ld/azure-kubernetes-service-context.jsonld
 tags:
 - API Management
 - Cloud

@@ -30,6 +30,8 @@ property_count: 3
 provider_name: Amazon Resource Explorer
 provider_slug: amazon-resource-explorer
 slug: amazon-resource-explorer-openapi-view-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"View\": \"aws:View\",\n    \"Filters\": {\n      \"@id\": \"aws:Filters\",\n      \"@type\": \"xsd:string\"\n    },\n    \"IncludedProperties\": {\n      \"@id\": \"aws:IncludedProperties\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ViewArn\": {\n      \"@id\": \"aws:ViewArn\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-ld/amazon-resource-explorer-openapi-view-context.jsonld
 tags:
 - AWS
 - Discovery

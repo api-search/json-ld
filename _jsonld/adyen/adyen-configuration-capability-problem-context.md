@@ -41,6 +41,9 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-configuration-capability-problem-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CapabilityProblemEntity-recursive\": \"adyen:CapabilityProblemEntity-recursive\",\n    \"CapabilityProblemEntity\": \"adyen:CapabilityProblemEntity\",\n    \"CapabilityProblem\": \"adyen:CapabilityProblem\",\n    \"documents\": {\n      \"@id\": \"adyen:documents\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"id\": {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"adyen:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"owner\": {\n      \"@id\": \"adyen:owner\",\n      \"@type\": \"xsd:string\"\n    },\n    \"entity\": {\n      \"@id\": \"adyen:entity\",\n      \"@type\": \"xsd:string\"\n    },\n    \"verificationErrors\": {\n    \
+  \  \"@id\": \"adyen:verificationErrors\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-configuration-capability-problem-context.jsonld
 tags:
 - Payments
 - Financial Services

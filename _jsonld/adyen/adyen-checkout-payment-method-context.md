@@ -57,6 +57,9 @@ property_count: 11
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-checkout-payment-method-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PaymentMethodGroup\": \"adyen:PaymentMethodGroup\",\n    \"PaymentMethodIssuer\": \"adyen:PaymentMethodIssuer\",\n    \"PaymentMethod\": \"adyen:PaymentMethod\",\n    \"name\": \"schema:name\",\n    \"paymentMethodData\": {\n      \"@id\": \"adyen:paymentMethodData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"adyen:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"disabled\": {\n      \"@id\": \"adyen:disabled\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"id\": {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"brand\": {\n      \"@id\": \"adyen:brand\",\n      \"@type\": \"xsd:string\"\n    },\n    \"brands\": {\n      \"@id\": \"adyen:brands\",\n      \"\
+  @container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"configuration\": {\n      \"@id\": \"adyen:configuration\",\n      \"@type\": \"@id\"\n    },\n    \"fundingSource\": {\n      \"@id\": \"adyen:fundingSource\",\n      \"@type\": \"xsd:string\"\n    },\n    \"group\": {\n      \"@id\": \"adyen:group\",\n      \"@type\": \"xsd:string\"\n    },\n    \"inputDetails\": {\n      \"@id\": \"adyen:inputDetails\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"issuers\": {\n      \"@id\": \"adyen:issuers\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-checkout-payment-method-context.jsonld
 tags:
 - Payments
 - Financial Services

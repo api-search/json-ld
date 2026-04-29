@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Google Workspace
 provider_slug: google-workspace
 slug: admin-sdk-directory-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/json-ld/admin-sdk-directory-context.jsonld
 tags:
 - Calendar
 - Collaboration

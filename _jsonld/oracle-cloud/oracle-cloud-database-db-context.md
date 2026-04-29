@@ -55,6 +55,9 @@ property_count: 11
 provider_name: Oracle Cloud Infrastructure
 provider_slug: oracle-cloud
 slug: oracle-cloud-database-db-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"oci\": \"https://docs.oracle.com/en-us/iaas/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"DbSystem\": \"oci:DbSystem\",\n    \"DbSystemSummary\": \"oci:DbSystemSummary\",\n    \"availabilityDomain\": {\n      \"@id\": \"oci:availabilityDomain\",\n      \"@type\": \"xsd:string\"\n    },\n    \"compartmentId\": {\n      \"@id\": \"oci:compartmentId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"cpuCoreCount\": {\n      \"@id\": \"oci:cpuCoreCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"dataStorageSizeInGBs\": {\n      \"@id\": \"oci:dataStorageSizeInGBs\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"databaseEdition\": {\n      \"@id\": \"oci:databaseEdition\",\n      \"@type\": \"xsd:string\"\n    },\n    \"displayName\": {\n      \"@id\": \"oci:displayName\",\n      \"@type\": \"xsd:string\"\
+  \n    },\n    \"id\": {\n      \"@id\": \"oci:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"lifecycleState\": {\n      \"@id\": \"oci:lifecycleState\",\n      \"@type\": \"xsd:string\"\n    },\n    \"nodeCount\": {\n      \"@id\": \"oci:nodeCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"shape\": {\n      \"@id\": \"oci:shape\",\n      \"@type\": \"xsd:string\"\n    },\n    \"timeCreated\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-database-db-context.jsonld
 tags:
 - Cloud Computing
 - Enterprise Cloud

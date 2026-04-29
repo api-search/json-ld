@@ -46,6 +46,9 @@ property_count: 7
 provider_name: Apache Kafka
 provider_slug: apache-kafka
 slug: apache-kafka-kafka-connect-connector-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"kafka\": \"https://apache-kafka.apache.org/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ConnectorStatus\": \"kafka:ConnectorStatus\",\n    \"ConnectorPlugin\": \"kafka:ConnectorPlugin\",\n    \"ConnectorInfo\": \"kafka:ConnectorInfo\",\n    \"name\": \"schema:name\",\n    \"connector\": {\n      \"@id\": \"kafka:connector\",\n      \"@type\": \"@id\"\n    },\n    \"state\": {\n      \"@id\": \"kafka:state\",\n      \"@type\": \"xsd:string\"\n    },\n    \"workerId\": {\n      \"@id\": \"kafka:worker_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tasks\": {\n      \"@id\": \"kafka:tasks\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"kafka:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"class\": {\n      \"@id\": \"kafka:class\",\n\
+  \      \"@type\": \"xsd:string\"\n    },\n    \"version\": \"schema:version\",\n    \"config\": {\n      \"@id\": \"kafka:config\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-connector-context.jsonld
 tags:
 - Distributed Systems
 - Event Streaming

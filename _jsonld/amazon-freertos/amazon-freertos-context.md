@@ -56,6 +56,9 @@ property_count: 11
 provider_name: Amazon FreeRTOS
 provider_slug: amazon-freertos
 slug: amazon-freertos-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"freertos\": \"https://aws.amazon.com/freertos/vocabulary/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"SoftwareConfiguration\": \"freertos:SoftwareConfiguration\",\n    \"OtaUpdate\": \"freertos:OtaUpdate\",\n    \"Device\": \"schema:Thing\",\n    \"OtaFile\": \"freertos:OtaFile\",\n    \"Tag\": \"schema:PropertyValue\",\n    \"softwareConfigurationId\": {\n      \"@id\": \"schema:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"description\": {\n      \"@id\": \"schema:description\",\n      \"@type\": \"xsd:string\"\n    },\n    \"hardwarePlatform\": {\n      \"@id\": \"freertos:hardwarePlatform\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"freertos:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"otaUpdateId\": {\n \
+  \     \"@id\": \"schema:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"targets\": {\n      \"@id\": \"freertos:targets\"\n    },\n    \"otaUpdateStatus\": {\n      \"@id\": \"freertos:otaUpdateStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"thingName\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"creationDate\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"lastModifiedDate\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/json-ld/amazon-freertos-context.jsonld
 tags:
 - AWS
 - Embedded Systems

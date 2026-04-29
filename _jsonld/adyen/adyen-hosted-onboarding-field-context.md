@@ -30,6 +30,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-hosted-onboarding-field-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"FieldType\": \"adyen:FieldType\",\n    \"field\": {\n      \"@id\": \"adyen:field\",\n      \"@type\": \"xsd:string\"\n    },\n    \"fieldName\": {\n      \"@id\": \"adyen:fieldName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"shareholderCode\": {\n      \"@id\": \"adyen:shareholderCode\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-hosted-onboarding-field-context.jsonld
 tags:
 - Payments
 - Financial Services

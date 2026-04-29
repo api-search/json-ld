@@ -22,6 +22,8 @@ property_count: 2
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-flight-inspiration-search-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"self\": {\n      \"@id\": \"schema:self\",\n      \"@type\": \"@id\"\n    },\n    \"total\": {\n      \"@id\": \"schema:total\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-flight-inspiration-search-context.jsonld
 tags:
 - Airlines
 - Aviation

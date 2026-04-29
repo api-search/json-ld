@@ -39,6 +39,9 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-transfers-platform-payment-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PlatformPayment\": \"adyen:PlatformPayment\",\n    \"modificationMerchantReference\": {\n      \"@id\": \"adyen:modificationMerchantReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"modificationPspReference\": {\n      \"@id\": \"adyen:modificationPspReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"paymentMerchantReference\": {\n      \"@id\": \"adyen:paymentMerchantReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"platformPaymentType\": {\n      \"@id\": \"adyen:platformPaymentType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"pspPaymentReference\": {\n      \"@id\": \"adyen:pspPaymentReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"adyen:type\",\n   \
+  \   \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-transfers-platform-payment-context.jsonld
 tags:
 - Payments
 - Financial Services

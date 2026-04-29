@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 slug: amadeus-hotel-booking-create-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CreateHotelBooking\": \"amadeus:CreateHotelBooking\",\n    \"arrivalInformation\": {\n      \"@id\": \"amadeus:arrivalInformation\",\n      \"@type\": \"@id\"\n    },\n    \"payment\": {\n      \"@id\": \"amadeus:payment\",\n      \"@type\": \"xsd:string\"\n    },\n    \"roomAssociations\": {\n      \"@id\": \"amadeus:roomAssociations\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"travelAgent\": {\n      \"@id\": \"amadeus:travelAgent\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-ld/amadeus-hotel-booking-create-context.jsonld
 tags:
 - Booking
 - Flights

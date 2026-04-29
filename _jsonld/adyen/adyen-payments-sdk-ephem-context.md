@@ -33,6 +33,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-payments-sdk-ephem-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"SDKEphemPubKey\": \"adyen:SDKEphemPubKey\",\n    \"crv\": {\n      \"@id\": \"adyen:crv\",\n      \"@type\": \"xsd:string\"\n    },\n    \"kty\": {\n      \"@id\": \"adyen:kty\",\n      \"@type\": \"xsd:string\"\n    },\n    \"x\": {\n      \"@id\": \"adyen:x\",\n      \"@type\": \"xsd:string\"\n    },\n    \"y\": {\n      \"@id\": \"adyen:y\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-payments-sdk-ephem-context.jsonld
 tags:
 - Payments
 - Financial Services

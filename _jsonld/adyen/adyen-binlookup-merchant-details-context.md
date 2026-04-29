@@ -30,6 +30,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-binlookup-merchant-details-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"MerchantDetails\": \"adyen:MerchantDetails\",\n    \"countryCode\": {\n      \"@id\": \"adyen:countryCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"enrolledIn3DSecure\": {\n      \"@id\": \"adyen:enrolledIn3DSecure\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"mcc\": {\n      \"@id\": \"adyen:mcc\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-binlookup-merchant-details-context.jsonld
 tags:
 - Payments
 - Financial Services

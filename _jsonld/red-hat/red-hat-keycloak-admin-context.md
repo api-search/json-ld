@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Red Hat
 provider_slug: red-hat
 slug: red-hat-keycloak-admin-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-keycloak-admin-context.jsonld
 tags:
 - Cloud
 - Containers

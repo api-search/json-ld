@@ -35,6 +35,8 @@ property_count: 1
 provider_name: APILayer
 provider_slug: apilayer
 slug: apilayer-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"apilayer\": \"https://apilayer.com/vocab/\",\n    \"id\": \"@id\",\n    \"type\": \"@type\",\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"category\": \"apilayer:category\",\n    \"baseURL\": \"schema:url\",\n    \"documentationURL\": {\n      \"@id\": \"schema:documentation\",\n      \"@type\": \"@id\"\n    },\n    \"authentication\": \"apilayer:authentication\",\n    \"plans\": \"apilayer:plans\",\n    \"tags\": \"schema:keywords\",\n    \"monthlyRequests\": \"apilayer:monthlyRequests\",\n    \"pricePerMonth\": \"schema:price\",\n    \"headerName\": \"apilayer:headerName\"\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apilayer/refs/heads/main/json-ld/apilayer-context.jsonld
 tags:
 - API Catalog
 - API Discovery

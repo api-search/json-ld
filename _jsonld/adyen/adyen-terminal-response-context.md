@@ -30,6 +30,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-response-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Response\": \"adyen:Response\",\n    \"Result\": {\n      \"@id\": \"adyen:Result\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ErrorCondition\": {\n      \"@id\": \"adyen:ErrorCondition\",\n      \"@type\": \"xsd:string\"\n    },\n    \"AdditionalResponse\": {\n      \"@id\": \"adyen:AdditionalResponse\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-response-context.jsonld
 tags:
 - Payments
 - Financial Services

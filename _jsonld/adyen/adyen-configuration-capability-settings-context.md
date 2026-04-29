@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-configuration-capability-settings-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CapabilitySettings\": \"adyen:CapabilitySettings\",\n    \"amountPerIndustry\": {\n      \"@id\": \"adyen:amountPerIndustry\",\n      \"@type\": \"@id\"\n    },\n    \"authorizedCardUsers\": {\n      \"@id\": \"adyen:authorizedCardUsers\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"fundingSource\": {\n      \"@id\": \"adyen:fundingSource\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"interval\": {\n      \"@id\": \"adyen:interval\",\n      \"@type\": \"xsd:string\"\n    },\n    \"maxAmount\": {\n      \"@id\": \"adyen:maxAmount\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-configuration-capability-settings-context.jsonld
 tags:
 - Payments
 - Financial Services

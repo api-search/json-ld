@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-webhook-links-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"WebhookLinks\": \"adyen:WebhookLinks\",\n    \"company\": {\n      \"@id\": \"adyen:company\",\n      \"@type\": \"xsd:string\"\n    },\n    \"generateHmac\": {\n      \"@id\": \"adyen:generateHmac\",\n      \"@type\": \"xsd:string\"\n    },\n    \"merchant\": {\n      \"@id\": \"adyen:merchant\",\n      \"@type\": \"xsd:string\"\n    },\n    \"self\": {\n      \"@id\": \"adyen:self\",\n      \"@type\": \"xsd:string\"\n    },\n    \"testWebhook\": {\n      \"@id\": \"adyen:testWebhook\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-webhook-links-context.jsonld
 tags:
 - Payments
 - Financial Services

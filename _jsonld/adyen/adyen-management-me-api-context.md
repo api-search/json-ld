@@ -52,6 +52,9 @@ property_count: 10
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-me-api-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"MeApiCredential\": \"adyen:MeApiCredential\",\n    \"Links\": {\n      \"@id\": \"adyen:_links\",\n      \"@type\": \"xsd:string\"\n    },\n    \"active\": {\n      \"@id\": \"adyen:active\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"allowedIpAddresses\": {\n      \"@id\": \"adyen:allowedIpAddresses\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"allowedOrigins\": {\n      \"@id\": \"adyen:allowedOrigins\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"associatedMerchantAccounts\": {\n      \"@id\": \"adyen:associatedMerchantAccounts\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"clientKey\": {\n      \"@id\": \"adyen:clientKey\"\
+  ,\n      \"@type\": \"xsd:string\"\n    },\n    \"companyName\": {\n      \"@id\": \"adyen:companyName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"description\": \"schema:description\",\n    \"id\": {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"roles\": {\n      \"@id\": \"adyen:roles\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"username\": {\n      \"@id\": \"adyen:username\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-me-api-context.jsonld
 tags:
 - Payments
 - Financial Services

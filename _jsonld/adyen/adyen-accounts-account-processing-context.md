@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-accounts-account-processing-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AccountProcessingState\": \"adyen:AccountProcessingState\",\n    \"disableReason\": {\n      \"@id\": \"adyen:disableReason\",\n      \"@type\": \"xsd:string\"\n    },\n    \"disabled\": {\n      \"@id\": \"adyen:disabled\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"processedFrom\": {\n      \"@id\": \"adyen:processedFrom\",\n      \"@type\": \"xsd:string\"\n    },\n    \"processedTo\": {\n      \"@id\": \"adyen:processedTo\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tierNumber\": {\n      \"@id\": \"adyen:tierNumber\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-accounts-account-processing-context.jsonld
 tags:
 - Payments
 - Financial Services

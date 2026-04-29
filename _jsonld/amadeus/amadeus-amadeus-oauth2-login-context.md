@@ -55,6 +55,9 @@ property_count: 13
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-amadeus-oauth2-login-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"type\": {\n      \"@id\": \"schema:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"username\": {\n      \"@id\": \"schema:username\",\n      \"@type\": \"xsd:string\"\n    },\n    \"application_name\": {\n      \"@id\": \"schema:application_name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"client_id\": {\n      \"@id\": \"schema:client_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"token_type\": {\n      \"@id\": \"schema:token_type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"access_token\": {\n      \"@id\": \"schema:access_token\",\n      \"@type\": \"xsd:string\"\n    },\n    \"expires_in\": {\n      \"@id\": \"schema:expires_in\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"state\": {\n      \"@id\": \"schema:state\",\n      \"@type\": \"xsd:string\"\n    },\n    \"scope\": {\n      \"@id\": \"\
+  schema:scope\",\n      \"@type\": \"xsd:string\"\n    },\n    \"error\": {\n      \"@id\": \"schema:error\",\n      \"@type\": \"xsd:string\"\n    },\n    \"error_description\": {\n      \"@id\": \"schema:error_description\",\n      \"@type\": \"xsd:string\"\n    },\n    \"code\": {\n      \"@id\": \"schema:code\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"title\": {\n      \"@id\": \"schema:title\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-amadeus-oauth2-login-context.jsonld
 tags:
 - Airlines
 - Aviation

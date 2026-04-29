@@ -18,6 +18,8 @@ property_count: 0
 provider_name: Amazon Augmented AI
 provider_slug: amazon-augmented-ai
 slug: amazon-augmented-ai-context
+source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"a2i\": \"https://aws.amazon.com/augmented-ai/\",\n    \"HumanLoop\": \"a2i:HumanLoop\",\n    \"HumanLoopName\": \"a2i:humanLoopName\",\n    \"FlowDefinition\": \"a2i:FlowDefinition\",\n    \"HumanTaskUI\": \"a2i:HumanTaskUI\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/json-ld/amazon-augmented-ai-context.jsonld
 tags:
 - Amazon Augmented AI
 - Human In The Loop

@@ -43,6 +43,9 @@ property_count: 7
 provider_name: Akka
 provider_slug: akka
 slug: akka-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"akka\": \"https://akka.io/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n\n    \"ClusterMembers\": \"akka:ClusterMembers\",\n    \"ClusterMember\": \"akka:ClusterMember\",\n\n    \"members\": {\n      \"@id\": \"akka:members\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    },\n    \"selfAddress\": {\n      \"@id\": \"akka:selfAddress\",\n      \"@type\": \"xsd:string\"\n    },\n    \"unreachable\": {\n      \"@id\": \"akka:unreachable\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"address\": {\n      \"@id\": \"akka:address\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"akka:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"roles\": {\n      \"@id\": \"akka:roles\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\
+  \n    },\n    \"uid\": {\n      \"@id\": \"dcterms:identifier\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/json-ld/akka-context.jsonld
 tags:
 - Actor Model
 - Distributed Systems

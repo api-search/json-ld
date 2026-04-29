@@ -53,6 +53,9 @@ property_count: 10
 provider_name: Azure Log Analytics
 provider_slug: azure-log-analytics
 slug: azure-log-analytics-ingestion-api-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"azure\": \"https://learn.microsoft.com/en-us/azure/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n\n    \"LogEntry\": \"azure:LogEntry\",\n    \"DataCollectionRule\": \"azure:DataCollectionRule\",\n    \"StreamDeclaration\": \"azure:StreamDeclaration\",\n\n    \"TimeGenerated\": {\n      \"@id\": \"azure:time_generated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"Computer\": {\n      \"@id\": \"azure:computer\",\n      \"@type\": \"xsd:string\"\n    },\n    \"AdditionalContext\": {\n      \"@id\": \"azure:additional_context\",\n      \"@type\": \"xsd:string\"\n    },\n    \"location\": {\n      \"@id\": \"azure:location\",\n      \"@type\": \"xsd:string\"\n    },\n    \"kind\": {\n      \"@id\": \"azure:kind\",\n      \"@type\": \"xsd:string\"\n    },\n    \"workspaceResourceId\": {\n      \"@id\": \"azure:workspace_resource_id\"\
+  ,\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"azure:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"transformKql\": {\n      \"@id\": \"azure:transform_kql\",\n      \"@type\": \"xsd:string\"\n    },\n    \"outputStream\": {\n      \"@id\": \"azure:output_stream\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/json-ld/azure-log-analytics-ingestion-api-context.jsonld
 tags:
 - Analytics
 - Azure

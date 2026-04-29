@@ -51,6 +51,9 @@ property_count: 9
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-legal-entity-verification-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"VerificationDeadline\": \"adyen:VerificationDeadline\",\n    \"VerificationError-recursive\": \"adyen:VerificationError-recursive\",\n    \"VerificationError\": \"adyen:VerificationError\",\n    \"VerificationErrors\": \"adyen:VerificationErrors\",\n    \"capabilities\": {\n      \"@id\": \"adyen:capabilities\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"entityIds\": {\n      \"@id\": \"adyen:entityIds\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"expiresAt\": {\n      \"@id\": \"adyen:expiresAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"code\": {\n      \"@id\": \"adyen:code\",\n      \"@type\": \"xsd:string\"\n    },\n    \"message\": {\n     \
+  \ \"@id\": \"adyen:message\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"adyen:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"remediatingActions\": {\n      \"@id\": \"adyen:remediatingActions\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"subErrors\": {\n      \"@id\": \"adyen:subErrors\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"problems\": {\n      \"@id\": \"adyen:problems\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-legal-entity-verification-context.jsonld
 tags:
 - Payments
 - Financial Services

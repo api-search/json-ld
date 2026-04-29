@@ -22,6 +22,8 @@ property_count: 0
 provider_name: Architecture Pattern
 provider_slug: architecture-pattern
 slug: architecture-pattern-api-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"ap\": \"https://apievangelist.com/vocab/architecture-pattern#\",\n    \"schema\": \"https://schema.org/\",\n    \"Pattern\": \"ap:Pattern\",\n    \"PatternList\": \"ap:PatternList\",\n    \"Domain\": \"ap:Domain\",\n    \"DomainList\": \"ap:DomainList\",\n    \"Tradeoff\": \"ap:Tradeoff\",\n    \"TradeoffList\": \"ap:TradeoffList\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/json-ld/architecture-pattern-api-context.jsonld
 tags:
 - Architecture Patterns
 - Software Architecture

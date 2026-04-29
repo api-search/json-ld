@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Oracle Cloud Infrastructure
 provider_slug: oracle-cloud
 slug: oracle-cloud-database-update-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"oci\": \"https://docs.oracle.com/en-us/iaas/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"UpdateAutonomousDatabaseDetails\": \"oci:UpdateAutonomousDatabaseDetails\",\n    \"adminPassword\": {\n      \"@id\": \"oci:adminPassword\",\n      \"@type\": \"xsd:string\"\n    },\n    \"cpuCoreCount\": {\n      \"@id\": \"oci:cpuCoreCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"dataStorageSizeInTBs\": {\n      \"@id\": \"oci:dataStorageSizeInTBs\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"displayName\": {\n      \"@id\": \"oci:displayName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"isAutoScalingEnabled\": {\n      \"@id\": \"oci:isAutoScalingEnabled\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-database-update-context.jsonld
 tags:
 - Cloud Computing
 - Enterprise Cloud

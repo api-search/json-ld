@@ -45,6 +45,9 @@ property_count: 8
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-external-terminal-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ExternalTerminalAction\": \"adyen:ExternalTerminalAction\",\n    \"actionType\": {\n      \"@id\": \"adyen:actionType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"config\": {\n      \"@id\": \"adyen:config\",\n      \"@type\": \"xsd:string\"\n    },\n    \"confirmedAt\": {\n      \"@id\": \"adyen:confirmedAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"id\": {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"result\": {\n      \"@id\": \"adyen:result\",\n      \"@type\": \"xsd:string\"\n    },\n    \"scheduledAt\": {\n      \"@id\": \"adyen:scheduledAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"status\": {\n      \"@id\": \"adyen:status\",\n      \"@type\": \"xsd:string\"\n    },\n\
+  \    \"terminalId\": {\n      \"@id\": \"adyen:terminalId\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-external-terminal-context.jsonld
 tags:
 - Payments
 - Financial Services

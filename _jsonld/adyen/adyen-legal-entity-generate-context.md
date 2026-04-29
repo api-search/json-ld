@@ -34,6 +34,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-legal-entity-generate-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"GeneratePciDescriptionRequest\": \"adyen:GeneratePciDescriptionRequest\",\n    \"GeneratePciDescriptionResponse\": \"adyen:GeneratePciDescriptionResponse\",\n    \"additionalSalesChannels\": {\n      \"@id\": \"adyen:additionalSalesChannels\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"language\": {\n      \"@id\": \"adyen:language\",\n      \"@type\": \"xsd:string\"\n    },\n    \"content\": {\n      \"@id\": \"adyen:content\",\n      \"@type\": \"xsd:string\"\n    },\n    \"pciTemplateReferences\": {\n      \"@id\": \"adyen:pciTemplateReferences\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-legal-entity-generate-context.jsonld
 tags:
 - Payments
 - Financial Services

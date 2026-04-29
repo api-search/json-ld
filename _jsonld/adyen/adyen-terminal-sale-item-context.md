@@ -58,6 +58,9 @@ property_count: 12
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-sale-item-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"SaleItemRebate\": \"adyen:SaleItemRebate\",\n    \"SaleItem\": \"adyen:SaleItem\",\n    \"ItemID\": {\n      \"@id\": \"adyen:ItemID\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"ProductCode\": {\n      \"@id\": \"adyen:ProductCode\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"EanUpc\": {\n      \"@id\": \"adyen:EanUpc\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"UnitOfMeasure\": {\n      \"@id\": \"adyen:UnitOfMeasure\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Quantity\": {\n      \"@id\": \"adyen:Quantity\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ItemAmount\": {\n      \"@id\": \"adyen:ItemAmount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"RebateLabel\": {\n      \"@id\": \"adyen:RebateLabel\"\
+  ,\n      \"@type\": \"xsd:string\"\n    },\n    \"UnitPrice\": {\n      \"@id\": \"adyen:UnitPrice\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"TaxCode\": {\n      \"@id\": \"adyen:TaxCode\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"SaleChannel\": {\n      \"@id\": \"adyen:SaleChannel\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"ProductLabel\": {\n      \"@id\": \"adyen:ProductLabel\",\n      \"@type\": \"xsd:string\"\n    },\n    \"AdditionalProductInfo\": {\n      \"@id\": \"adyen:AdditionalProductInfo\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-sale-item-context.jsonld
 tags:
 - Payments
 - Financial Services

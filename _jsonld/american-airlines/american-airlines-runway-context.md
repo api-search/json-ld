@@ -59,6 +59,9 @@ property_count: 12
 provider_name: American Airlines
 provider_slug: american-airlines
 slug: american-airlines-runway-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aa\": \"https://aa.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"FlightStatus\": \"aa:FlightStatus\",\n    \"flightId\": {\n      \"@id\": \"aa:flightId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"aa:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"gate\": {\n      \"@id\": \"aa:gate\",\n      \"@type\": \"xsd:string\"\n    },\n    \"delay\": {\n      \"@id\": \"aa:delay\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"Flight\": \"aa:Flight\",\n    \"id\": {\n      \"@id\": \"aa:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"flightNumber\": {\n      \"@id\": \"aa:flightNumber\",\n      \"@type\": \"xsd:string\"\n    },\n    \"origin\": {\n      \"@id\": \"aa:origin\",\n      \"@type\": \"xsd:string\"\n    },\n    \"destination\": {\n      \"@id\": \"aa:destination\",\n      \"@type\": \"xsd:string\"\
+  \n    },\n    \"departureTime\": {\n      \"@id\": \"aa:departureTime\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"arrivalTime\": {\n      \"@id\": \"aa:arrivalTime\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"FlightList\": \"aa:FlightList\",\n    \"flights\": {\n      \"@id\": \"aa:flights\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"BookingRequest\": \"aa:BookingRequest\",\n    \"passengers\": {\n      \"@id\": \"aa:passengers\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Booking\": \"aa:Booking\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/american-airlines/refs/heads/main/json-ld/american-airlines-runway-context.jsonld
 tags:
 - Airlines
 - Aviation

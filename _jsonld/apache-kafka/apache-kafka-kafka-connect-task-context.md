@@ -43,6 +43,8 @@ property_count: 7
 provider_name: Apache Kafka
 provider_slug: apache-kafka
 slug: apache-kafka-kafka-connect-task-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"kafka\": \"https://apache-kafka.apache.org/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"TaskInfo\": \"kafka:TaskInfo\",\n    \"TaskStatus\": \"kafka:TaskStatus\",\n    \"id\": {\n      \"@id\": \"kafka:id\",\n      \"@type\": \"@id\"\n    },\n    \"connector\": {\n      \"@id\": \"kafka:connector\",\n      \"@type\": \"xsd:string\"\n    },\n    \"task\": {\n      \"@id\": \"kafka:task\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"config\": {\n      \"@id\": \"kafka:config\",\n      \"@type\": \"@id\"\n    },\n    \"state\": {\n      \"@id\": \"kafka:state\",\n      \"@type\": \"xsd:string\"\n    },\n    \"workerId\": {\n      \"@id\": \"kafka:worker_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"trace\": {\n      \"@id\": \"kafka:trace\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-task-context.jsonld
 tags:
 - Distributed Systems
 - Event Streaming

@@ -65,6 +65,9 @@ property_count: 14
 provider_name: Ant Media
 provider_slug: ant-media
 slug: ant-media-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"antmedia\": \"https://api-evangelist.github.io/ant-media/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Broadcast\": \"antmedia:Broadcast\",\n    \"streamId\": {\"@id\": \"dcterms:identifier\", \"@type\": \"xsd:string\"},\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"status\": {\"@id\": \"antmedia:status\", \"@type\": \"xsd:string\"},\n    \"type\": {\"@id\": \"antmedia:type\", \"@type\": \"xsd:string\"},\n    \"publishType\": {\"@id\": \"antmedia:publish_type\", \"@type\": \"xsd:string\"},\n    \"streamUrl\": {\"@id\": \"schema:url\", \"@type\": \"@id\"},\n    \"hlsViewerCount\": {\"@id\": \"antmedia:hls_viewer_count\", \"@type\": \"xsd:integer\"},\n    \"webRTCViewerCount\": {\"@id\": \"antmedia:webrtc_viewer_count\", \"@type\": \"xsd:integer\"},\n    \"rtmpViewerCount\"\
+  : {\"@id\": \"antmedia:rtmp_viewer_count\", \"@type\": \"xsd:integer\"},\n    \"mp4Enabled\": {\"@id\": \"antmedia:mp4_enabled\", \"@type\": \"xsd:integer\"},\n    \"duration\": {\"@id\": \"antmedia:duration\", \"@type\": \"xsd:integer\"},\n    \"startTime\": {\"@id\": \"schema:dateCreated\", \"@type\": \"xsd:integer\"},\n    \"is360\": {\"@id\": \"antmedia:is360\", \"@type\": \"xsd:boolean\"},\n    \"latitude\": {\"@id\": \"schema:latitude\", \"@type\": \"xsd:string\"},\n    \"longitude\": {\"@id\": \"schema:longitude\", \"@type\": \"xsd:string\"}\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/json-ld/ant-media-context.jsonld
 tags:
 - Broadcasting
 - Live Streaming

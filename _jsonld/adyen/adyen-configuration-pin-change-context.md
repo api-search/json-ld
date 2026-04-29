@@ -37,6 +37,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-configuration-pin-change-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PinChangeRequest\": \"adyen:PinChangeRequest\",\n    \"PinChangeResponse\": \"adyen:PinChangeResponse\",\n    \"encryptedKey\": {\n      \"@id\": \"adyen:encryptedKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"encryptedPinBlock\": {\n      \"@id\": \"adyen:encryptedPinBlock\",\n      \"@type\": \"xsd:string\"\n    },\n    \"paymentInstrumentId\": {\n      \"@id\": \"adyen:paymentInstrumentId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"token\": {\n      \"@id\": \"adyen:token\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"adyen:status\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-configuration-pin-change-context.jsonld
 tags:
 - Payments
 - Financial Services

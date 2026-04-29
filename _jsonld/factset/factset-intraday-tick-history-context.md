@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Factset
 provider_slug: factset
 slug: factset-intraday-tick-history-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-ld/factset-intraday-tick-history-context.jsonld
 tags:
 - Financial
 - Financial Data

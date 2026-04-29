@@ -51,6 +51,9 @@ property_count: 0
 provider_name: Advanced Excel
 provider_slug: advanced-excel
 slug: microsoft-graph-excel-api-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"excel\": \"https://graph.microsoft.com/v1.0/vocab/excel#\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Worksheet\": \"excel:Worksheet\",\n    \"id\": \"@id\",\n    \"name\": \"schema:name\",\n    \"position\": \"excel:position\",\n    \"visibility\": \"excel:visibility\",\n    \"WorksheetInput\": \"excel:WorksheetInput\",\n    \"WorksheetList\": \"excel:WorksheetList\",\n    \"value\": \"excel:items\",\n    \"Range\": \"excel:Range\",\n    \"address\": \"excel:address\",\n    \"values\": \"excel:values\",\n    \"formulas\": \"excel:formulas\",\n    \"RangeInput\": \"excel:RangeInput\",\n    \"Table\": \"excel:Table\",\n    \"showHeaders\": \"excel:showHeaders\",\n    \"showTotals\": \"excel:showTotals\",\n    \"TableList\": \"excel:TableList\",\n    \"Chart\": \"excel:Chart\",\n    \"chartType\": \"excel:chartType\",\n    \"height\": \"excel:height\",\n    \"width\"\
+  : \"excel:width\",\n    \"ChartInput\": \"excel:ChartInput\",\n    \"type\": \"@type\",\n    \"sourceData\": \"excel:sourceData\",\n    \"seriesBy\": \"excel:seriesBy\",\n    \"ChartList\": \"excel:ChartList\",\n    \"Session\": \"excel:Session\",\n    \"persistChanges\": \"excel:persistChanges\",\n    \"SessionInput\": \"excel:SessionInput\",\n    \"ErrorResponse\": \"excel:ErrorResponse\",\n    \"error\": \"excel:error\",\n    \"code\": \"excel:errorCode\",\n    \"message\": \"schema:description\"\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/advanced-excel/refs/heads/main/json-ld/microsoft-graph-excel-api-context.jsonld
 tags:
 - Automation
 - Business Intelligence

@@ -54,6 +54,9 @@ property_count: 11
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-binlookup-card-bin-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CardBin\": \"adyen:CardBin\",\n    \"bin\": {\n      \"@id\": \"adyen:bin\",\n      \"@type\": \"xsd:string\"\n    },\n    \"commercial\": {\n      \"@id\": \"adyen:commercial\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"fundingSource\": {\n      \"@id\": \"adyen:fundingSource\",\n      \"@type\": \"xsd:string\"\n    },\n    \"fundsAvailability\": {\n      \"@id\": \"adyen:fundsAvailability\",\n      \"@type\": \"xsd:string\"\n    },\n    \"issuerBin\": {\n      \"@id\": \"adyen:issuerBin\",\n      \"@type\": \"xsd:string\"\n    },\n    \"issuingBank\": {\n      \"@id\": \"adyen:issuingBank\",\n      \"@type\": \"xsd:string\"\n    },\n    \"issuingCountry\": {\n      \"@id\": \"adyen:issuingCountry\",\n      \"@type\": \"xsd:string\"\
+  \n    },\n    \"issuingCurrency\": {\n      \"@id\": \"adyen:issuingCurrency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"paymentMethod\": {\n      \"@id\": \"adyen:paymentMethod\",\n      \"@type\": \"xsd:string\"\n    },\n    \"payoutEligible\": {\n      \"@id\": \"adyen:payoutEligible\",\n      \"@type\": \"xsd:string\"\n    },\n    \"summary\": {\n      \"@id\": \"adyen:summary\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-binlookup-card-bin-context.jsonld
 tags:
 - Payments
 - Financial Services

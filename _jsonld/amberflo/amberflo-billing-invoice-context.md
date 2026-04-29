@@ -42,6 +42,9 @@ property_count: 7
 provider_name: Amberflo
 provider_slug: amberflo
 slug: amberflo-billing-invoice-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amberflo\": \"https://amberflo.io/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Invoice\": \"amberflo:Invoice\",\n    \"invoiceId\": {\n      \"@id\": \"amberflo:invoiceId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"customerId\": {\n      \"@id\": \"amberflo:customerId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"startTime\": {\n      \"@id\": \"amberflo:startTime\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"endTime\": {\n      \"@id\": \"amberflo:endTime\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"totalAmount\": {\n      \"@id\": \"amberflo:totalAmount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"currency\": {\n      \"@id\": \"amberflo:currency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"amberflo:status\",\n      \"@type\": \"xsd:string\"\
+  \n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/json-ld/amberflo-billing-invoice-context.jsonld
 tags:
 - Usage-Based Billing
 - Metering

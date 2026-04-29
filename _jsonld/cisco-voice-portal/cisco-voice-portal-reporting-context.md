@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Cisco Voice Portal
 provider_slug: cisco-voice-portal
 slug: cisco-voice-portal-reporting-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-ld/cisco-voice-portal-reporting-context.jsonld
 tags:
 - Contact Center
 - IVR

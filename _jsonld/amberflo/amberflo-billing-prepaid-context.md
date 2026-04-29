@@ -38,6 +38,8 @@ property_count: 5
 provider_name: Amberflo
 provider_slug: amberflo
 slug: amberflo-billing-prepaid-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amberflo\": \"https://amberflo.io/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PrepaidOrderRequest\": \"amberflo:PrepaidOrderRequest\",\n    \"customerId\": {\n      \"@id\": \"amberflo:customerId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"amount\": {\n      \"@id\": \"amberflo:amount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"currency\": {\n      \"@id\": \"amberflo:currency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"expirationTime\": {\n      \"@id\": \"amberflo:expirationTime\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"PrepaidOrder\": \"amberflo:PrepaidOrder\",\n    \"orderId\": {\n      \"@id\": \"amberflo:orderId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createTime\": \"schema:dateCreated\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/json-ld/amberflo-billing-prepaid-context.jsonld
 tags:
 - Usage-Based Billing
 - Metering

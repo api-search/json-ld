@@ -43,6 +43,9 @@ property_count: 8
 provider_name: Dynatrace
 provider_slug: dynatrace
 slug: dynatrace-problems-webhook-notification-config-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"dt\": \"https://dt.dynatrace.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"WebhookNotificationConfig\": \"dt:WebhookNotificationConfig\",\n    \"type\": {\n      \"@id\": \"dt:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"active\": {\n      \"@id\": \"dt:active\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"url\": {\n      \"@id\": \"schema:url\",\n      \"@type\": \"xsd:string\"\n    },\n    \"alertingProfile\": {\n      \"@id\": \"dt:alertingProfile\",\n      \"@type\": \"xsd:string\"\n    },\n    \"headers\": {\n      \"@id\": \"dt:headers\",\n      \"@container\": \"@set\"\n    },\n    \"acceptAnyCertificate\": {\n      \"@id\": \"dt:acceptAnyCertificate\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"payload\": {\n      \"@id\": \"dt:payload\"\
+  ,\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-webhook-notification-config-context.jsonld
 tags:
 - AI Operations
 - Analytics

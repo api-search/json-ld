@@ -31,6 +31,8 @@ property_count: 0
 provider_name: Apache HttpComponents
 provider_slug: apache-http
 slug: apache-http-client-context
+source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"httpclient\": \"https://hc.apache.org/vocab#\",\n    \"method\": \"httpclient:method\",\n    \"uri\": \"schema:url\",\n    \"headers\": \"httpclient:headers\",\n    \"body\": \"httpclient:body\",\n    \"contentType\": \"schema:encodingFormat\",\n    \"statusCode\": \"httpclient:statusCode\",\n    \"reasonPhrase\": \"httpclient:reasonPhrase\",\n    \"connectTimeout\": \"httpclient:connectTimeout\",\n    \"socketTimeout\": \"httpclient:socketTimeout\",\n    \"maxConnections\": \"httpclient:maxConnections\",\n    \"maxConnectionsPerRoute\": \"httpclient:maxConnectionsPerRoute\",\n    \"keepAliveTimeout\": \"httpclient:keepAliveTimeout\",\n    \"host\": \"schema:hostName\",\n    \"port\": \"schema:portNumber\",\n    \"scheme\": \"httpclient:scheme\",\n    \"username\": \"schema:accountId\",\n    \"password\": \"httpclient:password\"\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-http/refs/heads/main/json-ld/apache-http-client-context.jsonld
 tags:
 - Apache
 - HTTP Client

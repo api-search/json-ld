@@ -48,6 +48,9 @@ property_count: 8
 provider_name: New Relic
 provider_slug: new-relic
 slug: new-relic-log-api-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"nr\": \"https://docs.newrelic.com/docs/schemas/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"LogDataObject\": \"nr:LogDataObject\",\n    \"common\": {\n      \"@id\": \"nr:common\",\n      \"@type\": \"xsd:string\"\n    },\n    \"logs\": {\n      \"@id\": \"nr:logs\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CommonBlock\": \"nr:CommonBlock\",\n    \"timestamp\": {\n      \"@id\": \"nr:timestamp\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"attributes\": {\n      \"@id\": \"nr:attributes\",\n      \"@type\": \"@id\"\n    },\n    \"LogRecord\": \"nr:LogRecord\",\n    \"message\": {\n      \"@id\": \"nr:message\",\n      \"@type\": \"xsd:string\"\n    },\n    \"level\": {\n      \"@id\": \"nr:level\",\n      \"@type\": \"xsd:string\"\n    },\n    \"logtype\": {\n      \"@id\"\
+  : \"nr:logtype\",\n      \"@type\": \"xsd:string\"\n    },\n    \"AcceptedResponse\": \"nr:AcceptedResponse\",\n    \"requestId\": {\n      \"@id\": \"nr:requestId\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-log-api-context.jsonld
 tags:
 - Analysis
 - Analytics

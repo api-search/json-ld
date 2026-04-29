@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Amazon VPN
 provider_slug: amazon-vpn
 slug: amazon-vpn-context
+source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"amazon_vpn\": \"https://aws.amazon.com/amazon-vpn/vocab#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/json-ld/amazon-vpn-context.jsonld
 tags:
 - AWS
 - Networking

@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Temenos Transact
 provider_slug: temenos-transact
 slug: temenos-transact-core-banking-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/json-ld/temenos-transact-core-banking-context.jsonld
 tags:
 - Banking
 - Core Banking

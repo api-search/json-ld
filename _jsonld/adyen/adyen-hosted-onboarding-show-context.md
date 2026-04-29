@@ -48,6 +48,9 @@ property_count: 9
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-hosted-onboarding-show-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ShowPages\": \"adyen:ShowPages\",\n    \"bankDetailsSummaryPage\": {\n      \"@id\": \"adyen:bankDetailsSummaryPage\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"bankVerificationPage\": {\n      \"@id\": \"adyen:bankVerificationPage\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"businessDetailsSummaryPage\": {\n      \"@id\": \"adyen:businessDetailsSummaryPage\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"checksOverviewPage\": {\n      \"@id\": \"adyen:checksOverviewPage\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"individualDetailsSummaryPage\": {\n      \"@id\": \"adyen:individualDetailsSummaryPage\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"legalArrangementsDetailsSummaryPage\": {\n      \"@id\"\
+  : \"adyen:legalArrangementsDetailsSummaryPage\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"manualBankAccountPage\": {\n      \"@id\": \"adyen:manualBankAccountPage\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"shareholderDetailsSummaryPage\": {\n      \"@id\": \"adyen:shareholderDetailsSummaryPage\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"welcomePage\": {\n      \"@id\": \"adyen:welcomePage\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-hosted-onboarding-show-context.jsonld
 tags:
 - Payments
 - Financial Services

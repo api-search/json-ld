@@ -40,6 +40,8 @@ property_count: 8
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-airport-on-time-performance-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"data\": {\n      \"@id\": \"schema:data\",\n      \"@type\": \"xsd:string\"\n    },\n    \"meta\": {\n      \"@id\": \"schema:meta\",\n      \"@type\": \"xsd:string\"\n    },\n    \"links\": {\n      \"@id\": \"schema:links\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"schema:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"subType\": {\n      \"@id\": \"schema:subType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"id\": {\n      \"@id\": \"@id\"\n    },\n    \"result\": {\n      \"@id\": \"schema:result\",\n      \"@type\": \"xsd:string\"\n    },\n    \"probability\": {\n      \"@id\": \"schema:probability\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-airport-on-time-performance-context.jsonld
 tags:
 - Airlines
 - Aviation

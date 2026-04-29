@@ -39,6 +39,8 @@ property_count: 6
 provider_name: Amazon S3 Glacier
 provider_slug: amazon-s3-glacier
 slug: amazon-s3-glacier-api-describe-vault-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"DescribeVaultOutput\": \"aws:DescribeVaultOutput\",\n    \"VaultARN\": {\n      \"@id\": \"aws:VaultARN\",\n      \"@type\": \"xsd:string\"\n    },\n    \"VaultName\": {\n      \"@id\": \"aws:VaultName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CreationDate\": {\n      \"@id\": \"aws:CreationDate\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"LastInventoryDate\": {\n      \"@id\": \"aws:LastInventoryDate\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"NumberOfArchives\": {\n      \"@id\": \"aws:NumberOfArchives\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"SizeInBytes\": {\n      \"@id\": \"aws:SizeInBytes\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/json-ld/amazon-s3-glacier-api-describe-vault-context.jsonld
 tags:
 - Archive
 - AWS

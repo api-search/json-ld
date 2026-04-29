@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Temporal
 provider_slug: temporal
 slug: cloud-ops-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/json-ld/cloud-ops-context.jsonld
 tags:
 - ProCode_API_Composition
 - Workflows

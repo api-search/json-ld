@@ -42,6 +42,9 @@ property_count: 7
 provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 slug: amadeus-transfer-booking-cancellation-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CancellationRule\": \"amadeus:CancellationRule\",\n    \"ruleDescription\": {\n      \"@id\": \"amadeus:ruleDescription\",\n      \"@type\": \"xsd:string\"\n    },\n    \"feeType\": {\n      \"@id\": \"amadeus:feeType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"feeValue\": {\n      \"@id\": \"amadeus:feeValue\",\n      \"@type\": \"xsd:string\"\n    },\n    \"currencyCode\": {\n      \"@id\": \"amadeus:currencyCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"metricType\": {\n      \"@id\": \"amadeus:metricType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"metricMin\": {\n      \"@id\": \"amadeus:metricMin\",\n      \"@type\": \"xsd:string\"\n    },\n    \"metricMax\": {\n      \"@id\": \"amadeus:metricMax\",\n  \
+  \    \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-ld/amadeus-transfer-booking-cancellation-context.jsonld
 tags:
 - Booking
 - Flights

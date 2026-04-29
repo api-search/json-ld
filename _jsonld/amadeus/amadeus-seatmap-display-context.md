@@ -58,6 +58,9 @@ property_count: 14
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-seatmap-display-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"departure\": {\n      \"@id\": \"schema:departure\",\n      \"@type\": \"xsd:string\"\n    },\n    \"arrival\": {\n      \"@id\": \"schema:arrival\",\n      \"@type\": \"xsd:string\"\n    },\n    \"carrierCode\": {\n      \"@id\": \"schema:carrierCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"number\": {\n      \"@id\": \"schema:number\",\n      \"@type\": \"xsd:string\"\n    },\n    \"aircraft\": {\n      \"@id\": \"schema:aircraft\",\n      \"@type\": \"xsd:string\"\n    },\n    \"operating\": {\n      \"@id\": \"schema:operating\",\n      \"@type\": \"xsd:string\"\n    },\n    \"duration\": {\n      \"@id\": \"schema:duration\",\n      \"@type\": \"xsd:string\"\n    },\n    \"stops\": {\n      \"@id\": \"schema:stops\"\n    },\n    \"iataCode\": {\n      \"@id\": \"schema:iataCode\",\n      \"@type\": \"xsd:string\"\n\
+  \    },\n    \"terminal\": {\n      \"@id\": \"schema:terminal\",\n      \"@type\": \"xsd:string\"\n    },\n    \"at\": {\n      \"@id\": \"schema:at\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"newAircraft\": {\n      \"@id\": \"schema:newAircraft\",\n      \"@type\": \"xsd:string\"\n    },\n    \"arrivalAt\": {\n      \"@id\": \"schema:arrivalAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"departureAt\": {\n      \"@id\": \"schema:departureAt\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-seatmap-display-context.jsonld
 tags:
 - Airlines
 - Aviation

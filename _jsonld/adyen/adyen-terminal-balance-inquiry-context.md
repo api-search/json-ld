@@ -40,6 +40,9 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-balance-inquiry-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"BalanceInquiryRequest\": \"adyen:BalanceInquiryRequest\",\n    \"BalanceInquiryResponse\": \"adyen:BalanceInquiryResponse\",\n    \"PaymentAccountReq\": {\n      \"@id\": \"adyen:PaymentAccountReq\",\n      \"@type\": \"xsd:string\"\n    },\n    \"LoyaltyAccountReq\": {\n      \"@id\": \"adyen:LoyaltyAccountReq\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Response\": {\n      \"@id\": \"adyen:Response\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PaymentAccountStatus\": {\n      \"@id\": \"adyen:PaymentAccountStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"LoyaltyAccountStatus\": {\n      \"@id\": \"adyen:LoyaltyAccountStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PaymentReceipt\": {\n      \"@id\"\
+  : \"adyen:PaymentReceipt\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-balance-inquiry-context.jsonld
 tags:
 - Payments
 - Financial Services

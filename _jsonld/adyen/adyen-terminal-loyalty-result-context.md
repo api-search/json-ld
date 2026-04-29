@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-loyalty-result-context
+source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"LoyaltyResult\": \"adyen:LoyaltyResult\",\n    \"LoyaltyAccount\": {\n      \"@id\": \"adyen:LoyaltyAccount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CurrentBalance\": {\n      \"@id\": \"adyen:CurrentBalance\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"LoyaltyAmount\": {\n      \"@id\": \"adyen:LoyaltyAmount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"LoyaltyAcquirerData\": {\n      \"@id\": \"adyen:LoyaltyAcquirerData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Rebates\": {\n      \"@id\": \"adyen:Rebates\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-loyalty-result-context.jsonld
 tags:
 - Payments
 - Financial Services
