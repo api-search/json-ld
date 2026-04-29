@@ -51,6 +51,8 @@ property_count: 0
 provider_name: Docusign
 provider_slug: docusign
 slug: docusign-esignature-context
+source_filename: docusign-esignature-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/json-ld/docusign-esignature-context.jsonld
 tags:

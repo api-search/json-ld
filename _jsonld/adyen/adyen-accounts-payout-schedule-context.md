@@ -208,6 +208,8 @@ property_count: 2
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-accounts-payout-schedule-context
+source_filename: adyen-accounts-payout-schedule-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PayoutScheduleResponse\": \"adyen:PayoutScheduleResponse\",\n    \"nextScheduledPayout\": {\n      \"@id\": \"adyen:nextScheduledPayout\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"schedule\": {\n      \"@id\": \"adyen:schedule\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-accounts-payout-schedule-context.jsonld
 tags:

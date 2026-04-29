@@ -27,6 +27,8 @@ property_count: 0
 provider_name: Vantage
 provider_slug: vantage
 slug: vantage-cloud-pricing-context
+source_filename: vantage-cloud-pricing-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/json-ld/vantage-cloud-pricing-context.jsonld
 tags:

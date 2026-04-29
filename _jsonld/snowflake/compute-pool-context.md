@@ -231,6 +231,8 @@ property_count: 0
 provider_name: Snowflake
 provider_slug: snowflake
 slug: compute-pool-context
+source_filename: compute-pool-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-ld/compute-pool-context.jsonld
 tags:

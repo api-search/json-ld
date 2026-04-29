@@ -26,6 +26,8 @@ property_count: 1
 provider_name: Amazon App Mesh
 provider_slug: amazon-app-mesh
 slug: amazon-app-mesh-context
+source_filename: amazon-app-mesh-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"gatewayRoute\": {\n      \"@id\": \"schema:gatewayRoute\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/json-ld/amazon-app-mesh-context.jsonld
 tags:

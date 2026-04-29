@@ -73,6 +73,8 @@ property_count: 4
 provider_name: AT&T Developer Hub
 provider_slug: at-t-developer-hub
 slug: at-t-developer-hub-sim-swap-api-context
+source_filename: at-t-developer-hub-sim-swap-api-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"att\": \"https://att.dev/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"SimSwapCheckRequest\": \"att:SimSwapCheckRequest\",\n    \"SimSwapCheckResponse\": \"att:SimSwapCheckResponse\",\n    \"SimSwapDateRequest\": \"att:SimSwapDateRequest\",\n    \"SimSwapDateResponse\": \"att:SimSwapDateResponse\",\n    \"phoneNumber\": {\n      \"@id\": \"att:phoneNumber\",\n      \"@type\": \"xsd:string\"\n    },\n    \"maxAge\": {\n      \"@id\": \"att:maxAge\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"swapped\": {\n      \"@id\": \"att:swapped\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"latestSimChange\": {\n      \"@id\": \"att:latestSimChange\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/json-ld/at-t-developer-hub-sim-swap-api-context.jsonld
 tags:

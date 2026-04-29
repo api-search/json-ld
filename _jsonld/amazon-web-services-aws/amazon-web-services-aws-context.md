@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Amazon Web Services (AWS)
 provider_slug: amazon-web-services-aws
 slug: amazon-web-services-aws-context
+source_filename: amazon-web-services-aws-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"amazon_web_services_aws\": \"https://aws.amazon.com/amazon-web-services-aws/vocab#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/json-ld/amazon-web-services-aws-context.jsonld
 tags:

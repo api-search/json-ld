@@ -228,6 +228,8 @@ property_count: 8
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-payout-settings-context
+source_filename: adyen-management-payout-settings-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PayoutSettingsRequest\": \"adyen:PayoutSettingsRequest\",\n    \"PayoutSettingsResponse\": \"adyen:PayoutSettingsResponse\",\n    \"PayoutSettings\": \"adyen:PayoutSettings\",\n    \"enabled\": {\n      \"@id\": \"adyen:enabled\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"enabledFromDate\": {\n      \"@id\": \"adyen:enabledFromDate\",\n      \"@type\": \"xsd:string\"\n    },\n    \"transferInstrumentId\": {\n      \"@id\": \"adyen:transferInstrumentId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"data\": {\n      \"@id\": \"adyen:data\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"allowed\": {\n      \"@id\": \"adyen:allowed\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"id\":\
   \ {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"priority\": {\n      \"@id\": \"adyen:priority\",\n      \"@type\": \"xsd:string\"\n    },\n    \"verificationStatus\": {\n      \"@id\": \"adyen:verificationStatus\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-payout-settings-context.jsonld

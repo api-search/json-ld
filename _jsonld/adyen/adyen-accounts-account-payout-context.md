@@ -220,6 +220,8 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-accounts-account-payout-context
+source_filename: adyen-accounts-account-payout-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AccountPayoutState\": \"adyen:AccountPayoutState\",\n    \"allowPayout\": {\n      \"@id\": \"adyen:allowPayout\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"disableReason\": {\n      \"@id\": \"adyen:disableReason\",\n      \"@type\": \"xsd:string\"\n    },\n    \"disabled\": {\n      \"@id\": \"adyen:disabled\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"notAllowedReason\": {\n      \"@id\": \"adyen:notAllowedReason\",\n      \"@type\": \"xsd:string\"\n    },\n    \"payoutLimit\": {\n      \"@id\": \"adyen:payoutLimit\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tierNumber\": {\n      \"@id\": \"adyen:tierNumber\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-accounts-account-payout-context.jsonld
 tags:

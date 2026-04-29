@@ -229,6 +229,8 @@ property_count: 9
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-original-poi-context
+source_filename: adyen-terminal-original-poi-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"OriginalPOITransaction\": \"adyen:OriginalPOITransaction\",\n    \"SaleID\": {\n      \"@id\": \"adyen:SaleID\",\n      \"@type\": \"xsd:string\"\n    },\n    \"POIID\": {\n      \"@id\": \"adyen:POIID\",\n      \"@type\": \"xsd:string\"\n    },\n    \"POITransactionID\": {\n      \"@id\": \"adyen:POITransactionID\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ReuseCardDataFlag\": {\n      \"@id\": \"adyen:ReuseCardDataFlag\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"ApprovalCode\": {\n      \"@id\": \"adyen:ApprovalCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CustomerLanguage\": {\n      \"@id\": \"adyen:CustomerLanguage\",\n      \"@type\": \"xsd:string\"\n    },\n    \"AcquirerID\": {\n      \"@id\": \"adyen:AcquirerID\"\
   ,\n      \"@type\": \"xsd:integer\"\n    },\n    \"AmountValue\": {\n      \"@id\": \"adyen:AmountValue\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"HostTransactionID\": {\n      \"@id\": \"adyen:HostTransactionID\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-original-poi-context.jsonld

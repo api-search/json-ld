@@ -53,6 +53,8 @@ property_count: 8
 provider_name: CloudAlly
 provider_slug: cloudally
 slug: cloudally-context
+source_filename: cloudally-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cloudally\": \"https://api.cloudally.com/schemas/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n\n    \"BackupTask\": {\n      \"@id\": \"cloudally:BackupTask\",\n      \"@type\": \"schema:Action\"\n    },\n    \"RestoreJob\": {\n      \"@id\": \"cloudally:RestoreJob\",\n      \"@type\": \"schema:Action\"\n    },\n    \"Partner\": {\n      \"@id\": \"cloudally:Partner\",\n      \"@type\": \"schema:Organization\"\n    },\n    \"Reseller\": {\n      \"@id\": \"cloudally:Reseller\",\n      \"@type\": \"schema:Organization\"\n    },\n    \"User\": {\n      \"@id\": \"cloudally:User\",\n      \"@type\": \"schema:Person\"\n    },\n\n    \"id\": \"@id\",\n    \"name\": \"schema:name\",\n    \"type\": \"cloudally:taskType\",\n    \"status\": \"schema:actionStatus\",\n    \"createdAt\": {\"@id\": \"schema:dateCreated\", \"@type\": \"xsd:dateTime\"},\n    \"lastBackup\": {\"@id\"\
   : \"cloudally:lastBackup\", \"@type\": \"xsd:dateTime\"},\n    \"size\": {\"@id\": \"schema:contentSize\", \"@type\": \"xsd:integer\"}\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/json-ld/cloudally-context.jsonld

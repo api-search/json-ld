@@ -220,6 +220,8 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-payments-application-info-context
+source_filename: adyen-payments-application-info-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ApplicationInfo\": \"adyen:ApplicationInfo\",\n    \"adyenLibrary\": {\n      \"@id\": \"adyen:adyenLibrary\",\n      \"@type\": \"xsd:string\"\n    },\n    \"adyenPaymentSource\": {\n      \"@id\": \"adyen:adyenPaymentSource\",\n      \"@type\": \"xsd:string\"\n    },\n    \"externalPlatform\": {\n      \"@id\": \"adyen:externalPlatform\",\n      \"@type\": \"xsd:string\"\n    },\n    \"merchantApplication\": {\n      \"@id\": \"adyen:merchantApplication\",\n      \"@type\": \"xsd:string\"\n    },\n    \"merchantDevice\": {\n      \"@id\": \"adyen:merchantDevice\",\n      \"@type\": \"xsd:string\"\n    },\n    \"shopperInteractionDevice\": {\n      \"@id\": \"adyen:shopperInteractionDevice\",\n      \"@type\": \"xsd:string\"\n  \
   \  }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-payments-application-info-context.jsonld

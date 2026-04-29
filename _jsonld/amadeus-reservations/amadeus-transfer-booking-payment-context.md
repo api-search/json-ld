@@ -64,6 +64,8 @@ property_count: 4
 provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 slug: amadeus-transfer-booking-payment-context
+source_filename: amadeus-transfer-booking-payment-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Payment\": \"amadeus:Payment\",\n    \"methodOfPayment\": {\n      \"@id\": \"amadeus:methodOfPayment\",\n      \"@type\": \"xsd:string\"\n    },\n    \"paymentReference\": {\n      \"@id\": \"amadeus:paymentReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"paymentServiceProvider\": {\n      \"@id\": \"amadeus:paymentServiceProvider\",\n      \"@type\": \"xsd:string\"\n    },\n    \"creditCard\": {\n      \"@id\": \"amadeus:creditCard\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-ld/amadeus-transfer-booking-payment-context.jsonld
 tags:

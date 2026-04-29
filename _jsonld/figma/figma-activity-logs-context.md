@@ -123,6 +123,8 @@ property_count: 0
 provider_name: Figma
 provider_slug: figma
 slug: figma-activity-logs-context
+source_filename: figma-activity-logs-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-ld/figma-activity-logs-context.jsonld
 tags:

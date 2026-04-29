@@ -71,6 +71,8 @@ property_count: 6
 provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 slug: amadeus-hotel-booking-guest-context
+source_filename: amadeus-hotel-booking-guest-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Guest\": \"amadeus:Guest\",\n    \"frequentTraveler\": {\n      \"@id\": \"amadeus:frequentTraveler\",\n      \"@container\": \"@set\"\n    },\n    \"phone\": {\n      \"@id\": \"amadeus:phone\",\n      \"@type\": \"xsd:string\"\n    },\n    \"email\": \"schema:email\",\n    \"title\": {\n      \"@id\": \"amadeus:title\",\n      \"@type\": \"xsd:string\"\n    },\n    \"firstName\": {\n      \"@id\": \"amadeus:firstName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"lastName\": {\n      \"@id\": \"amadeus:lastName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"childAge\": {\n      \"@id\": \"amadeus:childAge\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-ld/amadeus-hotel-booking-guest-context.jsonld
 tags:

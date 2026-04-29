@@ -29,6 +29,8 @@ property_count: 0
 provider_name: BlackRock
 provider_slug: blackrock
 slug: blackrock-context
+source_filename: blackrock-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"aladdin\": \"https://www.blackrock.com/aladdin/ontology/\",\n    \"portfolioId\": \"aladdin:portfolioId\",\n    \"portfolioName\": \"name\",\n    \"totalMarketValue\": \"aladdin:totalMarketValue\",\n    \"asOfDate\": \"aladdin:asOfDate\",\n    \"benchmarkId\": \"aladdin:benchmarkId\",\n    \"managerId\": \"aladdin:managerId\",\n    \"riskMetrics\": \"aladdin:riskMetrics\",\n    \"var95\": \"aladdin:var95\",\n    \"var99\": \"aladdin:var99\",\n    \"trackingError\": \"aladdin:trackingError\",\n    \"factorExposures\": \"aladdin:factorExposures\",\n    \"stressTests\": \"aladdin:stressTests\",\n    \"currency\": \"https://schema.org/currency\",\n    \"positions\": \"aladdin:positions\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/json-ld/blackrock-context.jsonld
 tags:

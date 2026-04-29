@@ -62,6 +62,8 @@ property_count: 2
 provider_name: Dynatrace
 provider_slug: dynatrace
 slug: dynatrace-dynatrace-metric-series-context
+source_filename: dynatrace-dynatrace-metric-series-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"dt\": \"https://dt.dynatrace.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Dynatrace Metric Series\": \"dt:Dynatrace Metric Series\",\n    \"metricId\": {\n      \"@id\": \"dt:metricId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"data\": {\n      \"@id\": \"dt:data\",\n      \"@container\": \"@set\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-dynatrace-metric-series-context.jsonld
 tags:

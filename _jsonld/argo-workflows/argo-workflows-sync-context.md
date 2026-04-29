@@ -44,6 +44,8 @@ property_count: 5
 provider_name: Argo Workflows
 provider_slug: argo-workflows
 slug: argo-workflows-sync-context
+source_filename: argo-workflows-sync-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"argo\": \"https://argoproj.github.io/schema/argo-workflows/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"sync.UpdateSyncLimitRequest\": \"argo:sync.UpdateSyncLimitRequest\",\n    \"sync.CreateSyncLimitRequest\": \"argo:sync.CreateSyncLimitRequest\",\n    \"sync.SyncLimitResponse\": \"argo:sync.SyncLimitResponse\",\n    \"sync.DeleteSyncLimitResponse\": \"argo:sync.DeleteSyncLimitResponse\",\n    \"cmName\": {\n      \"@id\": \"argo:cmName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"key\": {\n      \"@id\": \"argo:key\",\n      \"@type\": \"xsd:string\"\n    },\n    \"limit\": {\n      \"@id\": \"argo:limit\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"namespace\": {\n      \"@id\": \"argo:namespace\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"argo:type\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-ld/argo-workflows-sync-context.jsonld
 tags:

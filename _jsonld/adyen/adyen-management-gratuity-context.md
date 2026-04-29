@@ -214,6 +214,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-gratuity-context
+source_filename: adyen-management-gratuity-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Gratuity\": \"adyen:Gratuity\",\n    \"allowCustomAmount\": {\n      \"@id\": \"adyen:allowCustomAmount\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"currency\": {\n      \"@id\": \"adyen:currency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"predefinedTipEntries\": {\n      \"@id\": \"adyen:predefinedTipEntries\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"usePredefinedTipEntries\": {\n      \"@id\": \"adyen:usePredefinedTipEntries\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-gratuity-context.jsonld
 tags:

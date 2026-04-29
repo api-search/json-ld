@@ -83,6 +83,8 @@ property_count: 8
 provider_name: Google Analytics
 provider_slug: google-analytics
 slug: google-analytics-user-deletion-api-context
+source_filename: google-analytics-user-deletion-api-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"ga\": \"https://developers.google.com/analytics/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"UserDeletionId\": \"ga:UserDeletionId\",\n    \"UserDeletionRequest\": \"ga:UserDeletionRequest\",\n    \"deletionRequestTime\": {\n      \"@id\": \"ga:deletionRequestTime\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"firebaseProjectId\": {\n      \"@id\": \"ga:firebaseProjectId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"id\": {\n      \"@id\": \"ga:id\",\n      \"@type\": \"@id\"\n    },\n    \"kind\": {\n      \"@id\": \"ga:kind\",\n      \"@type\": \"xsd:string\"\n    },\n    \"propertyId\": {\n      \"@id\": \"ga:propertyId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"ga:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"userId\": {\n      \"@id\": \"ga:userId\"\
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"webPropertyId\": {\n      \"@id\": \"ga:webPropertyId\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/json-ld/google-analytics-user-deletion-api-context.jsonld

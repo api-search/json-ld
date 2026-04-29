@@ -121,6 +121,8 @@ property_count: 5
 provider_name: Abstract API
 provider_slug: abstract-api
 slug: abstract-api-image-processing-context
+source_filename: abstract-api-image-processing-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"abstract\": \"https://abstractapi.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ImageProcessingResponse\": \"abstract:ImageProcessingResponse\",\n    \"originalSize\": {\n      \"@id\": \"abstract:original_size\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"newSize\": {\n      \"@id\": \"abstract:new_size\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"savedBytes\": {\n      \"@id\": \"abstract:saved_bytes\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"savedPercent\": {\n      \"@id\": \"abstract:saved_percent\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"url\": {\n      \"@id\": \"schema:url\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-ld/abstract-api-image-processing-context.jsonld
 tags:

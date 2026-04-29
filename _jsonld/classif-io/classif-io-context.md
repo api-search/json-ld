@@ -29,6 +29,8 @@ property_count: 0
 provider_name: Classif.io
 provider_slug: classif-io
 slug: classif-io-context
+source_filename: classif-io-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://apievangelist.com/vocab/classif-io/\",\n    \"schema\": \"https://schema.org/\",\n    \"classif\": \"https://www.classif.io/vocab/\",\n    \"API\": \"schema:WebAPI\",\n    \"Image\": \"schema:ImageObject\",\n    \"Garment\": \"classif:Garment\",\n    \"Style\": \"classif:FashionStyle\",\n    \"Category\": \"schema:DefinedTerm\",\n    \"Confidence\": \"classif:ConfidenceScore\",\n    \"Recommendation\": \"classif:OutfitRecommendation\",\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"label\": \"schema:name\",\n    \"score\": \"classif:confidence\",\n    \"createdAt\": \"schema:dateCreated\",\n    \"updatedAt\": \"schema:dateModified\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/classif-io/refs/heads/main/json-ld/classif-io-context.jsonld
 tags:

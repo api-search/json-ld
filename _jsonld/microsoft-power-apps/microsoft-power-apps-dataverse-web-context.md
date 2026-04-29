@@ -21,6 +21,8 @@ property_count: 0
 provider_name: Microsoft Power Apps
 provider_slug: microsoft-power-apps
 slug: microsoft-power-apps-dataverse-web-context
+source_filename: microsoft-power-apps-dataverse-web-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/json-ld/microsoft-power-apps-dataverse-web-context.jsonld
 tags:

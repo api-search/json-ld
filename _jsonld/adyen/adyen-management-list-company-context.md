@@ -215,6 +215,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-list-company-context
+source_filename: adyen-management-list-company-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ListCompanyResponse\": \"adyen:ListCompanyResponse\",\n    \"ListCompanyUsersResponse\": \"adyen:ListCompanyUsersResponse\",\n    \"Links\": {\n      \"@id\": \"adyen:_links\",\n      \"@type\": \"xsd:string\"\n    },\n    \"data\": {\n      \"@id\": \"adyen:data\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"itemsTotal\": {\n      \"@id\": \"adyen:itemsTotal\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"pagesTotal\": {\n      \"@id\": \"adyen:pagesTotal\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-list-company-context.jsonld
 tags:

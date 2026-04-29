@@ -217,6 +217,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-reversal-request-context
+source_filename: adyen-terminal-reversal-request-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ReversalRequest\": \"adyen:ReversalRequest\",\n    \"SaleData\": {\n      \"@id\": \"adyen:SaleData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"OriginalPOITransaction\": {\n      \"@id\": \"adyen:OriginalPOITransaction\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ReversedAmount\": {\n      \"@id\": \"adyen:ReversedAmount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"ReversalReason\": {\n      \"@id\": \"adyen:ReversalReason\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CustomerOrder\": {\n      \"@id\": \"adyen:CustomerOrder\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-reversal-request-context.jsonld
 tags:

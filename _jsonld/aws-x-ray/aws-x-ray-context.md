@@ -44,6 +44,8 @@ property_count: 0
 provider_name: AWS X-Ray
 provider_slug: aws-x-ray
 slug: aws-x-ray-context
+source_filename: aws-x-ray-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xray\": \"https://docs.aws.amazon.com/xray/latest/api/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"BatchGetTracesResult\": \"xray:BatchGetTracesResult\",\n    \"Trace\": \"xray:Trace\",\n    \"GetTraceSummariesResult\": \"xray:GetTraceSummariesResult\",\n    \"TraceSummary\": \"xray:TraceSummary\",\n    \"ServiceId\": \"xray:ServiceId\",\n    \"GetServiceGraphResult\": \"xray:GetServiceGraphResult\",\n    \"Service\": \"xray:Service\",\n    \"EdgeStatistics\": \"xray:EdgeStatistics\",\n    \"ServiceStatistics\": \"xray:ServiceStatistics\",\n    \"HistogramEntry\": \"xray:HistogramEntry\",\n    \"TimeSeriesServiceStatistics\": \"xray:TimeSeriesServiceStatistics\",\n    \"Group\": \"xray:Group\",\n    \"GroupSummary\": \"xray:GroupSummary\",\n    \"SamplingRule\": \"xray:SamplingRule\",\n    \"SamplingRuleRecord\": \"xray:SamplingRuleRecord\",\n    \"EncryptionConfig\"\
   : \"xray:EncryptionConfig\",\n    \"InsightSummary\": \"xray:InsightSummary\",\n    \"Insight\": \"xray:Insight\",\n    \"Tag\": \"xray:Tag\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/json-ld/aws-x-ray-context.jsonld

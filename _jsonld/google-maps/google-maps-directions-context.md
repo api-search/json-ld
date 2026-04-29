@@ -33,6 +33,8 @@ property_count: 0
 provider_name: Google Maps Platform
 provider_slug: google-maps
 slug: google-maps-directions-context
+source_filename: google-maps-directions-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/json-ld/google-maps-directions-context.jsonld
 tags:

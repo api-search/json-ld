@@ -115,6 +115,8 @@ property_count: 3
 provider_name: Abstract API
 provider_slug: abstract-api
 slug: abstract-api-web-scraping-context
+source_filename: abstract-api-web-scraping-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"abstract\": \"https://abstractapi.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"WebScrapingResponse\": \"abstract:WebScrapingResponse\",\n    \"body\": {\n      \"@id\": \"abstract:body\",\n      \"@type\": \"xsd:string\"\n    },\n    \"url\": {\n      \"@id\": \"schema:url\"\n    },\n    \"statusCode\": {\n      \"@id\": \"abstract:status_code\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-ld/abstract-api-web-scraping-context.jsonld
 tags:

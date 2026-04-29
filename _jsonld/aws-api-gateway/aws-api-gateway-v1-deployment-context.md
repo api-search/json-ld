@@ -47,6 +47,8 @@ property_count: 2
 provider_name: Amazon API Gateway
 provider_slug: aws-api-gateway
 slug: aws-api-gateway-v1-deployment-context
+source_filename: aws-api-gateway-v1-deployment-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Deployment\": \"aws:Deployment\",\n    \"id\": {\n      \"@id\": \"aws:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"description\": \"schema:description\",\n    \"createdDate\": {\n      \"@id\": \"aws:createdDate\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-ld/aws-api-gateway-v1-deployment-context.jsonld
 tags:

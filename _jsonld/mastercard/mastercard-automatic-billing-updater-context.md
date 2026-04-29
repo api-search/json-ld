@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Mastercard
 provider_slug: mastercard
 slug: mastercard-automatic-billing-updater-context
+source_filename: mastercard-automatic-billing-updater-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-ld/mastercard-automatic-billing-updater-context.jsonld
 tags:

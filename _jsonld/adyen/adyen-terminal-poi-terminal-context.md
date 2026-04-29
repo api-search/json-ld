@@ -214,6 +214,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-poi-terminal-context
+source_filename: adyen-terminal-poi-terminal-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"POITerminalData\": \"adyen:POITerminalData\",\n    \"TerminalEnvironment\": {\n      \"@id\": \"adyen:TerminalEnvironment\",\n      \"@type\": \"xsd:string\"\n    },\n    \"POICapabilities\": {\n      \"@id\": \"adyen:POICapabilities\",\n      \"@type\": \"xsd:string\"\n    },\n    \"POIProfile\": {\n      \"@id\": \"adyen:POIProfile\",\n      \"@type\": \"xsd:string\"\n    },\n    \"POISerialNumber\": {\n      \"@id\": \"adyen:POISerialNumber\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-poi-terminal-context.jsonld
 tags:

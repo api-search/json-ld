@@ -133,6 +133,8 @@ property_count: 9
 provider_name: Abstract API
 provider_slug: abstract-api
 slug: abstract-api-timezones-current-context
+source_filename: abstract-api-timezones-current-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"abstract\": \"https://abstractapi.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CurrentTimeResponse\": \"abstract:CurrentTimeResponse\",\n    \"datetime\": {\n      \"@id\": \"abstract:datetime\",\n      \"@type\": \"xsd:string\"\n    },\n    \"timezoneName\": {\n      \"@id\": \"abstract:timezone_name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"timezoneLocation\": {\n      \"@id\": \"abstract:timezone_location\",\n      \"@type\": \"xsd:string\"\n    },\n    \"timezoneAbbreviation\": {\n      \"@id\": \"abstract:timezone_abbreviation\",\n      \"@type\": \"xsd:string\"\n    },\n    \"gmtOffset\": {\n      \"@id\": \"abstract:gmt_offset\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"isDst\": {\n      \"@id\": \"abstract:is_dst\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"requestedLocation\"\
   : {\n      \"@id\": \"abstract:requested_location\",\n      \"@type\": \"xsd:string\"\n    },\n    \"latitude\": {\n      \"@id\": \"abstract:latitude\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"longitude\": {\n      \"@id\": \"abstract:longitude\",\n      \"@type\": \"xsd:decimal\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-ld/abstract-api-timezones-current-context.jsonld

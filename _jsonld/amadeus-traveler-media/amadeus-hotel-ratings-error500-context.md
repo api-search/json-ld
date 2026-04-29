@@ -49,6 +49,8 @@ property_count: 1
 provider_name: Amadeus Traveler Media
 provider_slug: amadeus-traveler-media
 slug: amadeus-hotel-ratings-error500-context
+source_filename: amadeus-hotel-ratings-error500-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Error500\": \"amadeus:Error500\",\n    \"errors\": {\n      \"@id\": \"amadeus:errors\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/json-ld/amadeus-hotel-ratings-error500-context.jsonld
 tags:

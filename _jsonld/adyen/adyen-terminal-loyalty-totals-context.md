@@ -211,6 +211,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-loyalty-totals-context
+source_filename: adyen-terminal-loyalty-totals-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"LoyaltyTotals\": \"adyen:LoyaltyTotals\",\n    \"TransactionType\": {\n      \"@id\": \"adyen:TransactionType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TransactionCount\": {\n      \"@id\": \"adyen:TransactionCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"TransactionAmount\": {\n      \"@id\": \"adyen:TransactionAmount\",\n      \"@type\": \"xsd:decimal\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-loyalty-totals-context.jsonld
 tags:

@@ -231,6 +231,8 @@ property_count: 0
 provider_name: Snowflake
 provider_slug: snowflake
 slug: external-volume-context
+source_filename: external-volume-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-ld/external-volume-context.jsonld
 tags:

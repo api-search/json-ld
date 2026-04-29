@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Azure Service Bus
 provider_slug: azure-service-bus
 slug: azure-service-bus-context
+source_filename: azure-service-bus-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/json-ld/azure-service-bus-context.jsonld
 tags:

@@ -269,6 +269,8 @@ property_count: 4
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-flight-busiest-traveling-period-context
+source_filename: amadeus-flight-busiest-traveling-period-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"type\": {\n      \"@id\": \"schema:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"period\": {\n      \"@id\": \"schema:period\",\n      \"@type\": \"xsd:string\"\n    },\n    \"analytics\": {\n      \"@id\": \"schema:analytics\",\n      \"@type\": \"xsd:string\"\n    },\n    \"errors\": {\n      \"@id\": \"schema:errors\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-flight-busiest-traveling-period-context.jsonld
 tags:

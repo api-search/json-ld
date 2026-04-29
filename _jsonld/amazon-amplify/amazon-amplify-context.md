@@ -53,6 +53,8 @@ property_count: 10
 provider_name: Amazon Amplify
 provider_slug: amazon-amplify
 slug: amazon-amplify-context
+source_filename: amazon-amplify-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"appId\": {\n      \"@id\": \"schema:appId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"appArn\": {\n      \"@id\": \"schema:appArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\"\n    },\n    \"description\": {\n      \"@id\": \"schema:description\"\n    },\n    \"repository\": {\n      \"@id\": \"schema:repository\",\n      \"@type\": \"xsd:string\"\n    },\n    \"platform\": {\n      \"@id\": \"schema:platform\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createTime\": {\n      \"@id\": \"schema:createTime\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"updateTime\": {\n      \"@id\": \"schema:updateTime\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"defaultDomain\": {\n      \"@id\": \"schema:defaultDomain\",\n      \"@type\": \"xsd:string\"\n    },\n    \"productionBranch\"\
   : {\n      \"@id\": \"schema:productionBranch\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/json-ld/amazon-amplify-context.jsonld

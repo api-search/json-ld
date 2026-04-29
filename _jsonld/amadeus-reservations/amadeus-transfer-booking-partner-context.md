@@ -55,6 +55,8 @@ property_count: 1
 provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 slug: amadeus-transfer-booking-partner-context
+source_filename: amadeus-transfer-booking-partner-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PartnerInfo\": \"amadeus:PartnerInfo\",\n    \"serviceProvider\": {\n      \"@id\": \"amadeus:serviceProvider\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-ld/amadeus-transfer-booking-partner-context.jsonld
 tags:

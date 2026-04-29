@@ -223,6 +223,8 @@ property_count: 7
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-event-notification-context
+source_filename: adyen-terminal-event-notification-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"EventNotification\": \"adyen:EventNotification\",\n    \"TimeStamp\": {\n      \"@id\": \"adyen:TimeStamp\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"EventToNotify\": {\n      \"@id\": \"adyen:EventToNotify\",\n      \"@type\": \"xsd:string\"\n    },\n    \"EventDetails\": {\n      \"@id\": \"adyen:EventDetails\",\n      \"@type\": \"xsd:string\"\n    },\n    \"RejectedMessage\": {\n      \"@id\": \"adyen:RejectedMessage\",\n      \"@type\": \"xsd:string\"\n    },\n    \"MaintenanceRequiredFlag\": {\n      \"@id\": \"adyen:MaintenanceRequiredFlag\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"CustomerLanguage\": {\n      \"@id\": \"adyen:CustomerLanguage\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DisplayOutput\"\
   : {\n      \"@id\": \"adyen:DisplayOutput\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-event-notification-context.jsonld

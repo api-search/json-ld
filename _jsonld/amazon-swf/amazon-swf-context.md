@@ -27,6 +27,8 @@ property_count: 0
 provider_name: Amazon Simple Workflow Service
 provider_slug: amazon-swf
 slug: amazon-swf-context
+source_filename: amazon-swf-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"swf\": \"https://aws.amazon.com/swf/vocab#\",\n    \"Workflow\": \"swf:Workflow\",\n    \"ActivityTask\": \"swf:ActivityTask\",\n    \"DecisionTask\": \"swf:DecisionTask\",\n    \"WorkflowExecution\": \"swf:WorkflowExecution\",\n    \"Domain\": \"swf:Domain\",\n    \"ActivityType\": \"swf:ActivityType\",\n    \"WorkflowType\": \"swf:WorkflowType\",\n    \"taskList\": \"swf:taskList\",\n    \"executionStatus\": \"swf:executionStatus\",\n    \"closeStatus\": \"swf:closeStatus\",\n    \"tagList\": \"swf:tagList\",\n    \"runId\": \"swf:runId\",\n    \"workflowId\": \"swf:workflowId\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-ld/amazon-swf-context.jsonld
 tags:

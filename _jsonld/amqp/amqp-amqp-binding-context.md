@@ -43,6 +43,8 @@ property_count: 5
 provider_name: AMQP
 provider_slug: amqp
 slug: amqp-amqp-binding-context
+source_filename: amqp-amqp-binding-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amqp\": \"https://www.amqp.org/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AMQP Binding\": \"amqp:AMQP Binding\",\n    \"source\": {\n      \"@id\": \"amqp:source\",\n      \"@type\": \"xsd:string\"\n    },\n    \"destination\": {\n      \"@id\": \"amqp:destination\",\n      \"@type\": \"xsd:string\"\n    },\n    \"destinationType\": {\n      \"@id\": \"amqp:destinationType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"routingKey\": {\n      \"@id\": \"amqp:routingKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"arguments\": {\n      \"@id\": \"amqp:arguments\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/json-ld/amqp-amqp-binding-context.jsonld
 tags:

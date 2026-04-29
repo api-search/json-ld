@@ -51,6 +51,8 @@ property_count: 0
 provider_name: Oracle GoldenGate
 provider_slug: oracle-goldengate
 slug: oracle-goldengate-stream-analytics-rest-context
+source_filename: oracle-goldengate-stream-analytics-rest-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/json-ld/oracle-goldengate-stream-analytics-rest-context.jsonld
 tags:

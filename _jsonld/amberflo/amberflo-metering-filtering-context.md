@@ -36,6 +36,8 @@ property_count: 5
 provider_name: Amberflo
 provider_slug: amberflo
 slug: amberflo-metering-filtering-context
+source_filename: amberflo-metering-filtering-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amberflo\": \"https://amberflo.io/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"FilteringRule\": \"amberflo:FilteringRule\",\n    \"meterApiName\": {\n      \"@id\": \"amberflo:meterApiName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ruleId\": {\n      \"@id\": \"amberflo:ruleId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"dimensionName\": {\n      \"@id\": \"amberflo:dimensionName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"dimensionValues\": {\n      \"@id\": \"amberflo:dimensionValues\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"action\": {\n      \"@id\": \"amberflo:action\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/json-ld/amberflo-metering-filtering-context.jsonld
 tags:

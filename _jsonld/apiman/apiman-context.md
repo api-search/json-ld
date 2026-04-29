@@ -34,6 +34,8 @@ property_count: 1
 provider_name: Apiman
 provider_slug: apiman
 slug: apiman-context
+source_filename: apiman-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"apiman\": \"https://www.apiman.io/vocab/\",\n    \"id\": \"@id\",\n    \"type\": \"@type\",\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"organizationId\": \"apiman:organizationId\",\n    \"createdBy\": \"dcterms:creator\",\n    \"createdOn\": {\n      \"@id\": \"dcterms:created\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"numPublished\": \"apiman:numPublished\",\n    \"tags\": \"schema:keywords\",\n    \"policies\": \"apiman:policies\",\n    \"policyDefinitionId\": \"apiman:policyDefinitionId\",\n    \"configuration\": \"apiman:configuration\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/json-ld/apiman-context.jsonld
 tags:

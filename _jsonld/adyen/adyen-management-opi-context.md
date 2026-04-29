@@ -211,6 +211,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-opi-context
+source_filename: adyen-management-opi-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Opi\": \"adyen:Opi\",\n    \"enablePayAtTable\": {\n      \"@id\": \"adyen:enablePayAtTable\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"payAtTableStoreNumber\": {\n      \"@id\": \"adyen:payAtTableStoreNumber\",\n      \"@type\": \"xsd:string\"\n    },\n    \"payAtTableURL\": {\n      \"@id\": \"adyen:payAtTableURL\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-opi-context.jsonld
 tags:

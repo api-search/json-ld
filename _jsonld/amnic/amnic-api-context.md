@@ -45,6 +45,8 @@ property_count: 5
 provider_name: Amnic
 provider_slug: amnic
 slug: amnic-api-context
+source_filename: amnic-api-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amnic\": \"https://amnic.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"FilterRequest\": \"amnic:FilterRequest\",\n    \"filters\": {\n      \"@id\": \"amnic:filters\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Filter\": \"amnic:Filter\",\n    \"filterBy\": {\n      \"@id\": \"amnic:filter_by\",\n      \"@type\": \"xsd:string\"\n    },\n    \"values\": {\n      \"@id\": \"amnic:values\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ChartData\": \"amnic:ChartData\",\n    \"headers\": {\n      \"@id\": \"amnic:headers\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"rows\": {\n      \"@id\": \"amnic:rows\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/json-ld/amnic-api-context.jsonld
 tags:

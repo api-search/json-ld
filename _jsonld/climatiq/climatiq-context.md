@@ -54,6 +54,8 @@ property_count: 6
 provider_name: Climatiq
 provider_slug: climatiq
 slug: climatiq-context
+source_filename: climatiq-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"climatiq\": \"https://www.climatiq.io/schemas/\",\n    \"schema\": \"https://schema.org/\",\n    \"qudt\": \"http://qudt.org/schema/qudt/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n\n    \"EmissionFactor\": {\n      \"@id\": \"climatiq:EmissionFactor\"\n    },\n    \"EmissionEstimate\": {\n      \"@id\": \"climatiq:EmissionEstimate\",\n      \"@type\": \"schema:QuantitativeValue\"\n    },\n    \"Activity\": {\n      \"@id\": \"climatiq:Activity\",\n      \"@type\": \"schema:Action\"\n    },\n\n    \"activity_id\": \"climatiq:activityId\",\n    \"name\": \"schema:name\",\n    \"category\": \"climatiq:category\",\n    \"sector\": \"climatiq:sector\",\n    \"source\": \"climatiq:source\",\n    \"year\": {\n      \"@id\": \"schema:datePublished\",\n      \"@type\": \"xsd:gYear\"\n    },\n    \"region\": \"schema:areaServed\",\n    \"data_version\": \"climatiq:dataVersion\",\n\n    \"co2e\": {\n      \"@id\": \"climatiq:co2e\"\
   ,\n      \"@type\": \"xsd:decimal\"\n    },\n    \"co2e_unit\": {\n      \"@id\": \"qudt:unit\"\n    },\n    \"co2e_calculation_method\": \"climatiq:method\",\n    \"constituent_gases\": \"climatiq:constituentGases\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/json-ld/climatiq-context.jsonld

@@ -217,6 +217,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-recurring-permit-context
+source_filename: adyen-recurring-permit-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Permit\": \"adyen:Permit\",\n    \"partnerId\": {\n      \"@id\": \"adyen:partnerId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"profileReference\": {\n      \"@id\": \"adyen:profileReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"restriction\": {\n      \"@id\": \"adyen:restriction\",\n      \"@type\": \"xsd:string\"\n    },\n    \"resultKey\": {\n      \"@id\": \"adyen:resultKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"validTillDate\": {\n      \"@id\": \"adyen:validTillDate\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-recurring-permit-context.jsonld
 tags:

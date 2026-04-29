@@ -293,6 +293,8 @@ property_count: 12
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-points-of-interest-context
+source_filename: amadeus-points-of-interest-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"id\": {\n      \"@id\": \"@id\"\n    },\n    \"self\": {\n      \"@id\": \"schema:self\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"schema:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"subType\": {\n      \"@id\": \"schema:subType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": {\n      \"@id\": \"schema:name\"\n    },\n    \"geoCode\": {\n      \"@id\": \"schema:geoCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"category\": {\n      \"@id\": \"schema:category\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tags\": {\n      \"@id\": \"schema:tags\"\n    },\n    \"rank\": {\n      \"@id\": \"schema:rank\",\n      \"@type\": \"xsd:string\"\n    },\n    \"latitude\": {\n      \"@id\": \"schema:latitude\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"longitude\": {\n\
   \      \"@id\": \"schema:longitude\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"errors\": {\n      \"@id\": \"schema:errors\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-points-of-interest-context.jsonld

@@ -62,6 +62,8 @@ property_count: 2
 provider_name: Dynatrace
 provider_slug: dynatrace
 slug: dynatrace-problems-impacted-entity-context
+source_filename: dynatrace-problems-impacted-entity-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"dt\": \"https://dt.dynatrace.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ImpactedEntity\": \"dt:ImpactedEntity\",\n    \"Entity\": {\n      \"@id\": \"dt:Entity\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Name\": {\n      \"@id\": \"dt:Name\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-impacted-entity-context.jsonld
 tags:

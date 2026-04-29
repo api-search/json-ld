@@ -21,6 +21,8 @@ property_count: 0
 provider_name: VMware
 provider_slug: vmware
 slug: vmware-vsphere-context
+source_filename: vmware-vsphere-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/json-ld/vmware-vsphere-context.jsonld
 tags:

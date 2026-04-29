@@ -222,6 +222,8 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-legal-entity-pci-context
+source_filename: adyen-legal-entity-pci-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PciDocumentInfo\": \"adyen:PciDocumentInfo\",\n    \"PciSigningRequest\": \"adyen:PciSigningRequest\",\n    \"PciSigningResponse\": \"adyen:PciSigningResponse\",\n    \"createdAt\": {\n      \"@id\": \"adyen:createdAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"id\": {\n      \"@id\": \"adyen:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"validUntil\": {\n      \"@id\": \"adyen:validUntil\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"pciTemplateReferences\": {\n      \"@id\": \"adyen:pciTemplateReferences\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"signedBy\": {\n      \"@id\": \"adyen:signedBy\",\n      \"@type\": \"xsd:string\"\n    },\n    \"pciQuestionnaireIds\": {\n\
   \      \"@id\": \"adyen:pciQuestionnaireIds\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-legal-entity-pci-context.jsonld

@@ -215,6 +215,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-configuration-reveal-pin-context
+source_filename: adyen-configuration-reveal-pin-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"RevealPinRequest\": \"adyen:RevealPinRequest\",\n    \"RevealPinResponse\": \"adyen:RevealPinResponse\",\n    \"encryptedKey\": {\n      \"@id\": \"adyen:encryptedKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"paymentInstrumentId\": {\n      \"@id\": \"adyen:paymentInstrumentId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"encryptedPinBlock\": {\n      \"@id\": \"adyen:encryptedPinBlock\",\n      \"@type\": \"xsd:string\"\n    },\n    \"token\": {\n      \"@id\": \"adyen:token\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-configuration-reveal-pin-context.jsonld
 tags:

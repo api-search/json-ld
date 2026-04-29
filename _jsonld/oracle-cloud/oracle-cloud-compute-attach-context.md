@@ -85,6 +85,8 @@ property_count: 5
 provider_name: Oracle Cloud Infrastructure
 provider_slug: oracle-cloud
 slug: oracle-cloud-compute-attach-context
+source_filename: oracle-cloud-compute-attach-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"oci\": \"https://docs.oracle.com/en-us/iaas/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AttachVolumeDetails\": \"oci:AttachVolumeDetails\",\n    \"displayName\": {\n      \"@id\": \"oci:displayName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"instanceId\": {\n      \"@id\": \"oci:instanceId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"isReadOnly\": {\n      \"@id\": \"oci:isReadOnly\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"type\": {\n      \"@id\": \"oci:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"volumeId\": {\n      \"@id\": \"oci:volumeId\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-compute-attach-context.jsonld
 tags:

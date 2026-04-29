@@ -208,6 +208,8 @@ property_count: 2
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-event-url-context
+source_filename: adyen-management-event-url-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"EventUrl\": \"adyen:EventUrl\",\n    \"eventLocalUrls\": {\n      \"@id\": \"adyen:eventLocalUrls\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"eventPublicUrls\": {\n      \"@id\": \"adyen:eventPublicUrls\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-event-url-context.jsonld
 tags:

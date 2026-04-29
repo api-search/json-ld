@@ -197,6 +197,8 @@ property_count: 4
 provider_name: HubSpot
 provider_slug: hubspot
 slug: hubspot-engagement-notes-association-context
+source_filename: hubspot-engagement-notes-association-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"hubspot\": \"https://developers.hubspot.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AssociationInput\": \"hubspot:AssociationInput\",\n    \"to\": {\n      \"@id\": \"hubspot:to\",\n      \"@type\": \"@id\"\n    },\n    \"types\": {\n      \"@id\": \"hubspot:types\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    },\n    \"AssociationType\": \"hubspot:AssociationType\",\n    \"associationCategory\": {\n      \"@id\": \"hubspot:associationCategory\",\n      \"@type\": \"xsd:string\"\n    },\n    \"associationTypeId\": {\n      \"@id\": \"hubspot:associationTypeId\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-ld/hubspot-engagement-notes-association-context.jsonld
 tags:

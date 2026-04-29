@@ -65,6 +65,8 @@ property_count: 4
 provider_name: New Relic
 provider_slug: new-relic
 slug: new-relic-event-api-context
+source_filename: new-relic-event-api-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"nr\": \"https://docs.newrelic.com/docs/schemas/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CustomEvent\": \"nr:CustomEvent\",\n    \"eventType\": {\n      \"@id\": \"nr:eventType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"timestamp\": {\n      \"@id\": \"nr:timestamp\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"SuccessResponse\": \"nr:SuccessResponse\",\n    \"success\": {\n      \"@id\": \"nr:success\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"uuid\": {\n      \"@id\": \"nr:uuid\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-event-api-context.jsonld
 tags:

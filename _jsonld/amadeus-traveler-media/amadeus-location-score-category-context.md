@@ -45,6 +45,8 @@ property_count: 0
 provider_name: Amadeus Traveler Media
 provider_slug: amadeus-traveler-media
 slug: amadeus-location-score-category-context
+source_filename: amadeus-location-score-category-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amadeus\": \"https://amadeus.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/json-ld/amadeus-location-score-category-context.jsonld
 tags:

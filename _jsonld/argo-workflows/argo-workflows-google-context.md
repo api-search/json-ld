@@ -32,6 +32,8 @@ property_count: 2
 provider_name: Argo Workflows
 provider_slug: argo-workflows
 slug: argo-workflows-google-context
+source_filename: argo-workflows-google-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"argo\": \"https://argoproj.github.io/schema/argo-workflows/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"google.protobuf.Any\": \"argo:google.protobuf.Any\",\n    \"typeUrl\": {\n      \"@id\": \"argo:type_url\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"argo:value\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-ld/argo-workflows-google-context.jsonld
 tags:

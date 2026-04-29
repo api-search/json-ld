@@ -35,6 +35,8 @@ property_count: 0
 provider_name: Apptainer
 provider_slug: apptainer
 slug: apptainer-context
+source_filename: apptainer-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"apptainer\": \"https://apptainer.org/vocab#\",\n    \"imageId\": \"schema:identifier\",\n    \"name\": \"schema:name\",\n    \"version\": \"schema:version\",\n    \"source\": \"schema:url\",\n    \"format\": \"schema:encodingFormat\",\n    \"size\": \"schema:contentSize\",\n    \"createdAt\": \"schema:dateCreated\",\n    \"sha256\": \"apptainer:sha256\",\n    \"instanceId\": \"schema:identifier\",\n    \"status\": \"apptainer:status\",\n    \"startedAt\": \"schema:startDate\",\n    \"stoppedAt\": \"schema:endDate\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/json-ld/apptainer-context.jsonld
 tags:

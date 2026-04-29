@@ -68,6 +68,8 @@ property_count: 12
 provider_name: Codehooks
 provider_slug: codehooks
 slug: codehooks-context
+source_filename: codehooks-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"codehooks\": \"https://codehooks.io/ns/\",\n    \"Document\": \"codehooks:Document\",\n    \"KeyValueEntry\": \"codehooks:KeyValueEntry\",\n    \"QueueJob\": \"codehooks:QueueJob\",\n    \"collection\": {\n      \"@id\": \"codehooks:collection\",\n      \"@type\": \"@id\"\n    },\n    \"_id\": {\n      \"@id\": \"codehooks:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"key\": {\n      \"@id\": \"codehooks:key\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"codehooks:value\"\n    },\n    \"ttl\": {\n      \"@id\": \"codehooks:timeToLive\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"topic\": {\n      \"@id\": \"codehooks:topic\",\n      \"@type\": \"xsd:string\"\n    },\n    \"payload\": {\n      \"@id\": \"codehooks:payload\"\n    },\n    \"status\": {\n      \"@id\": \"codehooks:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdAt\": {\n\
   \      \"@id\": \"codehooks:createdAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"completedAt\": {\n      \"@id\": \"codehooks:completedAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"_createdOn\": {\n      \"@id\": \"codehooks:createdOn\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"_updatedOn\": {\n      \"@id\": \"codehooks:updatedOn\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/json-ld/codehooks-context.jsonld

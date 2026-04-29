@@ -48,6 +48,8 @@ property_count: 6
 provider_name: Argo CD
 provider_slug: argo-cd
 slug: argo-cd-session-context
+source_filename: argo-cd-session-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"argocd\": \"https://argoproj.github.io/schema/argo-cd/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"sessionGetUserInfoResponse\": \"argocd:sessionGetUserInfoResponse\",\n    \"sessionSessionCreateRequest\": \"argocd:sessionSessionCreateRequest\",\n    \"sessionSessionResponse\": \"argocd:sessionSessionResponse\",\n    \"groups\": {\n      \"@id\": \"argocd:groups\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"iss\": {\n      \"@id\": \"argocd:iss\",\n      \"@type\": \"xsd:string\"\n    },\n    \"loggedIn\": {\n      \"@id\": \"argocd:loggedIn\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"username\": {\n      \"@id\": \"argocd:username\",\n      \"@type\": \"xsd:string\"\n    },\n    \"password\": {\n      \"@id\": \"argocd:password\",\n      \"@type\": \"xsd:string\"\n   \
   \ },\n    \"token\": {\n      \"@id\": \"argocd:token\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-ld/argo-cd-session-context.jsonld

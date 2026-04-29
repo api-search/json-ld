@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Amazon Verified Permissions
 provider_slug: amazon-verified-permissions
 slug: amazon-verified-permissions-context
+source_filename: amazon-verified-permissions-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"amazon_verified_permissions\": \"https://aws.amazon.com/amazon-verified-permissions/vocab#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/json-ld/amazon-verified-permissions-context.jsonld
 tags:

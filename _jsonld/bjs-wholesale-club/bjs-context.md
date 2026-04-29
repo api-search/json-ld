@@ -42,6 +42,8 @@ property_count: 0
 provider_name: BJ's Wholesale Club
 provider_slug: bjs-wholesale-club
 slug: bjs-context
+source_filename: bjs-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"bjs\": \"https://www.bjs.com/ontology/\",\n    \"productId\": \"identifier\",\n    \"membershipNumber\": \"bjs:membershipNumber\",\n    \"tier\": \"bjs:membershipTier\",\n    \"inStock\": \"https://schema.org/availability\",\n    \"price\": \"https://schema.org/price\",\n    \"regularPrice\": \"https://schema.org/highPrice\",\n    \"brand\": \"https://schema.org/brand\",\n    \"category\": \"https://schema.org/category\",\n    \"orderId\": \"https://schema.org/orderNumber\",\n    \"status\": \"https://schema.org/orderStatus\",\n    \"estimatedDelivery\": \"https://schema.org/expectedArrivalUntil\",\n    \"clubId\": \"bjs:clubId\",\n    \"fulfillmentMethod\": \"bjs:fulfillmentMethod\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/json-ld/bjs-context.jsonld
 tags:

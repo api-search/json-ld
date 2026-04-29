@@ -35,6 +35,8 @@ property_count: 0
 provider_name: ApyHub
 provider_slug: apyhub
 slug: apyhub-context
+source_filename: apyhub-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"apyhub\": \"https://apyhub.com/vocab#\",\n    \"requestId\": \"schema:identifier\",\n    \"type\": \"schema:category\",\n    \"inputUrl\": \"schema:url\",\n    \"outputFormat\": \"schema:encodingFormat\",\n    \"status\": \"apyhub:status\",\n    \"outputUrl\": \"schema:url\",\n    \"createdAt\": \"schema:dateCreated\",\n    \"amount\": \"schema:price\",\n    \"source\": \"schema:currency\",\n    \"target\": \"schema:currency\",\n    \"convertedAmount\": \"apyhub:convertedAmount\",\n    \"rate\": \"apyhub:exchangeRate\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/json-ld/apyhub-context.jsonld
 tags:

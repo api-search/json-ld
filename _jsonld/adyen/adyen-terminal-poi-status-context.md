@@ -226,6 +226,8 @@ property_count: 8
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-poi-status-context
+source_filename: adyen-terminal-poi-status-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"POIStatus\": \"adyen:POIStatus\",\n    \"GlobalStatus\": {\n      \"@id\": \"adyen:GlobalStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SecurityOKFlag\": {\n      \"@id\": \"adyen:SecurityOKFlag\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"PEDOKFlag\": {\n      \"@id\": \"adyen:PEDOKFlag\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"CardReaderOKFlag\": {\n      \"@id\": \"adyen:CardReaderOKFlag\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"PrinterStatus\": {\n      \"@id\": \"adyen:PrinterStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CommunicationOKFlag\": {\n      \"@id\": \"adyen:CommunicationOKFlag\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"CashHandlingDevice\": {\n      \"@id\"\
   : \"adyen:CashHandlingDevice\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"FraudPreventionFlag\": {\n      \"@id\": \"adyen:FraudPreventionFlag\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-poi-status-context.jsonld

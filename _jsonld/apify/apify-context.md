@@ -52,6 +52,8 @@ property_count: 6
 provider_name: Apify
 provider_slug: apify
 slug: apify-context
+source_filename: apify-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"apify\": \"https://apify.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Actor\": \"apify:Actor\",\n    \"Run\": \"apify:Run\",\n    \"Dataset\": \"apify:Dataset\",\n    \"KeyValueStore\": \"apify:KeyValueStore\",\n    \"id\": {\n      \"@id\": \"dcterms:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"username\": {\n      \"@id\": \"apify:username\",\n      \"@type\": \"xsd:string\"\n    },\n    \"title\": \"schema:name\",\n    \"status\": {\n      \"@id\": \"apify:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"startedAt\": {\n      \"@id\": \"schema:startDate\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"finishedAt\": {\n      \"@id\": \"schema:endDate\",\n      \"@type\": \"xsd:dateTime\"\n    },\n\
   \    \"itemCount\": {\n      \"@id\": \"apify:itemCount\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/json-ld/apify-context.jsonld

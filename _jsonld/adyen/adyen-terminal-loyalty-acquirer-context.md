@@ -214,6 +214,8 @@ property_count: 4
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-loyalty-acquirer-context
+source_filename: adyen-terminal-loyalty-acquirer-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"LoyaltyAcquirerData\": \"adyen:LoyaltyAcquirerData\",\n    \"LoyaltyAcquirerID\": {\n      \"@id\": \"adyen:LoyaltyAcquirerID\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ApprovalCode\": {\n      \"@id\": \"adyen:ApprovalCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"LoyaltyTransactionID\": {\n      \"@id\": \"adyen:LoyaltyTransactionID\",\n      \"@type\": \"xsd:string\"\n    },\n    \"HostReconciliationID\": {\n      \"@id\": \"adyen:HostReconciliationID\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-loyalty-acquirer-context.jsonld
 tags:

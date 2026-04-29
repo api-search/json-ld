@@ -34,6 +34,8 @@ property_count: 2
 provider_name: Argo CD
 provider_slug: argo-cd
 slug: argo-cd-protobuf-context
+source_filename: argo-cd-protobuf-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"argocd\": \"https://argoproj.github.io/schema/argo-cd/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"protobufAny\": \"argocd:protobufAny\",\n    \"typeUrl\": {\n      \"@id\": \"argocd:type_url\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"argocd:value\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-ld/argo-cd-protobuf-context.jsonld
 tags:

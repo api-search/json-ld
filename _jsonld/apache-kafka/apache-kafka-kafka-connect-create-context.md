@@ -44,6 +44,8 @@ property_count: 1
 provider_name: Apache Kafka
 provider_slug: apache-kafka
 slug: apache-kafka-kafka-connect-create-context
+source_filename: apache-kafka-kafka-connect-create-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"kafka\": \"https://apache-kafka.apache.org/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"CreateConnectorRequest\": \"kafka:CreateConnectorRequest\",\n    \"name\": \"schema:name\",\n    \"config\": {\n      \"@id\": \"kafka:config\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-create-context.jsonld
 tags:

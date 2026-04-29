@@ -52,6 +52,8 @@ property_count: 4
 provider_name: Amazon API Gateway
 provider_slug: aws-api-gateway
 slug: aws-api-gateway-v2-deployment-context
+source_filename: aws-api-gateway-v2-deployment-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Deployment\": \"aws:Deployment\",\n    \"DeploymentId\": {\n      \"@id\": \"aws:DeploymentId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Description\": {\n      \"@id\": \"aws:Description\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DeploymentStatus\": {\n      \"@id\": \"aws:DeploymentStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CreatedDate\": {\n      \"@id\": \"aws:CreatedDate\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-ld/aws-api-gateway-v2-deployment-context.jsonld
 tags:

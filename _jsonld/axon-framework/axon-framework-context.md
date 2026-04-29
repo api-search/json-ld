@@ -35,6 +35,8 @@ property_count: 0
 provider_name: Axon Framework
 provider_slug: axon-framework
 slug: axon-framework-context
+source_filename: axon-framework-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"axon\": \"https://docs.axoniq.io/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Event\": \"axon:Event\",\n    \"CommandHandler\": \"axon:CommandHandler\",\n    \"QueryHandler\": \"axon:QueryHandler\",\n    \"Context\": \"axon:Context\",\n    \"CreateContextRequest\": \"axon:CreateContextRequest\",\n    \"Application\": \"axon:Application\",\n    \"User\": \"axon:User\",\n    \"CreateUserRequest\": \"axon:CreateUserRequest\",\n    \"ClusterNode\": \"axon:ClusterNode\",\n    \"EventProcessor\": \"axon:EventProcessor\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/json-ld/axon-framework-context.jsonld
 tags:

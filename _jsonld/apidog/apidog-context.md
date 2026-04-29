@@ -54,6 +54,8 @@ property_count: 9
 provider_name: Apidog
 provider_slug: apidog
 slug: apidog-context
+source_filename: apidog-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"apidog\": \"https://api.apidog.com/v1/\",\n    \"projectId\": {\n      \"@id\": \"apidog:projectId\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"endpointCount\": {\n      \"@id\": \"apidog:endpointCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"schemaCount\": {\n      \"@id\": \"apidog:schemaCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"environmentCount\": {\n      \"@id\": \"apidog:environmentCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"apiVersion\": {\n      \"@id\": \"apidog:apiVersion\",\n      \"@type\": \"xsd:string\"\n    },\n    \"success\": {\n      \"@id\": \"apidog:success\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"errorCode\": {\n      \"@id\": \"apidog:errorCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"errorMessage\": {\n      \"@id\": \"apidog:errorMessage\",\n      \"@type\": \"xsd:string\"\n    },\n    \"exportData\": {\n      \"\
   @id\": \"apidog:exportData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/json-ld/apidog-context.jsonld

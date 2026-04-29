@@ -269,6 +269,8 @@ property_count: 4
 provider_name: Amadeus
 provider_slug: amadeus
 slug: amadeus-location-score-context
+source_filename: amadeus-location-score-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"errors\": {\n      \"@id\": \"schema:errors\"\n    },\n    \"meta\": {\n      \"@id\": \"schema:meta\",\n      \"@type\": \"xsd:string\"\n    },\n    \"data\": {\n      \"@id\": \"schema:data\"\n    },\n    \"warnings\": {\n      \"@id\": \"schema:warnings\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-location-score-context.jsonld
 tags:

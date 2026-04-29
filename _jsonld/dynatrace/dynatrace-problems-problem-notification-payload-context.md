@@ -86,6 +86,8 @@ property_count: 10
 provider_name: Dynatrace
 provider_slug: dynatrace
 slug: dynatrace-problems-problem-notification-payload-context
+source_filename: dynatrace-problems-problem-notification-payload-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"dt\": \"https://dt.dynatrace.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ProblemNotificationPayload\": \"dt:ProblemNotificationPayload\",\n    \"ProblemID\": {\n      \"@id\": \"dt:ProblemID\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ProblemTitle\": {\n      \"@id\": \"dt:ProblemTitle\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ProblemURL\": {\n      \"@id\": \"dt:ProblemURL\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ProblemSeverity\": {\n      \"@id\": \"dt:ProblemSeverity\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ProblemStatus\": {\n      \"@id\": \"dt:ProblemStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ImpactedEntities\": {\n      \"@id\": \"dt:ImpactedEntities\",\n      \"@container\": \"@set\"\n    },\n    \"ImpactedEntityNames\": {\n      \"@id\": \"dt:ImpactedEntityNames\",\n      \"@type\": \"xsd:string\"\
   \n    },\n    \"Tags\": {\n      \"@id\": \"dt:Tags\",\n      \"@type\": \"xsd:string\"\n    },\n    \"State\": {\n      \"@id\": \"dt:State\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ProblemDetailsJSON\": {\n      \"@id\": \"dt:ProblemDetailsJSON\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-problem-notification-payload-context.jsonld

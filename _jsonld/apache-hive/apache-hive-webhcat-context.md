@@ -42,6 +42,8 @@ property_count: 0
 provider_name: Apache Hive
 provider_slug: apache-hive
 slug: apache-hive-webhcat-context
+source_filename: apache-hive-webhcat-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"hive\": \"https://hive.apache.org/vocab#\",\n    \"name\": \"schema:name\",\n    \"comment\": \"schema:description\",\n    \"location\": \"schema:url\",\n    \"ownerName\": \"schema:creator\",\n    \"ownerType\": \"hive:ownerType\",\n    \"tableName\": \"hive:tableName\",\n    \"dbName\": \"hive:dbName\",\n    \"tableType\": \"hive:tableType\",\n    \"inputFormat\": \"hive:inputFormat\",\n    \"outputFormat\": \"hive:outputFormat\",\n    \"numRows\": \"hive:numRows\",\n    \"type\": \"schema:DataType\",\n    \"values\": \"hive:values\",\n    \"status\": \"schema:status\",\n    \"schema\": \"hive:schema\",\n    \"rows\": \"hive:rows\",\n    \"database\": \"hive:database\",\n    \"id\": \"schema:identifier\",\n    \"percentComplete\": \"hive:percentComplete\",\n    \"query\": \"hive:query\",\n    \"statusdir\": \"hive:statusdir\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/json-ld/apache-hive-webhcat-context.jsonld
 tags:

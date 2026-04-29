@@ -25,6 +25,8 @@ property_count: 0
 provider_name: BLE
 provider_slug: ble
 slug: ble-context
+source_filename: ble-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"bluetooth\": \"https://www.bluetooth.com/ontology/\",\n    \"uuid\": \"bluetooth:uuid\",\n    \"rssi\": \"bluetooth:rssi\",\n    \"txPowerLevel\": \"bluetooth:txPowerLevel\",\n    \"serviceUUIDs\": \"bluetooth:serviceUUIDs\",\n    \"manufacturerData\": \"bluetooth:manufacturerData\",\n    \"companyId\": \"bluetooth:companyId\",\n    \"connectable\": \"bluetooth:connectable\",\n    \"addressType\": \"bluetooth:addressType\",\n    \"characteristics\": \"bluetooth:characteristics\",\n    \"localName\": \"name\",\n    \"address\": \"bluetooth:deviceAddress\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/ble/refs/heads/main/json-ld/ble-context.jsonld
 tags:

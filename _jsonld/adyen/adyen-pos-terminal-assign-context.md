@@ -221,6 +221,8 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-pos-terminal-assign-context
+source_filename: adyen-pos-terminal-assign-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AssignTerminalsRequest\": \"adyen:AssignTerminalsRequest\",\n    \"AssignTerminalsResponse\": \"adyen:AssignTerminalsResponse\",\n    \"companyAccount\": {\n      \"@id\": \"adyen:companyAccount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"merchantAccount\": {\n      \"@id\": \"adyen:merchantAccount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"merchantInventory\": {\n      \"@id\": \"adyen:merchantInventory\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"store\": {\n      \"@id\": \"adyen:store\",\n      \"@type\": \"xsd:string\"\n    },\n    \"terminals\": {\n      \"@id\": \"adyen:terminals\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"results\": {\n      \"@id\": \"adyen:results\"\
   ,\n      \"@type\": \"@id\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-pos-terminal-assign-context.jsonld

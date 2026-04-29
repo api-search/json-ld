@@ -38,6 +38,8 @@ property_count: 0
 provider_name: AppOmni
 provider_slug: appomni
 slug: appomni-context
+source_filename: appomni-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"appomni\": \"https://www.appomni.com/vocab#\",\n    \"eventId\": \"schema:identifier\",\n    \"severity\": \"appomni:severity\",\n    \"type\": \"schema:category\",\n    \"application\": \"schema:applicationCategory\",\n    \"description\": \"schema:description\",\n    \"detectedAt\": \"schema:dateCreated\",\n    \"status\": \"appomni:status\",\n    \"userId\": \"schema:identifier\",\n    \"policyId\": \"schema:identifier\",\n    \"name\": \"schema:name\",\n    \"enabled\": \"appomni:enabled\",\n    \"reportId\": \"schema:identifier\",\n    \"framework\": \"appomni:framework\",\n    \"period\": \"appomni:period\",\n    \"generatedAt\": \"schema:dateCreated\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/json-ld/appomni-context.jsonld
 tags:

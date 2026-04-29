@@ -25,6 +25,8 @@ property_count: 0
 provider_name: Archrock
 provider_slug: archrock
 slug: archrock-investor-relations-api-context
+source_filename: archrock-investor-relations-api-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aroc\": \"https://www.archrock.com/vocab#\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"QuarterlyFinancials\": \"aroc:QuarterlyFinancials\",\n    \"FleetStatistics\": \"aroc:FleetStatistics\",\n    \"Equipment\": \"aroc:Equipment\",\n    \"EquipmentList\": \"aroc:EquipmentList\",\n    \"SecFiling\": \"aroc:SecFiling\",\n    \"SecFilingList\": \"aroc:SecFilingList\",\n    \"OperationalMetrics\": \"aroc:OperationalMetrics\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/json-ld/archrock-investor-relations-api-context.jsonld
 tags:

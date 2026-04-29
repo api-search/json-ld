@@ -46,6 +46,8 @@ property_count: 0
 provider_name: Apache Hudi
 provider_slug: apache-hudi
 slug: apache-hudi-timeline-context
+source_filename: apache-hudi-timeline-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"hudi\": \"https://hudi.apache.org/vocab#\",\n    \"tableName\": \"schema:name\",\n    \"basePath\": \"schema:url\",\n    \"tableType\": \"hudi:tableType\",\n    \"schema\": \"hudi:schema\",\n    \"preCombineField\": \"hudi:preCombineField\",\n    \"recordKeyField\": \"hudi:recordKeyField\",\n    \"partitionPathField\": \"hudi:partitionPathField\",\n    \"operation\": \"hudi:operation\",\n    \"batchSize\": \"hudi:batchSize\",\n    \"parallelism\": \"hudi:parallelism\",\n    \"smallFileLimit\": \"hudi:smallFileLimit\",\n    \"compactionEnabled\": \"hudi:compactionEnabled\",\n    \"timestamp\": \"schema:dateCreated\",\n    \"action\": \"hudi:action\",\n    \"state\": \"schema:status\",\n    \"commitTime\": \"hudi:commitTime\",\n    \"totalWriteBytes\": \"hudi:totalWriteBytes\",\n    \"totalRecordsWritten\": \"hudi:totalRecordsWritten\",\n    \"totalUpdateRecordsWritten\": \"hudi:totalUpdateRecordsWritten\"\
   ,\n    \"totalInsertRecordsWritten\": \"hudi:totalInsertRecordsWritten\",\n    \"policy\": \"hudi:policy\",\n    \"retainCommits\": \"hudi:retainCommits\",\n    \"queryType\": \"hudi:queryType\",\n    \"beginInstantTime\": \"hudi:beginInstantTime\",\n    \"endInstantTime\": \"hudi:endInstantTime\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/json-ld/apache-hudi-timeline-context.jsonld

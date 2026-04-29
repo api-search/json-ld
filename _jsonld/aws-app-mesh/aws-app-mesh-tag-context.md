@@ -39,6 +39,8 @@ property_count: 3
 provider_name: AWS App Mesh
 provider_slug: aws-app-mesh
 slug: aws-app-mesh-tag-context
+source_filename: aws-app-mesh-tag-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"TagRef\": \"aws:TagRef\",\n    \"TagResourceInput\": \"aws:TagResourceInput\",\n    \"TagResourceOutput\": \"aws:TagResourceOutput\",\n    \"tags\": {\n      \"@id\": \"aws:tags\",\n      \"@type\": \"xsd:string\"\n    },\n    \"key\": {\n      \"@id\": \"aws:key\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"aws:value\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-tag-context.jsonld
 tags:

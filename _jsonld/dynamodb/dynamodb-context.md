@@ -27,6 +27,8 @@ property_count: 0
 provider_name: Amazon DynamoDB
 provider_slug: dynamodb
 slug: dynamodb-context
+source_filename: dynamodb-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-ld/dynamodb-context.jsonld
 tags:

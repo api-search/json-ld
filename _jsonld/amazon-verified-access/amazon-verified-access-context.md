@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Amazon Verified Access
 provider_slug: amazon-verified-access
 slug: amazon-verified-access-context
+source_filename: amazon-verified-access-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"amazon_verified_access\": \"https://aws.amazon.com/amazon-verified-access/vocab#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/json-ld/amazon-verified-access-context.jsonld
 tags:

@@ -225,6 +225,8 @@ property_count: 7
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-accounts-kyc-check-context
+source_filename: adyen-accounts-kyc-check-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"KYCCheckResult\": \"adyen:KYCCheckResult\",\n    \"KYCCheckStatusData\": \"adyen:KYCCheckStatusData\",\n    \"KYCCheckSummary\": \"adyen:KYCCheckSummary\",\n    \"checks\": {\n      \"@id\": \"adyen:checks\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"requiredFields\": {\n      \"@id\": \"adyen:requiredFields\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"adyen:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"summary\": {\n      \"@id\": \"adyen:summary\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"adyen:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"kycCheckCode\": {\n      \"\
   @id\": \"adyen:kycCheckCode\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"kycCheckDescription\": {\n      \"@id\": \"adyen:kycCheckDescription\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-accounts-kyc-check-context.jsonld

@@ -211,6 +211,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-currency-context
+source_filename: adyen-management-currency-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Currency\": \"adyen:Currency\",\n    \"amount\": {\n      \"@id\": \"adyen:amount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"currencyCode\": {\n      \"@id\": \"adyen:currencyCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"percentage\": {\n      \"@id\": \"adyen:percentage\",\n      \"@type\": \"xsd:double\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-currency-context.jsonld
 tags:

@@ -208,6 +208,8 @@ property_count: 2
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-repeated-message-context
+source_filename: adyen-terminal-repeated-message-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"RepeatedMessageResponse\": \"adyen:RepeatedMessageResponse\",\n    \"MessageHeader\": {\n      \"@id\": \"adyen:MessageHeader\",\n      \"@type\": \"xsd:string\"\n    },\n    \"RepeatedResponseMessageBody\": {\n      \"@id\": \"adyen:RepeatedResponseMessageBody\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-repeated-message-context.jsonld
 tags:

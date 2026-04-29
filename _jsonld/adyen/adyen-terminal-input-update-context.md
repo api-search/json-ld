@@ -223,6 +223,8 @@ property_count: 7
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-input-update-context
+source_filename: adyen-terminal-input-update-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"InputUpdate\": \"adyen:InputUpdate\",\n    \"MessageReference\": {\n      \"@id\": \"adyen:MessageReference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"OutputContent\": {\n      \"@id\": \"adyen:OutputContent\",\n      \"@type\": \"xsd:string\"\n    },\n    \"MenuEntry\": {\n      \"@id\": \"adyen:MenuEntry\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"OutputSignature\": {\n      \"@id\": \"adyen:OutputSignature\",\n      \"@type\": \"xsd:string\"\n    },\n    \"MinLength\": {\n      \"@id\": \"adyen:MinLength\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"MaxLength\": {\n      \"@id\": \"adyen:MaxLength\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"MaxDecimalLength\": {\n  \
   \    \"@id\": \"adyen:MaxDecimalLength\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-input-update-context.jsonld

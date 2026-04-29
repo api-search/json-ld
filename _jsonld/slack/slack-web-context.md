@@ -171,6 +171,8 @@ property_count: 0
 provider_name: Slack
 provider_slug: slack
 slug: slack-web-context
+source_filename: slack-web-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/json-ld/slack-web-context.jsonld
 tags:

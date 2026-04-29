@@ -208,6 +208,8 @@ property_count: 2
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-commission-context
+source_filename: adyen-management-commission-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Commission\": \"adyen:Commission\",\n    \"fixedAmount\": {\n      \"@id\": \"adyen:fixedAmount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"variablePercentage\": {\n      \"@id\": \"adyen:variablePercentage\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-commission-context.jsonld
 tags:

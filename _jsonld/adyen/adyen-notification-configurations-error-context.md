@@ -211,6 +211,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-notification-configurations-error-context
+source_filename: adyen-notification-configurations-error-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ErrorFieldType\": \"adyen:ErrorFieldType\",\n    \"errorCode\": {\n      \"@id\": \"adyen:errorCode\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"errorDescription\": {\n      \"@id\": \"adyen:errorDescription\",\n      \"@type\": \"xsd:string\"\n    },\n    \"fieldType\": {\n      \"@id\": \"adyen:fieldType\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-notification-configurations-error-context.jsonld
 tags:

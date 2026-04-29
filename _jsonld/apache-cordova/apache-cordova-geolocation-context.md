@@ -48,6 +48,8 @@ property_count: 9
 provider_name: Apache Cordova
 provider_slug: apache-cordova
 slug: apache-cordova-geolocation-context
+source_filename: apache-cordova-geolocation-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cordova\": \"https://cordova.apache.org/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Position\": \"cordova:Position\",\n    \"accuracy\": {\n      \"@id\": \"cordova:accuracy\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"altitude\": {\n      \"@id\": \"cordova:altitude\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"altitudeAccuracy\": {\n      \"@id\": \"cordova:altitudeAccuracy\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"coords\": {\n      \"@id\": \"cordova:coords\",\n      \"@type\": \"@id\"\n    },\n    \"heading\": {\n      \"@id\": \"cordova:heading\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"latitude\": {\n      \"@id\": \"cordova:latitude\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"longitude\": {\n      \"@id\": \"cordova:longitude\",\n      \"@type\": \"xsd:decimal\"\
   \n    },\n    \"speed\": {\n      \"@id\": \"cordova:speed\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"timestamp\": {\n      \"@id\": \"cordova:timestamp\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-ld/apache-cordova-geolocation-context.jsonld

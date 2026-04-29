@@ -39,6 +39,8 @@ property_count: 0
 provider_name: SAP
 provider_slug: sap
 slug: sap-s4hana-cloud-business-partner-context
+source_filename: sap-s4hana-cloud-business-partner-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/json-ld/sap-s4hana-cloud-business-partner-context.jsonld
 tags:

@@ -14,6 +14,8 @@ property_count: 0
 provider_name: Amazon VPC Lattice
 provider_slug: amazon-vpc-lattice
 slug: amazon-vpc-lattice-context
+source_filename: amazon-vpc-lattice-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"amazon_vpc_lattice\": \"https://aws.amazon.com/amazon-vpc-lattice/vocab#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/json-ld/amazon-vpc-lattice-context.jsonld
 tags:

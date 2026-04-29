@@ -211,6 +211,8 @@ property_count: 3
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-transfers-counterparty-context
+source_filename: adyen-transfers-counterparty-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Counterparty\": \"adyen:Counterparty\",\n    \"accountHolderId\": {\n      \"@id\": \"adyen:accountHolderId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"balanceAccountId\": {\n      \"@id\": \"adyen:balanceAccountId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"transferInstrumentId\": {\n      \"@id\": \"adyen:transferInstrumentId\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-transfers-counterparty-context.jsonld
 tags:

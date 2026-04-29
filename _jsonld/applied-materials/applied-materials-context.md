@@ -35,6 +35,8 @@ property_count: 0
 provider_name: Applied Materials
 provider_slug: applied-materials
 slug: applied-materials-context
+source_filename: applied-materials-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"amat\": \"https://www.applied-materials.com/vocab#\",\n    \"equipmentId\": \"schema:identifier\",\n    \"serialNumber\": \"schema:serialNumber\",\n    \"model\": \"schema:model\",\n    \"type\": \"schema:category\",\n    \"status\": \"amat:status\",\n    \"location\": \"schema:location\",\n    \"installDate\": \"schema:dateCreated\",\n    \"lastMaintenanceDate\": \"amat:lastMaintenanceDate\",\n    \"recordId\": \"schema:identifier\",\n    \"scheduledDate\": \"amat:scheduledDate\",\n    \"completedDate\": \"amat:completedDate\",\n    \"notes\": \"schema:description\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/applied-materials/refs/heads/main/json-ld/applied-materials-context.jsonld
 tags:

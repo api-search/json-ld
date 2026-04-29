@@ -543,6 +543,8 @@ property_count: 0
 provider_name: Factset
 provider_slug: factset
 slug: factset-bookbuilder-context
+source_filename: factset-bookbuilder-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-ld/factset-bookbuilder-context.jsonld
 tags:

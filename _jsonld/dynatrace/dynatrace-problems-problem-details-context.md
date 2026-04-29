@@ -77,6 +77,8 @@ property_count: 7
 provider_name: Dynatrace
 provider_slug: dynatrace
 slug: dynatrace-problems-problem-details-context
+source_filename: dynatrace-problems-problem-details-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"dt\": \"https://dt.dynatrace.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ProblemDetails\": \"dt:ProblemDetails\",\n    \"id\": {\n      \"@id\": \"dt:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"title\": {\n      \"@id\": \"dt:title\",\n      \"@type\": \"xsd:string\"\n    },\n    \"severityLevel\": {\n      \"@id\": \"dt:severityLevel\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"dt:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"startTime\": {\n      \"@id\": \"dt:startTime\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"endTime\": {\n      \"@id\": \"dt:endTime\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"affectedEntities\": {\n      \"@id\": \"dt:affectedEntities\",\n      \"@container\": \"@set\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-problem-details-context.jsonld
 tags:

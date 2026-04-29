@@ -21,6 +21,8 @@ property_count: 0
 provider_name: Amazon Redshift
 provider_slug: amazon-redshift
 slug: amazon-redshift-data-context
+source_filename: amazon-redshift-data-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/json-ld/amazon-redshift-data-context.jsonld
 tags:

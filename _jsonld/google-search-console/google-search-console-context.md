@@ -21,6 +21,8 @@ property_count: 0
 provider_name: Google Search Console
 provider_slug: google-search-console
 slug: google-search-console-context
+source_filename: google-search-console-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/json-ld/google-search-console-context.jsonld
 tags:

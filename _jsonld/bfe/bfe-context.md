@@ -44,6 +44,8 @@ property_count: 7
 provider_name: BFE
 provider_slug: bfe
 slug: bfe-context
+source_filename: bfe-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"bfe\": \"https://bfe-networks.net/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"MonitorCategoriesResponse\": \"bfe:MonitorCategoriesResponse\",\n    \"MonitorMetricsResponse\": \"bfe:MonitorMetricsResponse\",\n    \"ReloadEntriesResponse\": \"bfe:ReloadEntriesResponse\",\n    \"ReloadEntry\": \"bfe:ReloadEntry\",\n    \"ReloadResponse\": \"bfe:ReloadResponse\",\n    \"categories\": {\n      \"@id\": \"bfe:categories\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": {\n      \"@id\": \"bfe:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"metrics\": {\n      \"@id\": \"bfe:metrics\",\n      \"@type\": \"xsd:string\"\n    },\n    \"entries\": {\n      \"@id\": \"bfe:entries\",\n      \"@type\": \"xsd:string\"\n    },\n    \"description\": {\n      \"@id\": \"bfe:description\",\n      \"@type\": \"xsd:string\"\n    },\n    \"success\": {\n     \
   \ \"@id\": \"bfe:success\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"message\": {\n      \"@id\": \"bfe:message\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/json-ld/bfe-context.jsonld

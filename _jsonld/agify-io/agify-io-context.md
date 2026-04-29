@@ -31,6 +31,8 @@ property_count: 3
 provider_name: Agify.io
 provider_slug: agify-io
 slug: agify-io-context
+source_filename: agify-io-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"agify\": \"https://agify.io/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n\n    \"AgePrediction\": \"agify:AgePrediction\",\n\n    \"name\": \"schema:name\",\n    \"count\": {\n      \"@id\": \"agify:count\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"age\": {\n      \"@id\": \"schema:age\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"country_id\": {\n      \"@id\": \"schema:addressCountry\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/json-ld/agify-io-context.jsonld
 tags:

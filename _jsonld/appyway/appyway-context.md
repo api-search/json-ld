@@ -54,6 +54,8 @@ property_count: 0
 provider_name: AppyWay
 provider_slug: appyway
 slug: appyway-context
+source_filename: appyway-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"geo\": \"https://www.w3.org/2003/01/geo/wgs84_pos#\",\n    \"appyway\": \"https://appyway.com/vocab#\",\n    \"locationId\": \"schema:identifier\",\n    \"name\": \"schema:name\",\n    \"availableSpaces\": \"appyway:availableSpaces\",\n    \"totalSpaces\": \"appyway:totalSpaces\",\n    \"occupancyPercent\": \"appyway:occupancyPercent\",\n    \"timestamp\": \"schema:dateModified\",\n    \"coordinates\": \"geo:SpatialThing\",\n    \"latitude\": \"geo:lat\",\n    \"longitude\": \"geo:long\",\n    \"evCharging\": \"appyway:evCharging\",\n    \"restrictions\": \"appyway:restrictions\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/json-ld/appyway-context.jsonld
 tags:

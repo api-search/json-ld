@@ -46,6 +46,8 @@ property_count: 2
 provider_name: Amazon API Gateway
 provider_slug: aws-api-gateway
 slug: aws-api-gateway-v1-throttle-context
+source_filename: aws-api-gateway-v1-throttle-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ThrottleSettings\": \"aws:ThrottleSettings\",\n    \"burstLimit\": {\n      \"@id\": \"aws:burstLimit\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"rateLimit\": {\n      \"@id\": \"aws:rateLimit\",\n      \"@type\": \"xsd:decimal\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-ld/aws-api-gateway-v1-throttle-context.jsonld
 tags:

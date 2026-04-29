@@ -54,6 +54,8 @@ property_count: 12
 provider_name: Baxter International
 provider_slug: baxter-international
 slug: baxter-context
+source_filename: baxter-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"fhir\": \"http://hl7.org/fhir/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"MedicalDevice\": {\n      \"@id\": \"schema:MedicalDevice\",\n      \"@type\": \"@id\"\n    },\n    \"DeviceObservation\": {\n      \"@id\": \"fhir:Observation\",\n      \"@type\": \"@id\"\n    },\n    \"deviceId\": {\n      \"@id\": \"schema:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"deviceType\": {\n      \"@id\": \"schema:additionalType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"manufacturer\": {\n      \"@id\": \"schema:manufacturer\",\n      \"@type\": \"@id\"\n    },\n    \"modelNumber\": {\n      \"@id\": \"schema:model\",\n      \"@type\": \"xsd:string\"\n    },\n    \"serialNumber\": {\n      \"@id\": \"schema:serialNumber\",\n      \"@type\": \"xsd:string\"\n    },\n    \"patientId\": {\n      \"@id\": \"fhir:Patient.identifier\",\n      \"@type\": \"xsd:string\"\
   \n    },\n    \"observationTime\": {\n      \"@id\": \"schema:startDate\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"value\": {\n      \"@id\": \"schema:value\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"unit\": {\n      \"@id\": \"schema:unitCode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"schema:status\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/json-ld/baxter-context.jsonld

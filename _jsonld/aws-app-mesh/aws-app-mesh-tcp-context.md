@@ -49,6 +49,8 @@ property_count: 6
 provider_name: AWS App Mesh
 provider_slug: aws-app-mesh
 slug: aws-app-mesh-tcp-context
+source_filename: aws-app-mesh-tcp-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"TcpRouteMatch\": \"aws:TcpRouteMatch\",\n    \"TcpTimeout\": \"aws:TcpTimeout\",\n    \"TcpRoute\": \"aws:TcpRoute\",\n    \"TcpRouteAction\": \"aws:TcpRouteAction\",\n    \"action\": {\n      \"@id\": \"aws:action\",\n      \"@type\": \"xsd:string\"\n    },\n    \"match\": {\n      \"@id\": \"aws:match\",\n      \"@type\": \"xsd:string\"\n    },\n    \"timeout\": {\n      \"@id\": \"aws:timeout\",\n      \"@type\": \"xsd:string\"\n    },\n    \"idle\": {\n      \"@id\": \"aws:idle\",\n      \"@type\": \"xsd:string\"\n    },\n    \"weightedTargets\": {\n      \"@id\": \"aws:weightedTargets\",\n      \"@type\": \"xsd:string\"\n    },\n    \"port\": {\n      \"@id\": \"aws:port\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-tcp-context.jsonld
 tags:

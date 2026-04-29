@@ -300,6 +300,8 @@ property_count: 8
 provider_name: Palo Alto Networks
 provider_slug: palo-alto-networks
 slug: palo-alto-cortex-xsiam-data-ingestion-context
+source_filename: palo-alto-cortex-xsiam-data-ingestion-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https://pan.dev/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"EventDataPayload\": \"pan:EventDataPayload\",\n    \"LogDataPayload\": \"pan:LogDataPayload\",\n    \"XdrDataPayload\": \"pan:XdrDataPayload\",\n    \"dataset\": {\n      \"@id\": \"pan:dataset\",\n      \"@type\": \"xsd:string\"\n    },\n    \"eventId\": {\n      \"@id\": \"pan:event_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"logType\": {\n      \"@id\": \"pan:log_type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"product\": {\n      \"@id\": \"pan:product\",\n      \"@type\": \"xsd:string\"\n    },\n    \"rawLog\": {\n      \"@id\": \"pan:raw_log\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tenantId\": {\n      \"@id\": \"pan:tenant_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"timestamp\": {\n      \"@id\"\
   : \"pan:timestamp\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"vendor\": {\n      \"@id\": \"pan:vendor\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/json-ld/palo-alto-cortex-xsiam-data-ingestion-context.jsonld

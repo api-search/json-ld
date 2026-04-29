@@ -54,6 +54,8 @@ property_count: 4
 provider_name: Amazon API Gateway
 provider_slug: aws-api-gateway
 slug: aws-api-gateway-v1-api-context
+source_filename: aws-api-gateway-v1-api-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"ApiKey\": \"aws:ApiKey\",\n    \"ApiKeys\": \"aws:ApiKeys\",\n    \"items\": {\n      \"@id\": \"aws:items\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    },\n    \"id\": {\n      \"@id\": \"aws:id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"aws:value\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": \"schema:name\",\n    \"enabled\": {\n      \"@id\": \"aws:enabled\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-ld/aws-api-gateway-v1-api-context.jsonld
 tags:

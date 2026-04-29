@@ -37,6 +37,8 @@ property_count: 1
 provider_name: Argo CD
 provider_slug: argo-cd
 slug: argo-cd-notification-context
+source_filename: argo-cd-notification-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"argocd\": \"https://argoproj.github.io/schema/argo-cd/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"notificationTrigger\": \"argocd:notificationTrigger\",\n    \"notificationServiceList\": \"argocd:notificationServiceList\",\n    \"notificationTemplateList\": \"argocd:notificationTemplateList\",\n    \"notificationService\": \"argocd:notificationService\",\n    \"notificationTemplate\": \"argocd:notificationTemplate\",\n    \"notificationTriggerList\": \"argocd:notificationTriggerList\",\n    \"name\": \"schema:name\",\n    \"items\": {\n      \"@id\": \"argocd:items\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-ld/argo-cd-notification-context.jsonld
 tags:

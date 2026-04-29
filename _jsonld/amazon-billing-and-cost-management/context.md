@@ -43,6 +43,8 @@ property_count: 2
 provider_name: Amazon Billing And Cost Management
 provider_slug: amazon-billing-and-cost-management
 slug: context
+source_filename: context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"aws-billing\": \"https://aws.amazon.com/billing/vocab#\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n\n    \"Budget\": \"aws-billing:Budget\",\n    \"BudgetName\": \"aws-billing:budgetName\",\n    \"BudgetType\": \"aws-billing:budgetType\",\n    \"BudgetLimit\": \"aws-billing:budgetLimit\",\n    \"TimeUnit\": \"aws-billing:timeUnit\",\n    \"TimePeriod\": \"aws-billing:timePeriod\",\n    \"CalculatedSpend\": \"aws-billing:calculatedSpend\",\n    \"ActualSpend\": \"aws-billing:actualSpend\",\n    \"ForecastedSpend\": \"aws-billing:forecastedSpend\",\n\n    \"AnomalyMonitor\": \"aws-billing:AnomalyMonitor\",\n    \"MonitorArn\": \"aws-billing:monitorArn\",\n    \"MonitorName\": \"aws-billing:monitorName\",\n    \"MonitorType\": \"aws-billing:monitorType\",\n\n    \"CostCategory\": \"aws-billing:CostCategory\",\n    \"CostCategoryArn\": \"aws-billing:costCategoryArn\",\n\n\
   \    \"Amount\": \"schema:price\",\n    \"Unit\": \"schema:priceCurrency\",\n\n    \"createdAt\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"modifiedAt\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/json-ld/context.jsonld

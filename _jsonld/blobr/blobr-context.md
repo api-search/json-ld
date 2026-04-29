@@ -29,6 +29,8 @@ property_count: 0
 provider_name: Blobr
 provider_slug: blobr
 slug: blobr-context
+source_filename: blobr-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"blobr\": \"https://www.blobr.io/ontology/\",\n    \"campaignId\": \"blobr:campaignId\",\n    \"agentType\": \"blobr:agentType\",\n    \"recommendationId\": \"blobr:recommendationId\",\n    \"priority\": \"blobr:priority\",\n    \"rationale\": \"description\",\n    \"biddingStrategy\": \"blobr:biddingStrategy\",\n    \"targetCpaMicros\": \"blobr:targetCpa\",\n    \"targetRoas\": \"blobr:targetRoas\",\n    \"amountMicros\": \"blobr:budgetAmount\",\n    \"metrics\": \"blobr:campaignMetrics\",\n    \"impressions\": \"blobr:impressions\",\n    \"clicks\": \"blobr:clicks\",\n    \"conversions\": \"blobr:conversions\",\n    \"roas\": \"blobr:returnOnAdSpend\",\n    \"status\": \"blobr:status\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/blobr/refs/heads/main/json-ld/blobr-context.jsonld
 tags:

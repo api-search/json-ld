@@ -29,6 +29,8 @@ property_count: 0
 provider_name: Cleanshelf
 provider_slug: cleanshelf
 slug: cleanshelf-context
+source_filename: cleanshelf-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://apievangelist.com/vocab/cleanshelf/\",\n    \"schema\": \"https://schema.org/\",\n    \"zylo\": \"https://zylo.com/vocab/\",\n    \"Application\": \"schema:SoftwareApplication\",\n    \"License\": \"zylo:SoftwareLicense\",\n    \"Subscription\": \"zylo:SaaSSubscription\",\n    \"Vendor\": \"schema:Organization\",\n    \"Contract\": \"zylo:Contract\",\n    \"User\": \"schema:Person\",\n    \"Department\": \"schema:OrganizationRole\",\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"renewalDate\": \"zylo:renewalDate\",\n    \"annualSpend\": \"zylo:annualSpend\",\n    \"createdAt\": \"schema:dateCreated\",\n    \"updatedAt\": \"schema:dateModified\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/cleanshelf/refs/heads/main/json-ld/cleanshelf-context.jsonld
 tags:

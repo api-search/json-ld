@@ -48,6 +48,8 @@ property_count: 9
 provider_name: Ansible Automation Platform
 provider_slug: ansible-automation-platform
 slug: ansible-automation-platform-context
+source_filename: ansible-automation-platform-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"ansible\": \"https://ansible.dev/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"JobTemplate\": \"ansible:JobTemplate\",\n    \"Job\": \"ansible:Job\",\n    \"Inventory\": \"ansible:Inventory\",\n    \"id\": { \"@id\": \"ansible:id\", \"@type\": \"xsd:integer\" },\n    \"name\": { \"@id\": \"schema:name\", \"@type\": \"xsd:string\" },\n    \"description\": { \"@id\": \"schema:description\", \"@type\": \"xsd:string\" },\n    \"status\": { \"@id\": \"ansible:status\", \"@type\": \"xsd:string\" },\n    \"jobType\": { \"@id\": \"ansible:job_type\", \"@type\": \"xsd:string\" },\n    \"playbook\": { \"@id\": \"ansible:playbook\", \"@type\": \"xsd:string\" },\n    \"hostCount\": { \"@id\": \"ansible:host_count\", \"@type\": \"xsd:integer\" },\n    \"scmType\": { \"@id\": \"ansible:scm_type\", \"@type\": \"xsd:string\" },\n    \"scmUrl\": { \"@id\": \"ansible:scm_url\"\
   , \"@type\": \"@id\" }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/json-ld/ansible-automation-platform-context.jsonld

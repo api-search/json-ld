@@ -56,6 +56,8 @@ property_count: 8
 provider_name: 42Crunch
 provider_slug: 42crunch
 slug: 42crunch-scand-manager-context
+source_filename: 42crunch-scand-manager-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"42c\": \"https://42crunch.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Jobs\": \"42c:Jobs\",\n    \"JobSpec\": \"42c:JobSpec\",\n    \"JobStatus\": \"42c:JobStatus\",\n    \"Error\": \"42c:Error\",\n    \"jobs\": {\n      \"@id\": \"42c:jobs\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"token\": {\n      \"@id\": \"42c:token\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": \"schema:name\",\n    \"expirationTime\": {\n      \"@id\": \"42c:expirationTime\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"platformService\": {\n      \"@id\": \"42c:platformService\",\n      \"@type\": \"xsd:string\"\n    },\n    \"scandImage\": {\n      \"@id\": \"42c:scandImage\",\n      \"@type\": \"xsd:string\"\n    },\n    \"env\": {\n      \"@id\": \"42c:env\",\n      \"\
   @type\": \"@id\"\n    },\n    \"status\": {\n      \"@id\": \"42c:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"error\": {\n      \"@id\": \"42c:error\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/json-ld/42crunch-scand-manager-context.jsonld

@@ -208,6 +208,8 @@ property_count: 2
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-transfers-repayment-term-context
+source_filename: adyen-transfers-repayment-term-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"RepaymentTerm\": \"adyen:RepaymentTerm\",\n    \"estimatedDays\": {\n      \"@id\": \"adyen:estimatedDays\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"maximumDays\": {\n      \"@id\": \"adyen:maximumDays\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-transfers-repayment-term-context.jsonld
 tags:

@@ -21,6 +21,8 @@ property_count: 0
 provider_name: Google Slides
 provider_slug: google-slides
 slug: google-slides-context
+source_filename: google-slides-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/json-ld/google-slides-context.jsonld
 tags:

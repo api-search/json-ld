@@ -220,6 +220,8 @@ property_count: 6
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-mobile-data-context
+source_filename: adyen-terminal-mobile-data-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"MobileData\": \"adyen:MobileData\",\n    \"MobileCountryCode\": {\n      \"@id\": \"adyen:MobileCountryCode\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"MobileNetworkCode\": {\n      \"@id\": \"adyen:MobileNetworkCode\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"MaskedMSISDN\": {\n      \"@id\": \"adyen:MaskedMSISDN\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"Geolocation\": {\n      \"@id\": \"adyen:Geolocation\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ProtectedMobileData\": {\n      \"@id\": \"adyen:ProtectedMobileData\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SensitiveMobileData\": {\n      \"@id\": \"adyen:SensitiveMobileData\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-mobile-data-context.jsonld
 tags:

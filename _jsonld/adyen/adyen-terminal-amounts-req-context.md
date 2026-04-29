@@ -226,6 +226,8 @@ property_count: 8
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-terminal-amounts-req-context
+source_filename: adyen-terminal-amounts-req-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"AmountsReq\": \"adyen:AmountsReq\",\n    \"Currency\": {\n      \"@id\": \"adyen:Currency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"RequestedAmount\": {\n      \"@id\": \"adyen:RequestedAmount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"CashBackAmount\": {\n      \"@id\": \"adyen:CashBackAmount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"TipAmount\": {\n      \"@id\": \"adyen:TipAmount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"PaidAmount\": {\n      \"@id\": \"adyen:PaidAmount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"MinimumAmountToDeliver\": {\n      \"@id\": \"adyen:MinimumAmountToDeliver\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"MaximumCashBackAmount\": {\n      \"@id\": \"\
   adyen:MaximumCashBackAmount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"MinimumSplitAmount\": {\n      \"@id\": \"adyen:MinimumSplitAmount\",\n      \"@type\": \"xsd:decimal\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-terminal-amounts-req-context.jsonld

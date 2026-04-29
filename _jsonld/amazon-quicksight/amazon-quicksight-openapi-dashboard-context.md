@@ -55,6 +55,8 @@ property_count: 9
 provider_name: Amazon QuickSight
 provider_slug: amazon-quicksight
 slug: amazon-quicksight-openapi-dashboard-context
+source_filename: amazon-quicksight-openapi-dashboard-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Dashboard\": \"aws:Dashboard\",\n    \"DashboardId\": {\n      \"@id\": \"aws:DashboardId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Arn\": {\n      \"@id\": \"aws:Arn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Name\": {\n      \"@id\": \"aws:Name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Version\": {\n      \"@id\": \"aws:Version\",\n      \"@type\": \"xsd:string\"\n    },\n    \"VersionNumber\": {\n      \"@id\": \"aws:VersionNumber\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"Status\": {\n      \"@id\": \"aws:Status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CreatedTime\": {\n      \"@id\": \"aws:CreatedTime\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"LastPublishedTime\": {\n     \
   \ \"@id\": \"aws:LastPublishedTime\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"LastUpdatedTime\": {\n      \"@id\": \"aws:LastUpdatedTime\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/json-ld/amazon-quicksight-openapi-dashboard-context.jsonld

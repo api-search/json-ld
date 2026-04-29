@@ -43,6 +43,8 @@ property_count: 1
 provider_name: Amazon API Gateway
 provider_slug: aws-api-gateway
 slug: aws-api-gateway-v1-endpoint-context
+source_filename: aws-api-gateway-v1-endpoint-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"EndpointConfiguration\": \"aws:EndpointConfiguration\",\n    \"types\": {\n      \"@id\": \"aws:types\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-ld/aws-api-gateway-v1-endpoint-context.jsonld
 tags:

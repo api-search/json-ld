@@ -48,6 +48,8 @@ property_count: 4
 provider_name: APIMatic
 provider_slug: apimatic
 slug: apimatic-context
+source_filename: apimatic-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"https://schema.org/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"apimatic\": \"https://www.apimatic.io/vocab/\",\n    \"id\": \"@id\",\n    \"type\": \"@type\",\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"version\": \"schema:version\",\n    \"createdAt\": {\n      \"@id\": \"dcterms:created\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"updatedAt\": {\n      \"@id\": \"dcterms:modified\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"platform\": \"apimatic:platform\",\n    \"downloadUrl\": {\n      \"@id\": \"schema:downloadUrl\",\n      \"@type\": \"@id\"\n    },\n    \"expiresAt\": {\n      \"@id\": \"schema:expires\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"errors\": \"apimatic:errors\",\n    \"warnings\": \"apimatic:warnings\",\n    \"valid\": \"apimatic:valid\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/json-ld/apimatic-context.jsonld
 tags:

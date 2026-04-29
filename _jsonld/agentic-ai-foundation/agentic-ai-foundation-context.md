@@ -48,6 +48,8 @@ property_count: 7
 provider_name: Agentic AI Foundation
 provider_slug: agentic-ai-foundation
 slug: agentic-ai-foundation-context
+source_filename: agentic-ai-foundation-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aaif\": \"https://aaif.foundation/schema/\",\n    \"mcp\": \"https://modelcontextprotocol.io/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n\n    \"MCPTool\": \"mcp:Tool\",\n    \"MCPResource\": \"mcp:Resource\",\n\n    \"name\": \"schema:name\",\n    \"description\": \"schema:description\",\n    \"version\": \"schema:version\",\n\n    \"uri\": {\n      \"@id\": \"schema:url\",\n      \"@type\": \"@id\"\n    },\n    \"mimeType\": {\n      \"@id\": \"schema:encodingFormat\",\n      \"@type\": \"xsd:string\"\n    },\n    \"size\": {\n      \"@id\": \"schema:contentSize\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"inputSchema\": {\n      \"@id\": \"mcp:input_schema\",\n      \"@type\": \"@id\"\n    },\n    \"annotations\": {\n      \"@id\": \"mcp:annotations\",\n      \"@type\": \"@id\"\n    },\n    \"readOnly\"\
   : {\n      \"@id\": \"mcp:read_only\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"destructive\": {\n      \"@id\": \"mcp:destructive\",\n      \"@type\": \"xsd:boolean\"\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/json-ld/agentic-ai-foundation-context.jsonld

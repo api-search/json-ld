@@ -76,6 +76,8 @@ property_count: 13
 provider_name: Teradata
 provider_slug: teradata
 slug: teradata-query-service-api-context
+source_filename: teradata-query-service-api-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"td\": \"https://developer.teradata.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"QuerySystem\": \"td:QuerySystem\",\n    \"Session\": \"td:Session\",\n    \"QueryRequest\": \"td:QueryRequest\",\n    \"QueryResult\": \"td:QueryResult\",\n    \"name\": { \"@id\": \"schema:name\", \"@type\": \"xsd:string\" },\n    \"host\": { \"@id\": \"td:host\", \"@type\": \"xsd:string\" },\n    \"port\": { \"@id\": \"td:port\", \"@type\": \"xsd:integer\" },\n    \"status\": { \"@id\": \"td:status\", \"@type\": \"xsd:string\" },\n    \"sessionId\": { \"@id\": \"td:sessionId\", \"@type\": \"xsd:string\" },\n    \"system\": { \"@id\": \"td:system\", \"@type\": \"xsd:string\" },\n    \"database\": { \"@id\": \"td:database\", \"@type\": \"xsd:string\" },\n    \"createdAt\": { \"@id\": \"schema:dateCreated\", \"@type\": \"xsd:dateTime\"\
   \ },\n    \"queryId\": { \"@id\": \"td:queryId\", \"@type\": \"xsd:string\" },\n    \"query\": { \"@id\": \"td:query\", \"@type\": \"xsd:string\" },\n    \"rowCount\": { \"@id\": \"td:rowCount\", \"@type\": \"xsd:integer\" },\n    \"columns\": { \"@id\": \"td:columns\", \"@container\": \"@set\" },\n    \"rows\": { \"@id\": \"td:rows\", \"@container\": \"@set\" }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/json-ld/teradata-query-service-api-context.jsonld

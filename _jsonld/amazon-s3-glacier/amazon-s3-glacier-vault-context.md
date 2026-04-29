@@ -48,6 +48,8 @@ property_count: 9
 provider_name: Amazon S3 Glacier
 provider_slug: amazon-s3-glacier
 slug: amazon-s3-glacier-vault-context
+source_filename: amazon-s3-glacier-vault-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Amazon S3 Glacier Vault\": \"aws:Amazon S3 Glacier Vault\",\n    \"VaultARN\": {\n      \"@id\": \"aws:VaultARN\",\n      \"@type\": \"xsd:string\"\n    },\n    \"VaultName\": {\n      \"@id\": \"aws:VaultName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CreationDate\": {\n      \"@id\": \"aws:CreationDate\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"LastInventoryDate\": {\n      \"@id\": \"aws:LastInventoryDate\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"NumberOfArchives\": {\n      \"@id\": \"aws:NumberOfArchives\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"SizeInBytes\": {\n      \"@id\": \"aws:SizeInBytes\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"VaultAccessPolicy\": {\n      \"@id\": \"aws:VaultAccessPolicy\"\
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"VaultNotificationConfig\": {\n      \"@id\": \"aws:VaultNotificationConfig\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Tags\": {\n      \"@id\": \"aws:Tags\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/json-ld/amazon-s3-glacier-vault-context.jsonld

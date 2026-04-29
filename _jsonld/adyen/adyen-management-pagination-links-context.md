@@ -217,6 +217,8 @@ property_count: 5
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-management-pagination-links-context
+source_filename: adyen-management-pagination-links-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"adyen\": \"https://docs.adyen.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"PaginationLinks\": \"adyen:PaginationLinks\",\n    \"first\": {\n      \"@id\": \"adyen:first\",\n      \"@type\": \"xsd:string\"\n    },\n    \"last\": {\n      \"@id\": \"adyen:last\",\n      \"@type\": \"xsd:string\"\n    },\n    \"next\": {\n      \"@id\": \"adyen:next\",\n      \"@type\": \"xsd:string\"\n    },\n    \"prev\": {\n      \"@id\": \"adyen:prev\",\n      \"@type\": \"xsd:string\"\n    },\n    \"self\": {\n      \"@id\": \"adyen:self\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-ld/adyen-management-pagination-links-context.jsonld
 tags:

@@ -21,6 +21,8 @@ property_count: 0
 provider_name: Google Cloud Storage
 provider_slug: gcp-cloud-storage
 slug: gcp-cloud-storage-json-context
+source_filename: gcp-cloud-storage-json-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/json-ld/gcp-cloud-storage-json-context.jsonld
 tags:

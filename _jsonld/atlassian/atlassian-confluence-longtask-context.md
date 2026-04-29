@@ -609,6 +609,8 @@ property_count: 0
 provider_name: Atlassian
 provider_slug: atlassian
 slug: atlassian-confluence-longtask-context
+source_filename: atlassian-confluence-longtask-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-ld/atlassian-confluence-longtask-context.jsonld
 tags:

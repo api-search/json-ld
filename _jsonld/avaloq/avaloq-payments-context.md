@@ -40,6 +40,8 @@ property_count: 8
 provider_name: Avaloq
 provider_slug: avaloq
 slug: avaloq-payments-context
+source_filename: avaloq-payments-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://api.avaloq.com/payments#\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"http://schema.org/\",\n    \"amount\": {\n      \"@id\": \"http://schema.org/price\"\n    },\n    \"currency\": {\n      \"@id\": \"http://schema.org/priceCurrency\"\n    },\n    \"executionDate\": {\n      \"@type\": \"http://www.w3.org/2001/XMLSchema#date\"\n    },\n    \"id\": {\n      \"@id\": \"http://schema.org/identifier\"\n    },\n    \"status\": {\n      \"@id\": \"http://schema.org/status\"\n    },\n    \"valueDate\": {\n      \"@type\": \"http://www.w3.org/2001/XMLSchema#date\"\n    },\n    \"total\": {\n      \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\"\n    },\n    \"offset\": {\n      \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/json-ld/avaloq-payments-context.jsonld
 tags:

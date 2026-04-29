@@ -56,6 +56,8 @@ property_count: 3
 provider_name: New Relic
 provider_slug: new-relic
 slug: new-relic-event-context
+source_filename: new-relic-event-context.jsonld
+source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"CustomEvent\": {\n      \"@id\": \"ns:CustomEvent\",\n      \"@context\": {\n        \"eventType\": {\n          \"@id\": \"ns:eventType\",\n          \"@type\": \"xsd:string\"\n        },\n        \"timestamp\": {\n          \"@id\": \"ns:timestamp\",\n          \"@type\": \"xsd:integer\"\n        }\n      }\n    },\n    \"SuccessResponse\": {\n      \"@id\": \"ns:SuccessResponse\",\n      \"@context\": {\n        \"success\": {\n          \"@id\": \"ns:success\",\n          \"@type\": \"xsd:boolean\"\n        },\n        \"uuid\": {\n          \"@id\": \"ns:uuid\",\n          \"@type\": \"xsd:string\"\n        }\n      }\n    },\n    \"ErrorResponse\": {\n      \"@id\": \"ns:ErrorResponse\",\n      \"@context\": {\n        \"success\": {\n          \"@id\": \"ns:success\",\n          \"@type\": \"xsd:boolean\"\n        },\n   \
   \     \"error\": {\n          \"@id\": \"ns:error\",\n          \"@type\": \"xsd:string\"\n        },\n        \"errors\": \"ns:errors\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-event-context.jsonld
