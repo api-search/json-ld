@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amqp-messaging.yml
+  format: yaml
+  label: AMQP Messaging API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/asyncapi/amqp-messaging.yml
 class_count: 0
 classes: []
 context_file: json-ld/amqp-context.jsonld

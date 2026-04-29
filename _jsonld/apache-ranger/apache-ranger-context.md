@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-ranger-rest-api.yaml
+  format: yaml
+  label: Apache Ranger REST API
+  slug: apache-ranger-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-rest-api.yaml
 class_count: 13
 classes:
 - PolicyList

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-freertos-openapi.yml
+  format: yaml
+  label: Amazon FreeRTOS API
+  slug: amazon-freertos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-openapi.yml
 class_count: 5
 classes:
 - SoftwareConfiguration

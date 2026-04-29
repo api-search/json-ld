@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: agromonitoring-openapi.yml
+  format: yaml
+  label: Agromonitoring
+  slug: agromonitoring
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-openapi.yml
 class_count: 33
 classes:
 - Polygon

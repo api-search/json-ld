@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-hbase-rest-openapi.yml
+  format: yaml
+  label: Apache HBase REST API
+  slug: apache-hbase-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/openapi/apache-hbase-rest-openapi.yml
 class_count: 26
 classes:
 - Server

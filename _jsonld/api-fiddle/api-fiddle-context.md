@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: api-fiddle-api-fiddle-openapi.yml
+  format: yaml
+  label: API-Fiddle
+  slug: api-fiddle
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-api-fiddle-openapi.yml
 class_count: 13
 classes:
 - Project

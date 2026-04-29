@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloud-resource-manager-openapi.yml
+  format: yaml
+  label: Google Cloud Resource Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/cloud-resource-manager-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/google-cloud-platform-context.jsonld

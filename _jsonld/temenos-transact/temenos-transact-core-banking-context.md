@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: temenos-transact-core-banking-openapi.yml
+  format: yaml
+  label: Temenos Transact Core Banking API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-core-banking-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/temenos-transact-core-banking-context.jsonld

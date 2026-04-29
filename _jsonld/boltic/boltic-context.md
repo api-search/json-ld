@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: boltic-gateway-api-openapi.yml
+  format: yaml
+  label: Boltic Gateway API
+  slug: gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-gateway-api-openapi.yml
+- filename: boltic-workflow-api-openapi.yml
+  format: yaml
+  label: Boltic Workflow API
+  slug: workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-workflow-api-openapi.yml
+- filename: boltic-tables-api-openapi.yml
+  format: yaml
+  label: Boltic Tables API
+  slug: tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-tables-api-openapi.yml
+- filename: boltic-pipes-api-openapi.yml
+  format: yaml
+  label: Boltic Pipes API
+  slug: pipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-pipes-api-openapi.yml
+- filename: boltic-streams-api-openapi.yml
+  format: yaml
+  label: Boltic Streams API
+  slug: streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-streams-api-openapi.yml
 class_count: 36
 classes:
 - id

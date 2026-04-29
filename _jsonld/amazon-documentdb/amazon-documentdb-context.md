@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-documentdb-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/openapi/amazon-documentdb-openapi.yml
 class_count: 3
 classes:
 - Amazon DocumentDB DBCluster

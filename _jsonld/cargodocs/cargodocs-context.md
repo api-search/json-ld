@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: cargodocs-partner-openapi.yml
+  format: yaml
+  label: CargoDocs Partner API
+  slug: partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-partner-openapi.yml
+- filename: cargodocs-issuer-openapi.yml
+  format: yaml
+  label: CargoDocs Issuer API
+  slug: issuer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-issuer-openapi.yml
+- filename: cargodocs-customer-openapi.yml
+  format: yaml
+  label: CargoDocs Customer Data/Docs API
+  slug: customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-customer-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/cargodocs-context.jsonld

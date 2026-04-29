@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: citrix-netscaler-nitro-openapi.yml
+  format: yaml
+  label: Citrix ADC (NetScaler) NITRO API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-nitro-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/citrix-netscaler-nitro-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-key-vault-data-plane-openapi.yml
+  format: yaml
+  label: Azure Key Vault Data Plane API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-key-vault/refs/heads/main/openapi/azure-key-vault-data-plane-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/azure-key-vault-context.jsonld

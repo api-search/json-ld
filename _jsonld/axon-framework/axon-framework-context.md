@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: axon-server-api.yml
+  format: yaml
+  label: Axon Framework
+  slug: axon-framework
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-server-api.yml
 class_count: 10
 classes:
 - Event

@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: automation-anywhere-control-room-openapi.yml
+  format: yaml
+  label: Automation Anywhere Control Room API
+  slug: control-room-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-control-room-openapi.yml
+- filename: automation-anywhere-bot-deploy-openapi.yml
+  format: yaml
+  label: Automation Anywhere Bot Deploy API
+  slug: bot-deploy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-bot-deploy-openapi.yml
+- filename: automation-anywhere-workload-management-openapi.yml
+  format: yaml
+  label: Automation Anywhere Workload Management API
+  slug: workload-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workload-management-openapi.yml
+- filename: automation-anywhere-bot-insight-openapi.yml
+  format: yaml
+  label: Automation Anywhere Bot Insight API
+  slug: bot-insight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-bot-insight-openapi.yml
+- filename: automation-anywhere-api-task-execution-openapi.yml
+  format: yaml
+  label: Automation Anywhere API Task Execution API
+  slug: api-task-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-api-task-execution-openapi.yml
+- filename: automation-anywhere-credential-vault-openapi.yml
+  format: yaml
+  label: Automation Anywhere Credential Vault API
+  slug: credential-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-credential-vault-openapi.yml
+- filename: automation-anywhere-repository-management-openapi.yml
+  format: yaml
+  label: Automation Anywhere Repository Management API
+  slug: repository-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-repository-management-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/automation-anywhere-context.jsonld

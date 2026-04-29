@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: chaos-mesh-dashboard-api-openapi.yml
+  format: yaml
+  label: Chaos Mesh API
+  slug: chaos-mesh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/openapi/chaos-mesh-dashboard-api-openapi.yml
 class_count: 6
 classes:
 - name

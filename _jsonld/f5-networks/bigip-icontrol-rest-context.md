@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bigip-icontrol-rest.yml
+  format: yaml
+  label: F5 BIG-IP iControl REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/bigip-icontrol-rest.yml
 class_count: 0
 classes: []
 context_file: json-ld/bigip-icontrol-rest-context.jsonld

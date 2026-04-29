@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-fraud-detector-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector API
+  slug: amazon-fraud-detector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-openapi.yml
 class_count: 5
 classes:
 - Detector

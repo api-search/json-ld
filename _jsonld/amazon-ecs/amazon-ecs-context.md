@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-ecs-openapi.yml
+  format: yaml
+  label: Amazon ECS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-ecs-context.jsonld

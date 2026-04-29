@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-hudi-timeline-openapi.yml
+  format: yaml
+  label: Apache Hudi Timeline Server API
+  slug: apache-hudi-timeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/openapi/apache-hudi-timeline-openapi.yml
 class_count: 25
 classes:
 - tableName

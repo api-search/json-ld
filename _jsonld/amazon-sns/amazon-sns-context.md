@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-sns-api-openapi.yml
+  format: yaml
+  label: Amazon SNS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-sns-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bloom-credit-api-openapi.yaml
+  format: yaml
+  label: Bloom Credit API
+  slug: bloom-credit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-api-openapi.yaml
 class_count: 48
 classes:
 - id

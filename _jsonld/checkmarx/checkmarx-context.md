@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: checkmarx-sast-openapi.yml
+  format: yaml
+  label: Checkmarx SAST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-sast-openapi.yml
+- filename: checkmarx-sca-openapi.yml
+  format: yaml
+  label: Checkmarx SCA API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-sca-openapi.yml
+- filename: checkmarx-one-openapi.yml
+  format: yaml
+  label: Checkmarx One API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-one-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/checkmarx-context.jsonld

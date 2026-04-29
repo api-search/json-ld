@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: teamcity-rest-api.yml
+  format: yaml
+  label: TeamCity REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-rest-api.yml
 class_count: 0
 classes: []
 context_file: json-ld/teamcity-rest-api.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aspentech-inmation-web-openapi.yml
+  format: yaml
+  label: AspenTech Inmation Web API
+  slug: inmation-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-inmation-web-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/aspentech-context.jsonld

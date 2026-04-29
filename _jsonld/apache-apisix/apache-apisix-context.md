@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: apache-apisix-admin-api-openapi.yml
+  format: yaml
+  label: Apache APISIX Admin API
+  slug: apache-apisix-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-admin-api-openapi.yml
+- filename: apache-apisix-control-api-openapi.yml
+  format: yaml
+  label: Apache APISIX Control API
+  slug: apache-apisix-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-control-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/apache-apisix-context.jsonld

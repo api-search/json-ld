@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-rds-openapi.yml
+  format: yaml
+  label: Amazon RDS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/openapi/amazon-rds-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-rds-context.jsonld

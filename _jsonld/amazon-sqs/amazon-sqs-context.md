@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-sqs-openapi.yml
+  format: yaml
+  label: Amazon SQS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-sqs-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: basetrip-api-openapi.yml
+  format: yaml
+  label: Basetrip API
+  slug: basetrip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-api-openapi.yml
 class_count: 8
 classes:
 - Country

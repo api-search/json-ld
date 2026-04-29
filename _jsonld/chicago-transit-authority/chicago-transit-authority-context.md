@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: cta-train-tracker-openapi.yml
+  format: yaml
+  label: CTA Train Tracker API
+  slug: train-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/cta-train-tracker-openapi.yml
+- filename: cta-bus-tracker-openapi.yml
+  format: yaml
+  label: CTA Bus Tracker API
+  slug: bus-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/cta-bus-tracker-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/chicago-transit-authority-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: applied-industrial-technologies-openapi.yaml
+  format: yaml
+  label: Applied Industrial Technologies API
+  slug: applied-industrial-technologies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/openapi/applied-industrial-technologies-openapi.yaml
 class_count: 13
 classes:
 - productId

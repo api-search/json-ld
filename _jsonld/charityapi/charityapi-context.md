@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: charityapi-openapi.yml
+  format: yaml
+  label: CharityAPI
+  slug: charityapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/charityapi-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloudzero-api-openapi.yml
+  format: yaml
+  label: CloudZero API
+  slug: api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-api-openapi.yml
 class_count: 2
 classes:
 - name

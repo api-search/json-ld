@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: climatiq-openapi.yml
+  format: yaml
+  label: Climatiq API
+  slug: climatiq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-openapi.yml
 class_count: 9
 classes:
 - activity_id

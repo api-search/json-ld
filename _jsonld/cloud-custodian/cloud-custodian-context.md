@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloud-custodian-mailer-asyncapi.yml
+  format: yaml
+  label: Cloud Custodian C7n-Mailer
+  slug: cloud-custodian-c7n-mailer
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/asyncapi/cloud-custodian-mailer-asyncapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/cloud-custodian-context.jsonld

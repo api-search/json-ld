@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: charles-schwab-trader-api-openapi.yml
+  format: yaml
+  label: Charles Schwab Trader API
+  slug: trader-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-trader-api-openapi.yml
+- filename: charles-schwab-market-data-api-openapi.yml
+  format: yaml
+  label: Charles Schwab Market Data API
+  slug: market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-market-data-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/charles-schwab-context.jsonld

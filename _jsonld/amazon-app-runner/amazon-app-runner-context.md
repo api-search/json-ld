@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-app-runner-openapi.yaml
+  format: yaml
+  label: Amazon App Runner API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/openapi/amazon-app-runner-openapi.yaml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-app-runner-context.jsonld

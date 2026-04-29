@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cities-database-api-openapi.yml
+  format: yaml
+  label: AirLabs Cities API
+  slug: airlabs-cities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/openapi/cities-database-api-openapi.yml
 class_count: 13
 classes:
 - City

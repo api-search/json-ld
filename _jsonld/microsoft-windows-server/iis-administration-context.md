@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: iis-administration-api.yml
+  format: yaml
+  label: IIS Administration API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/iis-administration-api.yml
 class_count: 0
 classes: []
 context_file: json-ld/iis-administration-context.jsonld

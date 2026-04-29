@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: knit-unified-api-openapi.yml
+  format: yaml
+  label: Knit Unified API
+  slug: unified-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/openapi/knit-unified-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/knit-context.jsonld

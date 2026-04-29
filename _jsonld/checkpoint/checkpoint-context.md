@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: checkpoint-management-api-openapi.yml
+  format: yaml
+  label: Check Point Management API
+  slug: management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-management-api-openapi.yml
+- filename: checkpoint-gaia-api-openapi.yml
+  format: yaml
+  label: Check Point Gaia API
+  slug: gaia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-gaia-api-openapi.yml
+- filename: checkpoint-cloudguard-api-openapi.yml
+  format: yaml
+  label: Check Point CloudGuard API
+  slug: cloudguard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-cloudguard-api-openapi.yml
+- filename: checkpoint-identity-awareness-api-openapi.yml
+  format: yaml
+  label: Check Point Identity Awareness API
+  slug: identity-awareness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-identity-awareness-api-openapi.yml
+- filename: checkpoint-harmony-email-api-openapi.yml
+  format: yaml
+  label: Check Point Harmony Email API
+  slug: harmony-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-harmony-email-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/checkpoint-context.jsonld

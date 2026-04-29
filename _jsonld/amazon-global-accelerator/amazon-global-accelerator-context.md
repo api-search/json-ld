@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-global-accelerator-openapi.yml
+  format: yaml
+  label: Amazon Global Accelerator API
+  slug: amazon-global-accelerator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/openapi/amazon-global-accelerator-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-global-accelerator-context.jsonld

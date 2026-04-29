@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: adobe-pdf-services-api-openapi.yml
+  format: yaml
+  label: Adobe PDF Services API
+  slug: adobe-pdf-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-pdf-services-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/adobe-pdf-services-context.jsonld

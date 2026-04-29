@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-excel-graph-api.yaml
+  format: yaml
+  label: Microsoft Graph Excel API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-graph-api.yaml
 class_count: 9
 classes:
 - Worksheet

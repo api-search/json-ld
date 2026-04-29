@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-shardingsphere-rest-api.yaml
+  format: yaml
+  label: Apache ShardingSphere
+  slug: apache-shardingsphere
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/openapi/apache-shardingsphere-rest-api.yaml
 class_count: 14
 classes:
 - DatabaseList

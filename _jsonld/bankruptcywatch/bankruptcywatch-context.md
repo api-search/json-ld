@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bankruptcywatch-pacer-api-openapi.yml
+  format: yaml
+  label: BankruptcyWatch PACER API
+  slug: pacer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-pacer-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/bankruptcywatch-context.jsonld

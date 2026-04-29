@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apipark-api.yaml
+  format: yaml
+  label: APIPark API
+  slug: apipark-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/openapi/apipark-api.yaml
 class_count: 13
 classes:
 - id

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloudrf-openapi.yml
+  format: yaml
+  label: CloudRF API
+  slug: cloudrf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/cloudrf-context.jsonld

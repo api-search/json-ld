@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: arlula-openapi.yaml
+  format: yaml
+  label: Arlula API
+  slug: arlula-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-openapi.yaml
 class_count: 19
 classes:
 - TestResponse

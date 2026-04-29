@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: looker-api-openapi.yml
+  format: yaml
+  label: Looker API
+  slug: api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/looker-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-campaign-manager-openapi.yml
+  format: yaml
+  label: Campaign Manager 360 API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/google-campaign-manager-context.jsonld

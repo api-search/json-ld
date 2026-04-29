@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-healthomics-openapi.yaml
+  format: yaml
+  label: AWS HealthOmics API
+  slug: aws-healthomics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-openapi.yaml
 class_count: 459
 classes:
 - AbortMultipartReadSetUploadResponse

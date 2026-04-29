@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: acadia-platform.yaml
+  format: yaml
+  label: Acadia Platform API
+  slug: acadia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-platform.yaml
 class_count: 10
 classes:
 - WorkInstruction

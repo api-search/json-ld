@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aws-x-ray-openapi.yml
+  format: yaml
+  label: AWS X-Ray
+  slug: aws-x-ray
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-openapi.yml
 class_count: 19
 classes:
 - BatchGetTracesResult

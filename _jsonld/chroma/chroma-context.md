@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: chroma-server-api-openapi.yml
+  format: yaml
+  label: Chroma Server API
+  slug: server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-server-api-openapi.yml
+- filename: chroma-cloud-api-openapi.yml
+  format: yaml
+  label: Chroma Cloud API
+  slug: cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-cloud-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/chroma-context.jsonld

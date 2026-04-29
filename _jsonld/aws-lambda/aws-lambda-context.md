@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aws-lambda-api-openapi.yml
+  format: yaml
+  label: AWS Lambda API
+  slug: aws-lambda-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/aws-lambda-context.jsonld

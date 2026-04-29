@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-quicksight-openapi.yml
+  format: yaml
+  label: Amazon QuickSight API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/openapi/amazon-quicksight-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-quicksight-context.jsonld

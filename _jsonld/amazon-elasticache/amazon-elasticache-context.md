@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-elasticache-openapi.yml
+  format: yaml
+  label: Amazon ElastiCache API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/openapi/amazon-elasticache-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-elasticache-context.jsonld

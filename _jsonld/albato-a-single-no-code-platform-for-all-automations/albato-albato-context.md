@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: albato-automations-openapi.yaml
+  format: yaml
+  label: Albato Automations API
+  slug: automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-automations-openapi.yaml
+- filename: albato-connections-openapi.yaml
+  format: yaml
+  label: Albato Connections API
+  slug: connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-connections-openapi.yaml
 class_count: 0
 classes: []
 context_file: json-ld/albato-albato-context.jsonld

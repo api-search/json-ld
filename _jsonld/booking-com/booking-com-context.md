@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: booking-com-demand-api-openapi.yml
+  format: yaml
+  label: Booking.com Demand API
+  slug: demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-demand-api-openapi.yml
+- filename: booking-com-car-rentals-api-openapi.yml
+  format: yaml
+  label: Booking.com Car Rentals API
+  slug: car-rentals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-car-rentals-api-openapi.yml
+- filename: booking-com-connectivity-content-api-openapi.yml
+  format: yaml
+  label: Booking.com Connectivity Content API
+  slug: connectivity-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-connectivity-content-api-openapi.yml
+- filename: booking-com-connectivity-reservations-api-openapi.yml
+  format: yaml
+  label: Booking.com Connectivity Reservations API
+  slug: connectivity-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-connectivity-reservations-api-openapi.yml
+- filename: booking-com-connectivity-rates-availability-api-openapi.yml
+  format: yaml
+  label: Booking.com Connectivity Rates and Availability API
+  slug: connectivity-rates-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-connectivity-rates-availability-api-openapi.yml
+- filename: booking-com-connectivity-promotions-api-openapi.yml
+  format: yaml
+  label: Booking.com Connectivity Promotions API
+  slug: connectivity-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-connectivity-promotions-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/booking-com-context.jsonld

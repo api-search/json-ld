@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-httpd-status-openapi.yml
+  format: yaml
+  label: Apache HTTP Server Status API
+  slug: apache-httpd-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/openapi/apache-httpd-status-openapi.yml
 class_count: 26
 classes:
 - ServerVersion

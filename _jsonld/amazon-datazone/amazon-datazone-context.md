@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-datazone-openapi.yml
+  format: yaml
+  label: Amazon DataZone API
+  slug: amazon-datazone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/openapi/amazon-datazone-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-datazone-context.jsonld

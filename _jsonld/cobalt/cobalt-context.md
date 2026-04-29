@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cobalt-api-openapi.yml
+  format: yaml
+  label: Cobalt API
+  slug: cobalt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/cobalt-context.jsonld

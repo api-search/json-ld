@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: cisco-expressway-configuration-api-openapi.yml
+  format: yaml
+  label: Cisco Expressway Configuration API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-configuration-api-openapi.yml
+- filename: cisco-expressway-status-api-openapi.yml
+  format: yaml
+  label: Cisco Expressway Status API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-status-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/cisco-expressway-context.jsonld

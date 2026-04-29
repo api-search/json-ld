@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloudmersive-virus-scan-openapi.json
+  format: json
+  label: Cloudmersive Virus Scan API
+  slug: cloudmersive-virus-scan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-virus-scan-openapi.json
 class_count: 0
 classes: []
 context_file: json-ld/cloudmersive-context.jsonld

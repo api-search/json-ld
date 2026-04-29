@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-shiro-rest-api.yaml
+  format: yaml
+  label: Apache Shiro
+  slug: apache-shiro
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/openapi/apache-shiro-rest-api.yaml
 class_count: 12
 classes:
 - LoginRequest

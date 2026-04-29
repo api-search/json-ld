@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-docs-api-v1-openapi.yml
+  format: yaml
+  label: Google Docs API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/openapi/google-docs-api-v1-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/google-docs-v1-context.jsonld

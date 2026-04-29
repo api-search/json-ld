@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: cohere-chat-api-openapi.yml
+  format: yaml
+  label: Cohere Chat API
+  slug: chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-chat-api-openapi.yml
+- filename: cohere-embed-api-openapi.yml
+  format: yaml
+  label: Cohere Embed API
+  slug: embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-embed-api-openapi.yml
+- filename: cohere-rerank-api-openapi.yml
+  format: yaml
+  label: Cohere Rerank API
+  slug: rerank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-rerank-api-openapi.yml
+- filename: cohere-classify-api-openapi.yml
+  format: yaml
+  label: Cohere Classify API
+  slug: classify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-classify-api-openapi.yml
+- filename: cohere-embed-jobs-api-openapi.yml
+  format: yaml
+  label: Cohere Embed Jobs API
+  slug: embed-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-embed-jobs-api-openapi.yml
+- filename: cohere-datasets-api-openapi.yml
+  format: yaml
+  label: Cohere Datasets API
+  slug: datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-datasets-api-openapi.yml
+- filename: cohere-models-api-openapi.yml
+  format: yaml
+  label: Cohere Models API
+  slug: models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-models-api-openapi.yml
+- filename: cohere-tokenize-api-openapi.yml
+  format: yaml
+  label: Cohere Tokenize API
+  slug: tokenize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-tokenize-api-openapi.yml
+- filename: cohere-detokenize-api-openapi.yml
+  format: yaml
+  label: Cohere Detokenize API
+  slug: detokenize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-detokenize-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/cohere-context.jsonld

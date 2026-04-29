@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: charmhealth-fhir-api-openapi.yml
+  format: yaml
+  label: CharmHealth FHIR API
+  slug: fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-fhir-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/charmhealth-context.jsonld

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: chef-infra-server-api-openapi.yml
+  format: yaml
+  label: Chef Infra Server API
+  slug: chef-infra-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-infra-server-api-openapi.yml
+- filename: chef-automate-api-openapi.yml
+  format: yaml
+  label: Chef Automate API
+  slug: chef-automate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-automate-api-openapi.yml
+- filename: chef-habitat-builder-api-openapi.yml
+  format: yaml
+  label: Chef Habitat Builder API
+  slug: chef-habitat-builder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-habitat-builder-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/chef-context.jsonld

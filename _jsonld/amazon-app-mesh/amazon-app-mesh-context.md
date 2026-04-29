@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-app-mesh-openapi.yaml
+  format: yaml
+  label: AWS App Mesh API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/openapi/amazon-app-mesh-openapi.yaml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-app-mesh-context.jsonld

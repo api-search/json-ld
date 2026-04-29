@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apimatic-platform-api.yaml
+  format: yaml
+  label: APIMatic Platform API
+  slug: apimatic-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-platform-api.yaml
 class_count: 9
 classes:
 - id

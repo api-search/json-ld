@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: broadcom-vsphere-automation-openapi.yml
+  format: yaml
+  label: Broadcom vSphere Automation API
+  slug: vsphere-automation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-vsphere-automation-openapi.yml
+- filename: broadcom-operations-for-applications-openapi.yml
+  format: yaml
+  label: Broadcom Operations for Applications REST API
+  slug: operations-for-applications
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-operations-for-applications-openapi.yml
+- filename: broadcom-vmware-cloud-foundation-openapi.yml
+  format: yaml
+  label: Broadcom VMware Cloud Foundation API
+  slug: vmware-cloud-foundation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-vmware-cloud-foundation-openapi.yml
 class_count: 3
 classes:
 - name

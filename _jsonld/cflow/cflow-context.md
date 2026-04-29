@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cflow-openapi.yml
+  format: yaml
+  label: Cflow Workflow API
+  slug: cflow
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-openapi.yml
 class_count: 3
 classes:
 - name

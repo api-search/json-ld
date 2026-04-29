@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: braintree-payments-openapi.yml
+  format: yaml
+  label: Braintree Payments API
+  slug: payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-payments-openapi.yml
+- filename: braintree-webhooks-asyncapi.yml
+  format: yaml
+  label: Braintree Webhooks
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/asyncapi/braintree-webhooks-asyncapi.yml
+- filename: braintree-payments-openapi.yml
+  format: yaml
+  label: Braintree Vault API
+  slug: vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-payments-openapi.yml
+- filename: braintree-subscriptions-openapi.yml
+  format: yaml
+  label: Braintree Subscriptions API
+  slug: subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-subscriptions-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/braintree-context.jsonld

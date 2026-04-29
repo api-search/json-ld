@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: appdynamics-controller-rest-api-openapi.yml
+  format: yaml
+  label: AppDynamics Controller REST API
+  slug: controller-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-controller-rest-api-openapi.yml
+- filename: appdynamics-metric-and-snapshot-api-openapi.yml
+  format: yaml
+  label: AppDynamics Metric and Snapshot API
+  slug: metric-and-snapshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-metric-and-snapshot-api-openapi.yml
+- filename: appdynamics-alert-and-respond-api-openapi.yml
+  format: yaml
+  label: AppDynamics Alert and Respond API
+  slug: alert-and-respond-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-alert-and-respond-api-openapi.yml
+- filename: appdynamics-configuration-api-openapi.yml
+  format: yaml
+  label: AppDynamics Configuration API
+  slug: configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-configuration-api-openapi.yml
+- filename: appdynamics-analytics-events-api-openapi.yml
+  format: yaml
+  label: AppDynamics Analytics Events API
+  slug: analytics-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-analytics-events-api-openapi.yml
+- filename: appdynamics-database-agent-api-openapi.yml
+  format: yaml
+  label: AppDynamics Database Agent API
+  slug: database-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-database-agent-api-openapi.yml
+- filename: appdynamics-machine-agent-api-openapi.yml
+  format: yaml
+  label: AppDynamics Machine Agent API
+  slug: machine-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-machine-agent-api-openapi.yml
+- filename: appdynamics-cloud-observability-api-openapi.yml
+  format: yaml
+  label: Cisco Cloud Observability API
+  slug: cloud-observability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-cloud-observability-api-openapi.yml
+- filename: appdynamics-authentication-api-openapi.yml
+  format: yaml
+  label: AppDynamics OAuth Authentication API
+  slug: authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-authentication-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/appdynamics-context.jsonld

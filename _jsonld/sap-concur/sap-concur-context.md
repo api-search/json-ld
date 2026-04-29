@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: sap-concur-expense-openapi.yml
+  format: yaml
+  label: Concur Expense API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-concur/refs/heads/main/openapi/sap-concur-expense-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/sap-concur-context.jsonld

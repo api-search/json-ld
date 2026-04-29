@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-chrome-management-api-openapi.json
+  format: json
+  label: Chrome Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-management-api-openapi.json
 class_count: 7
 classes:
 - name

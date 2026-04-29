@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-teams-graph-api.yaml
+  format: yaml
+  label: Microsoft Graph Teams API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-graph-api.yaml
 class_count: 9
 classes:
 - Team

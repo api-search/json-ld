@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: alpha-vantage-openapi.yml
+  format: yaml
+  label: Alpha Vantage Market Data API
+  slug: market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/openapi/alpha-vantage-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/alpha-vantage-context.jsonld

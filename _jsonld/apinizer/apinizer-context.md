@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apinizer-api.yaml
+  format: yaml
+  label: Apinizer API
+  slug: apinizer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-api.yaml
 class_count: 10
 classes:
 - id

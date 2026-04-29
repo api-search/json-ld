@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-efs-openapi.yml
+  format: yaml
+  label: Amazon EFS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-openapi.yml
 class_count: 4
 classes:
 - Amazon EFS FileSystem

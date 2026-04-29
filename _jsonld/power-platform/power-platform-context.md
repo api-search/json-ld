@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: power-platform-api-openapi.json
+  format: json
+  label: Power Platform Unified API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-api-openapi.json
 class_count: 0
 classes: []
 context_file: json-ld/power-platform-context.jsonld

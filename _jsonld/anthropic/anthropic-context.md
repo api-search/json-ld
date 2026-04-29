@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: anthropic-messages-api-openapi.yml
+  format: yaml
+  label: Anthropic Messages API
+  slug: anthropic-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-messages-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/anthropic-context.jsonld

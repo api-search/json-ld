@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-sheets-openapi.yml
+  format: yaml
+  label: Google Sheets API v4
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/google-sheets-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: kong-gateway-admin-api.yml
+  format: yaml
+  label: Kong Gateway Admin API
+  slug: kong-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-gateway-admin-api.yml
 class_count: 0
 classes: []
 context_file: json-ld/kong-gateway-admin-context.jsonld

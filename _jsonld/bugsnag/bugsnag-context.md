@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: bugsnag-data-access-openapi.yml
+  format: yaml
+  label: Bugsnag Data Access API
+  slug: data-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-data-access-openapi.yml
+- filename: bugsnag-error-reporting-openapi.yml
+  format: yaml
+  label: Bugsnag Error Reporting API
+  slug: error-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-error-reporting-openapi.yml
+- filename: bugsnag-session-tracking-openapi.yml
+  format: yaml
+  label: Bugsnag Session Tracking API
+  slug: session-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-session-tracking-openapi.yml
+- filename: bugsnag-build-openapi.yml
+  format: yaml
+  label: Bugsnag Build API
+  slug: build-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-build-openapi.yml
+- filename: bugsnag-trace-openapi.yml
+  format: yaml
+  label: Bugsnag Trace API
+  slug: trace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-trace-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/bugsnag-context.jsonld

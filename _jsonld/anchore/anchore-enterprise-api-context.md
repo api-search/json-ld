@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: anchore-enterprise-api.yaml
+  format: yaml
+  label: Anchore Enterprise API
+  slug: anchore-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-enterprise-api.yaml
 class_count: 0
 classes: []
 context_file: json-ld/anchore-enterprise-api-context.jsonld

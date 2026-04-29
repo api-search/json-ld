@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: aws-redshift-openapi.json
+  format: json
+  label: Amazon Redshift API
+  slug: amazon-redshift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/openapi/aws-redshift-openapi.json
+- filename: aws-redshift-data-openapi.json
+  format: json
+  label: Amazon Redshift Data API
+  slug: amazon-redshift-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/openapi/aws-redshift-data-openapi.json
 class_count: 28
 classes:
 - ListSchemasResponse

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aruba-central-api.yml
+  format: yaml
+  label: Aruba Central API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-central-api.yml
 class_count: 0
 classes: []
 context_file: json-ld/aruba-central-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: power-bi-rest-api-openapi.yml
+  format: yaml
+  label: Power BI REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-rest-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/power-bi-context.jsonld

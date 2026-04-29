@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-power-apps-dataverse-web-api-openapi.yml
+  format: yaml
+  label: Dataverse API (Common Data Service)
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/openapi/microsoft-power-apps-dataverse-web-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/microsoft-power-apps-dataverse-web-context.jsonld

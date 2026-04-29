@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: basiq-api-openapi.yml
+  format: yaml
+  label: Basiq API
+  slug: basiq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-api-openapi.yml
 class_count: 8
 classes:
 - User

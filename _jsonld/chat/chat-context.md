@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: chat-reference-openapi.yml
+  format: yaml
+  label: Reference Chat API
+  slug: reference-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chat/refs/heads/main/openapi/chat-reference-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/chat-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: sap-ariba-procurement-api.yml
+  format: yaml
+  label: SAP Ariba Procurement API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/openapi/sap-ariba-procurement-api.yml
 class_count: 0
 classes: []
 context_file: json-ld/sap-ariba-context.jsonld

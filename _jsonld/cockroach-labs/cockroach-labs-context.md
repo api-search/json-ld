@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: cockroach-labs-cloud-api-openapi.yml
+  format: yaml
+  label: CockroachDB Cloud API
+  slug: cockroach-labs-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-cloud-api-openapi.yml
+- filename: cockroach-labs-cluster-api-openapi.yml
+  format: yaml
+  label: CockroachDB Cluster API
+  slug: cockroach-labs-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-cluster-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/cockroach-labs-context.jsonld

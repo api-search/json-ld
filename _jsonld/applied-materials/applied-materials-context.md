@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: applied-materials-openapi.yaml
+  format: yaml
+  label: Applied Materials API
+  slug: applied-materials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applied-materials/refs/heads/main/openapi/applied-materials-openapi.yaml
 class_count: 12
 classes:
 - equipmentId

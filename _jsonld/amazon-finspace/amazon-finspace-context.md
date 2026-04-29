@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-finspace-openapi.yml
+  format: yaml
+  label: Amazon FinSpace API
+  slug: amazon-finspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-openapi.yml
 class_count: 5
 classes:
 - Environment

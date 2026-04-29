@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: calendly-scheduling-api-openapi.yml
+  format: yaml
+  label: Calendly Scheduling API
+  slug: scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-scheduling-api-openapi.yml
+- filename: calendly-webhook-api-asyncapi.yml
+  format: yaml
+  label: Calendly Webhook API
+  slug: webhook-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/asyncapi/calendly-webhook-api-asyncapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/calendly-context.jsonld

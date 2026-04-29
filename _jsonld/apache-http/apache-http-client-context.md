@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-http-client-openapi.yml
+  format: yaml
+  label: Apache HttpComponents Client API
+  slug: apache-http-client-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-http/refs/heads/main/openapi/apache-http-client-openapi.yml
 class_count: 17
 classes:
 - method

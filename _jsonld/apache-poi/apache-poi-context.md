@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-poi-api.yaml
+  format: yaml
+  label: Apache POI
+  slug: apache-poi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/openapi/apache-poi-api.yaml
 class_count: 16
 classes:
 - WorkbookList

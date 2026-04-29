@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: charter-communications-spectrum-enterprise-api-openapi.yml
+  format: yaml
+  label: Charter Communications Spectrum Enterprise API
+  slug: spectrum-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/openapi/charter-communications-spectrum-enterprise-api-openapi.yml
+- filename: charter-communications-bryte-iq-api-openapi.yml
+  format: yaml
+  label: Charter Communications Bryte IQ API
+  slug: bryte-iq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/openapi/charter-communications-bryte-iq-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/charter-communications-context.jsonld

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-firewall-manager-openapi.yml
+  format: yaml
+  label: AWS Firewall Manager API
+  slug: aws-firewall-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-openapi.yml
 class_count: 5
 classes:
 - Policy

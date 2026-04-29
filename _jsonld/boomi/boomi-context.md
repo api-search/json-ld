@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: boomi-platform-rest-api-openapi.yml
+  format: yaml
+  label: Boomi Platform REST API
+  slug: platform-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-platform-rest-api-openapi.yml
+- filename: boomi-datahub-api-openapi.yml
+  format: yaml
+  label: Boomi DataHub API
+  slug: datahub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-datahub-api-openapi.yml
+- filename: boomi-event-streams-openapi.yml
+  format: yaml
+  label: Boomi Event Streams REST API
+  slug: event-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-event-streams-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/boomi-context.jsonld

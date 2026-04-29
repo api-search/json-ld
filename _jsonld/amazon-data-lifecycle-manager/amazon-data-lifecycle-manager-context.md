@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-data-lifecycle-manager-openapi.yml
+  format: yaml
+  label: Amazon Data Lifecycle Manager API
+  slug: amazon-dlm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/openapi/amazon-data-lifecycle-manager-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-data-lifecycle-manager-context.jsonld

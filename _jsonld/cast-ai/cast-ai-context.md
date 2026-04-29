@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cast-ai-kubernetes-cost-optimization-openapi.yml
+  format: yaml
+  label: CAST AI Kubernetes Cost Optimization API
+  slug: kubernetes-cost-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-kubernetes-cost-optimization-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/cast-ai-context.jsonld
