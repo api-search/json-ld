@@ -577,7 +577,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
   : {\n      \"@id\": \"amzn:userId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"amzn:value\",\n      \"@type\": \"xsd:string\"\n    },\n    \"variableName\": {\n      \"@id\": \"amzn:variableName\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-ld/amazon-iot-events-context.jsonld
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

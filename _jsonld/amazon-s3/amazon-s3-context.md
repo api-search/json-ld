@@ -100,7 +100,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"@vocab\": \"ht
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/json-ld/amazon-s3-context.jsonld
 tags:
 - Archive
-- AWS
 - Backup
 - Cloud Storage
 - Data Storage

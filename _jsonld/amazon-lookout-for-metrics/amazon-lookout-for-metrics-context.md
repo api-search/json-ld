@@ -508,7 +508,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"alm\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/json-ld/amazon-lookout-for-metrics-context.jsonld
 tags:
 - Anomaly Detection
-- AWS
 - Business Intelligence
 - Machine Learning
 - Metrics

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: api_docs
+  format: yaml
+  label: Coupa Core API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://compass.coupa.com/en-us/api_docs
 class_count: 0
 classes: []
 context_file: json-ld/coupa-context.jsonld

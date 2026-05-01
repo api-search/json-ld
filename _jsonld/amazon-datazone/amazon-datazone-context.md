@@ -110,7 +110,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   , \"@type\": \"xsd:string\"},\n    \"code\": {\"@id\": \"aws:errorCode\", \"@type\": \"xsd:string\"}\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/json-ld/amazon-datazone-context.jsonld
 tags:
-- AWS
 - Data Catalog
 - Data Governance
 - Data Management

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aws-b2b-data-interchange-api-openapi.yml
+  format: yaml
+  label: AWS B2B Data Interchange API
+  slug: aws-b2b-data-interchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/aws-b2b-data-interchange-api-openapi.yml
 class_count: 36
 classes:
 - Profile
@@ -74,7 +81,6 @@ tags:
 - Healthcare
 - Financial Services
 - Amazon Web Services
-- AWS
 - JSON-LD
 - Linked Data
 - Semantic Web

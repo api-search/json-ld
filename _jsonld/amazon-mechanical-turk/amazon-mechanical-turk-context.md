@@ -501,7 +501,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amtu\": \"http
   : \"amtu:TargetType\"\n    },\n    \"Test\": {\n      \"@id\": \"amtu:Test\"\n    },\n    \"TestDurationInSeconds\": {\n      \"@id\": \"amtu:TestDurationInSeconds\"\n    },\n    \"TestEventType\": {\n      \"@id\": \"amtu:TestEventType\"\n    },\n    \"Title\": {\n      \"@id\": \"amtu:Title\"\n    },\n    \"Transport\": {\n      \"@id\": \"amtu:Transport\"\n    },\n    \"UniqueRequestToken\": {\n      \"@id\": \"amtu:UniqueRequestToken\"\n    },\n    \"Value\": {\n      \"@id\": \"amtu:Value\"\n    },\n    \"Values\": {\n      \"@id\": \"amtu:Values\"\n    },\n    \"Version\": {\n      \"@id\": \"amtu:Version\"\n    },\n    \"WorkerBlocks\": {\n      \"@id\": \"amtu:WorkerBlocks\"\n    },\n    \"WorkerId\": {\n      \"@id\": \"amtu:WorkerId\"\n    },\n    \"WorkerIds\": {\n      \"@id\": \"amtu:WorkerIds\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-ld/amazon-mechanical-turk-context.jsonld
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

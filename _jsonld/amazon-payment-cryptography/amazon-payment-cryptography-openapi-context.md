@@ -312,7 +312,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"payment\": \"h
   \n    },\n    \"WrappedKeyBlock\": {\n      \"@id\": \"payment:WrappedKeyBlock\",\n      \"@type\": \"xsd:string\"\n    },\n    \"WrappingKeyAlgorithm\": {\n      \"@id\": \"payment:WrappingKeyAlgorithm\",\n      \"@type\": \"xsd:string\"\n    },\n    \"WrappingKeyArn\": {\n      \"@id\": \"payment:WrappingKeyArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"WrappingKeyCertificate\": {\n      \"@id\": \"payment:WrappingKeyCertificate\",\n      \"@type\": \"xsd:string\"\n    },\n    \"WrappingKeyCertificateChain\": {\n      \"@id\": \"payment:WrappingKeyCertificateChain\",\n      \"@type\": \"xsd:string\"\n    },\n    \"WrappingKeyIdentifier\": {\n      \"@id\": \"payment:WrappingKeyIdentifier\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-ld/amazon-payment-cryptography-openapi-context.jsonld
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

@@ -19,7 +19,6 @@ source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"amazon_transfer_family\": \"https://aws.amazon.com/amazon-transfer-family/vocab#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/json-ld/amazon-transfer-family-context.jsonld
 tags:
-- AWS
 - File Transfer
 - FTP
 - SFTP

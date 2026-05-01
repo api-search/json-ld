@@ -200,7 +200,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amkt\": \"http
   \   },\n    \"ValueList\": {\n      \"@id\": \"amkt:ValueList\"\n    },\n    \"Visibility\": {\n      \"@id\": \"amkt:Visibility\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-ld/amazon-marketplace-context.jsonld
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

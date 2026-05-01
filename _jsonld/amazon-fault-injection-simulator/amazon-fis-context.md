@@ -117,7 +117,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"fis\": \"https
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"startTime\": {\n      \"@id\": \"fis:startTime\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"endTime\": {\n      \"@id\": \"fis:endTime\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/json-ld/amazon-fis-context.jsonld
 tags:
-- AWS
 - Chaos Engineering
 - DevOps
 - Fault Injection

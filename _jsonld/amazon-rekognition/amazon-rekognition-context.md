@@ -400,7 +400,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"rekognition\":
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"StatusMessage\": {\n      \"@id\": \"rekognition:StatusMessage\",\n      \"@type\": \"xsd:string\"\n    },\n    \"VideoMetadata\": {\n      \"@id\": \"rekognition:VideoMetadata\",\n      \"@type\": \"@id\"\n    },\n    \"Status\": {\n      \"@id\": \"rekognition:Status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ReferenceImage\": {\n      \"@id\": \"rekognition:ReferenceImage\",\n      \"@type\": \"@id\"\n    },\n    \"AuditImages\": {\n      \"@id\": \"rekognition:AuditImages\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    },\n    \"FaceDetails\": {\n      \"@id\": \"rekognition:FaceDetails\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-ld/amazon-rekognition-context.jsonld
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

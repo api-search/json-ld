@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: amberflo-metering-openapi.yaml
+  format: yaml
+  label: Amberflo Metering API
+  slug: metering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-metering-openapi.yaml
+- filename: amberflo-billing-openapi.yaml
+  format: yaml
+  label: Amberflo Billing API
+  slug: billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-billing-openapi.yaml
 class_count: 1
 classes:
 - Address

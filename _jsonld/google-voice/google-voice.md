@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Voice API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/openapi/openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/google-voice.jsonld

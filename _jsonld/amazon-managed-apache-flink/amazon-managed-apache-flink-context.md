@@ -699,7 +699,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amsaf\": \"htt
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/json-ld/amazon-managed-apache-flink-context.jsonld
 tags:
 - Apache Flink
-- AWS
 - Big Data
 - Real-Time Processing
 - Streaming Analytics

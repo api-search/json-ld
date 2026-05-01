@@ -249,7 +249,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"health\": \"ht
   : {\n      \"@id\": \"health:awsAccountIds\",\n      \"@type\": \"xsd:string\"\n    },\n    \"organizationEntityFilters\": {\n      \"@id\": \"health:organizationEntityFilters\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-ld/amazon-health-dashboard-context.jsonld
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

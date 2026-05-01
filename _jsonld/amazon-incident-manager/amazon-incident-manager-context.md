@@ -474,7 +474,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/json-ld/amazon-incident-manager-context.jsonld
 tags:
 - Automation
-- AWS
 - DevOps
 - Incident Management
 - Operations

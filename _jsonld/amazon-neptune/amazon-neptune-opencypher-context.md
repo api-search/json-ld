@@ -152,7 +152,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"neptune\": \"h
   \ \"@id\"\n    },\n    \"runningQueryCount\": {\n      \"@id\": \"neptune:runningQueryCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"waited\": {\n      \"@id\": \"neptune:waited\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"~end\": {\n      \"@id\": \"neptune:~end\",\n      \"@type\": \"xsd:string\"\n    },\n    \"~entityType\": {\n      \"@id\": \"neptune:~entityType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"~id\": {\n      \"@id\": \"neptune:~id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"~labels\": {\n      \"@id\": \"neptune:~labels\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"~properties\": {\n      \"@id\": \"neptune:~properties\",\n      \"@type\": \"@id\"\n    },\n    \"~start\": {\n      \"@id\": \"neptune:~start\",\n      \"@type\": \"xsd:string\"\n    },\n    \"~type\": {\n      \"@id\": \"neptune:~type\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-opencypher-context.jsonld
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

@@ -1204,7 +1204,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"guardduty\": \
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/json-ld/amazon-guardduty-context.jsonld
 tags:
 - Anomaly Detection
-- AWS
 - Compliance
 - Machine Learning
 - Monitoring

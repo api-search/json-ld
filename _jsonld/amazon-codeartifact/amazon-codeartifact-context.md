@@ -382,7 +382,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-ld/amazon-codeartifact-context.jsonld
 tags:
 - Amazon
-- AWS
 - Artifact Repository
 - Package Management
 - DevOps

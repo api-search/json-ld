@@ -6,6 +6,12 @@ api_specs:
   slug: devnet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/openapi/cisco-systems-cisco-api-openapi.yml
+- filename: openapiSpec
+  format: yaml
+  label: Cisco Meraki Dashboard
+  slug: meraki
+  spec_type: OpenAPI
+  url: https://api.meraki.com/api/v1/openapiSpec
 class_count: 13
 classes:
 - Organization

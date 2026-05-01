@@ -525,7 +525,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/json-ld/amazon-eventbridge-pipes-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - Event-Driven
 - Integration
 - Messaging

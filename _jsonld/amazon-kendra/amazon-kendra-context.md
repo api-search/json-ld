@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-kendra-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Amazon Kendra API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kendra/2019-02-03/openapi.yaml
 class_count: 4
 classes:
 - Index
@@ -87,7 +87,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"kendra\": \"ht
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/json-ld/amazon-kendra-context.jsonld
 tags:
 - AI
-- AWS
 - Enterprise Search
 - Knowledge Management
 - Machine Learning

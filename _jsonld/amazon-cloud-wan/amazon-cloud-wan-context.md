@@ -60,7 +60,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cloudwan\": \"
   : {\n      \"@id\": \"cloudwan:core_networks\",\n      \"@container\": \"@set\"\n    },\n    \"nextToken\": {\n      \"@id\": \"cloudwan:next_token\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CreateCoreNetworkRequest\": \"cloudwan:CreateCoreNetworkRequest\",\n    \"tags\": {\n      \"@id\": \"cloudwan:tags\",\n      \"@container\": \"@set\"\n    },\n    \"CreateCoreNetworkResponse\": \"cloudwan:CreateCoreNetworkResponse\",\n    \"coreNetwork\": {\n      \"@id\": \"cloudwan:core_network\",\n      \"@type\": \"xsd:string\"\n    },\n    \"GetCoreNetworkResponse\": \"cloudwan:GetCoreNetworkResponse\",\n    \"DeleteCoreNetworkResponse\": \"cloudwan:DeleteCoreNetworkResponse\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/json-ld/amazon-cloud-wan-context.jsonld
 tags:
-- AWS
 - Cloud WAN
 - Networking
 - Wide Area Network

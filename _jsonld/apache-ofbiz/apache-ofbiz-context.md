@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-ofbiz-rest-api-openapi.yaml
+  format: yaml
+  label: Apache OFBiz REST API
+  slug: apache-ofbiz-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/openapi/apache-ofbiz-rest-api-openapi.yaml
 class_count: 9
 classes:
 - RefreshRequest

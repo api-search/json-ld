@@ -842,7 +842,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
   \   \"version\": {\n      \"@id\": \"amzn:version\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vpcConfig\": {\n      \"@id\": \"amzn:vpcConfig\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vpcId\": {\n      \"@id\": \"amzn:vpcId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vulnerabilities\": {\n      \"@id\": \"amzn:vulnerabilities\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vulnerabilityId\": {\n      \"@id\": \"amzn:vulnerabilityId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vulnerabilityIds\": {\n      \"@id\": \"amzn:vulnerabilityIds\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vulnerabilitySource\": {\n      \"@id\": \"amzn:vulnerabilitySource\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vulnerablePackages\": {\n      \"@id\": \"amzn:vulnerablePackages\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-ld/amazon-inspector-context.jsonld
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

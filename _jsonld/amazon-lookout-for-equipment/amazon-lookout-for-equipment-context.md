@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Lookout for Equipment API
+  slug: amazon-lookout-for-equipment-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/lookoutequipment/2020-12-15/openapi.yaml
 class_count: 2
 classes:
 - Dataset
@@ -49,7 +56,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"lookoutforequi
   : {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-equipment/refs/heads/main/json-ld/amazon-lookout-for-equipment-context.jsonld
 tags:
-- AWS
 - Equipment Monitoring
 - Industrial IoT
 - Machine Learning

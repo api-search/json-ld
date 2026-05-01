@@ -933,7 +933,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : \"xsd:string\"\n    },\n    \"EndpointType\": {\n      \"@id\": \"aws:EndpointType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SoftwareUpdatesEndDate\": {\n      \"@id\": \"aws:SoftwareUpdatesEndDate\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DeprecationDate\": {\n      \"@id\": \"aws:DeprecationDate\",\n      \"@type\": \"xsd:string\"\n    },\n    \"GatewayCapacity\": {\n      \"@id\": \"aws:GatewayCapacity\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Supporte\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-ld/amazon-storage-gateway-context.jsonld\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-ld/amazon-storage-gateway-context.jsonld
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

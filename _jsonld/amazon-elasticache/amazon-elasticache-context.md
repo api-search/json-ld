@@ -45,7 +45,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/json-ld/amazon-elasticache-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - Caching
 - Database
 - ElastiCache

@@ -285,7 +285,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   \    \"ListTagsForResourceRequest\": \"pinpoint:ListTagsForResourceRequest\",\n    \"UntagResourceRequest\": \"pinpoint:UntagResourceRequest\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-general-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

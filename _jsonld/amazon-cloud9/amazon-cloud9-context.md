@@ -66,7 +66,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cloud\": \"htt
   \  \"@type\": \"xsd:string\"\n    },\n    \"environmentIds\": {\n      \"@id\": \"cloud:environment_ids\",\n      \"@container\": \"@set\"\n    },\n    \"CreateEnvironmentEC2Request\": \"cloud:CreateEnvironmentEC2Request\",\n    \"instanceType\": {\n      \"@id\": \"cloud:instance_type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"automaticStopTimeMinutes\": {\n      \"@id\": \"cloud:automatic_stop_time_minutes\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"CreateEnvironmentEC2Response\": \"cloud:CreateEnvironmentEC2Response\",\n    \"environmentId\": {\n      \"@id\": \"cloud:environment_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DescribeEnvironmentsResponse\": \"cloud:DescribeEnvironmentsResponse\",\n    \"environments\": {\n      \"@id\": \"cloud:environments\",\n      \"@container\": \"@set\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/json-ld/amazon-cloud9-context.jsonld
 tags:
-- AWS
 - Cloud9
 - IDE
 - Development

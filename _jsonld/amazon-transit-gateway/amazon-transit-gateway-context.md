@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-transit-gateway-openapi.yml
+  format: yaml
+  label: Amazon Transit Gateway REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-openapi.yml
 class_count: 7
 classes:
 - name
@@ -44,7 +51,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   TransitGatewayAttachment\": {\n      \"@id\": \"ec2:API_CreateTransitGatewayVpcAttachment.html\",\n      \"@context\": {\n        \"TransitGatewayAttachmentId\": \"schema:identifier\",\n        \"TransitGatewayId\": \"ec2:TransitGatewayId\",\n        \"VpcId\": \"ec2:VpcId\",\n        \"State\": \"schema:status\",\n        \"CreationTime\": \"schema:dateCreated\"\n      }\n    },\n    \"TransitGatewayRouteTable\": {\n      \"@id\": \"ec2:API_CreateTransitGatewayRouteTable.html\",\n      \"@context\": {\n        \"TransitGatewayRouteTableId\": \"schema:identifier\",\n        \"TransitGatewayId\": \"ec2:TransitGatewayId\",\n        \"State\": \"schema:status\",\n        \"CreationTime\": \"schema:dateCreated\"\n      }\n    },\n    \"Tag\": {\n      \"@id\": \"ec2:Tag\",\n      \"@context\": {\n        \"Key\": \"schema:name\",\n        \"Value\": \"schema:value\"\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/json-ld/amazon-transit-gateway-context.jsonld
 tags:
-- AWS
 - Cloud Networking
 - Network Hub
 - Networking

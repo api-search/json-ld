@@ -969,7 +969,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
   : {\n      \"@id\": \"amzn:version\",\n      \"@type\": \"xsd:string\"\n    },\n    \"versionId\": {\n      \"@id\": \"amzn:versionId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"versions\": {\n      \"@id\": \"amzn:versions\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vpcId\": {\n      \"@id\": \"amzn:vpcId\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-ld/amazon-iot-core-context.jsonld
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

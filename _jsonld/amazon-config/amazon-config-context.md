@@ -1273,7 +1273,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/json-ld/amazon-config-context.jsonld
 tags:
 - Auditing
-- AWS
 - Compliance
 - Configuration Management
 - Governance

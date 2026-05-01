@@ -821,7 +821,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"flows\": {\n      \"@id\": \"pan:flows\",\n      \"@type\": \"xsd:string\"\n    },\n    \"errors\": {\n      \"@id\": \"pan:errors\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-ld/amazon-mediaconnect-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

@@ -507,7 +507,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \  \"@type\": \"xsd:string\"\n    },\n    \"userArn\": {\n      \"@id\": \"aws:user_arn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"userId\": {\n      \"@id\": \"aws:user_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"userSummaryList\": {\n      \"@id\": \"aws:user_summary_list\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"username\": {\n      \"@id\": \"aws:username\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"aws:value\",\n      \"@type\": \"xsd:decimal\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-ld/amazon-connect-context.jsonld
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

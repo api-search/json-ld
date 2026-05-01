@@ -377,7 +377,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
   : \"amz:UpdateUserSettingsRequest\",\n    \"UserAccessLoggingSettingsSummary\": \"amz:UserAccessLoggingSettingsSummary\",\n    \"UserSettingsSummary\": \"amz:UserSettingsSummary\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-ld/amazon-workspaces-web-context.jsonld
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

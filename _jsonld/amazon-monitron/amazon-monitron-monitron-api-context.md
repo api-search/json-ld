@@ -69,7 +69,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   : {\n      \"@id\": \"pan:client_token\",\n      \"@type\": \"xsd:string\"\n    },\n    \"kmsKeyId\": {\n      \"@id\": \"pan:kms_key_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tags\": {\n      \"@id\": \"pan:tags\",\n      \"@type\": \"@id\"\n    },\n    \"items\": {\n      \"@id\": \"pan:items\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"nextToken\": {\n      \"@id\": \"pan:next_token\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/json-ld/amazon-monitron-monitron-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

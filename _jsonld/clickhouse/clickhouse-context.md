@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: v1
+  format: yaml
+  label: ClickHouse Cloud API
+  slug: clickhouse-cloud-api
+  spec_type: OpenAPI
+  url: https://api.clickhouse.cloud/v1
 class_count: 0
 classes: []
 context_file: json-ld/clickhouse-context.jsonld

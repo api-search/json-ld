@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: app-store-connect-api.yml
+- filename: app-store-connect-openapi-specification.zip
   format: yaml
   label: App Store Connect API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/openapi/app-store-connect-api.yml
+  url: https://developer.apple.com/sample-code/app-store-connect/app-store-connect-openapi-specification.zip
 class_count: 0
 classes: []
 context_file: json-ld/app-store-connect-context.jsonld

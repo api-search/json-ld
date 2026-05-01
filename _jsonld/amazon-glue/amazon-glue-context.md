@@ -1476,7 +1476,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"glue\": \"http
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-ld/amazon-glue-context.jsonld
 tags:
 - Analytics
-- AWS
 - Data Catalog
 - Data Integration
 - Data Pipeline

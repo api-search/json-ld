@@ -87,7 +87,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-route-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

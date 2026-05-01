@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: amazon-bedrock-openapi.yml
+  format: yaml
+  label: Amazon Bedrock API
+  slug: amazon-bedrock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-openapi.yml
+- filename: amazon-bedrock-runtime-openapi.yml
+  format: yaml
+  label: Amazon Bedrock Runtime API
+  slug: amazon-bedrock-runtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-runtime-openapi.yml
 class_count: 20
 classes:
 - FoundationModel
@@ -70,7 +83,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/json-ld/amazon-bedrock-context.jsonld
 tags:
 - AI
-- AWS
 - Foundation Models
 - Generative AI
 - LLM

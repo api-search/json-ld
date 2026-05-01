@@ -230,7 +230,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"neptune\": \"h
   @type\": \"xsd:string\"\n    },\n    \"tags\": {\n      \"@id\": \"neptune:tags\",\n      \"@type\": \"@id\"\n    },\n    \"taskId\": {\n      \"@id\": \"neptune:taskId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tasks\": {\n      \"@id\": \"neptune:tasks\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    },\n    \"timeElapsedSeconds\": {\n      \"@id\": \"neptune:timeElapsedSeconds\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"vectorSearchConfiguration\": {\n      \"@id\": \"neptune:vectorSearchConfiguration\",\n      \"@type\": \"@id\"\n    },\n    \"vpcEndpointId\": {\n      \"@id\": \"neptune:vpcEndpointId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vpcId\": {\n      \"@id\": \"neptune:vpcId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vpcSecurityGroupIds\": {\n      \"@id\": \"neptune:vpcSecurityGroupIds\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-analytics-context.jsonld
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

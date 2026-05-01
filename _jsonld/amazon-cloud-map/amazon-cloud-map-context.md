@@ -110,7 +110,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cloudmap\": \"
   \      \"@id\": \"cloudmap:operation_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DiscoverInstancesRequest\": \"cloudmap:DiscoverInstancesRequest\",\n    \"maxResults\": {\n      \"@id\": \"cloudmap:max_results\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"DiscoverInstancesResponse\": \"cloudmap:DiscoverInstancesResponse\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/json-ld/amazon-cloud-map-context.jsonld
 tags:
-- AWS
 - Cloud Map
 - Service Discovery
 - Microservices

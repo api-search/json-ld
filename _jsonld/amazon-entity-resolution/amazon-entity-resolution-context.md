@@ -234,7 +234,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/json-ld/amazon-entity-resolution-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - Data Integration
 - Data Matching
 - Entity Resolution

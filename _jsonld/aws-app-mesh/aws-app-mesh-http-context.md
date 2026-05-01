@@ -129,7 +129,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"target\": {\n      \"@id\": \"aws:target\",\n      \"@type\": \"xsd:string\"\n    },\n    \"scheme\": {\n      \"@id\": \"aws:scheme\",\n      \"@type\": \"xsd:string\"\n    },\n    \"retryPolicy\": {\n      \"@id\": \"aws:retryPolicy\",\n      \"@type\": \"xsd:string\"\n    },\n    \"timeout\": {\n      \"@id\": \"aws:timeout\",\n      \"@type\": \"xsd:string\"\n    },\n    \"regex\": {\n      \"@id\": \"aws:regex\",\n      \"@type\": \"xsd:string\"\n    },\n    \"weightedTargets\": {\n      \"@id\": \"aws:weightedTargets\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-http-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

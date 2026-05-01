@@ -420,7 +420,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/json-ld/amazon-device-farm-context.jsonld
 tags:
 - Application Testing
-- AWS
 - Device Testing
 - Mobile Testing
 - Quality Assurance

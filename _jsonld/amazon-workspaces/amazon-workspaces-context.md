@@ -757,7 +757,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
   : \"amz:WorkspacesIpGroup\",\n    \"groupId\": {\n      \"@id\": \"amz:groupId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"groupName\": {\n      \"@id\": \"amz:groupName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"groupDesc\": {\n      \"@id\": \"amz:groupDesc\",\n      \"@type\": \"xsd:string\"\n    },\n    \"userRules\": {\n      \"@id\": \"amz:userRules\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-ld/amazon-workspaces-context.jsonld
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

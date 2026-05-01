@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-organizations-openapi.yml
+- filename: Welcome.html
   format: yaml
   label: AWS Organizations API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/openapi/amazon-organizations-openapi.yml
+  url: https://docs.aws.amazon.com/organizations/latest/APIReference/Welcome.html
 class_count: 0
 classes: []
 context_file: json-ld/amazon-organizations-context.jsonld
@@ -53,7 +53,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-ld/amazon-organizations-context.jsonld
 tags:
 - Account Management
-- AWS
 - Consolidated Billing
 - Governance
 - Multi-Account

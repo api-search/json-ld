@@ -62,7 +62,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"s3\": \"https:
   ,\n    \"GetBucketLoggingOutput\": \"s3:GetBucketLoggingOutput\",\n    \"GetBucketMetricsConfigurationOutput\": \"s3:GetBucketMetricsConfigurationOutput\",\n    \"NotificationConfigurationDeprecated\": \"s3:NotificationConfigurationDeprecated\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-ld/aws-s3-context.jsonld
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

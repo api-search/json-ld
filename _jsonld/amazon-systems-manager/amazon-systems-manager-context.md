@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-systems-manager-openapi.yml
+  format: yaml
+  label: AWS Systems Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-systems-manager-context.jsonld
@@ -39,7 +46,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/json-ld/amazon-systems-manager-context.jsonld
 tags:
 - Automation
-- AWS
 - Management
 - Operations
 - JSON-LD

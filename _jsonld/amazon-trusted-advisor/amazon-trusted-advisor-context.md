@@ -19,7 +19,6 @@ source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n    \"amazon_trusted_advisor\": \"https://aws.amazon.com/amazon-trusted-advisor/vocab#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/json-ld/amazon-trusted-advisor-context.jsonld
 tags:
-- AWS
 - Best Practices
 - Cloud Optimization
 - Security

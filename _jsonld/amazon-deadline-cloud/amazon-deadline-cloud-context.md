@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-deadline-cloud-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud API
+  slug: amazon-deadline-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-deadline-cloud-context.jsonld
@@ -124,7 +131,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   @set\"},\n    \"jobs\": {\"@id\": \"aws:jobs\", \"@container\": \"@set\"},\n    \"workers\": {\"@id\": \"aws:workers\", \"@container\": \"@set\"},\n    \"nextToken\": {\"@id\": \"aws:nextToken\", \"@type\": \"xsd:string\"},\n\n    \"createdAt\": {\"@id\": \"schema:dateCreated\", \"@type\": \"xsd:dateTime\"},\n    \"updatedAt\": {\"@id\": \"schema:dateModified\", \"@type\": \"xsd:dateTime\"},\n\n    \"message\": {\"@id\": \"schema:description\", \"@type\": \"xsd:string\"},\n    \"code\": {\"@id\": \"aws:errorCode\", \"@type\": \"xsd:string\"}\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/json-ld/amazon-deadline-cloud-context.jsonld
 tags:
-- AWS
 - Compute
 - Media
 - Rendering

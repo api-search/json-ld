@@ -109,7 +109,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \n    },\n    \"webAppDnsDomain\": {\n      \"@id\": \"aws:webAppDnsDomain\",\n      \"@type\": \"xsd:string\"\n    },\n    \"eventId\": {\n      \"@id\": \"aws:eventId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"eventType\": {\n      \"@id\": \"aws:eventType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"eventGroupId\": {\n      \"@id\": \"aws:eventGroupId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"eventTimestamp\": {\n      \"@id\": \"aws:eventTimestamp\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"data\": {\n      \"@id\": \"aws:data\",\n      \"@type\": \"xsd:string\"\n    },\n    \"sources\": {\n      \"@id\": \"aws:sources\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    },\n    \"transformation\": {\n      \"@id\": \"aws:transformation\",\n      \"@type\": \"@id\"\n    },\n    \"target\": {\n      \"@id\": \"aws:target\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/json-ld/amazon-supply-chain-context.jsonld
 tags:
-- AWS
 - ERP Integration
 - Logistics
 - Machine Learning

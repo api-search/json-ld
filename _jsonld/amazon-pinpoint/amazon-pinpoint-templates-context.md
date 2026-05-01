@@ -186,7 +186,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   ,\n    \"CreateInAppTemplateRequest\": \"pinpoint:CreateInAppTemplateRequest\",\n    \"UpdateInAppTemplateResponse\": \"pinpoint:UpdateInAppTemplateResponse\",\n    \"ListTemplateVersionsRequest\": \"pinpoint:ListTemplateVersionsRequest\",\n    \"Template\": \"pinpoint:Template\",\n    \"Name\": {\n      \"@id\": \"pinpoint:Name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"UpdatePushTemplateResponse\": \"pinpoint:UpdatePushTemplateResponse\",\n    \"GetPushTemplateRequest\": \"pinpoint:GetPushTemplateRequest\",\n    \"TemplateVersionResponse\": \"pinpoint:TemplateVersionResponse\",\n    \"DeleteInAppTemplateResponse\": \"pinpoint:DeleteInAppTemplateResponse\",\n    \"ListTemplateVersionsResponse\": \"pinpoint:ListTemplateVersionsResponse\",\n    \"CreateInAppTemplateResponse\": \"pinpoint:CreateInAppTemplateResponse\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-templates-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

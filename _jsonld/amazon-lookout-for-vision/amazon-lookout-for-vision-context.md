@@ -302,7 +302,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"alv\": \"https
   \n    },\n    \"Recall\": {\n      \"@id\": \"alv:Recall\"\n    },\n    \"S3Object\": {\n      \"@id\": \"alv:S3Object\"\n    },\n    \"S3OutputLocation\": {\n      \"@id\": \"alv:S3OutputLocation\"\n    },\n    \"Source\": {\n      \"@id\": \"alv:Source\"\n    },\n    \"Status\": {\n      \"@id\": \"alv:Status\"\n    },\n    \"StatusMessage\": {\n      \"@id\": \"alv:StatusMessage\"\n    },\n    \"Tags\": {\n      \"@id\": \"alv:Tags\"\n    },\n    \"TargetDevice\": {\n      \"@id\": \"alv:TargetDevice\"\n    },\n    \"Total\": {\n      \"@id\": \"alv:Total\"\n    },\n    \"TotalPercentageArea\": {\n      \"@id\": \"alv:TotalPercentageArea\"\n    },\n    \"Type\": {\n      \"@id\": \"alv:Type\"\n    },\n    \"Value\": {\n      \"@id\": \"alv:Value\"\n    },\n    \"VersionId\": {\n      \"@id\": \"alv:VersionId\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-ld/amazon-lookout-for-vision-context.jsonld
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

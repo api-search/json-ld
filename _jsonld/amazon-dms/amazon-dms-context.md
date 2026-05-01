@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-dms-openapi.yaml
+  format: yaml
+  label: Amazon DMS API
+  slug: amazon-dms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/openapi/amazon-dms-openapi.yaml
 class_count: 25
 classes:
 - AccountQuota
@@ -665,7 +672,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http:
   \      \"@id\": \"dms:ValidationState\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ValidationStateDetails\": {\n      \"@id\": \"dms:ValidationStateDetails\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Tag\": \"dms:Tag\",\n    \"Key\": {\n      \"@id\": \"dms:Key\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Value\": {\n      \"@id\": \"dms:Value\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ResourceArn\": {\n      \"@id\": \"dms:ResourceArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"VpcSecurityGroupMembership\": \"dms:VpcSecurityGroupMembership\",\n    \"VpcSecurityGroupId\": {\n      \"@id\": \"dms:VpcSecurityGroupId\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-ld/amazon-dms-context.jsonld
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

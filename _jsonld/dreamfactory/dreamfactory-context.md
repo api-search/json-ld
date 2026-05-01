@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: dreamfactory-system-api-openapi.yml
+  format: yaml
+  label: DreamFactory System API
+  slug: system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-system-api-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/dreamfactory-context.jsonld

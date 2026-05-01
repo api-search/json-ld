@@ -273,7 +273,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   @id\": \"pinpoint:MaximumDuration\",\n      \"@type\": \"xsd:string\"\n    },\n    \"MessagesPerSecond\": {\n      \"@id\": \"pinpoint:MessagesPerSecond\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Total\": {\n      \"@id\": \"pinpoint:Total\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Session\": {\n      \"@id\": \"pinpoint:Session\",\n      \"@type\": \"xsd:string\"\n    },\n    \"UpdateCampaignRequest\": \"pinpoint:UpdateCampaignRequest\",\n    \"WriteTreatmentResource\": \"pinpoint:WriteTreatmentResource\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-campaigns-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

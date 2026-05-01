@@ -91,7 +91,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cloudsearch\":
   \    \"searchService\": {\n      \"@id\": \"cloudsearch:search_service\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DefineIndexFieldRequest\": \"cloudsearch:DefineIndexFieldRequest\",\n    \"indexField\": {\n      \"@id\": \"cloudsearch:index_field\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DefineIndexFieldResponse\": \"cloudsearch:DefineIndexFieldResponse\",\n    \"DescribeIndexFieldsResponse\": \"cloudsearch:DescribeIndexFieldsResponse\",\n    \"indexFields\": {\n      \"@id\": \"cloudsearch:index_fields\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"IndexDocumentsResponse\": \"cloudsearch:IndexDocumentsResponse\",\n    \"fieldNames\": {\n      \"@id\": \"cloudsearch:field_names\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/json-ld/amazon-cloudsearch-context.jsonld
 tags:
-- AWS
 - CloudSearch
 - Search
 - Full-Text Search

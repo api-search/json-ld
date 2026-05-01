@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-appsync-openapi.yml
+  format: yaml
+  label: Amazon AppSync API
+  slug: amazon-appsync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-openapi.yml
 class_count: 73
 classes:
 - ErrorResponse
@@ -102,7 +109,6 @@ tags:
 - GraphQL
 - API Management
 - Serverless
-- AWS
 - JSON-LD
 - Linked Data
 - Semantic Web

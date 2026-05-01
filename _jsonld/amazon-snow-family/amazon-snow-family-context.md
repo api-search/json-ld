@@ -493,7 +493,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-ld/amazon-snow-family-context.jsonld
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

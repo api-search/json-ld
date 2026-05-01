@@ -188,7 +188,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"TitleOverride\": {\n      \"@id\": \"pinpoint:TitleOverride\",\n      \"@type\": \"xsd:string\"\n    },\n    \"PublicEndpoint\": \"pinpoint:PublicEndpoint\",\n    \"UpdateEndpointResponse\": \"pinpoint:UpdateEndpointResponse\",\n    \"GetEndpointResponse\": \"pinpoint:GetEndpointResponse\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-endpoints-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

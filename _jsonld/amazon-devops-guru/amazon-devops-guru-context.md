@@ -225,7 +225,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/json-ld/amazon-devops-guru-context.jsonld
 tags:
 - Anomaly Detection
-- AWS
 - DevOps
 - Machine Learning
 - Operational Intelligence

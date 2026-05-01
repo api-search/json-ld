@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: stedi-edi214-openapi.yml
+  format: yaml
+  label: EDI 214 Transportation Carrier Shipment Status Message
+  slug: edi-214-standard
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/stedi-edi214-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/edi-214-context.jsonld

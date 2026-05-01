@@ -195,7 +195,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"qldb\": \"http
   : \"qldb:CancelJournalKinesisStreamResponse\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-ld/amazon-qldb-context.jsonld
 tags:
-- AWS
 - Blockchain
 - Database
 - Ledger

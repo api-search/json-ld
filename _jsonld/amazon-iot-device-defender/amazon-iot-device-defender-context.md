@@ -966,7 +966,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
   \   },\n    \"vpcId\": {\n      \"@id\": \"amzn:vpcId\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-ld/amazon-iot-device-defender-context.jsonld
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

@@ -221,7 +221,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \     \"@type\": \"xsd:string\"\n    },\n    \"toolchain\": {\n      \"@id\": \"aws:toolchain\",\n      \"@type\": \"xsd:string\"\n    },\n    \"destination\": {\n      \"@id\": \"aws:destination\",\n      \"@type\": \"xsd:string\"\n    },\n    \"userProfiles\": {\n      \"@id\": \"aws:userProfiles\",\n      \"@type\": \"xsd:string\"\n    },\n    \"teamMembers\": {\n      \"@id\": \"aws:teamMembers\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdTimeStamp\": {\n      \"@id\": \"aws:createdTimeStamp\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"aws:status\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-ld/amazon-codestar-context.jsonld
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

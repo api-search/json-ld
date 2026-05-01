@@ -671,7 +671,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"network\": \"h
   \ \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-ld/amazon-network-firewall-openapi-context.jsonld
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

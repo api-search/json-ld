@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-batch-openapi.yml
+  format: yaml
+  label: Amazon Batch API
+  slug: amazon-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/openapi/amazon-batch-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-batch-context.jsonld
@@ -50,7 +57,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   ,\n          \"@type\": \"xsd:string\"\n        },\n        \"executionRoleArn\": {\n          \"@id\": \"batch:executionRoleArn\",\n          \"@type\": \"xsd:string\"\n        },\n        \"environment\": {\n          \"@id\": \"batch:environment\",\n          \"@container\": \"@list\"\n        },\n        \"resourceRequirements\": {\n          \"@id\": \"batch:resourceRequirements\",\n          \"@container\": \"@list\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/json-ld/amazon-batch-context.jsonld
 tags:
-- AWS
 - Batch Computing
 - Compute
 - Containers

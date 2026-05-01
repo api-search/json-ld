@@ -45,7 +45,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"rds\": \"https
   ,\n          \"@container\": \"@set\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-ld/amazon-rds-context.jsonld
 tags:
-- AWS
 - Cloud Databases
 - Database Service
 - DBaaS

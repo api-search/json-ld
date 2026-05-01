@@ -1115,7 +1115,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"gamelift\": \"
   \ KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-ld/amazon-gamelift-context.jsonld\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-ld/amazon-gamelift-context.jsonld
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

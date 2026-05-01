@@ -63,7 +63,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \n    },\n    \"Template\": {\n      \"@id\": \"aws:Template\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TemplateName\": {\n      \"@id\": \"aws:TemplateName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TemplateArn\": {\n      \"@id\": \"aws:TemplateArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TemplateData\": {\n      \"@id\": \"aws:TemplateData\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-ld/amazon-ses-openapi-email-message-context.jsonld
 tags:
-- AWS
 - Email
 - Email Deliverability
 - Email Service

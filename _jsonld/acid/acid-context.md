@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Google Spanner API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/APIs-guru/openapi-directory/main/APIs/googleapis.com/spanner/v1/openapi.yaml
 class_count: 2
 classes:
 - AcidSagaStep

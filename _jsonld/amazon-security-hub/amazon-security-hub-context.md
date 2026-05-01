@@ -79,7 +79,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \   },\n    \"UpdatedAt\": {\n      \"@id\": \"aws:UpdatedAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"Severity\": {\n      \"@id\": \"aws:Severity\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Title\": {\n      \"@id\": \"aws:Title\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Description\": {\n      \"@id\": \"aws:Description\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Resources\": {\n      \"@id\": \"aws:Resources\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Compliance\": {\n      \"@id\": \"aws:Compliance\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Workflow\": {\n      \"@id\": \"aws:Workflow\",\n      \"@type\": \"xsd:string\"\n    },\n    \"RecordState\": {\n      \"@id\": \"aws:RecordState\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/json-ld/amazon-security-hub-context.jsonld
 tags:
-- AWS
 - Compliance
 - Monitoring
 - Security

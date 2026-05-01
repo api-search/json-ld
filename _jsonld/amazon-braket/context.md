@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-braket-api-openapi.yml
+  format: yaml
+  label: Amazon Braket API
+  slug: amazon-braket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-api-openapi.yml
 class_count: 23
 classes:
 - QuantumTask
@@ -61,7 +68,6 @@ tags:
 - Hybrid Quantum-Classical
 - QPU
 - Quantum Simulation
-- AWS
 - Amazon Web Services
 - Research
 - HPC

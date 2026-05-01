@@ -56,7 +56,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"locationservic
   \      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/json-ld/amazon-location-service-context.jsonld
 tags:
-- AWS
 - Geocoding
 - Geofencing
 - Location

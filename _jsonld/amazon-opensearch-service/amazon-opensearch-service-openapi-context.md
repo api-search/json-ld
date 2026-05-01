@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-opensearch-service-openapi.yml
+- filename: Welcome.html
   format: yaml
   label: Amazon OpenSearch Service API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/openapi/amazon-opensearch-service-openapi.yml
+  url: https://docs.aws.amazon.com/opensearch-service/latest/APIReference/Welcome.html
 class_count: 2
 classes:
 - CreateDomainRequest
@@ -66,7 +66,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"opensearch\": 
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/json-ld/amazon-opensearch-service-openapi-context.jsonld
 tags:
 - Analytics
-- AWS
 - Elasticsearch
 - Full-Text Search
 - Log Analytics

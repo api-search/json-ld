@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bifrost-http-gateway-api.yaml
+  format: yaml
+  label: Bifrost HTTP Gateway API
+  slug: bifrost-http-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-http-gateway-api.yaml
 class_count: 8
 classes:
 - role

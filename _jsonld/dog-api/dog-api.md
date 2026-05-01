@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: dog-api.yml
+  format: yaml
+  label: Dog API
+  slug: dog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api.yml
 class_count: 5
 classes:
 - name

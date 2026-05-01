@@ -609,7 +609,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/json-ld/amazon-iam-access-analyzer-context.jsonld
 tags:
 - Access Control
-- AWS
 - Compliance
 - IAM
 - Policy Management

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-keyspaces-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Amazon Keyspaces API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/keyspaces/2022-02-10/openapi.yaml
 class_count: 2
 classes:
 - Keyspace
@@ -56,7 +56,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"keyspaces\": \
   \   \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/json-ld/amazon-keyspaces-context.jsonld
 tags:
-- AWS
 - Cassandra
 - Database
 - Managed Database

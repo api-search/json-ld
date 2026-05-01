@@ -56,7 +56,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"lambda\": \"ht
   ,\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/json-ld/amazon-lambda-context.jsonld
 tags:
-- AWS
 - Compute
 - Event-Driven
 - FaaS

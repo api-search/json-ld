@@ -50,7 +50,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xray\": \"http
   : \"xray:EncryptionConfig\",\n    \"InsightSummary\": \"xray:InsightSummary\",\n    \"Insight\": \"xray:Insight\",\n    \"Tag\": \"xray:Tag\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/json-ld/aws-x-ray-context.jsonld
 tags:
-- AWS
 - Debugging
 - Distributed Tracing
 - Microservices

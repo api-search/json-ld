@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-quicksight-openapi.yml
+- filename: Welcome.html
   format: yaml
   label: Amazon QuickSight API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/openapi/amazon-quicksight-openapi.yml
+  url: https://docs.aws.amazon.com/quicksight/latest/APIReference/Welcome.html
 class_count: 1
 classes:
 - DashboardSummary
@@ -56,7 +56,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/json-ld/amazon-quicksight-openapi-dashboard-summary-context.jsonld
 tags:
 - Analytics
-- AWS
 - BI
 - Business Intelligence
 - Dashboards

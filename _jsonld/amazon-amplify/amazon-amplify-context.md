@@ -59,7 +59,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http:
   : {\n      \"@id\": \"schema:productionBranch\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/json-ld/amazon-amplify-context.jsonld
 tags:
-- AWS
 - Frontend
 - Full Stack
 - Hosting

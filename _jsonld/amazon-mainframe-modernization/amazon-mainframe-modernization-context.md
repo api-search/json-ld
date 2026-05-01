@@ -516,7 +516,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amm\": \"https
   \  \"subnetIds\": {\n      \"@id\": \"amm:subnetIds\"\n    },\n    \"succeeded\": {\n      \"@id\": \"amm:succeeded\"\n    },\n    \"summary\": {\n      \"@id\": \"amm:summary\"\n    },\n    \"tags\": {\n      \"@id\": \"amm:tags\"\n    },\n    \"targetGroupArns\": {\n      \"@id\": \"amm:targetGroupArns\"\n    },\n    \"taskId\": {\n      \"@id\": \"amm:taskId\"\n    },\n    \"total\": {\n      \"@id\": \"amm:total\"\n    },\n    \"versionStatus\": {\n      \"@id\": \"amm:versionStatus\"\n    },\n    \"vpcId\": {\n      \"@id\": \"amm:vpcId\"\n    },\n    \"vsam\": {\n      \"@id\": \"amm:vsam\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-ld/amazon-mainframe-modernization-context.jsonld
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

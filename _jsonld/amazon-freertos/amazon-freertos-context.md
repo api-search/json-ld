@@ -69,7 +69,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"freertos\": \"
   \     \"@id\": \"schema:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"targets\": {\n      \"@id\": \"freertos:targets\"\n    },\n    \"otaUpdateStatus\": {\n      \"@id\": \"freertos:otaUpdateStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"thingName\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"creationDate\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"lastModifiedDate\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/json-ld/amazon-freertos-context.jsonld
 tags:
-- AWS
 - Embedded Systems
 - IoT
 - Microcontrollers

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-audit-manager-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager API
+  slug: amazon-audit-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-openapi.yml
 class_count: 6
 classes:
 - Assessment
@@ -29,7 +36,6 @@ tags:
 - Compliance
 - Audit
 - Risk Management
-- AWS
 - JSON-LD
 - Linked Data
 - Semantic Web

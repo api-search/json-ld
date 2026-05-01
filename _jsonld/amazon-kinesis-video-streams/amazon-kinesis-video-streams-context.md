@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Kinesis Video Streams API
+  slug: amazon-kinesis-video-streams-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesisvideo/2017-09-30/openapi.yaml
 class_count: 2
 classes:
 - Stream
@@ -49,7 +56,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"kinesisvideost
   updatedAt\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/json-ld/amazon-kinesis-video-streams-context.jsonld
 tags:
-- AWS
 - IoT
 - Machine Learning
 - Media

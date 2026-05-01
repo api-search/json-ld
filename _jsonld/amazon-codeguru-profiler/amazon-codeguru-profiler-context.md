@@ -332,7 +332,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amazon-code-gu
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/json-ld/amazon-codeguru-profiler-context.jsonld
 tags:
 - Amazon
-- AWS
 - Application Performance
 - Profiling
 - DevOps

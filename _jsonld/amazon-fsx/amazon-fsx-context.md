@@ -39,7 +39,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"fsx\": \"https
   \n        }\n      }\n    },\n\n    \"Backup\": {\n      \"@id\": \"fsx:Backup\",\n      \"@context\": {\n        \"backupId\": \"fsx:backupId\",\n        \"lifecycle\": \"fsx:lifecycle\",\n        \"type\": \"fsx:backupType\",\n        \"fileSystem\": \"fsx:fileSystem\"\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/json-ld/amazon-fsx-context.jsonld
 tags:
-- AWS
 - File Systems
 - Lustre
 - NetApp

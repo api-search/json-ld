@@ -81,7 +81,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"forecast\": \"
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"PredictorName\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ForecastHorizon\": {\n      \"@id\": \"forecast:forecastHorizon\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"ForecastArn\": {\n      \"@id\": \"forecast:forecastArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ForecastName\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Status\": {\n      \"@id\": \"forecast:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CreationTime\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"LastModificationTime\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"Key\": {\n      \"@id\": \"schema:propertyID\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Value\": {\n      \"@id\": \"schema:value\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/json-ld/amazon-forecast-context.jsonld
 tags:
-- AWS
 - Forecasting
 - Machine Learning
 - Predictive Analytics

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-application-discovery-service-openapi.yml
+  format: yaml
+  label: Amazon Application Discovery Service API
+  slug: amazon-application-discovery-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-openapi.yml
 class_count: 69
 classes:
 - CustomerAgentInfo
@@ -454,7 +461,6 @@ tags:
 - Migration
 - Discovery
 - Infrastructure
-- AWS
 - JSON-LD
 - Linked Data
 - Semantic Web

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: fortify-on-demand-openapi.yml
+- filename: v3
   format: yaml
   label: Fortify on Demand API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/openapi/fortify-on-demand-openapi.yml
+  url: https://api.ams.fortify.com/swagger/docs/v3
 - filename: fortify-software-security-center-openapi.yml
   format: yaml
   label: Fortify Software Security Center API

@@ -556,7 +556,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   \ \"@id\": \"pan:alert_message\",\n      \"@type\": \"xsd:string\"\n    },\n    \"relatedResourceArns\": {\n      \"@id\": \"pan:related_resource_arns\",\n      \"@type\": \"xsd:string\"\n    },\n    \"resourceArn\": {\n      \"@id\": \"pan:resource_arn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"dynamicVariables\": {\n      \"@id\": \"pan:dynamic_variables\",\n      \"@type\": \"xsd:string\"\n    },\n    \"endTime\": {\n      \"@id\": \"pan:end_time\",\n      \"@type\": \"xsd:string\"\n    },\n    \"startTime\": {\n      \"@id\": \"pan:start_time\",\n      \"@type\": \"xsd:string\"\n    },\n    \"availMatchingCriteria\": {\n      \"@id\": \"pan:avail_matching_criteria\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-ld/amazon-mediatailor-mediatailor-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

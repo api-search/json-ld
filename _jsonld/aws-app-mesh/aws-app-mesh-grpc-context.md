@@ -124,7 +124,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \    \"exact\": {\n      \"@id\": \"aws:exact\",\n      \"@type\": \"xsd:string\"\n    },\n    \"prefix\": {\n      \"@id\": \"aws:prefix\",\n      \"@type\": \"xsd:string\"\n    },\n    \"range\": {\n      \"@id\": \"aws:range\",\n      \"@type\": \"xsd:string\"\n    },\n    \"regex\": {\n      \"@id\": \"aws:regex\",\n      \"@type\": \"xsd:string\"\n    },\n    \"suffix\": {\n      \"@id\": \"aws:suffix\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-grpc-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

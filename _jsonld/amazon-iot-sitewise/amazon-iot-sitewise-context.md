@@ -750,7 +750,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
   \ \"@type\": \"xsd:string\"\n    },\n    \"topic\": {\n      \"@id\": \"amzn:topic\",\n      \"@type\": \"xsd:string\"\n    },\n    \"transform\": {\n      \"@id\": \"amzn:transform\",\n      \"@type\": \"xsd:string\"\n    },\n    \"type\": {\n      \"@id\": \"amzn:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"unit\": {\n      \"@id\": \"amzn:unit\",\n      \"@type\": \"xsd:string\"\n    },\n    \"user\": {\n      \"@id\": \"amzn:user\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"amzn:value\",\n      \"@type\": \"xsd:string\"\n    },\n    \"versionId\": {\n      \"@id\": \"amzn:versionId\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-ld/amazon-iot-sitewise-context.jsonld
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

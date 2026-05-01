@@ -2714,7 +2714,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   \   \"HlsManifestDurationFormat\": \"pan:HlsManifestDurationFormat\",\n    \"InputDeviceConfigurableSettings\": \"pan:InputDeviceConfigurableSettings\",\n    \"DvbSubOcrLanguage\": \"pan:DvbS\n\n# --- truncated at 32 KB (100 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-ld/amazon-medialive-medialive-api-context.jsonld\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-ld/amazon-medialive-medialive-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -110,7 +110,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"hl\": \"https:
   : \"hl:ImportJobPropertiesList\",\n    \"S3Uri\": \"hl:S3Uri\",\n    \"KmsEncryptionConfig\": \"hl:KmsEncryptionConfig\",\n    \"NextToken\": \"hl:NextToken\",\n    \"MaxResultsInteger\": \"hl:MaxResultsInteger\",\n    \"S3Configuration\": \"hl:S3Configuration\",\n    \"PreloadDataType\": \"hl:PreloadDataType\",\n    \"TagKey\": \"hl:TagKey\",\n    \"TagValue\": \"hl:TagValue\",\n    \"Tag\": \"hl:Tag\",\n    \"TagKeyList\": \"hl:TagKeyList\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-ld/amazon-healthlake-context.jsonld
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

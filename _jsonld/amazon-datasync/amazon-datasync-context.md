@@ -47,7 +47,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"@vocab\": \"ht
   Status\": {\n          \"@id\": \"datasync:AgentStatus\",\n          \"@type\": \"xsd:string\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/json-ld/amazon-datasync-context.jsonld
 tags:
-- AWS
 - Data Transfer
 - Migration
 - Storage

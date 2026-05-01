@@ -150,7 +150,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"neptune\": \"h
   \      \"@id\": \"neptune:payload\",\n      \"@type\": \"@id\"\n    },\n    \"queueRequest\": {\n      \"@id\": \"neptune:queueRequest\",\n      \"@type\": \"xsd:string\"\n    },\n    \"region\": {\n      \"@id\": \"neptune:region\",\n      \"@type\": \"xsd:string\"\n    },\n    \"requestId\": {\n      \"@id\": \"neptune:requestId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"source\": {\n      \"@id\": \"neptune:source\",\n      \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"neptune:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"updateSingleCardinalityProperties\": {\n      \"@id\": \"neptune:updateSingleCardinalityProperties\",\n      \"@type\": \"xsd:string\"\n    },\n    \"userProvidedEdgeIds\": {\n      \"@id\": \"neptune:userProvidedEdgeIds\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-loader-context.jsonld
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

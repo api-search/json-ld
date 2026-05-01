@@ -49,7 +49,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-ld/aws-api-gateway-v1-deployments-context.jsonld
 tags:
 - API Gateway
-- AWS
 - Cloud
 - REST
 - WebSocket

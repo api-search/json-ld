@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: foursquare-places-openapi.yml
+  format: yaml
+  label: Foursquare Places API
+  slug: places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/openapi/foursquare-places-openapi.yml
 class_count: 15
 classes:
 - Place

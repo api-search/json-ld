@@ -402,7 +402,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pca\": \"https
   : \"pca:CertificateAuthorities\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ListPermissionsResponse\": \"pca:ListPermissionsResponse\",\n    \"Permissions\": {\n      \"@id\": \"pca:Permissions\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DeletePermissionRequest\": \"pca:DeletePermissionRequest\",\n    \"GetCertificateResponse\": \"pca:GetCertificateResponse\",\n    \"CustomObjectIdentifier\": {\n      \"@id\": \"pca:CustomObjectIdentifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"AccessMethodType\": {\n      \"@id\": \"pca:AccessMethodType\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-ld/amazon-private-ca-context.jsonld
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

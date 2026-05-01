@@ -78,7 +78,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"fms\": \"https
   ResourceType\": {\n      \"@id\": \"fms:resourceType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ResourceId\": {\n      \"@id\": \"fms:resourceId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ViolationReason\": {\n      \"@id\": \"fms:violationReason\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Id\": {\n      \"@id\": \"schema:identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Name\": {\n      \"@id\": \"schema:name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Description\": {\n      \"@id\": \"schema:description\",\n      \"@type\": \"xsd:string\"\n    },\n    \"LastUpdateTime\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"Key\": {\n      \"@id\": \"schema:propertyID\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Value\": {\n      \"@id\": \"schema:value\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/json-ld/amazon-firewall-manager-context.jsonld
 tags:
-- AWS
 - Compliance
 - Firewall
 - Network Security

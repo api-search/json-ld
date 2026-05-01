@@ -57,7 +57,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"lakeformation\
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lakeformation/refs/heads/main/json-ld/amazon-lakeformation-context.jsonld
 tags:
 - Analytics
-- AWS
 - Data Lake
 - Governance
 - JSON-LD

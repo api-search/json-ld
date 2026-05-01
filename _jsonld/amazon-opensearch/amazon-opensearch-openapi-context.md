@@ -971,7 +971,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"opensearch\": 
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-ld/amazon-opensearch-openapi-context.jsonld
 tags:
 - Analytics
-- AWS
 - Elasticsearch
 - Search
 - JSON-LD

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: swagger.json
+  format: json
+  label: CloudGuard CNAPP REST API
+  slug: cloudguard-cnapp-api
+  spec_type: OpenAPI
+  url: https://api.dome9.com/v2/swagger.json
 class_count: 0
 classes: []
 context_file: json-ld/cloudguard-context.jsonld

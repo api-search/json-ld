@@ -149,7 +149,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"hi\": \"https:
   : \"hi:ListTagsForResourceRequest\",\n    \"MetadataUpdates\": \"hi:MetadataUpdates\",\n    \"Operator\": \"hi:Operator\",\n    \"SearchByAttributeValue\": \"hi:SearchByAttributeValue\",\n    \"SearchCriteria\": \"hi:SearchCriteria\",\n    \"SearchFilter\": \"hi:SearchFilter\",\n    \"SearchFilterValuesList\": \"hi:SearchFilterValuesList\",\n    \"SearchImageSetsRequestMaxResultsInteger\": \"hi:SearchImageSetsRequestMaxResultsInteger\",\n    \"SearchImageSetsRequest\": \"hi:SearchImageSetsRequest\",\n    \"StartDICOMImportJobRequest\": \"hi:StartDICOMImportJobRequest\",\n    \"TagKeyList\": \"hi:TagKeyList\",\n    \"TagResourceRequest\": \"hi:TagResourceRequest\",\n    \"UntagResourceRequest\": \"hi:UntagResourceRequest\",\n    \"UpdateImageSetMetadataRequest\": \"hi:UpdateImageSetMetadataRequest\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-ld/amazon-healthimaging-context.jsonld
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

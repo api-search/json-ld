@@ -6,6 +6,12 @@ api_specs:
   slug: ''
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/bigip-icontrol-rest.yml
+- filename: swagger
+  format: yaml
+  label: F5 Distributed Cloud API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://docs.cloud.f5.com/docs/api/swagger
 class_count: 0
 classes: []
 context_file: json-ld/f5-networks-context.jsonld

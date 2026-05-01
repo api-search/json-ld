@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cdisc-library-openapi.yml
+  format: yaml
+  label: CDISC Library API
+  slug: cdisc-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-library-openapi.yml
 class_count: 6
 classes:
 - name

@@ -363,7 +363,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amazon-code-ca
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/json-ld/amazon-codecatalyst-context.jsonld
 tags:
 - Amazon
-- AWS
 - Developer Tools
 - CI/CD
 - Collaboration

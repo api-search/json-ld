@@ -122,7 +122,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : \"aws:validationWarnings\", \"@container\": \"@set\"},\n\n    \"startTimestamp\": {\"@id\": \"schema:startDate\", \"@type\": \"xsd:dateTime\"},\n    \"cancelActive\": {\"@id\": \"aws:cancelActive\", \"@type\": \"xsd:boolean\"},\n    \"sphere\": {\"@id\": \"aws:sphere\", \"@type\": \"xsd:string\"},\n\n    \"message\": {\"@id\": \"schema:description\", \"@type\": \"xsd:string\"},\n    \"code\": {\"@id\": \"aws:errorCode\", \"@type\": \"xsd:string\"}\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/json-ld/amazon-data-pipeline-context.jsonld
 tags:
-- AWS
 - Data Processing
 - ETL
 - Workflows

@@ -363,7 +363,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   pinpoint:MultiConditionalBranch\",\n    \"CreateJourneyResponse\": \"pinpoint:CreateJourneyResponse\",\n    \"GetJourneyExecutionMetricsRequest\": \"pinpoint:GetJourneyExecutionMetricsRequest\",\n    \"ContactCenterActivity\": \"pinpoint:ContactCenterActivity\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-journeys-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

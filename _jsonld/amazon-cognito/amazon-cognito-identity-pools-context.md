@@ -263,7 +263,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/json-ld/amazon-cognito-identity-pools-context.jsonld
 tags:
 - Authentication
-- AWS
 - Identity
 - OAuth
 - User Management

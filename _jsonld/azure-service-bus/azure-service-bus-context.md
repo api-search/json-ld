@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-service-bus-openapi.yml
+  format: yaml
+  label: Azure Service Bus
+  slug: azure-service-bus
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/azure-service-bus-context.jsonld

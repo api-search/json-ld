@@ -33,7 +33,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http:
 source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-ld/cloudformation-context.jsonld
 tags:
 - Automation
-- AWS
 - Cloud Resources
 - IaC
 - Infrastructure As Code

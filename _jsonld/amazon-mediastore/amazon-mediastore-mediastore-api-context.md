@@ -203,7 +203,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   \ },\n    \"tagKeys\": {\n      \"@id\": \"pan:tag_keys\",\n      \"@type\": \"xsd:string\"\n    },\n    \"containers\": {\n      \"@id\": \"pan:containers\",\n      \"@type\": \"xsd:string\"\n    },\n    \"endpoint\": {\n      \"@id\": \"pan:endpoint\",\n      \"@type\": \"xsd:string\"\n    },\n    \"creationTime\": \"schema:dateCreated\",\n    \"arn\": {\n      \"@id\": \"pan:arn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": \"schema:name\",\n    \"status\": {\n      \"@id\": \"pan:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"accessLoggingEnabled\": {\n      \"@id\": \"pan:access_logging_enabled\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-ld/amazon-mediastore-mediastore-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

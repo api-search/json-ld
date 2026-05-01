@@ -701,7 +701,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : {\n      \"@id\": \"aws:sampleFailureReason\",\n      \"@type\": \"xsd:string\"\n    },\n    \"failureCount\": {\n      \"@id\": \"aws:failureCount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"succeededWorldCount\": {\n      \"@id\": \"aws:succeededWorldCount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"failedWorldCount\": {\n      \"@id\": \"aws:failedWorldCount\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-ld/amazon-robomaker-context-context.jsonld
 tags:
-- AWS
 - Robotics
 - Simulation
 - JSON-LD

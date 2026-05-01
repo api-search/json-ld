@@ -112,7 +112,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/json-ld/amazon-ebs-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - Block Storage
 - EBS
 - EC2

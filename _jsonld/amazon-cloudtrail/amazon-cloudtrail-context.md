@@ -107,7 +107,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cloudtrail\": 
   \ \"@type\": \"xsd:string\"\n    },\n    \"status\": {\n      \"@id\": \"cloudtrail:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdTimestamp\": {\n      \"@id\": \"cloudtrail:created_timestamp\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"ListEventDataStoresResponse\": \"cloudtrail:ListEventDataStoresResponse\",\n    \"eventDataStores\": {\n      \"@id\": \"cloudtrail:event_data_stores\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/json-ld/amazon-cloudtrail-context.jsonld
 tags:
-- AWS
 - CloudTrail
 - Audit
 - Compliance

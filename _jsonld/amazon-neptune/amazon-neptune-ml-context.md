@@ -247,7 +247,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"neptune\": \"h
   ,\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-ml-context.jsonld
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

@@ -43,7 +43,6 @@ source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"Logging\": \"aws:Logging\",\n    \"LoggingFormat\": \"aws:LoggingFormat\",\n    \"accessLog\": {\n      \"@id\": \"aws:accessLog\",\n      \"@type\": \"xsd:string\"\n    },\n    \"json\": {\n      \"@id\": \"aws:json\",\n      \"@type\": \"xsd:string\"\n    },\n    \"text\": {\n      \"@id\": \"aws:text\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-logging-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

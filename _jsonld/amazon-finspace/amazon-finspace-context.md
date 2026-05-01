@@ -103,7 +103,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"finspace\": \"
   xsd:string\"\n    },\n    \"userName\": {\n      \"@id\": \"finspace:userName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"iamRole\": {\n      \"@id\": \"finspace:iamRole\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tags\": {\n      \"@id\": \"schema:keywords\"\n    },\n    \"createdTimestamp\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"lastModifiedTimestamp\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"createTimestamp\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"updateTimestamp\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/json-ld/amazon-finspace-context.jsonld
 tags:
-- AWS
 - Capital Markets
 - Data Analytics
 - Data Management

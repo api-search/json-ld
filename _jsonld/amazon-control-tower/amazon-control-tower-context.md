@@ -193,7 +193,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \n    },\n    \"tags\": {\n      \"@id\": \"aws:tags\",\n      \"@type\": \"@id\"\n    },\n    \"targetIdentifier\": {\n      \"@id\": \"aws:target_identifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"aws:value\",\n      \"@type\": \"xsd:string\"\n    },\n    \"version\": \"schema:version\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-ld/amazon-control-tower-context.jsonld
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

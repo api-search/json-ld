@@ -321,7 +321,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amazon-code-gu
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/json-ld/amazon-codeguru-reviewer-context.jsonld
 tags:
 - Amazon
-- AWS
 - Code Review
 - Security
 - DevOps

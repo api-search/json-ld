@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bluebeam-studio-openapi.yml
+  format: yaml
+  label: Bluebeam Studio API
+  slug: bluebeam-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-studio-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/bluebeam-context.jsonld

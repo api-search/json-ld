@@ -337,7 +337,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"ambc\": \"http
   \n    },\n    \"VoterMemberId\": {\n      \"@id\": \"ambc:VoterMemberId\"\n    },\n    \"VpcEndpointServiceName\": {\n      \"@id\": \"ambc:VpcEndpointServiceName\"\n    },\n    \"WebSocketEndpoint\": {\n      \"@id\": \"ambc:WebSocketEndpoint\"\n    },\n    \"YesVoteCount\": {\n      \"@id\": \"ambc:YesVoteCount\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/json-ld/amazon-managed-blockchain-context.jsonld
 tags:
-- AWS
 - Blockchain
 - Distributed Ledger
 - Hyperledger Fabric

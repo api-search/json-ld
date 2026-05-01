@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-swf-openapi-original.yml
+  format: yaml
+  label: Amazon Simple Workflow Service API
+  slug: amazon-swf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/openapi/amazon-swf-openapi-original.yml
 class_count: 13
 classes:
 - Workflow
@@ -33,7 +40,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-ld/amazon-swf-context.jsonld
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 - JSON-LD

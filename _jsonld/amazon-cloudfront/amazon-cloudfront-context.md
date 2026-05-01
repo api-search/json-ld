@@ -165,7 +165,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cloudfront\": 
   \n    },\n    \"items\": {\n      \"@id\": \"cloudfront:items\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"InvalidationList\": \"cloudfront:InvalidationList\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/json-ld/amazon-cloudfront-context.jsonld
 tags:
-- AWS
 - CloudFront
 - CDN
 - Content Delivery

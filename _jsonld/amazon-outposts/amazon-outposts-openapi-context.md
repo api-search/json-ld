@@ -471,7 +471,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"outposts\": \"
   : {\n      \"@id\": \"outposts:State\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Status\": {\n      \"@id\": \"outposts:Status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SupportedStorage\": {\n      \"@id\": \"outposts:SupportedStorage\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Tags\": {\n      \"@id\": \"outposts:Tags\",\n      \"@type\": \"xsd:string\"\n    },\n    \"WeightLbs\": {\n      \"@id\": \"outposts:WeightLbs\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-ld/amazon-outposts-openapi-context.jsonld
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

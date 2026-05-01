@@ -518,7 +518,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"ho\": \"https:
   : \"ho:UploadReadSetPartRequestPartNumberInteger\",\n    \"UploadReadSetPartRequest\": \"ho:UploadReadSetPartRequest\",\n    \"VariantImportItemDetail\": \"ho:VariantImportItemDetail\",\n    \"VariantImportJobItem\": \"ho:VariantImportJobItem\",\n    \"VariantStoreItem\": \"ho:VariantStoreItem\",\n    \"WorkflowListItem\": \"ho:WorkflowListItem\",\n    \"WorkflowMetadataValue\": \"ho:WorkflowMetadataValue\",\n    \"WorkflowMetadataKey\": \"ho:WorkflowMetadataKey\",\n    \"WorkflowParameterDescription\": \"ho:WorkflowParameterDescription\",\n    \"WorkflowParameterName\": \"ho:WorkflowParameterName\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-ld/amazon-healthomics-context.jsonld
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

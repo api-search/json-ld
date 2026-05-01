@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS License Manager API
+  slug: aws-license-manager-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/license-manager/2018-08-01/openapi.yaml
 class_count: 1
 classes:
 - LicenseConfiguration
@@ -48,7 +55,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"licensemanager
   ,\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/json-ld/amazon-license-manager-context.jsonld
 tags:
-- AWS
 - Compliance
 - Cost Management
 - License Management

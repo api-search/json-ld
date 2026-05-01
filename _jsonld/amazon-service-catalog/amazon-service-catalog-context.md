@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS Service Catalog API
+  slug: aws-service-catalog-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/servicecatalog/2015-12-10/openapi.yaml
 class_count: 3
 classes:
 - Portfolio
@@ -65,7 +72,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : \"xsd:string\"\n    },\n    \"Name\": {\n      \"@id\": \"aws:Name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Owner\": {\n      \"@id\": \"aws:Owner\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ShortDescription\": {\n      \"@id\": \"aws:ShortDescription\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Type\": {\n      \"@id\": \"aws:Type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ProvisionedProduct\": \"aws:ProvisionedProduct\",\n    \"RecordDetail\": {\n      \"@id\": \"aws:RecordDetail\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-ld/amazon-service-catalog-context.jsonld
 tags:
-- AWS
 - Cloud Governance
 - Compliance
 - IT Governance

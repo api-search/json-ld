@@ -438,7 +438,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/json-ld/amazon-elastic-transcoder-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - Media
 - Transcoding
 - Video

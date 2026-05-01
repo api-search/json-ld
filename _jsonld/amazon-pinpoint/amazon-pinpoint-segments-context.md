@@ -248,7 +248,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   \ \"GetSegmentsResponse\": \"pinpoint:GetSegmentsResponse\",\n    \"SegmentDimensions\": \"pinpoint:SegmentDimensions\",\n    \"Behavior\": {\n      \"@id\": \"pinpoint:Behavior\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Demographic\": {\n      \"@id\": \"pinpoint:Demographic\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Location\": {\n      \"@id\": \"pinpoint:Location\",\n      \"@type\": \"xsd:string\"\n    },\n    \"UserAttributes\": {\n      \"@id\": \"pinpoint:UserAttributes\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-segments-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

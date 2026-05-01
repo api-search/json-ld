@@ -148,7 +148,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : {\n      \"@id\": \"aws:AlternateValueEncoding\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/json-ld/amazon-simpledb-context.jsonld
 tags:
-- AWS
 - Cloud Storage
 - Data Storage
 - Database

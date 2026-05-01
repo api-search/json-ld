@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apis-io-search-openapi.yaml
+  format: yaml
+  label: APIs.io Search API
+  slug: search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-search-openapi.yaml
 class_count: 15
 classes:
 - Contact

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-vpc-openapi.yml
+  format: yaml
+  label: Amazon VPC API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-vpc-context.jsonld
@@ -46,7 +53,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"vpc\": \"https
   \       \"@id\": \"vpc:tags\",\n          \"@container\": \"@set\"\n        }\n      }\n    },\n\n    \"NetworkAcl\": {\n      \"@id\": \"vpc:NetworkAcl\",\n      \"@context\": {\n        \"networkAclId\": \"vpc:networkAclId\",\n        \"vpcId\": \"vpc:vpcId\",\n        \"isDefault\": \"vpc:isDefault\",\n        \"entries\": {\n          \"@id\": \"vpc:entries\",\n          \"@container\": \"@set\"\n        },\n        \"associations\": {\n          \"@id\": \"vpc:associations\",\n          \"@container\": \"@set\"\n        },\n        \"tags\": {\n          \"@id\": \"vpc:tags\",\n          \"@container\": \"@set\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/json-ld/amazon-vpc-context.jsonld
 tags:
-- AWS
 - Networking
 - Private Cloud
 - Security

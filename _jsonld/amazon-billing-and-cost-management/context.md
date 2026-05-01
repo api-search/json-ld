@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: aws-cost-explorer-api-openapi.yml
+  format: yaml
+  label: AWS Cost Explorer API
+  slug: aws-cost-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/aws-cost-explorer-api-openapi.yml
+- filename: aws-budgets-api-openapi.yml
+  format: yaml
+  label: AWS Budgets API
+  slug: aws-budgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/aws-budgets-api-openapi.yml
 class_count: 19
 classes:
 - Budget
@@ -56,7 +69,6 @@ tags:
 - Cost Optimization
 - FinOps
 - Amazon Web Services
-- AWS
 - JSON-LD
 - Linked Data
 - Semantic Web

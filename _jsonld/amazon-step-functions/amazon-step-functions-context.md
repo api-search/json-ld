@@ -528,7 +528,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   @type\": \"xsd:string\"\n    },\n    \"logGroupArn\": {\n      \"@id\": \"aws:logGroupArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"enabled\": {\n      \"@id\": \"aws:enabled\",\n      \"@type\": \"xsd:string\"\n    },\n    \"events\": {\n      \"@id\": \"aws:events\",\n      \"@type\": \"xsd:string\"\n    },\n    \"itemCount\": {\n      \"@id\": \"aws:itemCount\",\n      \"@type\": \"xsd:string\"\n    },\n    \"key\": {\n      \"@id\": \"aws:key\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"aws:value\",\n      \"@type\": \"xsd:string\"\n    },\n    \"truncated\": {\n      \"@id\": \"aws:truncated\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-ld/amazon-step-functions-context.jsonld
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

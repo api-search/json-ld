@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-augmented-ai-openapi.yml
+  format: yaml
+  label: Amazon Augmented AI API
+  slug: amazon-augmented-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/openapi/amazon-augmented-ai-openapi.yml
 class_count: 4
 classes:
 - HumanLoop
@@ -27,7 +34,6 @@ tags:
 - Human In The Loop
 - Machine Learning
 - AI Review
-- AWS
 - JSON-LD
 - Linked Data
 - Semantic Web

@@ -598,7 +598,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/json-ld/amazon-iot-fleetwise-context.jsonld
 tags:
 - Automotive
-- AWS
 - Connected Vehicles
 - IoT
 - Telematics

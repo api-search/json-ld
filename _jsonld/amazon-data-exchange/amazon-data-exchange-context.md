@@ -182,7 +182,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : {\"@id\": \"aws:nextToken\", \"@type\": \"xsd:string\"},\n\n    \"Tags\": {\"@id\": \"aws:tags\"},\n    \"CreatedAt\": {\"@id\": \"schema:dateCreated\", \"@type\": \"xsd:dateTime\"},\n    \"UpdatedAt\": {\"@id\": \"schema:dateModified\", \"@type\": \"xsd:dateTime\"},\n\n    \"message\": {\"@id\": \"schema:description\", \"@type\": \"xsd:string\"},\n    \"code\": {\"@id\": \"aws:errorCode\", \"@type\": \"xsd:string\"},\n    \"requestId\": {\"@id\": \"aws:requestId\", \"@type\": \"xsd:string\"}\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/json-ld/amazon-data-exchange-context.jsonld
 tags:
-- AWS
 - Data Exchange
 - Data Marketplace
 - Third-Party Data

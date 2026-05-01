@@ -617,7 +617,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
   : \"amz:UpdateImpersonationRoleResponse\",\n    \"UpdateMailboxQuotaRequest\": \"amz:UpdateMailboxQuotaRequest\",\n    \"UpdateMailboxQuotaResponse\": \"amz:UpdateMailboxQuotaResponse\",\n    \"UpdateMobileDeviceAccessRuleRequest\": \"amz:UpdateMobileDeviceAccessRuleRequest\",\n    \"UpdateMobileDeviceAccessRuleResponse\": \"amz:UpdateMobileDeviceAccessRuleResponse\",\n    \"UpdatePrimaryEmailAddressRequest\": \"amz:UpdatePrimaryEmailAddressRequest\",\n    \"UpdatePrimaryEmailAddressResponse\": \"amz:UpdatePrimaryEmailAddressResponse\",\n    \"UpdateResourceRequest\": \"amz:UpdateResourceRequest\",\n    \"UpdateResourceResponse\": \"amz:UpdateResourceResponse\",\n    \"User\": \"amz:User\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-ld/amazon-workmail-context.jsonld
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

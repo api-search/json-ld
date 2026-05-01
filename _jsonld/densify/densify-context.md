@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: dev
+  format: yaml
+  label: Densify Public Cloud API
+  slug: public-cloud-api
+  spec_type: Postman
+  url: https://www.densify.com/dev
 class_count: 0
 classes: []
 context_file: json-ld/densify-context.jsonld

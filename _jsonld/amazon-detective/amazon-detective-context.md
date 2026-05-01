@@ -260,7 +260,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
   \  },\n    \"VolumeUsageUpdatedTime\": {\n      \"@id\": \"amz:VolumeUsageUpdatedTime\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-ld/amazon-detective-context.jsonld
 tags:
-- AWS
 - Forensics
 - Investigation
 - Security

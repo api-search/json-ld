@@ -494,7 +494,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : \"aws:Config\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-ld/amazon-route53-resolver-context-context.jsonld
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

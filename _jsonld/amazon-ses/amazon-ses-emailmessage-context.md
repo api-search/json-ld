@@ -85,7 +85,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \   \"@type\": \"xsd:string\"\n    },\n    \"ReplyToAddresses\": {\n      \"@id\": \"aws:ReplyToAddresses\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ConfigurationSetName\": {\n      \"@id\": \"aws:ConfigurationSetName\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-ld/amazon-ses-emailmessage-context.jsonld
 tags:
-- AWS
 - Email
 - Email Deliverability
 - Email Service

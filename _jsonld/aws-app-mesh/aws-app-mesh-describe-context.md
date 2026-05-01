@@ -68,7 +68,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   ,\n    \"DescribeRouteOutput\": \"aws:DescribeRouteOutput\",\n    \"DescribeVirtualNodeOutput\": \"aws:DescribeVirtualNodeOutput\",\n    \"DescribeVirtualRouterInput\": \"aws:DescribeVirtualRouterInput\",\n    \"gatewayRoute\": {\n      \"@id\": \"aws:gatewayRoute\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualService\": {\n      \"@id\": \"aws:virtualService\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualNode\": {\n      \"@id\": \"aws:virtualNode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualGateway\": {\n      \"@id\": \"aws:virtualGateway\",\n      \"@type\": \"xsd:string\"\n    },\n    \"mesh\": {\n      \"@id\": \"aws:mesh\",\n      \"@type\": \"xsd:string\"\n    },\n    \"route\": {\n      \"@id\": \"aws:route\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualRouter\": {\n      \"@id\": \"aws:virtualRouter\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-describe-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

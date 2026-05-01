@@ -69,7 +69,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-ld/context.jsonld
 tags:
 - Automation
-- AWS
 - Cloud Resources
 - IaC
 - Infrastructure As Code

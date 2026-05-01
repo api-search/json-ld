@@ -77,7 +77,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \      \"@id\": \"aws:meshes\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualGateways\": {\n      \"@id\": \"aws:virtualGateways\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-list-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

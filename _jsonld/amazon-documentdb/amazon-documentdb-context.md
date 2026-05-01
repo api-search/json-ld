@@ -125,7 +125,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/json-ld/amazon-documentdb-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - Database
 - Document Database
 - DocumentDB

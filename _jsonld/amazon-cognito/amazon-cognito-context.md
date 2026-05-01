@@ -49,7 +49,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/json-ld/amazon-cognito-context.jsonld
 tags:
 - Authentication
-- AWS
 - Identity
 - OAuth
 - User Management

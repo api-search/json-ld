@@ -107,7 +107,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/json-ld/amazon-ecr-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - Container Images
 - Container Registry
 - Containers

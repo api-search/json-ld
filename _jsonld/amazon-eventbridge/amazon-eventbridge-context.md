@@ -63,7 +63,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/json-ld/amazon-eventbridge-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - Event Bus
 - Event-Driven
 - Events

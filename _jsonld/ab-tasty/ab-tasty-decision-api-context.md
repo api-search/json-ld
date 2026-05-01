@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: decision-api-openapi.yml
+  format: yaml
+  label: AB Tasty Decision API
+  slug: ab-tasty-decision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/decision-api-openapi.yml
 class_count: 13
 classes:
 - ActivationRequest

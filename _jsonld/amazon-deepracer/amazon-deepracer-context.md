@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-deepracer-openapi.yml
+  format: yaml
+  label: AWS DeepRacer API
+  slug: aws-deepracer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-deepracer-context.jsonld
@@ -135,7 +142,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/json-ld/amazon-deepracer-context.jsonld
 tags:
 - Autonomous Vehicles
-- AWS
 - Machine Learning
 - Reinforcement Learning
 - Robotics

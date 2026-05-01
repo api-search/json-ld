@@ -237,7 +237,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : \"@id\"\n    },\n    \"ImageRepository\": {\n      \"@id\": \"aws:ImageRepository\",\n      \"@type\": \"@id\"\n    },\n    \"AutoDeploymentsEnabled\": {\n      \"@id\": \"aws:AutoDeploymentsEnabled\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"AuthenticationConfiguration\": {\n      \"@id\": \"aws:AuthenticationConfiguration\",\n      \"@type\": \"@id\"\n    },\n    \"EnableWWWSubdomain\": {\n      \"@id\": \"aws:EnableWWWSubdomain\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"CertificateValidationRecords\": {\n      \"@id\": \"aws:CertificateValidationRecords\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-ld/aws-app-runner-context.jsonld
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

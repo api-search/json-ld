@@ -2642,7 +2642,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   : \"pan:LanguageCode\",\n    \"Xavc4kIntraVbrProfileSettings\": \"pan:Xavc4kIntraVbrProfileSettings\",\n    \"DashIsoEncryptionSettings\": \"pan:DashIsoEncryptionSettings\",\n    \"MpdTimedMetadataBoxVersion\": \"pan:MpdTimedMetadataBoxVersion\",\n    \"AudioNormalizationPeakCalculation\": \"pan:AudioNormalizationPeakCalculation\",\n    \"CmafAdditiona\n\n# --- truncated at 32 KB (95 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-ld/amazon-mediaconvert-mediaconvert-api-context.jsonld\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-ld/amazon-mediaconvert-mediaconvert-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

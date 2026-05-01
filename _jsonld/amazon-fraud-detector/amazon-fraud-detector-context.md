@@ -72,7 +72,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"fd\": \"https:
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"eventVariables\": {\n      \"@id\": \"fd:eventVariables\"\n    },\n    \"labels\": {\n      \"@id\": \"fd:labels\"\n    },\n    \"arn\": {\n      \"@id\": \"fd:arn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdTime\": {\n      \"@id\": \"schema:dateCreated\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"lastUpdatedTime\": {\n      \"@id\": \"schema:dateModified\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/json-ld/amazon-fraud-detector-context.jsonld
 tags:
-- AWS
 - Financial Services
 - Fraud Detection
 - Machine Learning

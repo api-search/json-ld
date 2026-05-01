@@ -1361,7 +1361,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amcie\": \"htt
   \ {\n      \"@id\": \"amcie:matchCount\"\n    },\n    \"matchingBucket\": {\n      \"@id\": \"amcie:matchingBucket\"\n    },\n    \"matchingResources\": {\n      \"@id\": \"amcie:matchingResources\"\n    },\n    \"maxAccountLimitReached\": {\n      \"@id\": \"amcie:maxAccountLimitReached\"\n    },\n    \"maxResults\": {\n      \"@id\": \"amcie:maxResults\"\n    },\n    \"maximumMatchDistance\": {\n      \"@id\": \"amcie:maximumMatchDistance\"\n    },\n    \"members\": {\n      \"@id\": \"amcie:members\"\n    },\n    \"message\": {\n      \"@id\": \"amcie:message\"\n    },\n    \"mfaAuthenticated\": {\n      \"@id\": \"amcie:mfaAuthenticated\"\n    },\n    \"mimeType\": {\n      \"@id\": \"amcie:mimeType\"\n    },\n    \"monthlySchedule\": {\n      \"@id\": \"amcie:monthlySchedule\"\n    },\n    \"name\": \"schema:name\",\n    \"neq\": {\n      \"@id\": \"amcie\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-ld/amazon-macie-context.jsonld\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-ld/amazon-macie-context.jsonld
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

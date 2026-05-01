@@ -161,7 +161,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"polly\": \"htt
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-ld/amazon-polly-context.jsonld
 tags:
 - AI
-- AWS
 - Machine Learning
 - Speech Synthesis
 - Text-To-Speech

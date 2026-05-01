@@ -354,7 +354,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : {\n      \"@id\": \"pan:LastUpdateToPayPerRequestDateTime\",\n      \"@type\": \"xsd:decimal\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-ld/amazon-dynamodb-context.jsonld
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

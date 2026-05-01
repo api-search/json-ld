@@ -40,7 +40,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"@vocab\": \"ht
   \n        },\n        \"AutoRenew\": {\n          \"@id\": \"shield:AutoRenew\",\n          \"@type\": \"xsd:string\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/json-ld/amazon-shield-context.jsonld
 tags:
-- AWS
 - DDoS Protection
 - Networking
 - Security

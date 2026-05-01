@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: dtn-weather-conditions-openapi.yml
+  format: yaml
+  label: DTN Weather Conditions API
+  slug: dtn-weather-conditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-weather-conditions-openapi.yml
 class_count: 2
 classes:
 - stationId

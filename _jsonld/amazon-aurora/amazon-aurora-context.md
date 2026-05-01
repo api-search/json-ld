@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-aurora-openapi.yml
+  format: yaml
+  label: Amazon Aurora API
+  slug: amazon-aurora-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/openapi/amazon-aurora-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-aurora-context.jsonld
@@ -50,7 +57,6 @@ tags:
 - MySQL
 - PostgreSQL
 - Relational Database
-- AWS
 - JSON-LD
 - Linked Data
 - Semantic Web

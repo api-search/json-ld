@@ -58,7 +58,6 @@ tags:
 - Access Management
 - Authentication
 - Authorization
-- AWS
 - Identity
 - Security
 - JSON-LD

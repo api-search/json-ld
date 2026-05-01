@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-personalize-openapi.yml
+- filename: API_Reference.html
   format: yaml
   label: Amazon Personalize API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/openapi/amazon-personalize-openapi.yml
+  url: https://docs.aws.amazon.com/personalize/latest/dg/API_Reference.html
 class_count: 0
 classes: []
 context_file: json-ld/amazon-personalize-context.jsonld
@@ -54,7 +54,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/json-ld/amazon-personalize-context.jsonld
 tags:
 - AI
-- AWS
 - Customer Experience
 - Machine Learning
 - ML

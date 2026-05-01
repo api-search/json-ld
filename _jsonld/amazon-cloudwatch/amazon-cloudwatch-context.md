@@ -142,7 +142,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cloudwatch\": 
   @id\": \"cloudwatch:actions_enabled\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"alarmActions\": {\n      \"@id\": \"cloudwatch:alarm_actions\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"okActions\": {\n      \"@id\": \"cloudwatch:ok_actions\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"insufficientDataActions\": {\n      \"@id\": \"cloudwatch:insufficient_data_actions\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Dashboard\": \"cloudwatch:Dashboard\",\n    \"lastModified\": {\n      \"@id\": \"cloudwatch:last_modified\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"size\": {\n      \"@id\": \"cloudwatch:size\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/json-ld/amazon-cloudwatch-context.jsonld
 tags:
-- AWS
 - CloudWatch
 - Monitoring
 - Observability

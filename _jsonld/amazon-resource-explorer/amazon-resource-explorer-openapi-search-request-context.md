@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS Resource Explorer API
+  slug: aws-resource-explorer-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/resource-explorer-2/2022-07-28/openapi.yaml
 class_count: 1
 classes:
 - SearchRequest
@@ -38,7 +45,6 @@ source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https://aws.amazon.com/schema/\",\n    \"schema\": \"https://schema.org/\",\n    \"dcterms\": \"http://purl.org/dc/terms/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"SearchRequest\": \"aws:SearchRequest\",\n    \"QueryString\": {\n      \"@id\": \"aws:QueryString\",\n      \"@type\": \"xsd:string\"\n    },\n    \"MaxResults\": {\n      \"@id\": \"aws:MaxResults\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"NextToken\": {\n      \"@id\": \"aws:NextToken\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ViewArn\": {\n      \"@id\": \"aws:ViewArn\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-ld/amazon-resource-explorer-openapi-search-request-context.jsonld
 tags:
-- AWS
 - Discovery
 - Inventory
 - Operations

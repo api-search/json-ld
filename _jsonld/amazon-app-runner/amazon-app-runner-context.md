@@ -40,7 +40,6 @@ source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"schema\": \"https://schema.org/\",\n    \"DNSTarget\": {\n      \"@id\": \"schema:DNSTarget\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ServiceArn\": {\n      \"@id\": \"schema:ServiceArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CustomDomain\": {\n      \"@id\": \"schema:CustomDomain\",\n      \"@type\": \"xsd:string\"\n    },\n    \"VpcDNSTargets\": {\n      \"@id\": \"schema:VpcDNSTargets\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/json-ld/amazon-app-runner-context.jsonld
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

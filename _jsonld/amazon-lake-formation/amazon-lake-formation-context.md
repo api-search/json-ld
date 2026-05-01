@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-lake-formation-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Amazon Lake Formation API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/openapi/amazon-lake-formation-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/lakeformation/2017-03-31/openapi.yaml
 class_count: 2
 classes:
 - DataLakeResource
@@ -58,7 +58,6 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lake-fo
 tags:
 - Access Control
 - Analytics
-- AWS
 - Data Governance
 - Data Lake
 - S3

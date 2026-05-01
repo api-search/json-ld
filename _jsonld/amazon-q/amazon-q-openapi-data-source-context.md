@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: amazon-q-business.json
+  format: json
+  label: Amazon Q Business API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://example.com/openapi/amazon-q-business.json
+- filename: amazon-q-developer.json
+  format: json
+  label: Amazon Q Developer API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://example.com/openapi/amazon-q-developer.json
 class_count: 1
 classes:
 - DataSource
@@ -40,7 +53,6 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/
 tags:
 - Artificial Intelligence
 - Assistant
-- AWS
 - Enterprise
 - Generative AI
 - JSON-LD

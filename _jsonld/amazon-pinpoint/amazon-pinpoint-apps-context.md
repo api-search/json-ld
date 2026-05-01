@@ -69,7 +69,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   \n    },\n    \"Limits\": {\n      \"@id\": \"pinpoint:Limits\",\n      \"@type\": \"xsd:string\"\n    },\n    \"QuietTime\": {\n      \"@id\": \"pinpoint:QuietTime\",\n      \"@type\": \"xsd:string\"\n    },\n    \"UpdateApplicationSettingsRequest\": \"pinpoint:UpdateApplicationSettingsRequest\",\n    \"GetApplicationSettingsRequest\": \"pinpoint:GetApplicationSettingsRequest\",\n    \"ApplicationSettingsResource\": \"pinpoint:ApplicationSettingsResource\",\n    \"ApplicationId\": {\n      \"@id\": \"pinpoint:ApplicationId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"LastModifiedDate\": {\n      \"@id\": \"pinpoint:LastModifiedDate\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Name\": {\n      \"@id\": \"pinpoint:Name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tags\": {\n      \"@id\": \"pinpoint:tags\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-apps-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

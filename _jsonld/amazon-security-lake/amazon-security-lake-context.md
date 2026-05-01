@@ -91,7 +91,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \    \"resourceShareArn\": {\n      \"@id\": \"aws:resourceShareArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdAt\": {\n      \"@id\": \"aws:createdAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"updatedAt\": {\n      \"@id\": \"aws:updatedAt\",\n      \"@type\": \"xsd:dateTime\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/json-ld/amazon-security-lake-context.jsonld
 tags:
-- AWS
 - Data Lake
 - Security
 - SIEM

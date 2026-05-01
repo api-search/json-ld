@@ -656,7 +656,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-ld/amazon-xray-context.jsonld
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

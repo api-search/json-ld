@@ -20,7 +20,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/json-ld/amazon-verified-access-context.jsonld
 tags:
 - Access Management
-- AWS
 - Security
 - Zero Trust
 - JSON-LD

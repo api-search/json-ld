@@ -342,7 +342,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"periodTriggers\": {\n      \"@id\": \"pan:period_triggers\",\n      \"@type\": \"xsd:string\"\n    },\n    \"profile\": {\n      \"@id\": \"pan:profile\",\n      \"@type\": \"xsd:string\"\n    },\n    \"segmentTemplateFormat\": {\n      \"@id\": \"pan:segment_template_format\",\n      \"@type\": \"xsd:string\"\n    },\n    \"suggestedPresentationDelaySeconds\": {\n      \"@id\": \"pan:suggested_presentation_delay_seconds\",\n      \"@type\": \"xsd:string\"\n    },\n    \"utcTiming\": {\n      \"@id\": \"pan:utc_timing\",\n      \"@type\": \"xsd:string\"\n    },\n    \"utcTimingUri\": {\n      \"@id\": \"pan:utc_timing_uri\",\n      \"@type\": \"xsd:string\"\n    },\n    \"repeatExtXKey\": {\n      \"@id\": \"pan:repeat_ext_x_key\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-ld/amazon-mediapackage-mediapackage-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -310,7 +310,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amazon\": \"ht
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"certificateArn\": {\n      \"@id\": \"amazon:certificateArn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"destination\": {\n      \"@id\": \"amazon:destination\",\n      \"@type\": \"xsd:string\"\n    },\n    \"clientRequestToken\": {\n      \"@id\": \"amazon:clientRequestToken\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-ld/amazon-signer-context.jsonld
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

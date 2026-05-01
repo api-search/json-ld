@@ -156,7 +156,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   : \"schema:encodingFormat\"\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-context.jsonld
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

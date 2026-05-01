@@ -325,7 +325,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amgr\": \"http
   \  },\n    \"workspaceNotificationDestinations\": {\n      \"@id\": \"amgr:workspaceNotificationDestinations\"\n    },\n    \"workspaceOrganizationalUnits\": {\n      \"@id\": \"amgr:workspaceOrganizationalUnits\"\n    },\n    \"workspaceRoleArn\": {\n      \"@id\": \"amgr:workspaceRoleArn\"\n    },\n    \"workspaces\": {\n      \"@id\": \"amgr:workspaces\"\n    },\n    \"xml\": {\n      \"@id\": \"amgr:xml\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-ld/amazon-managed-grafana-context.jsonld
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

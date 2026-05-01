@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-timestream-openapi.yml
+  format: yaml
+  label: Amazon Timestream API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/openapi/amazon-timestream-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-timestream-context.jsonld
@@ -41,7 +48,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   @context\": {\n        \"QueryId\": \"schema:identifier\",\n        \"Rows\": \"aws:rows\",\n        \"ColumnInfo\": \"aws:columnInfo\",\n        \"QueryStatus\": \"aws:queryStatus\"\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/json-ld/amazon-timestream-context.jsonld
 tags:
-- AWS
 - Database
 - Iot
 - Time Series

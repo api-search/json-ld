@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: azure-devops-work-items-openapi.yml
+  format: yaml
+  label: Azure DevOps Work Item Tracking API
+  slug: azure-devops-work-item-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/openapi/azure-devops-work-items-openapi.yml
+- filename: azure-devops-pipelines-openapi.yml
+  format: yaml
+  label: Azure DevOps Pipelines API
+  slug: azure-devops-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/openapi/azure-devops-pipelines-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/azure-devops-pipelines-context.jsonld

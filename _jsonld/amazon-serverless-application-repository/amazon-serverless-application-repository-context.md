@@ -81,7 +81,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/json-ld/amazon-serverless-application-repository-context.jsonld
 tags:
 - Application Repository
-- AWS
 - Lambda
 - SAM
 - Serverless

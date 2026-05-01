@@ -270,7 +270,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   : \"xsd:string\"\n    },\n    \"Web\": {\n      \"@id\": \"pinpoint:Web\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-messages-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

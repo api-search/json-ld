@@ -99,7 +99,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \      \"@id\": \"aws:virtualGateway\",\n      \"@type\": \"xsd:string\"\n    },\n    \"routeName\": {\n      \"@id\": \"aws:routeName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualService\": {\n      \"@id\": \"aws:virtualService\",\n      \"@type\": \"xsd:string\"\n    },\n    \"mesh\": {\n      \"@id\": \"aws:mesh\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualRouterName\": {\n      \"@id\": \"aws:virtualRouterName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"gatewayRouteName\": {\n      \"@id\": \"aws:gatewayRouteName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"meshName\": {\n      \"@id\": \"aws:meshName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"route\": {\n      \"@id\": \"aws:route\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualServiceName\": {\n      \"@id\": \"aws:virtualServiceName\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-create-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

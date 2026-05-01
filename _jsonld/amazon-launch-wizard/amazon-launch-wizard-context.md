@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS Launch Wizard API
+  slug: aws-launch-wizard-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/launchwizard/2018-05-10/openapi.yaml
 class_count: 1
 classes:
 - Deployment
@@ -48,7 +55,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"launchwizard\"
   \n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/json-ld/amazon-launch-wizard-context.jsonld
 tags:
-- AWS
 - Deployment
 - Enterprise Applications
 - SAP

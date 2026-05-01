@@ -114,7 +114,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amazon-code-pi
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/json-ld/amazon-codepipeline-context.jsonld
 tags:
 - Amazon
-- AWS
 - CI/CD
 - Continuous Delivery
 - DevOps

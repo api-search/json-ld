@@ -580,7 +580,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   \      \"@type\": \"xsd:string\"\n    },\n    \"targetBrokerEbsVolumeInfo\": {\n      \"@id\": \"pan:target_broker_ebs_volume_info\",\n      \"@type\": \"xsd:string\"\n    },\n    \"nodeInfoList\": {\n      \"@id\": \"pan:node_info_list\",\n      \"@type\": \"xsd:string\"\n    },\n    \"clientBroker\": {\n      \"@id\": \"pan:client_broker\",\n      \"@type\": \"xsd:string\"\n    },\n    \"inCluster\": {\n      \"@id\": \"pan:in_cluster\",\n      \"@type\": \"xsd:string\"\n    },\n    \"configurationArn\": {\n      \"@id\": \"pan:configuration_arn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"configurationRevision\": {\n      \"@id\": \"pan:configuration_revision\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-ld/amazon-msk-msk-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

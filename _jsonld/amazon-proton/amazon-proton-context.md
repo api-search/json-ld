@@ -677,7 +677,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"proton\": \"ht
   ,\n    \"RepositoryBranch\": \"proton:RepositoryBranch\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-ld/amazon-proton-context.jsonld
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

@@ -75,7 +75,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"serviceDiscovery\": {\n      \"@id\": \"aws:serviceDiscovery\",\n      \"@type\": \"@id\"\n    },\n    \"arn\": {\n      \"@id\": \"aws:arn\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdAt\": {\n      \"@id\": \"aws:createdAt\",\n      \"@type\": \"xsd:string\"\n    },\n    \"lastUpdatedAt\": {\n      \"@id\": \"aws:lastUpdatedAt\",\n      \"@type\": \"xsd:string\"\n    },\n    \"meshOwner\": {\n      \"@id\": \"aws:meshOwner\",\n      \"@type\": \"xsd:string\"\n    },\n    \"resourceOwner\": {\n      \"@id\": \"aws:resourceOwner\",\n      \"@type\": \"xsd:string\"\n    },\n    \"version\": \"schema:version\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-mesh-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

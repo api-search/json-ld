@@ -420,7 +420,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   ,\n    \"ADMMessage\": \"pinpoint:ADMMessage\",\n    \"ConsolidationKey\": {\n      \"@id\": \"pinpoint:ConsolidationKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ExpiresAfter\": {\n      \"@id\": \"pinpoint:ExpiresAfter\",\n      \"@type\": \"xsd:string\"\n    },\n    \"MD5\": {\n      \"@id\": \"pinpoint:MD5\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DeleteApnsChannelResponse\": \"pinpoint:DeleteApnsChannelResponse\",\n    \"GetAdmChannelRequest\": \"pinpoint:GetAdmChannelRequest\",\n    \"DeleteApnsVoipSandboxChannelResponse\": \"pinpoint:DeleteApnsVoipSandboxChannelResponse\",\n    \"UpdateSmsTemplateResponse\": \"pinpoint:UpdateSmsTemplateResponse\",\n    \"DeleteSmsChannelResponse\": \"pinpoint:DeleteSmsChannelResponse\",\n    \"Channels\": {\n      \"@id\": \"pinpoint:Channels\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-channels-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

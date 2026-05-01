@@ -373,7 +373,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   : \"xsd:string\"\n    },\n    \"actionRequiredInfo\": {\n      \"@id\": \"pan:action_required_info\",\n      \"@type\": \"xsd:string\"\n    },\n    \"kmsKeyId\": {\n      \"@id\": \"pan:kms_key_id\",\n      \"@type\": \"xsd:string\"\n    },\n    \"useAwsOwnedKey\": {\n      \"@id\": \"pan:use_aws_owned_key\",\n      \"@type\": \"xsd:string\"\n    },\n    \"attributeName\": {\n      \"@id\": \"pan:attribute_name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"elementName\": {\n      \"@id\": \"pan:element_name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"reason\": {\n      \"@id\": \"pan:reason\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-ld/amazon-mq-mq-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

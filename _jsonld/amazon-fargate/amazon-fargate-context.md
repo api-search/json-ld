@@ -240,7 +240,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"fargate\": \"h
   \    \"runningTasksCount\": {\n      \"@id\": \"fargate:runningTasksCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"pendingTasksCount\": {\n      \"@id\": \"fargate:pendingTasksCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"activeServicesCount\": {\n      \"@id\": \"fargate:activeServicesCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"settings\": {\n      \"@id\": \"fargate:settings\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Task\": \"fargate:Task\",\n    \"startedAt\": {\n      \"@id\": \"fargate:startedAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"stoppedAt\": {\n      \"@id\": \"fargate:stoppedAt\",\n      \"@type\": \"xsd:dateTime\"\n    },\n    \"stoppedReason\": {\n      \"@id\": \"fargate:stoppedReason\",\n      \"@type\": \"xsd:string\"\n    },\n    \"networkInterfaces\": {\n      \"@id\": \"fargate:networkInterfaces\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/json-ld/amazon-fargate-context.jsonld
 tags:
-- AWS
 - Compute
 - Containers
 - ECS

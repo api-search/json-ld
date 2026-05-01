@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-transcribe-openapi.yml
+  format: yaml
+  label: Amazon Transcribe REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/openapi/amazon-transcribe-openapi.yml
 class_count: 7
 classes:
 - name
@@ -45,7 +52,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/json-ld/amazon-transcribe-context.jsonld
 tags:
 - Audio Processing
-- AWS
 - Machine Learning
 - Speech Recognition
 - Speech-To-Text

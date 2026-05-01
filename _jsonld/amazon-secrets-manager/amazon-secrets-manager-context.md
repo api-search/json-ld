@@ -122,7 +122,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   ,\n    \"SecretList\": {\n      \"@id\": \"aws:SecretList\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"NextToken\": {\n      \"@id\": \"aws:NextToken\",\n      \"@type\": \"xsd:string\"\n    },\n    \"GetRandomPasswordResponse\": \"aws:GetRandomPasswordResponse\",\n    \"RandomPassword\": {\n      \"@id\": \"aws:RandomPassword\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-ld/amazon-secrets-manager-context.jsonld
 tags:
-- AWS
 - Configuration
 - Credentials
 - Rotation

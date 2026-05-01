@@ -141,7 +141,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amazon-code-de
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-ld/amazon-codedeploy-context.jsonld
 tags:
 - Amazon
-- AWS
 - Deployment
 - DevOps
 - CI/CD

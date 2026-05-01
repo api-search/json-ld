@@ -316,7 +316,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
   \n    },\n    \"virtualInterfaceRegion\": {\n      \"@id\": \"amz:virtualInterfaceRegion\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualInterfaceState\": {\n      \"@id\": \"amz:virtualInterfaceState\",\n      \"@type\": \"xsd:string\"\n    },\n    \"virtualInterfaceType\": {\n      \"@id\": \"amz:virtualInterfaceType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vlan\": {\n      \"@id\": \"amz:vlan\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/json-ld/amazon-direct-connect-context.jsonld
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

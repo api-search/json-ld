@@ -205,7 +205,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cloudformation
   cloudformation:ListStacksOutput\",\n    \"stackSummaries\": {\n      \"@id\": \"cloudformation:stack_summaries\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CreateChangeSetOutput\": \"cloudformation:CreateChangeSetOutput\",\n    \"id\": {\n      \"@id\": \"cloudformation:id\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/json-ld/amazon-cloudformation-context.jsonld
 tags:
-- AWS
 - CloudFormation
 - Infrastructure as Code
 - DevOps

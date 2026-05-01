@@ -307,7 +307,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pinpoint\": \"
   : \"xsd:string\"\n    },\n    \"RecommendationsPerMessage\": {\n      \"@id\": \"pinpoint:RecommendationsPerMessage\",\n      \"@type\": \"xsd:string\"\n    },\n    \"GetApplicationSettingsResponse\": \"pinpoint:GetApplicationSettingsResponse\",\n    \"CreateImportJobResponse\": \"pinpoint:CreateImportJobResponse\",\n    \"CreateExportJobRequest\": \"pinpoint:CreateExportJobRequest\",\n    \"GetImportJobsRequest\": \"pinpoint:GetImportJobsRequest\",\n    \"RemoveAttributesResponse\": \"pinpoint:RemoveAttributesResponse\",\n    \"AttributesResource\": {\n      \"@id\": \"pinpoint:AttributesResource\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-ld/amazon-pinpoint-analytics-context.jsonld
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

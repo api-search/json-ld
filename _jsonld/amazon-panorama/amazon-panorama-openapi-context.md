@@ -607,7 +607,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"panorama\": \"
   StatusDescription\": {\n      \"@id\": \"panorama:StatusDescription\",\n      \"@type\": \"xsd:string\"\n    },\n    \"StatusMessage\": {\n      \"@id\": \"panorama:StatusMessage\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Tags\": {\n      \"@id\": \"panorama:Tags\",\n      \"@type\": \"xsd:string\"\n    },\n    \"TemplateParameters\": {\n      \"@id\": \"panorama:TemplateParameters\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Type\": {\n      \"@id\": \"panorama:Type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"WriteAccessPrincipalArns\": {\n      \"@id\": \"panorama:WriteAccessPrincipalArns\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-ld/amazon-panorama-openapi-context.jsonld
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

@@ -634,7 +634,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"databrew\": \"
   \      \"@id\": \"databrew:OpenedBy\",\n      \"@type\": \"xsd:string\"\n    },\n    \"OpenDate\": {\n      \"@id\": \"databrew:OpenDate\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SessionStatus\": {\n      \"@id\": \"databrew:SessionStatus\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-ld/amazon-glue-databrew-context.jsonld
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

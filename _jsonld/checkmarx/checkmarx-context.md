@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: checkmarx-sast-openapi.yml
+- filename: 34965-8158-rest-api.html
   format: yaml
   label: Checkmarx SAST API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-sast-openapi.yml
+  url: https://checkmarx.com/resource/documents/en/34965-8158-rest-api.html
 - filename: checkmarx-sca-openapi.yml
   format: yaml
   label: Checkmarx SCA API

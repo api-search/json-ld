@@ -152,7 +152,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"cleanrooms\": 
   ,\n    \"tableReference\": {\n      \"@id\": \"cleanrooms:table_reference\",\n      \"@type\": \"xsd:string\"\n    },\n    \"allowedColumns\": {\n      \"@id\": \"cleanrooms:allowed_columns\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"CreateConfiguredTableResponse\": \"cleanrooms:CreateConfiguredTableResponse\",\n    \"configuredTable\": {\n      \"@id\": \"cleanrooms:configured_table\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/json-ld/amazon-clean-rooms-context.jsonld
 tags:
-- AWS
 - Clean Rooms
 - Data Collaboration
 - Privacy

@@ -45,7 +45,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/json-ld/amazon-elastic-beanstalk-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - Auto Scaling
 - Deployment
 - Elastic Beanstalk

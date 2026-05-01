@@ -565,7 +565,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
   \ \"@id\": \"amzn:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"unitOfMeasure\": {\n      \"@id\": \"amzn:unitOfMeasure\",\n      \"@type\": \"xsd:string\"\n    },\n    \"updateDateTime\": {\n      \"@id\": \"amzn:updateDateTime\",\n      \"@type\": \"xsd:string\"\n    },\n    \"updateReason\": {\n      \"@id\": \"amzn:updateReason\",\n      \"@type\": \"xsd:string\"\n    },\n    \"updateType\": {\n      \"@id\": \"amzn:updateType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"amzn:value\",\n      \"@type\": \"xsd:string\"\n    },\n    \"values\": {\n      \"@id\": \"amzn:values\",\n      \"@type\": \"xsd:string\"\n    },\n    \"workspaceId\": {\n      \"@id\": \"amzn:workspaceId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"workspaceSummaries\": {\n      \"@id\": \"amzn:workspaceSummaries\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-ld/amazon-iot-twinmaker-context.jsonld
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

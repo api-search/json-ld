@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: inttra-ocean-execution-openapi.yml
+  format: yaml
+  label: INTTRA Ocean Execution API
+  slug: inttra-ocean-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/inttra-ocean-execution-openapi.yml
 class_count: 4
 classes:
 - bookingId

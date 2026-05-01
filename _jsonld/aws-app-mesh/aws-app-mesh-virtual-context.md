@@ -265,7 +265,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : \"aws:healthCheck\",\n      \"@type\": \"xsd:string\"\n    },\n    \"acm\": {\n      \"@id\": \"aws:acm\",\n      \"@type\": \"xsd:string\"\n    },\n    \"healthyThreshold\": {\n      \"@id\": \"aws:healthyThreshold\",\n      \"@type\": \"xsd:string\"\n    },\n    \"intervalMillis\": {\n      \"@id\": \"aws:intervalMillis\",\n      \"@type\": \"xsd:string\"\n    },\n    \"timeoutMillis\": {\n      \"@id\": \"aws:timeoutMillis\",\n      \"@type\": \"xsd:string\"\n    },\n    \"unhealthyThreshold\": {\n      \"@id\": \"aws:unhealthyThreshold\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tcp\": {\n      \"@id\": \"aws:tcp\",\n      \"@type\": \"xsd:string\"\n    },\n    \"privateKey\": {\n      \"@id\": \"aws:privateKey\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-virtual-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

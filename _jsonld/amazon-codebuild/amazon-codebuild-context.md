@@ -135,7 +135,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amazon-code-bu
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/json-ld/amazon-codebuild-context.jsonld
 tags:
 - Amazon
-- AWS
 - CI/CD
 - Build
 - Continuous Integration

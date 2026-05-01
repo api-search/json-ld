@@ -632,7 +632,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"gs\": \"https:
   \   \"@type\": \"xsd:string\"\n    },\n    \"tleData\": {\n      \"@id\": \"gs:tleData\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-ld/amazon-ground-station-context.jsonld
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

@@ -481,7 +481,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"neptune\": \"h
   \      \"@type\": \"@id\"\n    },\n    \"vars\": {\n      \"@id\": \"neptune:vars\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"version\": {\n      \"@id\": \"schema:version\"\n    },\n    \"volumeEncryptionKMSKey\": {\n      \"@id\": \"neptune:volumeEncryptionKMSKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"waited\": {\n      \"@id\": \"neptune:waited\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-data-context.jsonld
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

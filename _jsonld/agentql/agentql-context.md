@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: agentql-openapi.yaml
+  format: yaml
+  label: AgentQL Query Data API
+  slug: query-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-openapi.yaml
 class_count: 5
 classes:
 - QueryDataRequest

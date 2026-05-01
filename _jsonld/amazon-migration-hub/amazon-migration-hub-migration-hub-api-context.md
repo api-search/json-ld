@@ -210,7 +210,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"createdArtifactList\": {\n      \"@id\": \"pan:created_artifact_list\",\n      \"@type\": \"xsd:string\"\n    },\n    \"name\": \"schema:name\",\n    \"applicationIds\": {\n      \"@id\": \"pan:application_ids\",\n      \"@type\": \"xsd:string\"\n    },\n    \"applicationStateList\": {\n      \"@id\": \"pan:application_state_list\",\n      \"@type\": \"xsd:string\"\n    },\n    \"resourceName\": {\n      \"@id\": \"pan:resource_name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"discoveredResourceList\": {\n      \"@id\": \"pan:discovered_resource_list\",\n      \"@type\": \"xsd:string\"\n    },\n    \"discoveredResource\": {\n      \"@id\": \"pan:discovered_resource\",\n      \"@type\": \"xsd:string\"\n    },\n    \"createdArtifact\": {\n      \"@id\": \"pan:created_artifact\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/json-ld/amazon-migration-hub-migration-hub-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

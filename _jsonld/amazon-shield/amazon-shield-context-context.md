@@ -136,7 +136,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   \ \"xsd:string\"\n    },\n    \"Key\": {\n      \"@id\": \"aws:Key\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Value\": {\n      \"@id\": \"aws:Value\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ApplicationLayerAutomaticResponseConfiguration\": {\n      \"@id\": \"aws:ApplicationLayerAutomaticResponseConfiguration\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/json-ld/amazon-shield-context-context.jsonld
 tags:
-- AWS
 - DDoS Protection
 - Networking
 - Security

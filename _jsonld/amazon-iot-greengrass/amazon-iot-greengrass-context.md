@@ -555,7 +555,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
   \n    },\n    \"windowsUser\": {\n      \"@id\": \"amzn:windowsUser\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-ld/amazon-iot-greengrass-context.jsonld
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

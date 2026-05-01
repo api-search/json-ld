@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-translate-openapi.yml
+  format: yaml
+  label: Amazon Translate REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-openapi.yml
 class_count: 7
 classes:
 - name
@@ -45,7 +52,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   \n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/json-ld/amazon-translate-context.jsonld
 tags:
-- AWS
 - Language Processing
 - Localization
 - Machine Translation

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: fossology-openapi.yml
+  format: yaml
+  label: FOSSology API
+  slug: fossology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-openapi.yml
 class_count: 11
 classes:
 - Upload

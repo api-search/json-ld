@@ -109,7 +109,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : {\n      \"@id\": \"aws:secretName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"subjectAlternativeNames\": {\n      \"@id\": \"aws:subjectAlternativeNames\",\n      \"@type\": \"xsd:string\"\n    },\n    \"trust\": {\n      \"@id\": \"aws:trust\",\n      \"@type\": \"xsd:string\"\n    },\n    \"certificateChain\": {\n      \"@id\": \"aws:certificateChain\",\n      \"@type\": \"xsd:string\"\n    },\n    \"privateKey\": {\n      \"@id\": \"aws:privateKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"grpc\": {\n      \"@id\": \"aws:grpc\",\n      \"@type\": \"xsd:string\"\n    },\n    \"http\": {\n      \"@id\": \"aws:http\",\n      \"@type\": \"xsd:string\"\n    },\n    \"http2\": {\n      \"@id\": \"aws:http2\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tcp\": {\n      \"@id\": \"aws:tcp\",\n      \"@type\": \"xsd:string\"\n    },\n    \"certificateArn\": {\n      \"@id\": \"aws:certificateArn\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-ld/aws-app-mesh-listener-context.jsonld
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

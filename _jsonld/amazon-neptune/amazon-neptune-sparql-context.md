@@ -153,7 +153,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"neptune\": \"h
   \ \"@id\": \"neptune:queryString\",\n      \"@type\": \"xsd:string\"\n    },\n    \"requestId\": {\n      \"@id\": \"neptune:requestId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"results\": {\n      \"@id\": \"neptune:results\",\n      \"@type\": \"@id\"\n    },\n    \"runningQueryCount\": {\n      \"@id\": \"neptune:runningQueryCount\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"update\": {\n      \"@id\": \"neptune:update\",\n      \"@type\": \"xsd:string\"\n    },\n    \"using-graph-uri\": {\n      \"@id\": \"neptune:using-graph-uri\",\n      \"@type\": \"xsd:string\"\n    },\n    \"using-named-graph-uri\": {\n      \"@id\": \"neptune:using-named-graph-uri\",\n      \"@type\": \"xsd:string\"\n    },\n    \"vars\": {\n      \"@id\": \"neptune:vars\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"waited\": {\n      \"@id\": \"neptune:waited\",\n      \"@type\": \"xsd:integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-sparql-context.jsonld
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

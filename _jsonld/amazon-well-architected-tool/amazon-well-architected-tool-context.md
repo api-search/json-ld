@@ -619,7 +619,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amz\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/json-ld/amazon-well-architected-tool-context.jsonld
 tags:
 - Architecture
-- AWS
 - Best Practices
 - Cloud Governance
 - Well-Architected

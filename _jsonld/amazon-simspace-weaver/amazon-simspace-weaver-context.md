@@ -195,7 +195,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"BucketName\": {\n      \"@id\": \"aws:BucketName\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ObjectKeyPrefix\": {\n      \"@id\": \"aws:ObjectKeyPrefix\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ObjectKey\": {\n      \"@id\": \"aws:ObjectKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"App\": {\n      \"@id\": \"aws:App\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/json-ld/amazon-simspace-weaver-context.jsonld
 tags:
-- AWS
 - Defense
 - Digital Twin
 - Simulation

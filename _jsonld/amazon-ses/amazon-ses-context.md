@@ -41,7 +41,6 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   : \"aws:trackingOptions\",\n        \"SendingOptions\": \"aws:sendingOptions\",\n        \"ReputationOptions\": \"aws:reputationOptions\"\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-ld/amazon-ses-context.jsonld
 tags:
-- AWS
 - Email
 - Email Deliverability
 - Email Service

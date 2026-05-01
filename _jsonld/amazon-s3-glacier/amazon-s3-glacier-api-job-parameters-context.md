@@ -45,7 +45,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/json-ld/amazon-s3-glacier-api-job-parameters-context.jsonld
 tags:
 - Archive
-- AWS
 - Backup
 - Storage
 - JSON-LD

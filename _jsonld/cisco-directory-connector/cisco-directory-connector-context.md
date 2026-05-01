@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Cisco Directory Connector Sync API
+  slug: cisco-directory-connector-sync-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex Control Hub API
+  slug: webex-control-hub-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
 class_count: 1
 classes:
 - scim

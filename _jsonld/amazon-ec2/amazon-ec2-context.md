@@ -149,7 +149,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   : \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"nextToken\": {\n      \"@id\": \"pan:nextToken\",\n      \"@type\": \"xsd:string\"\n    },\n    \"instancesSet\": {\n      \"@id\": \"pan:instancesSet\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/json-ld/amazon-ec2-context.jsonld
 tags:
-- AWS
 - Cloud Computing
 - Compute
 - IaaS

@@ -54,7 +54,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"elb\": \"https
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/json-ld/amazon-elastic-load-balancing-context.jsonld
 tags:
 - Amazon Web Services
-- AWS
 - High Availability
 - Load Balancing
 - Networking

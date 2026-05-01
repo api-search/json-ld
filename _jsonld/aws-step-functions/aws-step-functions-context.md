@@ -72,7 +72,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"sfn\": \"https
   ,\n    \"DescribeStateMachineOutput\": \"sfn:DescribeStateMachineOutput\",\n    \"DescribeStateMachineInput\": \"sfn:DescribeStateMachineInput\",\n    \"StateMachineDoesNotExist\": \"sfn:StateMachineDoesNotExist\",\n    \"DescribeStateMachineForExecutionOutput\": \"sfn:DescribeStateMachineForExecutionOutput\",\n    \"DescribeStateMachineForExecutionInput\": \"sfn:DescribeStateMachineForExecutionInput\",\n    \"GetActivityTaskOutput\": \"sfn:GetActivityTaskOutput\",\n    \"GetActivityTaskInput\": \"sfn:GetActivityTaskInput\",\n    \"ActivityWorkerLimitExceeded\": \"sfn:ActivityWorkerLimitExceeded\",\n    \"GetExecutionHistoryOutput\": \"sfn:GetExecutionHistoryOutput\",\n    \"GetExecutionHistoryInput\": \"sfn:GetExecutionHistoryInput\",\n    \"InvalidToken\": \"sfn:InvalidToken\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/json-ld/aws-step-functions-context.jsonld
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

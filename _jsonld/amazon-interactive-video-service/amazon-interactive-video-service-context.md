@@ -343,7 +343,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"amzn\": \"http
   \    \"@type\": \"xsd:string\"\n    },\n    \"viewerSessions\": {\n      \"@id\": \"amzn:viewerSessions\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-ld/amazon-interactive-video-service-context.jsonld
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

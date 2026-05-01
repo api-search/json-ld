@@ -134,7 +134,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"aws\": \"https
   , \"@container\": \"@set\"},\n    \"CopyTags\": {\"@id\": \"aws:copyTags\", \"@type\": \"xsd:boolean\"},\n\n    \"Key\": {\"@id\": \"aws:tagKey\", \"@type\": \"xsd:string\"},\n    \"Value\": {\"@id\": \"aws:tagValue\", \"@type\": \"xsd:string\"},\n    \"Tags\": {\"@id\": \"aws:tags\"},\n\n    \"DateCreated\": {\"@id\": \"schema:dateCreated\", \"@type\": \"xsd:dateTime\"},\n    \"DateModified\": {\"@id\": \"schema:dateModified\", \"@type\": \"xsd:dateTime\"},\n\n    \"message\": {\"@id\": \"schema:description\", \"@type\": \"xsd:string\"},\n    \"code\": {\"@id\": \"aws:errorCode\", \"@type\": \"xsd:string\"},\n    \"requestId\": {\"@id\": \"aws:requestId\", \"@type\": \"xsd:string\"}\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/json-ld/amazon-data-lifecycle-manager-context.jsonld
 tags:
-- AWS
 - Backup
 - EBS Snapshots
 - Lifecycle Management

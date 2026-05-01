@@ -148,7 +148,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"neptune\": \"h
   \n    },\n    \"records\": {\n      \"@id\": \"neptune:records\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"stmt\": {\n      \"@id\": \"neptune:stmt\",\n      \"@type\": \"xsd:string\"\n    },\n    \"to\": {\n      \"@id\": \"neptune:to\",\n      \"@type\": \"xsd:string\"\n    },\n    \"totalRecords\": {\n      \"@id\": \"neptune:totalRecords\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"type\": {\n      \"@id\": \"neptune:type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"neptune:value\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-streams-context.jsonld
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

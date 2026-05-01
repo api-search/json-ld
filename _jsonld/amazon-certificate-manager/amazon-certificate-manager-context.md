@@ -61,7 +61,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"acm\": \"https
   \n    },\n    \"ListCertificatesResponse\": \"acm:ListCertificatesResponse\",\n    \"certificateSummaryList\": {\n      \"@id\": \"acm:certificate_summary_list\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"nextToken\": {\n      \"@id\": \"acm:next_token\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DescribeCertificateResponse\": \"acm:DescribeCertificateResponse\",\n    \"certificate\": {\n      \"@id\": \"acm:certificate\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/json-ld/amazon-certificate-manager-context.jsonld
 tags:
-- AWS
 - Certificates
 - Encryption
 - Security

@@ -40,7 +40,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"ga\": \"https:
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/json-ld/amazon-global-accelerator-context.jsonld
 tags:
 - Availability
-- AWS
 - CDN
 - Global
 - Load Balancing

@@ -108,7 +108,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pan\": \"https
   \n    },\n    \"clusterName\": {\n      \"@id\": \"pan:cluster_name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"numReplicasPerShard\": {\n      \"@id\": \"pan:num_replicas_per_shard\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"numShards\": {\n      \"@id\": \"pan:num_shards\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"aclNames\": {\n      \"@id\": \"pan:acl_names\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"key\": {\n      \"@id\": \"pan:key\",\n      \"@type\": \"xsd:string\"\n    },\n    \"value\": {\n      \"@id\": \"pan:value\",\n      \"@type\": \"xsd:string\"\n    },\n    \"clusters\": {\n      \"@id\": \"pan:clusters\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"nextToken\": {\n      \"@id\": \"pan:next_token\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/json-ld/amazon-memorydb-memorydb-api-context.jsonld
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

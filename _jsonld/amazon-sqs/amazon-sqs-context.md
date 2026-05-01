@@ -26,7 +26,6 @@ source_heading: JSON-LD Document
 source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/json-ld/amazon-sqs-context.jsonld
 tags:
-- AWS
 - Cloud
 - Distributed Systems
 - Messaging

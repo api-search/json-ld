@@ -155,7 +155,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"pl\": \"https:
   \    \"@id\": \"pl:AvailabilityZones\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"NetworkLoadBalancerArns\": {\n      \"@id\": \"pl:NetworkLoadBalancerArns\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"DescribeVpcEndpointConnectionsResult\": \"pl:DescribeVpcEndpointConnectionsResult\",\n    \"VpcEndpointConnections\": {\n      \"@id\": \"pl:VpcEndpointConnections\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    },\n    \"ModifyVpcEndpointServiceConfigurationRequest\": \"pl:ModifyVpcEndpointServiceConfigurationRequest\",\n    \"ServiceDetail\": \"pl:ServiceDetail\",\n    \"Owner\": {\n      \"@id\": \"pl:Owner\",\n      \"@type\": \"xsd:string\"\n    },\n    \"BaseEndpointDnsNames\": {\n      \"@id\": \"pl:BaseEndpointDnsNames\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-ld/amazon-privatelink-context.jsonld
 tags:
-- AWS
 - Networking
 - Private Connectivity
 - Security

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-backup-openapi.yml
+  format: yaml
+  label: Amazon Backup API
+  slug: amazon-backup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/openapi/amazon-backup-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-backup-context.jsonld
@@ -38,7 +45,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"backup\": \"ht
   \      \"@id\": \"backup:numberOfRecoveryPoints\",\n          \"@type\": \"xsd:integer\"\n        }\n      }\n    },\n\n    \"BackupJob\": {\n      \"@id\": \"backup:BackupJob\",\n      \"@context\": {\n        \"backupJobId\": \"backup:backupJobId\",\n        \"state\": \"backup:state\",\n        \"resourceArn\": \"backup:resourceArn\",\n        \"creationDate\": {\n          \"@id\": \"dcterms:created\",\n          \"@type\": \"xsd:dateTime\"\n        },\n        \"completionDate\": {\n          \"@id\": \"backup:completionDate\",\n          \"@type\": \"xsd:dateTime\"\n        }\n      }\n    },\n\n    \"RecoveryPoint\": {\n      \"@id\": \"backup:RecoveryPoint\",\n      \"@context\": {\n        \"recoveryPointArn\": \"backup:recoveryPointArn\",\n        \"backupVaultName\": \"backup:backupVaultName\",\n        \"resourceArn\": \"backup:resourceArn\",\n        \"status\": \"backup:status\"\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/json-ld/amazon-backup-context.jsonld
 tags:
-- AWS
 - Backup
 - Data Protection
 - Disaster Recovery

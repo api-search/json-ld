@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: duck-creek-policy-openapi.yml
+  format: yaml
+  label: Duck Creek Anywhere REST API
+  slug: duck-creek-anywhere-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policy-openapi.yml
 class_count: 4
 classes:
 - policyId

@@ -269,7 +269,6 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"neptune\": \"h
   \ \"@id\": \"neptune:SnapshotIdentifier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"SnapshotType\": {\n      \"@id\": \"neptune:SnapshotType\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Status\": {\n      \"@id\": \"neptune:Status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"StorageEncrypted\": {\n      \"@id\": \"neptune:StorageEncrypted\",\n      \"@type\": \"xsd:boolean\"\n    },\n    \"SubnetGroupStatus\": {\n      \"@id\": \"neptune:SubnetGroupStatus\",\n      \"@type\": \"xsd:string\"\n    },\n    \"Subnets\": {\n      \"@id\": \"neptune:Subnets\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    },\n    \"VpcId\": {\n      \"@id\": \"neptune:VpcId\",\n      \"@type\": \"xsd:string\"\n    },\n    \"VpcSecurityGroupIds\": {\n      \"@id\": \"neptune:VpcSecurityGroupIds\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-management-context.jsonld
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin
