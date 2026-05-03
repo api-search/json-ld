@@ -79,6 +79,7 @@ tags:
 - Incubating
 - Kubernetes
 - Scheduling
+- Machine Learning
 - JSON-LD
 - Linked Data
 - Semantic Web

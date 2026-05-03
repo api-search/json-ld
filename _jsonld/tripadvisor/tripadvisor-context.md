@@ -22,7 +22,7 @@ class_count: 0
 classes: []
 context_file: json-ld/tripadvisor-context.jsonld
 context_url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/json-ld/tripadvisor-context.jsonld
-description: JSON-LD context defining the semantic vocabulary for Tripadvisor from tripadvisor.
+description: JSON-LD context defining the semantic vocabulary for Tripadvisor from Tripadvisor.
 layout: jsonld
 name: Tripadvisor Context
 namespaces:
@@ -57,7 +57,7 @@ properties:
   name: User
   type: ''
 property_count: 7
-provider_name: tripadvisor
+provider_name: Tripadvisor
 provider_slug: tripadvisor
 slug: tripadvisor-context
 source_filename: tripadvisor-context.jsonld
@@ -69,6 +69,12 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"ta\": \"https:
   \          \"@id\": \"dcterms:date\",\n          \"@type\": \"xsd:gYear\"\n        },\n        \"display_name\": \"schema:name\",\n        \"images\": \"schema:image\"\n      }\n    },\n\n    \"User\": {\n      \"@id\": \"schema:Person\",\n      \"@context\": {\n        \"username\": \"schema:name\",\n        \"avatar\": \"schema:image\",\n        \"user_location\": \"schema:homeLocation\"\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/json-ld/tripadvisor-context.jsonld
 tags:
+- Attractions
+- Hotels
+- Hospitality
+- Restaurants
+- Reviews
+- Travel
 - JSON-LD
 - Linked Data
 - Semantic Web

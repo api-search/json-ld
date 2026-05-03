@@ -2,7 +2,7 @@
 api_specs:
 - filename: shopify-api-openapi.yml
   format: yaml
-  label: Shopify  API
+  label: Shopify Admin REST API
   slug: shopify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/openapi/shopify-api-openapi.yml

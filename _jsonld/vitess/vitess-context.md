@@ -66,6 +66,7 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"vitess\": \"ht
 source_json_url: https://raw.githubusercontent.com/api-evangelist/vitess/refs/heads/main/json-ld/vitess-context.jsonld
 tags:
 - Cloud Native
+- CNCF
 - Database
 - Distributed Systems
 - Graduated

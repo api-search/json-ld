@@ -36,8 +36,10 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   : {\n      \"@id\": \"theneo:project-user\",\n      \"@context\": {\n        \"id\": \"https://schema.org/identifier\",\n        \"email\": \"https://schema.org/email\",\n        \"role\": \"https://schema.org/roleName\",\n        \"name\": \"https://schema.org/name\"\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/json-ld/theneo-context.jsonld
 tags:
-- Change Logs
-- Documentation
+- API Documentation
+- Developer Tools
+- Documentation Platform
+- AI
 - Platform
 - JSON-LD
 - Linked Data

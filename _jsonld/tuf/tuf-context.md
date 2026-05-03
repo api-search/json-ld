@@ -66,11 +66,12 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"tuf\": \"https
   \    \"@id\": \"tuf:authorizedKeyIds\",\n          \"@container\": \"@set\"\n        },\n        \"threshold\": \"tuf:signatureThreshold\",\n        \"terminating\": \"tuf:terminatingDelegation\",\n        \"paths\": {\n          \"@id\": \"tuf:targetPathPatterns\",\n          \"@container\": \"@set\"\n        }\n      }\n    },\n\n    \"Delegations\": {\n      \"@id\": \"tuf:Delegations\",\n      \"@context\": {\n        \"keys\": \"tuf:delegationKeys\",\n        \"roles\": {\n          \"@id\": \"tuf:delegatedRoles\",\n          \"@container\": \"@list\"\n        }\n      }\n    },\n\n    \"Signature\": {\n      \"@id\": \"sec:Signature\",\n      \"@context\": {\n        \"keyid\": \"tuf:signingKeyId\",\n        \"sig\": \"sec:signatureValue\"\n      }\n    },\n\n    \"Hashes\": {\n      \"@id\": \"tuf:Hashes\",\n      \"@context\": {\n        \"sha256\": \"tuf:sha256Digest\",\n        \"sha512\": \"tuf:sha512Digest\"\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/json-ld/tuf-context.jsonld
 tags:
+- CNCF
 - Cloud Native
 - Graduated
 - Security
+- Software Supply Chain
 - Software Updates
-- Supply Chain
 - Verification
 - JSON-LD
 - Linked Data

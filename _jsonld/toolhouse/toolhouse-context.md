@@ -69,6 +69,7 @@ tags:
 - Agent Infrastructure
 - AI Agents
 - Backend as a Service
+- MCP
 - Tools
 - JSON-LD
 - Linked Data

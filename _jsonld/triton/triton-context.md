@@ -76,6 +76,8 @@ tags:
 - Inference
 - Machine Learning
 - Model Serving
+- NVIDIA
+- Open Source
 - JSON-LD
 - Linked Data
 - Semantic Web

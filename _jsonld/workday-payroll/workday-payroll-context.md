@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: workday-payroll-payroll-openapi.yml
   format: yaml
   label: Workday Payroll API
   slug: ''
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/payroll/v1/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-openapi.yml
+- filename: workday-payroll-payroll-results-openapi.yml
   format: yaml
   label: Workday Payroll Results API
   slug: ''
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/payroll-results/v1/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-results-openapi.yml
+- filename: workday-payroll-payroll-input-openapi.yml
   format: yaml
   label: Workday Payroll Input API
   slug: ''
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/payroll-input/v1/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-input-openapi.yml
 - filename: workday-payroll-tax-openapi.yml
   format: yaml
   label: Workday Tax API
@@ -96,9 +96,9 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/workday-payrol
 tags:
 - Compensation
 - Enterprise
-- Human-Resources
+- Human Resources
 - Payroll
-- Saas
+- SaaS
 - Tax
 - JSON-LD
 - Linked Data

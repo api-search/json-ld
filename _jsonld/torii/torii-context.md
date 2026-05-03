@@ -2,7 +2,7 @@
 api_specs:
 - filename: torii-torii-openapi.yml
   format: yaml
-  label: Torii
+  label: Torii SaaS Management API
   slug: torii
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-torii-openapi.yml
@@ -76,6 +76,11 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   \  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/json-ld/torii-context.jsonld
 tags:
+- Apps
+- Compliance
+- Cost Optimization
+- Governance
+- IT Management
 - SaaS Management
 - JSON-LD
 - Linked Data

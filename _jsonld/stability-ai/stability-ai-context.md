@@ -40,7 +40,7 @@ class_count: 0
 classes: []
 context_file: json-ld/stability-ai-context.jsonld
 context_url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/json-ld/stability-ai-context.jsonld
-description: JSON-LD context defining the semantic vocabulary for Stability Ai from stability-ai.
+description: JSON-LD context defining the semantic vocabulary for Stability Ai from Stability AI.
 layout: jsonld
 name: Stability Ai Context
 namespaces:
@@ -78,7 +78,7 @@ properties:
   name: ApiKey
   type: ''
 property_count: 8
-provider_name: stability-ai
+provider_name: Stability AI
 provider_slug: stability-ai
 slug: stability-ai-context
 source_filename: stability-ai-context.jsonld
@@ -90,6 +90,15 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"stability\": \
   ,\n        \"capabilities\": {\n          \"@id\": \"stability:capabilities\",\n          \"@container\": \"@set\"\n        }\n      }\n    },\n\n    \"ApiKey\": {\n      \"@id\": \"stability:ApiKey\",\n      \"@context\": {\n        \"keyId\": \"schema:identifier\",\n        \"owner\": {\n          \"@id\": \"schema:creator\",\n          \"@type\": \"@id\"\n        },\n        \"dateCreated\": {\n          \"@id\": \"dcterms:created\",\n          \"@type\": \"xsd:dateTime\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/json-ld/stability-ai-context.jsonld
 tags:
+- 3D Generation
+- AI
+- Generative AI
+- Image Generation
+- Image Editing
+- Machine Learning
+- Stable Diffusion
+- Text to Image
+- Video Generation
 - JSON-LD
 - Linked Data
 - Semantic Web

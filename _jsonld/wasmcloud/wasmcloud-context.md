@@ -160,11 +160,13 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"wasmcloud\": \
 source_json_url: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/json-ld/wasmcloud-context.jsonld
 tags:
 - Cloud Native
+- CNCF
 - Distributed Systems
 - Incubating
 - Runtime
 - Wasm
 - WebAssembly
+- WIT
 - JSON-LD
 - Linked Data
 - Semantic Web

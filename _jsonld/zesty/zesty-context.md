@@ -85,6 +85,7 @@ tags:
 - CMS
 - Composable
 - Content Management
+- GraphQL
 - Headless CMS
 - Media
 - JSON-LD
