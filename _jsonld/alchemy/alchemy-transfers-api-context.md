@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: alchemy-gas-manager-api-openapi.yml
-  format: yaml
-  label: Alchemy Gas Manager API
-  slug: alchemy-gas-manager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-gas-manager-api-openapi.yml
 - filename: alchemy-token-api-openapi.yml
   format: yaml
   label: Alchemy Token API
-  slug: alchemy-token-api
+  slug: token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-token-api-openapi.yml
 - filename: alchemy-transfers-api-openapi.yml
   format: yaml
   label: Alchemy Transfers API
-  slug: alchemy-transfers-api
+  slug: transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-transfers-api-openapi.yml
+- filename: alchemy-gas-manager-api-openapi.yml
+  format: yaml
+  label: Alchemy Gas Manager API
+  slug: gas-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-gas-manager-api-openapi.yml
 class_count: 4
 classes:
 - Asset Transfer
@@ -91,11 +91,12 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"alchemy\": \"h
   \    },\n    \"hash\": {\n      \"@id\": \"alchemy:hash\",\n      \"@type\": \"xsd:string\"\n    },\n    \"id\": {\n      \"@id\": \"alchemy:id\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"jsonrpc\": {\n      \"@id\": \"alchemy:jsonrpc\",\n      \"@type\": \"xsd:string\"\n    },\n    \"metadata\": {\n      \"@id\": \"alchemy:metadata\",\n      \"@type\": \"@id\"\n    },\n    \"pageKey\": {\n      \"@id\": \"alchemy:pageKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"result\": {\n      \"@id\": \"alchemy:result\",\n      \"@type\": \"@id\"\n    },\n    \"to\": {\n      \"@id\": \"alchemy:to\",\n      \"@type\": \"xsd:string\"\n    },\n    \"transfers\": {\n      \"@id\": \"alchemy:transfers\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    },\n    \"value\": {\n      \"@id\": \"alchemy:value\",\n      \"@type\": \"xsd:decimal\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/json-ld/alchemy-transfers-api-context.jsonld
 tags:
-- Blockchain
-- Cryptocurrency
 - Web3
+- Blockchain
+- RPC
+- NFT
+- Indexing
 - Account Abstraction
-- Ethereum
 - JSON-LD
 - Linked Data
 - Semantic Web

@@ -1,21 +1,21 @@
 ---
 api_specs:
+- filename: quicknode-streams-openapi.yml
+  format: yaml
+  label: QuickNode Streams
+  slug: streams
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-streams-openapi.yml
 - filename: quicknode-ipfs-openapi.yml
   format: yaml
   label: QuickNode IPFS API
   slug: ipfs
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-ipfs-openapi.yml
-- filename: quicknode-streams-openapi.yml
-  format: yaml
-  label: QuickNode Streams API
-  slug: streams
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-streams-openapi.yml
 - filename: quicknode-key-value-store-openapi.yml
   format: yaml
-  label: QuickNode Key-Value Store API
-  slug: key-value-store
+  label: QuickNode Key-Value Store
+  slug: kv-store
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-key-value-store-openapi.yml
 class_count: 5
@@ -48,14 +48,12 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   ,\n    \"name\": \"QuickNode\",\n    \"url\": \"https://www.quicknode.com/\"\n  },\n  \"category\": [\n    \"Blockchain\",\n    \"Web3\",\n    \"Infrastructure\",\n    \"RPC\",\n    \"IPFS\",\n    \"Streaming Data\"\n  ],\n  \"audience\": {\n    \"@type\": \"Audience\",\n    \"audienceType\": \"Web3 Developers, dApp Builders, Indexers\"\n  },\n  \"potentialAction\": [\n    {\n      \"@type\": \"ConsumeAction\",\n      \"name\": \"Pin to IPFS\",\n      \"target\": \"https://api.quicknode.com/ipfs/rest/v1/pinning\"\n    },\n    {\n      \"@type\": \"ConsumeAction\",\n      \"name\": \"Read Key from Key-Value Store\",\n      \"target\": \"https://api.quicknode.com/kv/rest/v1/databases/{database}/keys/{key}\"\n    },\n    {\n      \"@type\": \"ConsumeAction\",\n      \"name\": \"List Streams\",\n      \"target\": \"https://api.quicknode.com/streams/rest/v1/streams\"\n    }\n  ]\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/json-ld/quicknode-context.jsonld
 tags:
-- Blockchain
 - Web3
-- Infrastructure
+- Blockchain
 - RPC
+- Streams
 - IPFS
-- Streaming Data
-- Webhooks
-- Key-Value Store
+- Multi-chain
 - JSON-LD
 - Linked Data
 - Semantic Web

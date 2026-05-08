@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: alchemy-gas-manager-api-openapi.yml
-  format: yaml
-  label: Alchemy Gas Manager API
-  slug: alchemy-gas-manager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-gas-manager-api-openapi.yml
 - filename: alchemy-token-api-openapi.yml
   format: yaml
   label: Alchemy Token API
-  slug: alchemy-token-api
+  slug: token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-token-api-openapi.yml
 - filename: alchemy-transfers-api-openapi.yml
   format: yaml
   label: Alchemy Transfers API
-  slug: alchemy-transfers-api
+  slug: transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-transfers-api-openapi.yml
+- filename: alchemy-gas-manager-api-openapi.yml
+  format: yaml
+  label: Alchemy Gas Manager API
+  slug: gas-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-gas-manager-api-openapi.yml
 class_count: 6
 classes:
 - Token Balance
@@ -87,11 +87,12 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"alchemy\": \"h
   : \"alchemy:id\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"jsonrpc\": {\n      \"@id\": \"alchemy:jsonrpc\",\n      \"@type\": \"xsd:string\"\n    },\n    \"logo\": {\n      \"@id\": \"alchemy:logo\",\n      \"@type\": \"@id\"\n    },\n    \"name\": \"schema:name\",\n    \"pageKey\": {\n      \"@id\": \"alchemy:pageKey\",\n      \"@type\": \"xsd:string\"\n    },\n    \"result\": {\n      \"@id\": \"alchemy:result\",\n      \"@type\": \"@id\"\n    },\n    \"symbol\": {\n      \"@id\": \"alchemy:symbol\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tokenBalance\": {\n      \"@id\": \"alchemy:tokenBalance\",\n      \"@type\": \"xsd:string\"\n    },\n    \"tokenBalances\": {\n      \"@id\": \"alchemy:tokenBalances\",\n      \"@container\": \"@set\",\n      \"@type\": \"@id\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/json-ld/alchemy-token-api-context.jsonld
 tags:
-- Blockchain
-- Cryptocurrency
 - Web3
+- Blockchain
+- RPC
+- NFT
+- Indexing
 - Account Abstraction
-- Ethereum
 - JSON-LD
 - Linked Data
 - Semantic Web

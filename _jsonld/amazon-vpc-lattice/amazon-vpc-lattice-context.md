@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-vpc-lattice-openapi.yml
+  format: yaml
+  label: Amazon VPC Lattice API
+  slug: amazon-vpc-lattice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-vpc-lattice-context.jsonld

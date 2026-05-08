@@ -1,77 +1,4 @@
 ---
-api_specs:
-- filename: gong-calls-openapi.yml
-  format: yaml
-  label: Gong Calls API
-  slug: gong-calls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-calls-openapi.yml
-- filename: gong-users-openapi.yml
-  format: yaml
-  label: Gong Users API
-  slug: gong-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-users-openapi.yml
-- filename: gong-stats-openapi.yml
-  format: yaml
-  label: Gong Stats API
-  slug: gong-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-stats-openapi.yml
-- filename: gong-crm-openapi.yml
-  format: yaml
-  label: Gong CRM API
-  slug: gong-crm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-crm-openapi.yml
-- filename: gong-engage-openapi.yml
-  format: yaml
-  label: Gong Engage API
-  slug: gong-engage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-engage-openapi.yml
-- filename: gong-settings-openapi.yml
-  format: yaml
-  label: Gong Settings API
-  slug: gong-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-settings-openapi.yml
-- filename: gong-library-openapi.yml
-  format: yaml
-  label: Gong Library API
-  slug: gong-library-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-library-openapi.yml
-- filename: gong-permissions-openapi.yml
-  format: yaml
-  label: Gong Permissions API
-  slug: gong-permissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-permissions-openapi.yml
-- filename: gong-data-privacy-openapi.yml
-  format: yaml
-  label: Gong Data Privacy API
-  slug: gong-data-privacy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-data-privacy-openapi.yml
-- filename: gong-auditing-openapi.yml
-  format: yaml
-  label: Gong Auditing API
-  slug: gong-auditing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-auditing-openapi.yml
-- filename: gong-meetings-openapi.yml
-  format: yaml
-  label: Gong Meetings API
-  slug: gong-meetings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-meetings-openapi.yml
-- filename: gong-engagement-openapi.yml
-  format: yaml
-  label: Gong Engagement API
-  slug: gong-engagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-engagement-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/gong-context.jsonld
@@ -147,6 +74,11 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
   \     }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/json-ld/gong-context.jsonld
 tags:
+- Sales
+- Revenue Intelligence
+- Conversation
+- Analytics
+- AI
 - JSON-LD
 - Linked Data
 - Semantic Web

@@ -1,35 +1,4 @@
 ---
-api_specs:
-- filename: affirm-direct-api-openapi.yml
-  format: yaml
-  label: Affirm Direct API
-  slug: direct-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-direct-api-openapi.yml
-- filename: affirm-checkout-openapi.yml
-  format: yaml
-  label: Affirm Checkout API
-  slug: checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-checkout-openapi.yml
-- filename: affirm-transactions-openapi.yml
-  format: yaml
-  label: Affirm Transactions API
-  slug: transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-openapi.yml
-- filename: affirm-promos-openapi.yml
-  format: yaml
-  label: Affirm Promos API
-  slug: promos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-promos-openapi.yml
-- filename: affirm-disputes-openapi.yml
-  format: yaml
-  label: Affirm Disputes API
-  slug: disputes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-disputes-openapi.yml
 class_count: 3
 classes:
 - Transaction
@@ -37,7 +6,7 @@ classes:
 - FileObject
 context_file: json-ld/affirm-direct-context.jsonld
 context_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/json-ld/affirm-direct-context.jsonld
-description: JSON-LD context defining the semantic vocabulary for Affirm Direct from affirm.
+description: JSON-LD context defining the semantic vocabulary for Affirm Direct from Affirm.
 layout: jsonld
 name: Affirm Direct Context
 namespaces:
@@ -120,7 +89,7 @@ properties:
   name: purpose
   type: string
 property_count: 23
-provider_name: affirm
+provider_name: Affirm
 provider_slug: affirm
 slug: affirm-direct-context
 source_filename: affirm-direct-context.jsonld
@@ -130,6 +99,11 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"affirm\": \"ht
   : {\n      \"@id\": \"affirm:zipcode\",\n      \"@type\": \"xsd:string\"\n    },\n    \"country\": {\n      \"@id\": \"affirm:country\",\n      \"@type\": \"xsd:string\"\n    },\n    \"FileObject\": \"affirm:FileObject\",\n    \"filename\": {\n      \"@id\": \"affirm:filename\",\n      \"@type\": \"xsd:string\"\n    },\n    \"size\": {\n      \"@id\": \"affirm:size\",\n      \"@type\": \"xsd:integer\"\n    },\n    \"contentType\": {\n      \"@id\": \"affirm:content_type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"purpose\": {\n      \"@id\": \"affirm:purpose\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/json-ld/affirm-direct-context.jsonld
 tags:
+- Fintech
+- BNPL
+- Lending
+- Payments
+- Consumer
 - JSON-LD
 - Linked Data
 - Semantic Web

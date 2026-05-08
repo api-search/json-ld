@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: vpn-openapi.yml
+  format: yaml
+  label: NordVPN API
+  slug: nordvpn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/vpn-context.jsonld

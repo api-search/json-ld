@@ -1,35 +1,4 @@
 ---
-api_specs:
-- filename: affirm-direct-api-openapi.yml
-  format: yaml
-  label: Affirm Direct API
-  slug: direct-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-direct-api-openapi.yml
-- filename: affirm-checkout-openapi.yml
-  format: yaml
-  label: Affirm Checkout API
-  slug: checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-checkout-openapi.yml
-- filename: affirm-transactions-openapi.yml
-  format: yaml
-  label: Affirm Transactions API
-  slug: transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-openapi.yml
-- filename: affirm-promos-openapi.yml
-  format: yaml
-  label: Affirm Promos API
-  slug: promos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-promos-openapi.yml
-- filename: affirm-disputes-openapi.yml
-  format: yaml
-  label: Affirm Disputes API
-  slug: disputes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-disputes-openapi.yml
 class_count: 11
 classes:
 - DiscountObject
@@ -45,7 +14,7 @@ classes:
 - Checkout
 context_file: json-ld/affirm-checkout-context.jsonld
 context_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/json-ld/affirm-checkout-context.jsonld
-description: JSON-LD context defining the semantic vocabulary for Affirm Checkout from affirm.
+description: JSON-LD context defining the semantic vocabulary for Affirm Checkout from Affirm.
 layout: jsonld
 name: Affirm Checkout Context
 namespaces:
@@ -209,7 +178,7 @@ properties:
   name: trackingUuid
   type: string
 property_count: 50
-provider_name: affirm
+provider_name: Affirm
 provider_slug: affirm
 slug: affirm-checkout-context
 source_filename: affirm-checkout-context.jsonld
@@ -222,6 +191,11 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"affirm\": \"ht
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"financialProgramName\": {\n      \"@id\": \"affirm:financial_program_name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"financialProgramExternalName\": {\n      \"@id\": \"affirm:financial_program_external_name\",\n      \"@type\": \"xsd:string\"\n    },\n    \"billingFrequency\": {\n      \"@id\": \"affirm:billing_frequency\",\n      \"@type\": \"xsd:string\"\n    },\n    \"apiVersion\": {\n      \"@id\": \"affirm:api_version\",\n      \"@type\": \"xsd:string\"\n    },\n    \"productType\": {\n      \"@id\": \"affirm:product_type\",\n      \"@type\": \"xsd:string\"\n    },\n    \"meta\": {\n      \"@id\": \"affirm:meta\",\n      \"@type\": \"@id\"\n    },\n    \"userTimezone\": {\n      \"@id\": \"affirm:user_timezone\",\n      \"@type\": \"xsd:string\"\n    },\n    \"trackingUuid\": {\n      \"@id\": \"affirm:tracking_uuid\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/json-ld/affirm-checkout-context.jsonld
 tags:
+- Fintech
+- BNPL
+- Lending
+- Payments
+- Consumer
 - JSON-LD
 - Linked Data
 - Semantic Web

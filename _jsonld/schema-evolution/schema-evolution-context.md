@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: schema-evolution-openapi.yml
+  format: yaml
+  label: Confluent Schema Registry API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schema-evolution/refs/heads/main/openapi/schema-evolution-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/schema-evolution-context.jsonld

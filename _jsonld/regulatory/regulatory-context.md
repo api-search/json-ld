@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: regulatory-openapi.yml
+  format: yaml
+  label: FINRA Developer Center API
+  slug: finra
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regulatory/refs/heads/main/openapi/regulatory-openapi.yml
 class_count: 4
 classes:
 - name

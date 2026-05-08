@@ -2,16 +2,10 @@
 api_specs:
 - filename: project44-tracking-openapi.yml
   format: yaml
-  label: project44 Tracking API
-  slug: project44-tracking-api
+  label: project44 API v4
+  slug: project44-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-tracking-openapi.yml
-- filename: project44-shipment-events-asyncapi.yml
-  format: yaml
-  label: project44 Webhooks API
-  slug: project44-webhooks-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/asyncapi/project44-shipment-events-asyncapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/project44-context.jsonld
@@ -125,11 +119,10 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"ht
 source_json_url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/json-ld/project44-context.jsonld
 tags:
 - Logistics
-- Freight
-- Supply Chain
-- Visibility
+- Supply Chain Visibility
 - Tracking
-- Transportation
+- Freight
+- Multi-modal
 - JSON-LD
 - Linked Data
 - Semantic Web

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloudhealth-openapi.yml
+  format: yaml
+  label: CloudHealth REST API
+  slug: cloudhealth-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/cloudhealth-context.jsonld

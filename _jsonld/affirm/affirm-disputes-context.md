@@ -1,35 +1,4 @@
 ---
-api_specs:
-- filename: affirm-direct-api-openapi.yml
-  format: yaml
-  label: Affirm Direct API
-  slug: direct-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-direct-api-openapi.yml
-- filename: affirm-checkout-openapi.yml
-  format: yaml
-  label: Affirm Checkout API
-  slug: checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-checkout-openapi.yml
-- filename: affirm-transactions-openapi.yml
-  format: yaml
-  label: Affirm Transactions API
-  slug: transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-openapi.yml
-- filename: affirm-promos-openapi.yml
-  format: yaml
-  label: Affirm Promos API
-  slug: promos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-promos-openapi.yml
-- filename: affirm-disputes-openapi.yml
-  format: yaml
-  label: Affirm Disputes API
-  slug: disputes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-disputes-openapi.yml
 class_count: 3
 classes:
 - EvidenceItem
@@ -37,7 +6,7 @@ classes:
 - EvidenceRequest
 context_file: json-ld/affirm-disputes-context.jsonld
 context_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/json-ld/affirm-disputes-context.jsonld
-description: JSON-LD context defining the semantic vocabulary for Affirm Disputes from affirm.
+description: JSON-LD context defining the semantic vocabulary for Affirm Disputes from Affirm.
 layout: jsonld
 name: Affirm Disputes Context
 namespaces:
@@ -114,7 +83,7 @@ properties:
   name: refundPolicyDisclosure
   type: string
 property_count: 21
-provider_name: affirm
+provider_name: Affirm
 provider_slug: affirm
 slug: affirm-disputes-context
 source_filename: affirm-disputes-context.jsonld
@@ -124,6 +93,11 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"affirm\": \"ht
   ,\n      \"@type\": \"xsd:string\"\n    },\n    \"explanation\": {\n      \"@id\": \"affirm:explanation\",\n      \"@type\": \"xsd:string\"\n    },\n    \"trackingNumber\": {\n      \"@id\": \"affirm:tracking_number\",\n      \"@type\": \"xsd:string\"\n    },\n    \"shippingCarrier\": {\n      \"@id\": \"affirm:shipping_carrier\",\n      \"@type\": \"xsd:string\"\n    },\n    \"customerCommunication\": {\n      \"@id\": \"affirm:customer_communication\",\n      \"@type\": \"xsd:string\"\n    },\n    \"refundPolicyDisclosure\": {\n      \"@id\": \"affirm:refund_policy_disclosure\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/json-ld/affirm-disputes-context.jsonld
 tags:
+- Fintech
+- BNPL
+- Lending
+- Payments
+- Consumer
 - JSON-LD
 - Linked Data
 - Semantic Web

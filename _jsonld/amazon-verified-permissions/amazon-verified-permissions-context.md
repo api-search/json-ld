@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-verified-permissions-openapi.yml
+  format: yaml
+  label: Amazon Verified Permissions API
+  slug: amazon-verified-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-verified-permissions-context.jsonld

@@ -3,25 +3,25 @@ api_specs:
 - filename: fullstory-server-api-openapi.yml
   format: yaml
   label: FullStory Server API
-  slug: server-api
+  slug: fullstory-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-server-api-openapi.yml
-- filename: fullstory-segments-export-api-openapi.yml
-  format: yaml
-  label: FullStory Segments Export API
-  slug: segments-export-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-segments-export-api-openapi.yml
 - filename: fullstory-sessions-api-openapi.yml
   format: yaml
   label: FullStory Sessions API
-  slug: sessions-api
+  slug: fullstory-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-sessions-api-openapi.yml
+- filename: fullstory-segments-export-api-openapi.yml
+  format: yaml
+  label: FullStory Segments Export API
+  slug: fullstory-segments-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-segments-export-api-openapi.yml
 - filename: fullstory-webhooks-api-openapi.yml
   format: yaml
   label: FullStory Webhooks API
-  slug: webhooks-api
+  slug: fullstory-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-webhooks-api-openapi.yml
 class_count: 0
@@ -74,11 +74,11 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"fs\": \"https:
   \    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/json-ld/fullstory-context.jsonld
 tags:
-- Analytics
-- Digital Experience
 - Session Replay
-- Webhooks
-- Data Export
+- Product Analytics
+- Digital Experience
+- Behavioral Analytics
+- Frontend Monitoring
 - JSON-LD
 - Linked Data
 - Semantic Web

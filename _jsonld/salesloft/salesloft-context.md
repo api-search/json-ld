@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: salesloft-openapi.yml
-  format: yaml
-  label: Salesloft API
-  slug: salesloft-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/openapi/salesloft-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/salesloft-context.jsonld
@@ -50,10 +43,10 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"schema\": \"ht
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/json-ld/salesloft-context.jsonld
 tags:
 - Sales
+- Sales Engagement
+- Cadences
 - CRM
-- Revenue
-- Automation
-- AI
+- Email
 - JSON-LD
 - Linked Data
 - Semantic Web

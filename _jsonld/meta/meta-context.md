@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: meta-openapi.yml
+  format: yaml
+  label: Facebook Graph API - User
+  slug: facebook-graph-api-user
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/meta-context.jsonld

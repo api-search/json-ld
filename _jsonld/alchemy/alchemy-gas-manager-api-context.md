@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: alchemy-gas-manager-api-openapi.yml
-  format: yaml
-  label: Alchemy Gas Manager API
-  slug: alchemy-gas-manager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-gas-manager-api-openapi.yml
 - filename: alchemy-token-api-openapi.yml
   format: yaml
   label: Alchemy Token API
-  slug: alchemy-token-api
+  slug: token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-token-api-openapi.yml
 - filename: alchemy-transfers-api-openapi.yml
   format: yaml
   label: Alchemy Transfers API
-  slug: alchemy-transfers-api
+  slug: transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-transfers-api-openapi.yml
+- filename: alchemy-gas-manager-api-openapi.yml
+  format: yaml
+  label: Alchemy Gas Manager API
+  slug: gas-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-gas-manager-api-openapi.yml
 class_count: 7
 classes:
 - Sponsor User Operation Response
@@ -98,11 +98,12 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"alchemy\": \"h
   \      \"@type\": \"xsd:string\"\n    },\n    \"result\": {\n      \"@id\": \"alchemy:result\",\n      \"@type\": \"@id\"\n    },\n    \"status\": {\n      \"@id\": \"alchemy:status\",\n      \"@type\": \"xsd:string\"\n    },\n    \"verificationGasLimit\": {\n      \"@id\": \"alchemy:verificationGasLimit\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/json-ld/alchemy-gas-manager-api-context.jsonld
 tags:
-- Blockchain
-- Cryptocurrency
 - Web3
+- Blockchain
+- RPC
+- NFT
+- Indexing
 - Account Abstraction
-- Ethereum
 - JSON-LD
 - Linked Data
 - Semantic Web

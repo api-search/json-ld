@@ -3,21 +3,15 @@ api_specs:
 - filename: logrocket-rest-api-openapi.yml
   format: yaml
   label: LogRocket REST API
-  slug: rest-api
+  slug: logrocket-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-rest-api-openapi.yml
 - filename: logrocket-graphql-api-openapi.yml
   format: yaml
   label: LogRocket GraphQL API
-  slug: graphql-api
+  slug: logrocket-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-graphql-api-openapi.yml
-- filename: logrocket-highlights-webhook-asyncapi.yml
-  format: yaml
-  label: LogRocket Galileo Highlights API
-  slug: session-highlights-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/asyncapi/logrocket-highlights-webhook-asyncapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/logrocket-context.jsonld
@@ -65,11 +59,11 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"lr\": \"https:
   : {\n          \"@id\": \"dcterms:date\",\n          \"@type\": \"xsd:dateTime\"\n        }\n      }\n    },\n\n    \"JavaScriptError\": {\n      \"@id\": \"lr:JavaScriptError\",\n      \"@context\": {\n        \"message\": \"schema:description\",\n        \"stack\": \"lr:stackTrace\",\n        \"timestamp\": {\n          \"@id\": \"dcterms:date\",\n          \"@type\": \"xsd:dateTime\"\n        },\n        \"url\": {\n          \"@id\": \"lr:sourceUrl\",\n          \"@type\": \"@id\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/json-ld/logrocket-context.jsonld
 tags:
-- Analytics
-- Error Monitoring
-- Frontend Monitoring
-- Observability
 - Session Replay
+- Product Analytics
+- Frontend Monitoring
+- Logging
+- Errors
 - JSON-LD
 - Linked Data
 - Semantic Web

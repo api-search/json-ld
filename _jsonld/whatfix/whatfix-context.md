@@ -2,8 +2,8 @@
 api_specs:
 - filename: whatfix-openapi.yml
   format: yaml
-  label: Whatfix API
-  slug: whatfix-api
+  label: Whatfix REST API
+  slug: whatfix-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-openapi.yml
 class_count: 38
@@ -66,11 +66,10 @@ source_json: "{\n  \"@context\": {\n    \"@vocab\": \"https://schema.org/\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/json-ld/whatfix-context.jsonld
 tags:
 - Digital Adoption
-- SaaS Management
-- User Onboarding
 - In-App Guidance
+- Onboarding
 - Analytics
-- Change Management
+- Self-Help
 - JSON-LD
 - Linked Data
 - Semantic Web

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-verified-access-openapi.yml
+  format: yaml
+  label: AWS Verified Access API
+  slug: amazon-verified-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/openapi/amazon-verified-access-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/amazon-verified-access-context.jsonld

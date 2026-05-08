@@ -1,35 +1,4 @@
 ---
-api_specs:
-- filename: affirm-direct-api-openapi.yml
-  format: yaml
-  label: Affirm Direct API
-  slug: direct-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-direct-api-openapi.yml
-- filename: affirm-checkout-openapi.yml
-  format: yaml
-  label: Affirm Checkout API
-  slug: checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-checkout-openapi.yml
-- filename: affirm-transactions-openapi.yml
-  format: yaml
-  label: Affirm Transactions API
-  slug: transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-openapi.yml
-- filename: affirm-promos-openapi.yml
-  format: yaml
-  label: Affirm Promos API
-  slug: promos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-promos-openapi.yml
-- filename: affirm-disputes-openapi.yml
-  format: yaml
-  label: Affirm Disputes API
-  slug: disputes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-disputes-openapi.yml
 class_count: 6
 classes:
 - PromoConfig
@@ -40,7 +9,7 @@ classes:
 - OfferContent
 context_file: json-ld/affirm-promos-context.jsonld
 context_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/json-ld/affirm-promos-context.jsonld
-description: JSON-LD context defining the semantic vocabulary for Affirm Promos from affirm.
+description: JSON-LD context defining the semantic vocabulary for Affirm Promos from Affirm.
 layout: jsonld
 name: Affirm Promos Context
 namespaces:
@@ -144,7 +113,7 @@ properties:
   name: terms
   type: string
 property_count: 30
-provider_name: affirm
+provider_name: Affirm
 provider_slug: affirm
 slug: affirm-promos-context
 source_filename: affirm-promos-context.jsonld
@@ -155,6 +124,11 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"affirm\": \"ht
   : {\n      \"@id\": \"affirm:html_footer\",\n      \"@type\": \"xsd:string\"\n    },\n    \"description\": \"schema:description\",\n    \"config\": {\n      \"@id\": \"affirm:config\",\n      \"@type\": \"xsd:string\"\n    },\n    \"OfferContent\": \"affirm:OfferContent\",\n    \"minimumLoanAmount\": {\n      \"@id\": \"affirm:minimum_loan_amount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"maximumLoanAmount\": {\n      \"@id\": \"affirm:maximum_loan_amount\",\n      \"@type\": \"xsd:decimal\"\n    },\n    \"terms\": {\n      \"@id\": \"affirm:terms\",\n      \"@container\": \"@set\",\n      \"@type\": \"xsd:string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/json-ld/affirm-promos-context.jsonld
 tags:
+- Fintech
+- BNPL
+- Lending
+- Payments
+- Consumer
 - JSON-LD
 - Linked Data
 - Semantic Web

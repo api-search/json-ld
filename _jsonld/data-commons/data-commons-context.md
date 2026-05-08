@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: data-commons-openapi.yml
+  format: yaml
+  label: Data Commons REST API V2
+  slug: rest-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/data-commons/refs/heads/main/openapi/data-commons-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/data-commons-context.jsonld

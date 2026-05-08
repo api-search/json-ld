@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: department-of-homeland-security-openapi.yml
+  format: yaml
+  label: OpenFEMA API
+  slug: openfema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/department-of-homeland-security-context.jsonld

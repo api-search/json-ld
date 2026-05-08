@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: cursor-admin-api-openapi.yml
-  format: yaml
-  label: Cursor Admin API
-  slug: admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-admin-api-openapi.yml
 class_count: 25
 classes:
 - Member
@@ -55,14 +48,11 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"@vocab\": \"ht
 source_json_url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/json-ld/cursor-context.jsonld
 tags:
 - AI
-- AI Editor
-- Code Generation
-- Coding Assistant
-- Copilot
 - Developer Tools
-- LLM
-- Productivity
-- VSCode Fork
+- Code Editor
+- Agent
+- IDE
+- Cloud Agents
 - JSON-LD
 - Linked Data
 - Semantic Web

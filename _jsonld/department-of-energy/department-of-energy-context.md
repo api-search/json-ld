@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: department-of-energy-openapi.yml
+  format: yaml
+  label: EIA Open Data API V2
+  slug: eia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/department-of-energy-context.jsonld

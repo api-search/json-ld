@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-druid-openapi.yml
+  format: yaml
+  label: Apache Druid REST API
+  slug: apache-druid-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-druid/refs/heads/main/openapi/apache-druid-openapi.yml
 class_count: 5
 classes:
 - SqlQueryRequest

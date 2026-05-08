@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: technology-standards-openapi.yml
+  format: yaml
+  label: IETF Internet Standards
+  slug: ietf-standards
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/technology-standards/refs/heads/main/openapi/technology-standards-openapi.yml
 class_count: 44
 classes:
 - Standard

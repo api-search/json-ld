@@ -8,21 +8,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-core-api-openapi.yml
 - filename: marqeta-diva-api-openapi.yml
   format: yaml
-  label: Marqeta DiVA API
+  label: Marqeta Diva API
   slug: diva-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-diva-api-openapi.yml
-- filename: marqeta-webhooks-asyncapi.yml
-  format: yaml
-  label: Marqeta Webhooks
-  slug: webhooks
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/asyncapi/marqeta-webhooks-asyncapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/marqeta-context.jsonld
 context_url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/json-ld/marqeta-context.jsonld
-description: JSON-LD context defining the semantic vocabulary for Marqeta from marqeta.
+description: JSON-LD context defining the semantic vocabulary for Marqeta from Marqeta.
 layout: jsonld
 name: Marqeta Context
 namespaces:
@@ -77,7 +71,7 @@ properties:
   name: Business
   type: ''
 property_count: 13
-provider_name: marqeta
+provider_name: Marqeta
 provider_slug: marqeta
 slug: marqeta-context
 source_filename: marqeta-context.jsonld
@@ -95,6 +89,11 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"marqeta\": \"h
   \    \"@id\": \"dcterms:created\",\n          \"@type\": \"xsd:dateTime\"\n        },\n        \"last_modified_time\": {\n          \"@id\": \"dcterms:modified\",\n          \"@type\": \"xsd:dateTime\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/json-ld/marqeta-context.jsonld
 tags:
+- FinTech
+- BaaS
+- Card Issuing
+- Payments
+- Embedded Finance
 - JSON-LD
 - Linked Data
 - Semantic Web
