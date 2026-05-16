@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Places API
-  slug: ''
+  slug: google-places-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/openapi.yml
 class_count: 16

@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Chat API
-  slug: ''
+  slug: google-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/openapi.yml
 class_count: 4

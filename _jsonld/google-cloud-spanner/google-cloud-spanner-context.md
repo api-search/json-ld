@@ -3,7 +3,7 @@ api_specs:
 - filename: cloud-spanner-openapi.yml
   format: yaml
   label: Cloud Spanner API
-  slug: ''
+  slug: cloud-spanner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/cloud-spanner-openapi.yml
 class_count: 16

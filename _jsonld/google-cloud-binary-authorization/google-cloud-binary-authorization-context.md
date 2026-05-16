@@ -3,7 +3,7 @@ api_specs:
 - filename: binary-authorization-api-openapi.yml
   format: yaml
   label: Binary Authorization API
-  slug: ''
+  slug: binary-authorization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/openapi/binary-authorization-api-openapi.yml
 class_count: 0

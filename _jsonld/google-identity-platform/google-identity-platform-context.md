@@ -3,7 +3,7 @@ api_specs:
 - filename: identity-toolkit-openapi.yml
   format: yaml
   label: Identity Toolkit API
-  slug: ''
+  slug: identity-toolkit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/openapi/identity-toolkit-openapi.yml
 class_count: 0

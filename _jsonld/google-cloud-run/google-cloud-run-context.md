@@ -3,7 +3,7 @@ api_specs:
 - filename: google-cloud-run-openapi.yml
   format: yaml
   label: Google Cloud Run Admin API
-  slug: ''
+  slug: google-cloud-run-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-openapi.yml
 class_count: 17

@@ -3,7 +3,7 @@ api_specs:
 - filename: vmwareengine-openapi.yml
   format: yaml
   label: Google Cloud VMware Engine API
-  slug: ''
+  slug: google-cloud-vmware-engine-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/vmwareengine-openapi.yml
 class_count: 8

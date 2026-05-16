@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Cloud AutoML API
-  slug: ''
+  slug: google-cloud-automl-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/openapi/openapi.yml
 class_count: 12

@@ -3,7 +3,7 @@ api_specs:
 - filename: cloud-bigtable-openapi.yml
   format: yaml
   label: Cloud Bigtable Admin API
-  slug: ''
+  slug: cloud-bigtable-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/openapi/cloud-bigtable-openapi.yml
 class_count: 16

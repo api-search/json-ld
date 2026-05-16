@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Cloud Dialogflow CX API
-  slug: ''
+  slug: google-cloud-dialogflow-cx-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/openapi.yml
 class_count: 4

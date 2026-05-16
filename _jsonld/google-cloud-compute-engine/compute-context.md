@@ -3,7 +3,7 @@ api_specs:
 - filename: compute-openapi.yml
   format: yaml
   label: Google Compute Engine API
-  slug: ''
+  slug: google-compute-engine-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/openapi/compute-openapi.yml
 class_count: 11

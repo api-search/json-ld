@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.json
   format: json
   label: Microsoft Access Database Engine API
-  slug: ''
+  slug: microsoft-access-database-engine-api
   spec_type: OpenAPI
   url: https://example.com/openapi.json
 class_count: 0

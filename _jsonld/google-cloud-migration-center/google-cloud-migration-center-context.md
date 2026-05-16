@@ -3,7 +3,7 @@ api_specs:
 - filename: migration-center-api-openapi.yml
   format: yaml
   label: Migration Center API
-  slug: ''
+  slug: migration-center-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/migration-center-api-openapi.yml
 class_count: 0

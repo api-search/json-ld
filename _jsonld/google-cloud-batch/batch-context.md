@@ -3,7 +3,7 @@ api_specs:
 - filename: batch-openapi.yml
   format: yaml
   label: Google Cloud Batch API
-  slug: ''
+  slug: google-cloud-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/openapi/batch-openapi.yml
 class_count: 9

@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Business Profile API
-  slug: ''
+  slug: google-business-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/openapi/openapi.yml
 class_count: 13

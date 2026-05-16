@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google People API
-  slug: ''
+  slug: google-people-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/openapi.yml
 class_count: 19

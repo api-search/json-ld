@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Cloud Video Intelligence API
-  slug: ''
+  slug: google-cloud-video-intelligence-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-video-intelligence/refs/heads/main/openapi/openapi.yml
 class_count: 13

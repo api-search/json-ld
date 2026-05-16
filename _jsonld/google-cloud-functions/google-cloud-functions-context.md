@@ -3,7 +3,7 @@ api_specs:
 - filename: google-cloud-functions-openapi.yml
   format: yaml
   label: Google Cloud Functions API
-  slug: ''
+  slug: google-cloud-functions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-openapi.yml
 class_count: 8

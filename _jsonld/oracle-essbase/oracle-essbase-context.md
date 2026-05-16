@@ -3,7 +3,7 @@ api_specs:
 - filename: oracle-essbase-rest-api-openapi.yml
   format: yaml
   label: Oracle Essbase REST API
-  slug: ''
+  slug: oracle-essbase-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-essbase/refs/heads/main/openapi/oracle-essbase-rest-api-openapi.yml
 class_count: 0
