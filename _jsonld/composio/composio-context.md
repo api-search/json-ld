@@ -36,6 +36,18 @@ api_specs:
   slug: toolkits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-openapi-original.yml
+- filename: composio-openapi-original.yml
+  format: yaml
+  label: Composio MCP API
+  slug: mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-openapi-original.yml
+- filename: composio-openapi-original.yml
+  format: yaml
+  label: Composio Webhooks API
+  slug: webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-openapi-original.yml
 class_count: 0
 classes: []
 context_file: json-ld/composio-context.jsonld
@@ -89,9 +101,13 @@ tags:
 - AI Agents
 - Authentication
 - Integrations
+- MCP
 - OAuth
+- Sandbox
 - Tools
+- Triggers
 - Unified_API
+- Webhooks
 - JSON-LD
 - Linked Data
 - Semantic Web

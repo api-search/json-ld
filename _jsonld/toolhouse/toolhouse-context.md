@@ -68,9 +68,13 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs
 tags:
 - Agent Infrastructure
 - AI Agents
+- AI Workers
 - Backend as a Service
 - MCP
+- MCP Discovery
+- RAG
 - Tools
+- Workers API
 - JSON-LD
 - Linked Data
 - Semantic Web

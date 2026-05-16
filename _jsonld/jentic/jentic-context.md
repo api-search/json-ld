@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: jentic-api-openapi.yml
+- filename: jentic-openapi.yml
   format: yaml
-  label: Jentic
-  slug: jentic
+  label: Jentic API
+  slug: jentic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/jentic-context.jsonld
@@ -55,10 +55,17 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/he
 tags:
 - AI Agents
 - Arazzo
-- Integrations
-- MCP
 - OpenAPI
+- MCP
 - Workflows
+- Integrations
+- Agent Runtime
+- Standard Agent
+- Just In Time Tooling
+- Credential Vault
+- Agent Governance
+- Observability
+- API AI Readiness
 - JSON-LD
 - Linked Data
 - Semantic Web

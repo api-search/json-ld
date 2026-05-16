@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: gravitee-management-api-openapi.yml
+- filename: gravitee-apim-openapi.yml
   format: yaml
-  label: Gravitee Management API
-  slug: gravitee-management-api
+  label: Gravitee API Management
+  slug: gravitee-api-management
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-management-api-openapi.yml
-- filename: gravitee-access-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-apim-openapi.yml
+- filename: gravitee-am-openapi.yml
   format: yaml
-  label: Gravitee Access Management API
-  slug: gravitee-access-management-api
+  label: Gravitee Access Management
+  slug: gravitee-access-management
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-access-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-am-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/gravitee-context.jsonld
@@ -75,8 +75,17 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/
 tags:
 - API Gateway
 - API Management
+- Access Management
+- Identity
+- Event-Driven
+- Kafka
+- MQTT
 - GraphQL
+- gRPC
+- AI Gateway
+- MCP
 - Open Source
+- Apache 2.0
 - JSON-LD
 - Linked Data
 - Semantic Web

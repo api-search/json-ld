@@ -1,16 +1,22 @@
 ---
 api_specs:
-- filename: traefik-api-openapi.yml
+- filename: traefik-proxy-openapi.yml
   format: yaml
-  label: Traefik REST API
-  slug: traefik-api
+  label: Traefik Proxy
+  slug: traefik-proxy
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-proxy-openapi.yml
+- filename: traefik-proxy-openapi.yml
+  format: yaml
+  label: Traefik Proxy REST API
+  slug: traefik-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-proxy-openapi.yml
 class_count: 0
 classes: []
 context_file: json-ld/traefik-context.jsonld
 context_url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/json-ld/traefik-context.jsonld
-description: JSON-LD context defining the semantic vocabulary for Traefik from Traefik.
+description: JSON-LD context defining the semantic vocabulary for Traefik from Traefik Labs.
 layout: jsonld
 name: Traefik Context
 namespaces:
@@ -51,7 +57,7 @@ properties:
   name: Overview
   type: ''
 property_count: 9
-provider_name: Traefik
+provider_name: Traefik Labs
 provider_slug: traefik
 slug: traefik-context
 source_filename: traefik-context.jsonld
@@ -62,11 +68,17 @@ source_json: "{\n  \"@context\": {\n    \"@version\": 1.1,\n    \"traefik\": \"h
   ,\n        \"startDate\": {\n          \"@id\": \"dcterms:created\",\n          \"@type\": \"xsd:dateTime\"\n        }\n      }\n    },\n\n    \"Overview\": {\n      \"@id\": \"traefik:Overview\",\n      \"@context\": {\n        \"http\": \"traefik:httpOverview\",\n        \"tcp\": \"traefik:tcpOverview\",\n        \"udp\": \"traefik:udpOverview\",\n        \"features\": \"traefik:features\",\n        \"providers\": {\n          \"@id\": \"traefik:providers\",\n          \"@container\": \"@set\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/json-ld/traefik-context.jsonld
 tags:
+- AI Gateway
 - API Gateway
+- API Management
+- Developer Portal
+- GitOps
 - Kubernetes
 - Load Balancer
+- MCP Gateway
 - Open Source
 - Reverse Proxy
+- WAF
 - JSON-LD
 - Linked Data
 - Semantic Web
